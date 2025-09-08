@@ -24,7 +24,7 @@
 |               Member                |    Code    |
 | :---------------------------------: | :--------: |
 | Rodriguez Vargas, Arian Martín  | U202212096 |
-|   | U202|
+| More Rondon, Christopher Sebastian | U202212199|
 |   | U202 |
 |   | U202|
 
@@ -117,6 +117,15 @@ del ABET – EAC - Student Outcome 3.
 ## 1.1. Startup Profile
 ### 1.1.1. Descripción de la Startup
 ### 1.1.2. Perfiles de integrantes del equipo
+
+| Perfil | Foto |
+|--------|------|
+| Nombre:  | |
+| Nombre: Christopher Sebastian More Rondon <br />Carrera: Ingeniería de Software<br />Código: U202212199<br />Descripción: Soy estudiante del octavo ciclo de Ingeniería de Software, actualmente tengo 21 años. Soy un estudiante que colabora constantemente en el desarrollo de los proyectos, así como dar soluciones creativas a los problemas que surgen durante la creación de estos. Siempre me esfuerzo por entregar un buen trabajo. | |
+| Nombre:  | |
+| Nombre:  | |
+
+
 
 ## 1.2. Solution Profile
 ### 1.2.1 Antecedentes y problemática
