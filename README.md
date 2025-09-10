@@ -98,14 +98,26 @@ del ABET – EAC - Student Outcome 3.
     <th>Conclusiones</th>
   </tr>
   <tr>
-    <td>Trabaja en equipo para proporcionar liderazgo en forma conjunta</td>
+    <td>Comunica oralmente sus ideas
+y/o resultados con objetividad a
+público de diferentes
+especialidades y niveles
+jerarquicos, en el marco del
+desarrollo de un proyecto en
+ingeniería.</td>
     <td></td>
         <td></td>
 
   </tr>
 
   <tr>
-    <td>Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos.</td>
+    <td>Comunica en forma escrita ideas
+y/o resultados con objetividad a
+público de diferentes
+especialidades y niveles
+jerarquicos, en el marco del
+desarrollo de un proyecto en
+ingeniería..</td>
       <td></td>
     <td></td>
 
