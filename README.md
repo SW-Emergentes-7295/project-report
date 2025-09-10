@@ -128,6 +128,37 @@ del ABET – EAC - Student Outcome 3.
 
 ## 1.3. Segmentos objetivo.
 
+<section id="segmentos-usuarios">
+
+  <article>
+    <h4>Personas No Videntes</h4>
+    <p>
+Este segmento está compuesto por individuos con discapacidad visual que desean moverse con seguridad y autonomía dentro de su hogar. Buscan soluciones que les permitan reconocer objetos, muebles, electrodomésticos y personas, y recibir guía en tiempo real para evitar riesgos y accidentes domésticos.
+    </p>
+    <h4>Características clave:</h4>
+    <ul>
+      <li> Necesidad de mayor autonomía dentro del hogar.</li>
+      <li> Preocupación por la seguridad y la reducción de accidentes.</li>
+      <li> Interés en soluciones tecnológicas intuitivas y confiables.</li>
+      <li> Usan smartphones o dispositivos que les permitan interactuar con aplicaciones de asistencia.</li>
+    </ul>
+  </article>
+
+  <article>
+    <h4>Familias y Cuidadores</h4>
+    <p>
+Este segmento incluye a familiares o cuidadores de personas no videntes que desean garantizar la seguridad de sus seres queridos dentro del hogar. Buscan soluciones que les permitan supervisar y apoyar de manera indirecta, sin invadir la independencia del usuario.
+    </p>
+    <h4>Características clave:</h4>
+    <ul>
+      <li> Necesidad de tranquilidad y control del usuario sobre la seguridad del hogar.</li>
+      <li> Valoran herramientas que ayuden a prevenir accidentes o incidentes domésticos.</li>
+      <li> Buscan soluciones confiables, fáciles de usar y que no interfieran con la autonomía del usuario principal.</li>
+      <li> Interés en sistemas que ofrezcan notificaciones o feedback sobre la actividad dentro del hogar.</li>
+    </ul>
+  </article>
+</section>
+
 # Capítulo II: Requirements Elicitation & Analysis
 ## 2.1. Competidores.
 ### 2.1.1. Análisis competitivo.
