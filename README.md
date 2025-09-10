@@ -149,11 +149,96 @@ A continuación, presentamos la startup <strong>“HomeSense”</strong>, dedica
 
 ## 1.2. Solution Profile
 ### 1.2.1 Antecedentes y problemática
+
+<div>
+<h3>Antecedente</h3>
+  <p>
+    Hoy en día, las personas con discapacidad visual tienen muchos retos para moverse con seguridad y autonomía dentro de su propia casa. Aunque existen algunas herramientas de ayuda, muchas requieren contacto directo con el entorno o no están diseñadas para reconocer los detalles específicos de un hogar. Esto limita la independencia de los usuarios y aumenta el riesgo de accidentes domésticos.
+  </p>
+
+<h3>Problemática – Enfoque con las 5W + 2H</h3>
+<ul>
+    <li><strong>What?</strong> Las personas no videntes tienen problemas para reconocer y desplazarse dentro de su hogar de manera segura, lo que afecta su autonomía diaria.</li>   
+    <li><strong>Why?</strong> Porque no cuentan con un asistente inteligente capaz de interpretar el entorno, identificar muebles, electrodomésticos, objetos o personas, y guiarlos de forma clara y en tiempo real según sus necesidades.</li> 
+    <li><strong>Who?</strong> Personas con discapacidad visual que desean tener más independencia y sentirse seguras dentro de su casa.</li>
+    <li><strong>When?</strong> En su vida cotidiana, al moverse entre habitaciones, usar electrodomésticos, o identificar personas y objetos en su hogar.</li>
+    <li><strong>Where?</strong> Dentro del hogar, especialmente en casas con espacios complejos o muebles que puedan representar algún riesgo.</li>  
+    <li><strong>How?</strong> Actualmente dependen de bastones, ayuda de otras personas o aplicaciones básicas que no ofrecen orientación contextualizada ni reconocimiento completo del entorno.</li>    
+    <li><strong>How Much?</strong> La falta de herramientas adecuadas genera dependencia, riesgo de accidentes, estrés y sensación de inseguridad, afectando directamente su calidad de vida y la tranquilidad de sus familias.</li>
+</ul>
+
+</div>
+
 ### 1.2.2 Lean UX Process.
 #### 1.2.2.1. Lean UX Problem Statements.
+
+**Domain:**  
+Asistencia para personas no videntes dentro del hogar, proporcionando autonomía y seguridad mediante tecnología de reconocimiento del entorno.  
+
+**Customer Segments:**  
+- Personas no videntes que desean moverse con independencia dentro de su hogar.  
+- Familias y cuidadores que buscan seguridad y tranquilidad para sus seres queridos no videntes.  
+
+**Pain Points:**  
+- Dificultad para desplazarse de forma segura y autónoma dentro del hogar.  
+- Dependencia de terceros para realizar tareas cotidianas.  
+- Riesgo de accidentes domésticos debido a obstáculos o falta de orientación.  
+- Las soluciones existentes no ofrecen reconocimiento contextualizado del entorno.  
+
+**Gap:**  
+Actualmente no existen muchas aplicaciones funcionales que combinen mapeo previo del hogar, reconocimiento de objetos y muebles, y guía en tiempo real adaptada a personas no videntes.  
+
+**Visión / Strategy:**  
+Proveer una solución basada en inteligencia artificial que permita a las personas no videntes moverse con seguridad y autonomía dentro de su hogar, reduciendo riesgos y dependencia de terceros.  
+
+**Initial Segment:**  
+Personas no videntes con acceso a smartphones y hogares con espacios complejos que requieren asistencia para navegar de manera segura.  
+
+**Problem Statements:**  
+1. Las personas no videntes necesitan moverse dentro de su hogar con seguridad, pero las herramientas actuales no reconocen objetos ni guían de manera contextualizada.  
+2. Los cuidadores buscan tranquilidad y control, pero no tienen manera de supervisar de forma segura la movilidad de sus familiares dentro del hogar.  
+
+---
+
 #### 1.2.2.2. Lean UX Assumptions.
+
+**Supuestos de negocio**  
+- Las personas con discapacidad visual buscan soluciones que les permitan mayor autonomía y seguridad en su hogar.  
+- Una aplicación móvil con inteligencia artificial que mapee previamente el hogar y reconozca objetos, muebles, electrodomésticos y personas puede satisfacer esta necesidad.  
+- Los usuarios estarán dispuestos a interactuar mediante indicaciones de voz y recibir feedback en tiempo real.  
+- El entrenamiento de la IA en un entorno controlado permitirá minimizar errores y garantizar precisión en el reconocimiento de objetos y espacios.  
+- La mayoría de los usuarios valorará la confiabilidad, facilidad de uso y la capacidad de la aplicación de integrarse con otros dispositivos domésticos, si los tuviera.  
+
+**Supuestos de usuario**  
+- Los usuarios desean moverse con seguridad y sin depender de terceros dentro de su hogar.  
+- Valoran la privacidad y la protección de sus datos personales.   
+- Esperan que la aplicación sea fácil de usar, intuitiva y que proporcione opciones claras para recibir orientación y feedback.  
+- Desean alternativas de acceso seguro ante posibles fallos, como indicaciones redundantes o modos de ayuda remota.  
+
+---
+
 #### 1.2.2.3. Lean UX Hypothesis Statements.
+
+1. **Hipótesis de seguridad y autonomía:**  
+Si desarrollamos una aplicación que mapee previamente el hogar y use IA para reconocer objetos, muebles y personas, entonces los usuarios podrán moverse con mayor seguridad y autonomía.  
+
+2. **Hipótesis de interacción:**  
+Si la aplicación proporciona indicaciones de voz claras y feedback en tiempo real, los usuarios podrán interactuar con su entorno de manera confiable y sin depender de terceros.  
+
+3. **Hipótesis de confianza y respaldo:**  
+Si la aplicación ofrece reconocimiento preciso del entorno y alternativas ante fallos, los usuarios se sentirán más seguros y confiados, mejorando su calidad de vida.  
+
+4. **Hipótesis de privacidad:**  
+Si aseguramos la seguridad y privacidad de los datos mediante encriptación y auditorías, los usuarios confiarán en la tecnología y la adoptarán de forma sostenida.  
+
+5. **Hipótesis de integración domótica:**  
+Si la aplicación se integra con otros dispositivos inteligentes del hogar, los usuarios podrán optimizar la seguridad y comodidad, obteniendo una experiencia más completa y satisfactoria.  
+
+---
+
 #### 1.2.2.4. Lean UX Canvas.
+
+<img src="./images/leanuxcanvas.png" width="auto">
 
 ## 1.3. Segmentos objetivo.
 
