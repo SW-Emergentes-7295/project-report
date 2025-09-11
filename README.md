@@ -316,6 +316,9 @@ Este segmento incluye a familiares o cuidadores de personas no videntes que dese
 ### 4.2.5. Context Mapping.
 
 ## 4.3. Software Architecture.
+Los diagramas de arquitectura de software se han creado utilizando el enfoque C4 Model, que proporciona una manera clara y estructurada de representar la arquitectura del sistema en diferentes niveles de detalle. A continuación, se presentan los diagramas correspondientes a cada nivel del modelo C4 para la aplicación "VisualGuide".
+URL Structurizr: https://structurizr.com/workspace/101375
+
 ### 4.3.1. Software Architecture System Landscape Diagram.
 A continuación se demuestra el System Landscape Diagram de la solución propuesta "VisualGuide", una aplicación móvil diseñada para asistir a personas no videntes en la navegación segura dentro de sus hogares mediante el uso de inteligencia artificial y reconocimiento de objetos.
 
@@ -359,4 +362,4 @@ El backend de la aplicación está alojado en un servidor Linux Ubuntu 22.04 LTS
 
 La base de datos MySQL 8.0 está alojada como contenedor dentro del servidor backend, gestionando la información del usuario, configuraciones y datos de mapeo del hogar. Además, utilizamos un S3 Bucket AWS para almacenar imágenes y datos relacionados con el reconocimiento de objetos, asegurando un acceso rápido y seguro a estos recursos.
 
-<img src="./images/c4-model/deployment-diagram.png" alt="Deployment Level Diagram" width="auto">
+<img src="./images/c4-model/deployment-diagram.PNG" alt="Deployment Level Diagram" width="auto">
