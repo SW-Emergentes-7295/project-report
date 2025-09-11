@@ -328,5 +328,10 @@ En este diagrama, se ilustran los principales componentes y su interacción dent
 <img src="./images/c4-model/landscape-diagram.png" alt="System Landscape Diagram" width="auto">
 
 ### 4.3.1. Software Architecture Context Level Diagrams.
+
+Nuestro diagrama de contexto de la arquitectura de software para la aplicación "VisualGuide" muestra cómo interactúa el sistema con sus usuarios y otros sistemas externos. En el centro del diagrama se encuentra el sistema principal, "VisualGuide", que es una aplicación móvil diseñada para asistir a personas no videntes en la navegación segura dentro de sus hogares mediante inteligencia artificial y reconocimiento de objetos.
+
+<img src="./images/c4-model/context-diagram.png" alt="Context Level Diagram" width="auto">
+
 ### 4.3.2. Software Architecture Container Level Diagrams.
 ### 4.3.3. Software Architecture Deployment Diagrams.
