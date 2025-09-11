@@ -122,7 +122,7 @@ del ABET – EAC - Student Outcome 3.
 |--------|------|
 | Nombre:  | |
 | Nombre: Christopher Sebastian More Rondon <br />Carrera: Ingeniería de Software<br />Código: U202212199<br />Descripción: Soy estudiante del octavo ciclo de Ingeniería de Software, actualmente tengo 21 años. Soy un estudiante que colabora constantemente en el desarrollo de los proyectos, así como dar soluciones creativas a los problemas que surgen durante la creación de estos. Siempre me esfuerzo por entregar un buen trabajo. | |
-| Nombre:  | |
+| Nombre: Pedro Jeremy Perez Pizarro <br />Carrera: Ingeniería de Software<br />Código: U202022237<br />Descripción: Soy estudiante del noveno ciclo de Ingeniería de Software, actualmente tengo 22 años. Soy un estudiante que le gusta desarrollar proyectos innovadores, así como aprender más cosas cada día. Soy responsable con los trabajos grupales y me gusta entregar un buen proyecto. | |
 | Nombre:  | |
 
 
