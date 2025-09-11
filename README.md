@@ -317,6 +317,16 @@ Este segmento incluye a familiares o cuidadores de personas no videntes que dese
 
 ## 4.3. Software Architecture.
 ### 4.3.1. Software Architecture System Landscape Diagram.
+A continuación se demuestra el System Landscape Diagram de la solución propuesta "VisualGuide", una aplicación móvil diseñada para asistir a personas no videntes en la navegación segura dentro de sus hogares mediante el uso de inteligencia artificial y reconocimiento de objetos.
+
+En este diagrama, se ilustran los principales componentes y su interacción dentro del ecosistema de la aplicación:
+- **Usuario (Persona No Vidente):** El usuario principal de la aplicación, que interactúa con la interfaz móvil para recibir indicaciones y feedback en tiempo real.
+- **Familiar o Cuidador:** Un usuario secundario que puede supervisar y apoyar al usuario principal, recibiendo notificaciones sobre su actividad.
+- **Sistema de VisualGuide:** La aplicación móvil que utiliza inteligencia artificial para mapear el hogar, reconocer objetos y proporcionar guía en tiempo real.
+- **Servicios externos:** Incluye servicios de email y pagos para la gestión de cuentas y suscripciones.
+
+<img src="./images/c4-model/landscape-diagram.png" alt="System Landscape Diagram" width="auto">
+
 ### 4.3.1. Software Architecture Context Level Diagrams.
 ### 4.3.2. Software Architecture Container Level Diagrams.
 ### 4.3.3. Software Architecture Deployment Diagrams.
