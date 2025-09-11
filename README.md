@@ -285,6 +285,17 @@ Este segmento incluye a familiares o cuidadores de personas no videntes que dese
 
 ## 2.3. Needfinding.
 ### 2.3.1. User Personas.
+
+Los user personas son usados para definir los segmentos objetivos, asignando cualidades a cada uno de ellos y representandolos como personas
+
+##### Personas no videntes:
+
+<img src="./images/Chapter2/UserPersona/Marco Mendez.png" alt="User persona no videntes" width="auto">
+
+##### Familias y cuidadores:
+
+<img src="./images/Chapter2/UserPersona/María Mendoza.png" alt="User persona familiares y cuidadores" width="auto">
+
 ### 2.3.2. User Task Matrix.
 ### 2.3.3. Empathy Mapping.
 ### 2.3.4. As-is Scenario Mapping.
