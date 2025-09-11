@@ -294,6 +294,79 @@ Este segmento incluye a familiares o cuidadores de personas no videntes que dese
 # Capítulo III: Requirements Specification
 ## 3.1. To-Be Scenario Mapping.
 ## 3.2. User Stories.
+Redactamos las historias de usuario para el sistema de "VisualGuide", basándonos en las necesidades y expectativas de los usuarios no videntes y sus cuidadores. Estas historias reflejan las funcionalidades clave que el sistema debe ofrecer para mejorar la autonomía y seguridad dentro del hogar.
+
+<table>
+  <thead>
+    <tr>
+      <th>Epic / Story ID</th>
+      <th>Título</th>
+      <th>Descripción</th>
+      <th>Criterios de Aceptación</th>
+      <th>Relacionado con (Epic ID)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>HU01</td>
+      <td>Obtener información de la empresa</td>
+      <td>Como visitante del sitio web, quiero obtener información adicional sobre la empresa a cargo del producto.</td>
+      <td><b>Given</b> el visitante se encuentra en la sección de HomeSense.<br/><b>When</b> observa la información relevante sobre la empresa. <br><b>Then</b> se interesa en saber más sobre el producto.<br><b>Y</b> se redirecciona a la descarga directa de la aplicación móvil.</td>
+      <td>EPXX</td>
+    </tr>
+    <tr>
+      <td>HU02</td>
+      <td>Uso de la aplicación móvil</td>
+      <td>Como usuario no vidente, quiero utilizar la aplicación móvil para recibir asistencia en la navegación dentro de mi hogar.</td>
+      <td><b>Given</b> el usuario ha descargado e instalado la aplicación móvil.<br/><b>When</b> abre la aplicación y sigue las instrucciones para mapear su hogar.<br><b>Then</b> puede recibir indicaciones de voz en tiempo real para moverse de manera segura dentro de su casa.</td>
+      <td>EPXX</td>
+   </tr>
+   <tr>
+      <td>HU03</td>
+      <td>Mapeo del hogar</td>
+      <td>Como usuario no vidente, quiero mapear mi hogar utilizando la aplicación para que pueda reconocer objetos y muebles.</td>
+      <td><b>Given</b> el usuario ha iniciado el proceso de mapeo en la aplicación.<br/><b>When</b> sigue las instrucciones para capturar imágenes y escanear su entorno.<br><b>Then</b> la aplicación crea un mapa detallado de su hogar que puede utilizar para navegación futura.</td>
+      <td>EPXX</td>
+   </tr>
+   <tr>
+      <td>HU04</td>
+      <td>Reconocimiento de objetos y muebles</td>
+      <td>Como usuario no vidente, quiero que la aplicación reconozca objetos y muebles en mi hogar para recibir indicaciones precisas.</td>
+      <td><b>Given</b> el usuario está utilizando la aplicación dentro de su hogar.<br/><b>When</b> la aplicación detecta objetos y muebles a través de la cámara.<br><b>Then</b> proporciona indicaciones de voz claras sobre la ubicación y características de los objetos cercanos.</td>
+      <td>EPXX</td>
+   </tr>
+   <tr>
+      <td>HU05</td>
+      <td>Notificaciones a cuidadores</td>
+      <td>Como cuidador, quiero recibir notificaciones sobre la actividad del usuario no vidente para asegurarme de su seguridad.</td>
+      <td><b>Given</b> el cuidador ha configurado las notificaciones en la aplicación.<br/><b>When</b> el usuario realiza movimientos significativos o se encuentra en situaciones potencialmente peligrosas.<br><b>Then</b> el cuidador recibe alertas en tiempo real para tomar las acciones necesarias.</td>
+      <td>EPXX</td>
+   </tr>
+   <tr>
+      <td>HU06</td>
+      <td>Acceso a la información de la aplicación</td>
+      <td>Como usuario no vidente, quiero acceder a la información de la aplicación a través de comandos de voz para facilitar su uso.</td>
+      <td><b>Given</b> el usuario está utilizando la aplicación.<br/><b>When</b> solicita información sobre una función específica mediante un comando de voz.<br><b>Then</b> la aplicación proporciona una respuesta clara y concisa a través de la síntesis de voz.</td>
+      <td>EPXX</td>
+   </tr>
+   <tr>
+      <td>HU07</td>
+      <td>Configuración de preferencias</td>
+      <td>Como usuario no vidente, quiero configurar mis preferencias en la aplicación para personalizar mi experiencia.</td>
+      <td><b>Given</b> el usuario ha accedido a la sección de configuración en la aplicación.<br/><b>When</b> ajusta las opciones de voz, notificaciones y otros parámetros según sus necesidades.<br><b>Then</b> la aplicación guarda las preferencias y las aplica durante su uso.</td>
+      <td>EPXX</td>
+   </tr>
+   <tr>
+      <td>HU08</td>
+      <td>Reconocimiento de voz</td>
+      <td>Como usuario no vidente, quiero que la aplicación registre y reconozca mis comandos de voz para facilitar la interacción.</td>
+      <td><b>Given</b> el usuario está utilizando la aplicación.<br/><b>When</b> el usuario configura sus comandos de voz personalizados.<br><b>Then</b> la aplicación reconoce y responde a estos comandos de manera efectiva durante su uso.</td>
+      <td>EPXX</td>
+   </tr>
+   </tbody>
+</table>
+    
+
 ## 3.3. Impact Mapping.
 ## 3.4. Product Backlog.
 
