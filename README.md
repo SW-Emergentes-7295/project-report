@@ -136,6 +136,112 @@ del ABET – EAC - Student Outcome 3.
     <tr> <td rowspan="2" align="center"> <img src="./images/lookoutByGoogle.png" alt="Lookout By Google" style="width: 250px; height: auto;"> <br>Lookout by Google</td> <td>Lookout es una app diseñada por Google para personas con discapacidad visual. Utiliza IA y la cámara del dispositivo para leer texto, identificar objetos, detectar monedas y proporcionar descripciones audibles del entorno.</td> </tr> <tr> <td>Página web: <a href="https://play.google.com/store/apps/details?id=com.google.android.apps.accessibility.reveal&hl=es_PE" target="_blank"> Disponible en Google Play (app Lookout by Google)</a></td> </tr> </tbody> </table>
 
 ### 2.1.1. Análisis competitivo.
+
+
+<table style="width: 100%;">
+  <tr>
+    <th colspan="6" style="padding: 8px; text-align: center;"> Competitive Analysis Landscape</th>
+  </tr>
+  <tr>
+    <td>¿Por qué llevar a cabo este análisis?</td>
+    <td colspan="5"> (aca va texto)
+</td>
+  </tr>
+  <tr>
+    <td colspan="2"></td>
+  <td align="center"><br><img src="./images/beMyEyes.png" alt="Be My Eyes"></td>
+  <td align="center"><br><img src="./images/envision.png" alt="Envision"></td>
+  <td align="center"><br><img src="./images/lookoutByGoogle.png" alt="Lookout By Google"></td>
+  <td align="center"><br><img src="./images/iaImage.png" alt="VisualGuide (HomeSense)"></td>
+  </tr>
+<tr>
+  <td rowspan="2" align="center">Perfil</td>
+  <td align="center">Overview</td>
+  <td>(aca va texto)</td>
+  <td>(aca va texto)</td>
+  <td>(aca va texto)</td>
+  <td>(aca va texto)</td>
+</tr>
+<tr>
+  <td>Ventaja competitiva<br>¿Qué valor ofrece a los clientes?</td>
+  <td>(aca va texto)</td>
+  <td>(aca va texto)</td>
+  <td>(aca va texto)</td>
+  <td>(aca va texto)</td>
+</tr>
+ <tr>
+  <td rowspan="2" align="center">Perfil de Marketing</td>
+  <td>Mercado objetivo</td>
+  <td>(aca va texto)</td>
+  <td>(aca va texto)</td>
+  <td>(aca va texto)</td>
+  <td>(aca va texto)</td>
+</tr>
+<tr>
+  <td>Estrategias de marketing</td>
+  <td>(aca va texto)</td>
+  <td>(aca va texto)</td>
+  <td>(aca va texto)</td>
+  <td>(aca va texto)</td>
+</tr>
+
+<tr>
+  <td rowspan="3" align="center">Perfil del Producto</td>
+  <td>Productos & Servicios</td>
+  <td>(aca va texto)</td>
+  <td>(aca va texto)</td>
+  <td>(aca va texto)</td>
+  <td>(aca va texto)</td>
+</tr>
+<tr>
+  <td>Precios & Costos</td>
+  <td>(aca va texto)</td>
+  <td>(aca va texto)</td>
+  <td>(aca va texto)</td>
+  <td>(aca va texto)</td>
+</tr>
+<tr>
+  <td>Canales de distribución (Web y/o Móvil)</td>
+  <td>(aca va texto)</td>
+  <td>(aca va texto)</td>
+  <td>(aca va texto)</td>
+  <td>(aca va texto)</td>
+</tr>
+
+<tr>
+  <td rowspan="4" align="center">Análisis SWOT</td>
+  <td>Fortalezas</td>
+  <td>(aca va texto)</td>
+  <td>(aca va texto)</td>
+  <td>(aca va texto)</td>
+  <td>(aca va texto)</td>
+</tr>
+<tr>
+  <td>Debilidades</td>
+  <td>(aca va texto)</td>
+  <td>(aca va texto)</td>
+  <td>(aca va texto)</td>
+  <td>(aca va texto)</td>
+</tr>
+<tr>
+  <td>Oportunidades</td>
+  <td>(aca va texto)</td>
+  <td>(aca va texto)</td>
+  <td>(aca va texto)</td>
+  <td>(aca va texto)</td>
+</tr>
+<tr>
+  <td>Amenazas</td>
+  <td>(aca va texto)</td>
+  <td>(aca va texto)</td>
+  <td>(aca va texto)</td>
+  <td>(aca va texto)</td>
+</tr>
+<table>
+
+
+
+
 ### 2.1.2. Estrategias y tácticas frente a competidores.
 
 ## 2.2. Entrevistas.
