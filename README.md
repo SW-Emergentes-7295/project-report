@@ -144,7 +144,7 @@ del ABET – EAC - Student Outcome 3.
   </tr>
   <tr>
     <td>¿Por qué llevar a cabo este análisis?</td>
-    <td colspan="5"> (aca va texto)
+    <td colspan="5">Este análisis permite identificar fortalezas, debilidades, oportunidades y amenazas de HomeSense frente a competidores establecidos, con el fin de diferenciar a VisualGuide, definir su propuesta de valor única y diseñar estrategias de crecimiento sostenibles.</td>
 </td>
   </tr>
   <tr>
@@ -152,91 +152,91 @@ del ABET – EAC - Student Outcome 3.
   <td align="center"><br><img src="./images/beMyEyes.png" alt="Be My Eyes"></td>
   <td align="center"><br><img src="./images/envision.png" alt="Envision"></td>
   <td align="center"><br><img src="./images/lookoutByGoogle.png" alt="Lookout By Google"></td>
-  <td align="center"><br><img src="./images/iaImage.png" alt="VisualGuide (HomeSense)"></td>
+  <td align="center"><br><img src="./images/lentesia.jpg" alt="VisualGuide (HomeSense)"></td>
   </tr>
 <tr>
   <td rowspan="2" align="center">Perfil</td>
   <td align="center">Overview</td>
-  <td>(aca va texto)</td>
-  <td>(aca va texto)</td>
-  <td>(aca va texto)</td>
-  <td>(aca va texto)</td>
-</tr>
+    <td>Conecta a personas ciegas con voluntarios o IA para asistencia visual en tiempo real.</td>
+    <td>Convierte texto y objetos en descripciones habladas con IA.</td>
+    <td>App de Google que identifica objetos, lee texto, detecta billetes y describe entornos.</td>
+    <td>Asistente visual para el hogar: mapeo del entorno y guía segura en tiempo real.</td>
+  </tr>
 <tr>
   <td>Ventaja competitiva<br>¿Qué valor ofrece a los clientes?</td>
-  <td>(aca va texto)</td>
-  <td>(aca va texto)</td>
-  <td>(aca va texto)</td>
-  <td>(aca va texto)</td>
-</tr>
+    <td>Gran comunidad global de voluntarios + soporte IA gratuito.</td>
+    <td>OCR en más de 60 idiomas e interacción por voz.</td>
+    <td>Respaldo de Google, confiabilidad y gratuidad.</td>
+    <td>Enfoque exclusivo en seguridad doméstica, personalización y autonomía.</td>
+  </tr>
  <tr>
   <td rowspan="2" align="center">Perfil de Marketing</td>
   <td>Mercado objetivo</td>
-  <td>(aca va texto)</td>
-  <td>(aca va texto)</td>
-  <td>(aca va texto)</td>
-  <td>(aca va texto)</td>
-</tr>
+    <td>Personas con discapacidad visual que requieren ayuda inmediata en todo el mundo.</td>
+    <td>Usuarios con discapacidad visual que necesitan leer texto o identificar objetos en múltiples contextos.</td>
+    <td>Usuarios ciegos o con baja visión que utilizan Android en entornos cotidianos.</td>
+    <td>Personas no videntes en América Latina que buscan independencia y seguridad dentro del hogar.</td>
+  </tr>
 <tr>
   <td>Estrategias de marketing</td>
-  <td>(aca va texto)</td>
-  <td>(aca va texto)</td>
-  <td>(aca va texto)</td>
-  <td>(aca va texto)</td>
-</tr>
+    <td>Comunidad global + alianzas con ONGs.</td>
+    <td>Promoción en comunidades inclusivas; enfoque multilingüe.</td>
+    <td>Distribución masiva vía Google Play.</td>
+    <td>Alianzas locales con asociaciones, campañas inclusivas en LATAM.</td>
+  </tr>
 
 <tr>
   <td rowspan="3" align="center">Perfil del Producto</td>
   <td>Productos & Servicios</td>
-  <td>(aca va texto)</td>
-  <td>(aca va texto)</td>
-  <td>(aca va texto)</td>
-  <td>(aca va texto)</td>
-</tr>
+    <td>Videollamadas con voluntarios y soporte IA (Be My AI).</td>
+    <td>Lectura de texto, reconocimiento de objetos y escenas.</td>
+    <td>Lectura de texto, identificación de objetos, reconocimiento de billetes.</td>
+    <td>Asistente de guía en el hogar con mapeo y navegación segura.</td>
+  </tr>
 <tr>
   <td>Precios & Costos</td>
-  <td>(aca va texto)</td>
-  <td>(aca va texto)</td>
-  <td>(aca va texto)</td>
-  <td>(aca va texto)</td>
-</tr>
+    <td>Gratuito.</td>
+    <td>Freemium: funciones básicas gratis, versión premium de pago.</td>
+    <td>Gratuito.</td>
+    <td>Freemium: acceso básico gratis, premium con funciones avanzadas (mapas personalizados, alertas).</td>
+  </tr>
 <tr>
   <td>Canales de distribución (Web y/o Móvil)</td>
-  <td>(aca va texto)</td>
-  <td>(aca va texto)</td>
-  <td>(aca va texto)</td>
-  <td>(aca va texto)</td>
-</tr>
+    <td>App móvil (iOS/Android).</td>
+    <td>App móvil (iOS/Android).</td>
+    <td>App móvil (Android).</td>
+    <td>App móvil (iOS/Android) + integración IoT en el hogar.</td>
+  </tr>
 
 <tr>
   <td rowspan="4" align="center">Análisis SWOT</td>
   <td>Fortalezas</td>
-  <td>(aca va texto)</td>
-  <td>(aca va texto)</td>
-  <td>(aca va texto)</td>
-  <td>(aca va texto)</td>
-</tr>
+    <td>Gran base de usuarios y comunidad activa.</td>
+    <td>OCR potente, multilingüe y versátil.</td>
+    <td>Respaldo de Google, alta confiabilidad.</td>
+    <td>Propuesta diferenciada enfocada en el hogar; seguridad y personalización.</td>
+  </tr>
 <tr>
   <td>Debilidades</td>
-  <td>(aca va texto)</td>
-  <td>(aca va texto)</td>
-  <td>(aca va texto)</td>
-  <td>(aca va texto)</td>
-</tr>
+    <td>Dependencia de voluntarios; requiere internet estable.</td>
+    <td>Suscripción de pago limita accesibilidad.</td>
+    <td>Solo Android; enfoque genérico.</td>
+    <td>Baja visibilidad inicial de marca como startup emergente.</td>
+  </tr>
 <tr>
   <td>Oportunidades</td>
-  <td>(aca va texto)</td>
-  <td>(aca va texto)</td>
-  <td>(aca va texto)</td>
-  <td>(aca va texto)</td>
-</tr>
+    <td>Expandir funciones de IA.</td>
+    <td>Alianzas con wearables y dispositivos accesibles.</td>
+    <td>Mayor integración con ecosistema Google.</td>
+    <td>Alta necesidad en LATAM; integración con hogares inteligentes.</td>
+  </tr>
 <tr>
   <td>Amenazas</td>
-  <td>(aca va texto)</td>
-  <td>(aca va texto)</td>
-  <td>(aca va texto)</td>
-  <td>(aca va texto)</td>
-</tr>
+    <td>Competencia con soluciones IA más avanzadas.</td>
+    <td>Riesgo por presencia de Google y Be My Eyes.</td>
+    <td>Competidores especializados con mayor personalización.</td>
+    <td>Entrada de grandes empresas en accesibilidad doméstica.</td>
+  </tr>
 <table>
 
 
