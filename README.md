@@ -427,17 +427,17 @@ Redactamos las historias de usuario para el sistema de "VisualGuide", basándono
    </tr>
    <tr>
       <td>HU11</td>
-      <td></td>
-      <td></td>
-      <td><b>Given</b> <br/><b>When</b> <br><b>Then</b> <br><br><b>Given</b> <br/><b>When</b><br><b>Then</b> </td>
-      <td></td>
+      <td>Guía con voz paso a paso</td>
+      <td>Como usuario no vidente, quiero que la app me indique con voz hacia dónde moverme, para llegar a un lugar de mi casa.</td>
+      <td><b>Given</b> el usuario selecciona un destino, <br/><b>When</b> inicia la navegación, <br><b>Then</b> la app da instrucciones de voz paso a paso. <br><br><b>Given</b> el usuario se equivoca de camino <br/><b>When</b> la app detecta que salió de la ruta, <br><b>Then</b> recalcula y actualiza la guía. </td>
+      <td>EP03</td>
    </tr>
    <tr>
       <td>HU12</td>
-      <td></td>
-      <td></td>
-      <td><b>Given</b> <br/><b>When</b> <br><b>Then</b> <br><br><b>Given</b> <br/><b>When</b><br><b>Then</b> </td>
-      <td></td>
+      <td>Notificación rápida al cuidador</td>
+      <td>Como cuidador, quiero recibir una alerta si el usuario tiene un problema en casa, para poder ayudarlo rápido.</td>
+      <td><b>Given</b> el usuario está en casa, <br/><b>When</b> la app detecta falta de movimiento, <br><b>Then</b> envía una notificación al cuidador. <br><br><b>Given</b> la app detecta movimiento brusco, <br/><b>When</b> interpreta posible caída, <br><b>Then</b> envía una alerta inmediata al cuidador. </td>
+      <td>EP04</td>
    </tr>
    <tr>
       <td>HU13</td>
