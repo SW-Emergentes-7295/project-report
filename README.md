@@ -420,10 +420,10 @@ Redactamos las historias de usuario para el sistema de "VisualGuide", basándono
    </tr>
    <tr>
       <td>HU10</td>
-      <td></td>
-      <td></td>
-      <td><b>Given</b> <br/><b>When</b> <br><b>Then</b> <br><br><b>Given</b> <br/><b>When</b><br><b>Then</b> </td>
-      <td></td>
+      <td>Guardar mapa simple del hogar</td>
+      <td>Como usuario no vidente, quiero que la app guarde un mapa sencillo de mi casa, para usarlo después en la navegación.</td>
+      <td><b>Given</b> el usuario inicia el mapeo <br/><b>When</b> recorre los espacios y toma fotos, <br><b>Then</b> la app guarda un mapa básico. <br><br><b>Given</b> el usuario ya mapeó antes, <br/><b>When</b> actualiza el mapeo, <br><b>Then</b> la app reemplaza el mapa antiguo por el nuevo. </td>
+      <td>EP02</td>
    </tr>
    <tr>
       <td>HU11</td>
