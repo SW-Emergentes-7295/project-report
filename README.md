@@ -411,6 +411,62 @@ Redactamos las historias de usuario para el sistema de "VisualGuide", basándono
       <td><b>Given</b> el usuario está utilizando la aplicación.<br/><b>When</b> el usuario configura sus comandos de voz personalizados.<br><b>Then</b> la aplicación reconoce y responde a estos comandos de manera efectiva durante su uso.<br><br><b>Given</b> el usuario está utilizando la aplicación.<br/><b>When</b> emite un comando de voz.<br><b>Then</b> la aplicación reconoce el comando y responde adecuadamente para facilitar la interacción.</td>
       <td>EP03</td>
    </tr>
+   <tr>
+      <td>HU09</td>
+      <td>Reconocer objetos básicos</td>
+      <td>Como usuario no vidente, quiero que la app me diga qué objeto tengo enfrente, para orientarme en mi casa.</td>
+      <td><b>Given</b> el usuario abre la cámara, <br/><b>When</b> la IA detecta un objeto, <br><b>Then</b> la app anuncia por voz el nombre del objeto. <br><br><b>Given</b> el objeto no se reconoce, <br/><b>When</b> la IA no tiene certeza, <br><b>Then</b> la app indica “objeto no identificado”. </td>
+      <td>EP01</td>
+   </tr>
+   <tr>
+      <td>HU10</td>
+      <td></td>
+      <td></td>
+      <td><b>Given</b> <br/><b>When</b> <br><b>Then</b> <br><br><b>Given</b> <br/><b>When</b><br><b>Then</b> </td>
+      <td></td>
+   </tr>
+   <tr>
+      <td>HU11</td>
+      <td></td>
+      <td></td>
+      <td><b>Given</b> <br/><b>When</b> <br><b>Then</b> <br><br><b>Given</b> <br/><b>When</b><br><b>Then</b> </td>
+      <td></td>
+   </tr>
+   <tr>
+      <td>HU12</td>
+      <td></td>
+      <td></td>
+      <td><b>Given</b> <br/><b>When</b> <br><b>Then</b> <br><br><b>Given</b> <br/><b>When</b><br><b>Then</b> </td>
+      <td></td>
+   </tr>
+   <tr>
+      <td>HU13</td>
+      <td></td>
+      <td></td>
+      <td><b>Given</b> <br/><b>When</b> <br><b>Then</b> <br><br><b>Given</b> <br/><b>When</b><br><b>Then</b> </td>
+      <td></td>
+   </tr>
+   <tr>
+      <td>HU14</td>
+      <td></td>
+      <td></td>
+      <td><b>Given</b> <br/><b>When</b> <br><b>Then</b> <br><br><b>Given</b> <br/><b>When</b><br><b>Then</b> </td>
+      <td></td>
+   </tr>
+   <tr>
+      <td>HU15</td>
+      <td></td>
+      <td></td>
+      <td><b>Given</b> <br/><b>When</b> <br><b>Then</b> <br><br><b>Given</b> <br/><b>When</b><br><b>Then</b> </td>
+      <td></td>
+   </tr>
+   <tr>
+      <td>HU16</td>
+      <td></td>
+      <td></td>
+      <td><b>Given</b> <br/><b>When</b> <br><b>Then</b> <br><br><b>Given</b> <br/><b>When</b><br><b>Then</b> </td>
+      <td></td>
+   </tr>
    </tbody>
 </table>
     
