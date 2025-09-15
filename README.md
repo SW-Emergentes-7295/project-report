@@ -439,13 +439,21 @@ Redactamos las historias de usuario para el sistema de "VisualGuide", basándono
       <td><b>Given</b> el usuario está en casa, <br/><b>When</b> la app detecta falta de movimiento, <br><b>Then</b> envía una notificación al cuidador. <br><br><b>Given</b> la app detecta movimiento brusco, <br/><b>When</b> interpreta posible caída, <br><b>Then</b> envía una alerta inmediata al cuidador. </td>
       <td>EP04</td>
    </tr>
-   <tr>
-      <td>HU13</td>
-      <td>Comandos de voz básicos</td>
-      <td>Como usuario no vidente, quiero usar comandos de voz simples como “ir a cocina”, para moverme más fácil en mi hogar.</td>
-      <td><b>Given</b> el usuario activa el micrófono, <br/><b>When</b> dice "ir a la sala", <br><b>Then</b> la app reconoce el comando y comienza la guía. <br><br><b>Given</b> el usuario emite un comando no válido, <br/><b>When</b> la app no lo reconoce, <br><b>Then</b> responde con “comando no entendido, repita por favor”. </td>
-      <td>EP05</td>
-   </tr>
+<tr>
+  <td>HU13</td>
+  <td>Historial de recorridos</td>
+  <td>Como usuario no vidente, quiero que la aplicación guarde un historial de mis recorridos dentro del hogar, para poder revisar rutas frecuentes y optimizar mi movilidad.</td>
+  <td>
+    <b>Given</b> el usuario ha realizado recorridos guiados en la aplicación, <br/>
+    <b>When</b> accede a la sección de historial, <br/>
+    <b>Then</b> puede visualizar mediante síntesis de voz las rutas más utilizadas.<br/><br/>
+    <b>Given</b> el usuario consulta una ruta del historial, <br/>
+    <b>When</b> selecciona “repetir recorrido”, <br/>
+    <b>Then</b> la aplicación activa la guía paso a paso de esa ruta específica.
+  </td>
+  <td>EP05</td>
+</tr>
+
    <tr>
       <td>HU14</td>
       <td>Ajustar velocidad de voz</td>
@@ -453,19 +461,26 @@ Redactamos las historias de usuario para el sistema de "VisualGuide", basándono
       <td><b>Given</b> el usuario entra a configuración, <br/><b>When</b> ajusta la velocidad de voz, <br><b>Then</b> la app guarda la preferencia. <br><br><b>Given</b> el usuario cambia entre velocidades rápidas y lentas, <br/><b>When</b> confirma la opción, <br><b>Then</b> la app aplica el cambio inmediato en las siguientes instrucciones. </td>
       <td>EP06</td>
    </tr>
-   <tr>
-      <td>HU15</td>
-      <td></td>
-      <td></td>
-      <td><b>Given</b> <br/><b>When</b> <br><b>Then</b> <br><br><b>Given</b> <br/><b>When</b><br><b>Then</b> </td>
-      <td></td>
-   </tr>
+<tr>
+  <td>HU15</td>
+  <td>Recordatorio de batería baja</td>
+  <td>Como usuario no vidente, quiero que la aplicación me avise cuando la batería de mi dispositivo esté baja, para no quedarme sin asistencia inesperadamente.</td>
+  <td>
+    <b>Given</b> la batería del dispositivo baja al 20%, <br/>
+    <b>When</b> el usuario está utilizando la aplicación, <br/>
+    <b>Then</b> la app emite una alerta de voz indicando “batería baja, conecte el cargador”.<br/><br/>
+    <b>Given</b> la batería llega al 10%, <br/>
+    <b>When</b> la app sigue en uso, <br/>
+    <b>Then</b> se activa un recordatorio de voz más insistente cada 2 minutos.
+  </td>
+  <td>EP06</td>
+</tr>
    <tr>
       <td>HU16</td>
-      <td></td>
-      <td></td>
-      <td><b>Given</b> <br/><b>When</b> <br><b>Then</b> <br><br><b>Given</b> <br/><b>When</b><br><b>Then</b> </td>
-      <td></td>
+      <td>Perfil de usuario básico</td>
+      <td>Como usuario no vidente, quiero tener un perfil sencillo en la app con mi nombre y preferencias de voz, para que la aplicación recuerde mis configuraciones automáticamente.</td>
+      <td><b>Given</b> el usuario crea un perfil, <br/><b>When</b> guarda su nombre y preferencias de voz, <br><b>Then</b> la app aplica esa configuración cada vez que inicia. <br><br><b>Given</b> el usuario cambia de dispositivo <br/><b>When</b> inicia sesión con su perfil, <br><b>Then</b> la app carga las mismas configuraciones.</td>
+      <td>EP06</td>
    </tr>
    </tbody>
 </table>
