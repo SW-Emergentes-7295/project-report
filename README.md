@@ -441,17 +441,17 @@ Redactamos las historias de usuario para el sistema de "VisualGuide", basándono
    </tr>
    <tr>
       <td>HU13</td>
-      <td></td>
-      <td></td>
-      <td><b>Given</b> <br/><b>When</b> <br><b>Then</b> <br><br><b>Given</b> <br/><b>When</b><br><b>Then</b> </td>
-      <td></td>
+      <td>Comandos de voz básicos</td>
+      <td>Como usuario no vidente, quiero usar comandos de voz simples como “ir a cocina”, para moverme más fácil en mi hogar.</td>
+      <td><b>Given</b> el usuario activa el micrófono, <br/><b>When</b> dice "ir a la sala", <br><b>Then</b> la app reconoce el comando y comienza la guía. <br><br><b>Given</b> el usuario emite un comando no válido, <br/><b>When</b> la app no lo reconoce, <br><b>Then</b> responde con “comando no entendido, repita por favor”. </td>
+      <td>EP05</td>
    </tr>
    <tr>
       <td>HU14</td>
-      <td></td>
-      <td></td>
-      <td><b>Given</b> <br/><b>When</b> <br><b>Then</b> <br><br><b>Given</b> <br/><b>When</b><br><b>Then</b> </td>
-      <td></td>
+      <td>Ajustar velocidad de voz</td>
+      <td>Como usuario no vidente, quiero cambiar la velocidad de la voz de la app, para que me sea más cómodo escucharla.</td>
+      <td><b>Given</b> el usuario entra a configuración, <br/><b>When</b> ajusta la velocidad de voz, <br><b>Then</b> la app guarda la preferencia. <br><br><b>Given</b> el usuario cambia entre velocidades rápidas y lentas, <br/><b>When</b> confirma la opción, <br><b>Then</b> la app aplica el cambio inmediato en las siguientes instrucciones. </td>
+      <td>EP06</td>
    </tr>
    <tr>
       <td>HU15</td>
