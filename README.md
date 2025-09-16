@@ -482,6 +482,69 @@ Redactamos las historias de usuario para el sistema de "VisualGuide", basándono
       <td><b>Given</b> el usuario crea un perfil, <br/><b>When</b> guarda su nombre y preferencias de voz, <br><b>Then</b> la app aplica esa configuración cada vez que inicia. <br><br><b>Given</b> el usuario cambia de dispositivo <br/><b>When</b> inicia sesión con su perfil, <br><b>Then</b> la app carga las mismas configuraciones.</td>
       <td>EP06</td>
    </tr>
+   <tr>
+      <td>HU17</td>
+      <td>Perfil de usuario básico</td>
+      <td>Como usuario no vidente, quiero tener un perfil sencillo en la app con mi nombre y preferencias de voz, para que la aplicación recuerde mis configuraciones automáticamente.</td>
+      <td><b>Given</b> el usuario crea un perfil, <br/><b>When</b> guarda su nombre y preferencias de voz, <br><b>Then</b> la app aplica esa configuración cada vez que inicia. <br><br><b>Given</b> el usuario cambia de dispositivo <br/><b>When</b> inicia sesión con su perfil, <br><b>Then</b> la app carga las mismas configuraciones.</td>
+      <td>EP06</td>
+   </tr>
+   <tr>
+      <td>HU18</td>
+      <td>Perfil de usuario básico</td>
+      <td>Como usuario no vidente, quiero tener un perfil sencillo en la app con mi nombre y preferencias de voz, para que la aplicación recuerde mis configuraciones automáticamente.</td>
+      <td><b>Given</b> el usuario crea un perfil, <br/><b>When</b> guarda su nombre y preferencias de voz, <br><b>Then</b> la app aplica esa configuración cada vez que inicia. <br><br><b>Given</b> el usuario cambia de dispositivo <br/><b>When</b> inicia sesión con su perfil, <br><b>Then</b> la app carga las mismas configuraciones.</td>
+      <td>EP06</td>
+   </tr>
+   <tr>
+      <td>HU19</td>
+      <td>Cambiar tipo de voz</td>
+      <td>Como usuario no vidente, quiero contar con distintas voces, para poder elegir la que enteinda mejor.</td>
+      <td><b>Given</b> que el uusario esta configurando la aplicación, <br/><b>When</b> el usuario pida cambiar el tipo de voz, <br><b>Then</b> la aplicación le mostrará posibles alternativas. <br><br><br> <b>Given</b> que el uusario esta configurando la aplicación, <br/><b>When</b> el usuario elija un tipo de voz, <br><b>Then</b> la aplicación cambiará la voz usada al guiarlo.</td>
+      <td>EP06</td>
+   </tr>
+   <tr>
+      <td>HU20</td>
+      <td>Reconocimiento de obstáculos</td>
+      <td>Como usuario no vidente, quiero que la aplicación me advierta de objetos pequeños en el suelo, para evitar tropezarme</td>
+      <td><b>Given</b> que el usuario este siendo guiado por la aplicación, <br/><b>When</b> halla un obstáculo en el suelo, <br><b>Then</b> la aplicación le advertirá que camine con cuidado</td>
+      <td>EP01</td>
+   </tr>
+   <tr>
+      <td>HU21</td>
+      <td>Reconocimiento de escaleras</td>
+      <td>Como usuario no vidente, quiero que la aplicación me advierta cuando me acerca a unas escalera, para evitar chocar con ellas</td>
+      <td><b>Given</b> que el usuario camina hacia unas escalera , <br/><b>When</b> esté a menos de un metro , <br><b>Then</b> la aplicación le dirá que hay escaleras enfrente</td>
+      <td>EP01</td>
+   </tr>
+   <tr>
+      <td>HU22</td>
+      <td>Reconocimiento del nivel del suelo</td>
+      <td>Como usuario no vidente, quiero que la aplicación me avise ante desniveles, para evitar caerme</td>
+      <td><b>Given</b> el usuario camina cerca a un desnivel , <br/><b>When</b> esté a menos de un metro de este , <br><b>Then</b> la aplicación advertirá que hay un desnivel</td>
+      <td>EP02</td>
+   </tr>
+   <tr>
+      <td>HU23</td>
+      <td>Ajustar volúmen de voz</td>
+      <td>Como usuario no vidente, quiero poder elegir distintos volumenes de voz, para poder seleccionar el que escuche mejor</td>
+      <td><b>Given</b> que el usuario esté configurando la aplicación, <br/><b>When</b> pida cambiar el volumen, <br><b>Then</b> la aplicación le indicará si aumentar o subirlo. <br><br><br> <b>Given</b> que el usuario esté configurando la aplicación, <br/><b>When</b> pida subir el volumen, <br><b>Then</b> la aplicación aumentará el volumen de la voz usada para guiarlo.</td>
+      <td>EP06</td>
+   </tr>
+   <tr>
+      <td>HU24</td>
+      <td>Opiniones en la página</td>
+      <td>Como visitante de la página web, quiero poder visualizar las opiniones de la aplicación, para saber que opinan los usuarios</td>
+      <td><b>Given</b> que el usuario esta en la página web, <br/><b>When</b> avanze hasta la parte inferior, <br><b>Then</b> podrá ver cards con opiniones de usuario</td>
+      <td>EP07</td>
+   </tr>
+   <tr>
+      <td>HU25</td>
+      <td>Guía en la página</td>
+      <td>Como visitante de la página web, quiero poder visualizar una guía de la aplicación móvil, para poder explicarle a mi familiar como funciona</td>
+      <td><b>Given</b> que el usuario esta en la página web, <br/><b>When</b> avanze hasta la sección de guía, <br><b>Then</b> podrá ver ejemplos de la aplicación</td>
+      <td>EP05</td>
+   </tr>
    </tbody>
 </table>
     
