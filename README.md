@@ -646,6 +646,140 @@ Redactamos las historias de usuario para el sistema de "VisualGuide", basándono
       <td><b>Given</b> el usuario está utilizando la aplicación.<br/><b>When</b> el usuario configura sus comandos de voz personalizados.<br><b>Then</b> la aplicación reconoce y responde a estos comandos de manera efectiva durante su uso.<br><br><b>Given</b> el usuario está utilizando la aplicación.<br/><b>When</b> emite un comando de voz.<br><b>Then</b> la aplicación reconoce el comando y responde adecuadamente para facilitar la interacción.</td>
       <td>EP03</td>
    </tr>
+   <tr>
+      <td>HU09</td>
+      <td>Reconocer objetos básicos</td>
+      <td>Como usuario no vidente, quiero que la app me diga qué objeto tengo enfrente, para orientarme en mi casa.</td>
+      <td><b>Given</b> el usuario abre la cámara, <br/><b>When</b> la IA detecta un objeto, <br><b>Then</b> la app anuncia por voz el nombre del objeto. <br><br><b>Given</b> el objeto no se reconoce, <br/><b>When</b> la IA no tiene certeza, <br><b>Then</b> la app indica “objeto no identificado”. </td>
+      <td>EP01</td>
+   </tr>
+   <tr>
+      <td>HU10</td>
+      <td>Guardar mapa simple del hogar</td>
+      <td>Como usuario no vidente, quiero que la app guarde un mapa sencillo de mi casa, para usarlo después en la navegación.</td>
+      <td><b>Given</b> el usuario inicia el mapeo <br/><b>When</b> recorre los espacios y toma fotos, <br><b>Then</b> la app guarda un mapa básico. <br><br><b>Given</b> el usuario ya mapeó antes, <br/><b>When</b> actualiza el mapeo, <br><b>Then</b> la app reemplaza el mapa antiguo por el nuevo. </td>
+      <td>EP02</td>
+   </tr>
+   <tr>
+      <td>HU11</td>
+      <td>Guía con voz paso a paso</td>
+      <td>Como usuario no vidente, quiero que la app me indique con voz hacia dónde moverme, para llegar a un lugar de mi casa.</td>
+      <td><b>Given</b> el usuario selecciona un destino, <br/><b>When</b> inicia la navegación, <br><b>Then</b> la app da instrucciones de voz paso a paso. <br><br><b>Given</b> el usuario se equivoca de camino <br/><b>When</b> la app detecta que salió de la ruta, <br><b>Then</b> recalcula y actualiza la guía. </td>
+      <td>EP03</td>
+   </tr>
+   <tr>
+      <td>HU12</td>
+      <td>Notificación rápida al cuidador</td>
+      <td>Como cuidador, quiero recibir una alerta si el usuario tiene un problema en casa, para poder ayudarlo rápido.</td>
+      <td><b>Given</b> el usuario está en casa, <br/><b>When</b> la app detecta falta de movimiento, <br><b>Then</b> envía una notificación al cuidador. <br><br><b>Given</b> la app detecta movimiento brusco, <br/><b>When</b> interpreta posible caída, <br><b>Then</b> envía una alerta inmediata al cuidador. </td>
+      <td>EP04</td>
+   </tr>
+<tr>
+  <td>HU13</td>
+  <td>Historial de recorridos</td>
+  <td>Como usuario no vidente, quiero que la aplicación guarde un historial de mis recorridos dentro del hogar, para poder revisar rutas frecuentes y optimizar mi movilidad.</td>
+  <td>
+    <b>Given</b> el usuario ha realizado recorridos guiados en la aplicación, <br/>
+    <b>When</b> accede a la sección de historial, <br/>
+    <b>Then</b> puede visualizar mediante síntesis de voz las rutas más utilizadas.<br/><br/>
+    <b>Given</b> el usuario consulta una ruta del historial, <br/>
+    <b>When</b> selecciona “repetir recorrido”, <br/>
+    <b>Then</b> la aplicación activa la guía paso a paso de esa ruta específica.
+  </td>
+  <td>EP05</td>
+</tr>
+
+   <tr>
+      <td>HU14</td>
+      <td>Ajustar velocidad de voz</td>
+      <td>Como usuario no vidente, quiero cambiar la velocidad de la voz de la app, para que me sea más cómodo escucharla.</td>
+      <td><b>Given</b> el usuario entra a configuración, <br/><b>When</b> ajusta la velocidad de voz, <br><b>Then</b> la app guarda la preferencia. <br><br><b>Given</b> el usuario cambia entre velocidades rápidas y lentas, <br/><b>When</b> confirma la opción, <br><b>Then</b> la app aplica el cambio inmediato en las siguientes instrucciones. </td>
+      <td>EP06</td>
+   </tr>
+<tr>
+  <td>HU15</td>
+  <td>Recordatorio de batería baja</td>
+  <td>Como usuario no vidente, quiero que la aplicación me avise cuando la batería de mi dispositivo esté baja, para no quedarme sin asistencia inesperadamente.</td>
+  <td>
+    <b>Given</b> la batería del dispositivo baja al 20%, <br/>
+    <b>When</b> el usuario está utilizando la aplicación, <br/>
+    <b>Then</b> la app emite una alerta de voz indicando “batería baja, conecte el cargador”.<br/><br/>
+    <b>Given</b> la batería llega al 10%, <br/>
+    <b>When</b> la app sigue en uso, <br/>
+    <b>Then</b> se activa un recordatorio de voz más insistente cada 2 minutos.
+  </td>
+  <td>EP06</td>
+</tr>
+   <tr>
+      <td>HU16</td>
+      <td>Perfil de usuario básico</td>
+      <td>Como usuario no vidente, quiero tener un perfil sencillo en la app con mi nombre y preferencias de voz, para que la aplicación recuerde mis configuraciones automáticamente.</td>
+      <td><b>Given</b> el usuario crea un perfil, <br/><b>When</b> guarda su nombre y preferencias de voz, <br><b>Then</b> la app aplica esa configuración cada vez que inicia. <br><br><b>Given</b> el usuario cambia de dispositivo <br/><b>When</b> inicia sesión con su perfil, <br><b>Then</b> la app carga las mismas configuraciones.</td>
+      <td>EP06</td>
+   </tr>
+   <tr>
+      <td>HU17</td>
+      <td>Perfil de usuario básico</td>
+      <td>Como usuario no vidente, quiero tener un perfil sencillo en la app con mi nombre y preferencias de voz, para que la aplicación recuerde mis configuraciones automáticamente.</td>
+      <td><b>Given</b> el usuario crea un perfil, <br/><b>When</b> guarda su nombre y preferencias de voz, <br><b>Then</b> la app aplica esa configuración cada vez que inicia. <br><br><b>Given</b> el usuario cambia de dispositivo <br/><b>When</b> inicia sesión con su perfil, <br><b>Then</b> la app carga las mismas configuraciones.</td>
+      <td>EP06</td>
+   </tr>
+   <tr>
+      <td>HU18</td>
+      <td>Perfil de usuario básico</td>
+      <td>Como usuario no vidente, quiero tener un perfil sencillo en la app con mi nombre y preferencias de voz, para que la aplicación recuerde mis configuraciones automáticamente.</td>
+      <td><b>Given</b> el usuario crea un perfil, <br/><b>When</b> guarda su nombre y preferencias de voz, <br><b>Then</b> la app aplica esa configuración cada vez que inicia. <br><br><b>Given</b> el usuario cambia de dispositivo <br/><b>When</b> inicia sesión con su perfil, <br><b>Then</b> la app carga las mismas configuraciones.</td>
+      <td>EP06</td>
+   </tr>
+   <tr>
+      <td>HU19</td>
+      <td>Cambiar tipo de voz</td>
+      <td>Como usuario no vidente, quiero contar con distintas voces, para poder elegir la que enteinda mejor.</td>
+      <td><b>Given</b> que el uusario esta configurando la aplicación, <br/><b>When</b> el usuario pida cambiar el tipo de voz, <br><b>Then</b> la aplicación le mostrará posibles alternativas. <br><br><br> <b>Given</b> que el uusario esta configurando la aplicación, <br/><b>When</b> el usuario elija un tipo de voz, <br><b>Then</b> la aplicación cambiará la voz usada al guiarlo.</td>
+      <td>EP06</td>
+   </tr>
+   <tr>
+      <td>HU20</td>
+      <td>Reconocimiento de obstáculos</td>
+      <td>Como usuario no vidente, quiero que la aplicación me advierta de objetos pequeños en el suelo, para evitar tropezarme</td>
+      <td><b>Given</b> que el usuario este siendo guiado por la aplicación, <br/><b>When</b> halla un obstáculo en el suelo, <br><b>Then</b> la aplicación le advertirá que camine con cuidado</td>
+      <td>EP01</td>
+   </tr>
+   <tr>
+      <td>HU21</td>
+      <td>Reconocimiento de escaleras</td>
+      <td>Como usuario no vidente, quiero que la aplicación me advierta cuando me acerca a unas escalera, para evitar chocar con ellas</td>
+      <td><b>Given</b> que el usuario camina hacia unas escalera , <br/><b>When</b> esté a menos de un metro , <br><b>Then</b> la aplicación le dirá que hay escaleras enfrente</td>
+      <td>EP01</td>
+   </tr>
+   <tr>
+      <td>HU22</td>
+      <td>Reconocimiento del nivel del suelo</td>
+      <td>Como usuario no vidente, quiero que la aplicación me avise ante desniveles, para evitar caerme</td>
+      <td><b>Given</b> el usuario camina cerca a un desnivel , <br/><b>When</b> esté a menos de un metro de este , <br><b>Then</b> la aplicación advertirá que hay un desnivel</td>
+      <td>EP02</td>
+   </tr>
+   <tr>
+      <td>HU23</td>
+      <td>Ajustar volúmen de voz</td>
+      <td>Como usuario no vidente, quiero poder elegir distintos volumenes de voz, para poder seleccionar el que escuche mejor</td>
+      <td><b>Given</b> que el usuario esté configurando la aplicación, <br/><b>When</b> pida cambiar el volumen, <br><b>Then</b> la aplicación le indicará si aumentar o subirlo. <br><br><br> <b>Given</b> que el usuario esté configurando la aplicación, <br/><b>When</b> pida subir el volumen, <br><b>Then</b> la aplicación aumentará el volumen de la voz usada para guiarlo.</td>
+      <td>EP06</td>
+   </tr>
+   <tr>
+      <td>HU24</td>
+      <td>Opiniones en la página</td>
+      <td>Como visitante de la página web, quiero poder visualizar las opiniones de la aplicación, para saber que opinan los usuarios</td>
+      <td><b>Given</b> que el usuario esta en la página web, <br/><b>When</b> avanze hasta la parte inferior, <br><b>Then</b> podrá ver cards con opiniones de usuario</td>
+      <td>EP07</td>
+   </tr>
+   <tr>
+      <td>HU25</td>
+      <td>Guía en la página</td>
+      <td>Como visitante de la página web, quiero poder visualizar una guía de la aplicación móvil, para poder explicarle a mi familiar como funciona</td>
+      <td><b>Given</b> que el usuario esta en la página web, <br/><b>When</b> avanze hasta la sección de guía, <br><b>Then</b> podrá ver ejemplos de la aplicación</td>
+      <td>EP05</td>
+   </tr>
    </tbody>
 </table>
     
