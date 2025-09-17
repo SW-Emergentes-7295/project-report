@@ -515,6 +515,25 @@ El As-Is map es usado para mostrar la situación actual del usuario, evidenciand
 
 ## 2.4. Ubiquitous Language.
 
+**Source Data:** Datos almacenados por el modelo de object detection usado por la aplicación, sirven para definir el tipo de objeto.
+
+**House Map:** Mapa del hogar del usuario, usado por la aplicación para recordar la distribución de la casa.
+
+**Home path:** Camino trazado en el mapa, el cual el usuario deberá seguir para llegar a su destino.
+
+**Home obstacle:** Obstáculo en el camino que puede provocar que el usuario se tropiece, la aplicación advierte cuando hay uno en el suelo.
+
+**Object data:** Datos sobre los objetos detectados, usados por la aplicación para determinar la zona en la que se encuentra y si los objetos son peligrosos.
+
+**Helpers:** Familiares o cuidadores inscritos para recibir notificaciones de su familiar cuando necesita ayuda.
+
+**Help Notification:** Notificación enviada cuando el usuario no vidente necesita ayuda de una persona.
+
+**Visual Model:** Modelo de inteligencia artificial centrado en la detección de objetos, usa la Source Data para clasificar objetos.
+
+**Visual Voice:** Voz creada por inteligencia artificial para comunicarse con el usuario, puede personalizarse según sus necesidades.
+
+
 # Capítulo III: Requirements Specification
 ## 3.1. To-Be Scenario Mapping.
 
