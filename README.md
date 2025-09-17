@@ -280,6 +280,61 @@ Este segmento incluye a familiares o cuidadores de personas no videntes que dese
 
 ## 2.2. Entrevistas.
 ### 2.2.1. Diseño de entrevistas.
+Para la recolección de datos cualitativos, se diseñaron entrevistas semiestructuradas dirigidas a personas no videntes y sus cuidadores. Las entrevistas se enfocaron en comprender las necesidades, desafíos y expectativas de los usuarios en relación con la movilidad dentro del hogar y el uso de tecnologías de asistencia. Se elaboraron preguntas abiertas para fomentar la expresión libre y detallada de experiencias personales, así como preguntas específicas para obtener información sobre el uso actual de herramientas tecnológicas y las características deseadas en una solución ideal.
+
+**Segmento objetivo 1**: Personas no videntes.
+##### Preguntas básicas
+1. ¿Cuál es su nombre?
+2. ¿Dónde reside actualmente? (ciudad/distrito)
+3. ¿Cuál es su edad?
+4. ¿Desde cuándo es no vidente? (nacimiento o adquirido, y desde qué año)
+5. ¿Vive solo/a o con familiares?
+
+##### Preguntas principales
+
+1. ¿Qué actividades dentro de su hogar le resultan más complicadas o riesgosas actualmente?
+2. ¿Cómo suele identificar y ubicar objetos o muebles dentro de su casa?
+3. ¿Qué nivel de confianza siente con las soluciones tecnológicas que usa hoy en día?
+4. ¿En qué situaciones del hogar cree que una aplicación como VisualGuide podría ayudarle más?
+5. ¿Cuáles son sus principales preocupaciones en cuanto a su seguridad dentro del hogar?
+6. ¿Qué características considera indispensables en una aplicación de asistencia visual?
+7. ¿Le resultaría cómodo realizar un mapeo previo de su hogar con ayuda de un familiar o tercero?
+8. ¿Prefiere recibir la guía en formato de audio, vibración u otro medio? ¿Por qué?
+9. ¿Qué tanto valora la privacidad de su información y del mapeo de su hogar?
+10. ¿Qué barreras ha tenido al usar otras tecnologías o aplicaciones de accesibilidad?
+11. ¿Qué situaciones le generan más independencia actualmente y cómo cree que se podrían mejorar?
+12. ¿Le gustaría que la aplicación también reconociera personas cercanas o solo objetos?
+13. ¿Cuánto tiempo estaría dispuesto a invertir en aprender a usar una nueva aplicación?
+14. ¿Qué emociones le genera la idea de contar con un asistente visual inteligente en casa?
+15. ¿Qué expectativas tendría del soporte técnico o acompañamiento de la aplicación?
+
+**Segmento objetivo 2**: Familiares o cuidadores de personas no videntes.
+##### Preguntas básicas
+
+1. ¿Cuál es su nombre?
+2. ¿Dónde reside actualmente? (ciudad/distrito)
+3. ¿Cuál es su edad?
+4. ¿Quién es la persona no vidente en su familia? (ejemplo: hijo/a, padre/madre, hermano/a)
+5. ¿Convive actualmente con su familiar no vidente?
+
+##### Preguntas principales
+
+1. ¿Qué situaciones en el hogar le generan más preocupación respecto a la seguridad de su familiar no vidente?
+2. ¿Qué medidas actuales utiliza para ayudarle a desenvolverse de forma independiente?
+3. ¿Qué tan cómodo/a se siente con el uso de tecnología como apoyo en la vida diaria de su familiar?
+4. ¿Qué expectativas tendría de una aplicación como VisualGuide en términos de seguridad?
+5. ¿Cuáles cree que serían los principales beneficios para su familiar al usar esta solución?
+6. ¿Qué nivel de supervisión o acompañamiento cree que sería necesario al usar la aplicación?
+7. ¿Cómo se sentiría respecto al mapeo digital del hogar? ¿Le genera confianza o preocupación?
+8. ¿Qué importancia le da a que la aplicación mantenga la privacidad de los datos del hogar?
+9. ¿Qué dificultades cree que su familiar podría tener al usar la aplicación?
+10. ¿Le gustaría recibir notificaciones o alertas sobre el uso de la app para monitorear la seguridad?
+11. ¿Qué tipo de soporte técnico esperaría como familiar (ej. capacitación, tutoriales, soporte remoto)?
+12. ¿Qué situaciones específicas cree que deberían priorizarse en la asistencia (ej. evitar tropiezos, ubicar electrodomésticos, leer etiquetas)?
+13. ¿Qué tanto valora que su familiar gane autonomía frente a depender de su ayuda constante?
+14. ¿Cómo describiría el balance ideal entre autonomía y supervisión para su ser querido?
+15. ¿Qué mejoras o funciones adicionales le gustaría ver en una aplicación como esta?
+
 ### 2.2.2. Registro de entrevistas.
 ### 2.2.3. Análisis de entrevistas.
 
