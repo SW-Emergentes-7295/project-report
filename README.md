@@ -341,13 +341,58 @@ Para la recolección de datos cualitativos, se diseñaron entrevistas semiestruc
 ## 2.3. Needfinding.
 ### 2.3.1. User Personas.
 ### 2.3.2. User Task Matrix.
+
+El user task matrix muestra las acciones realizadas por los usuarios, junto con su importancia y frecuencia realizada
+
+|-----------------|------------|-----------|--------------|-----------|
+|-|-|-|-|-|
+| Tarea           | Importancia No Videntes | Frecuencia No Videntes | Importancia Familiares y Cuidadores | Frecuencia Familiares y Cuidadores |
+| Moverse por su casa | alta | media | alta | alta |
+| Hablar con sus familiares | alta | alta | alta | alta |
+| Ayudar a otras personas en su dia a dias | alta | baja | alta | alta |
+| Cocinar | alta | baja | alta | alta |
+| Limpiar la casa | media | baja | alta | alta |
+| Sacar la basura | alta | baja | alta | alta |
+
+
 ### 2.3.3. Empathy Mapping.
+El empathy map esta diseñado para mostrar las opiniones de nuestros usuarios ante el problema
+
+**Perosnas no videntes:**
+
+<img src="./images/Chapter2/Needfinding/Empathy map Marco.png" alt="Empathy map 1" width="auto">
+
+**Familiares y cuidadores:**
+
+<img src="./images/Chapter2/Needfinding/Empathy map Maria.png" alt="Empathy map 1" width="auto">
+
 ### 2.3.4. As-is Scenario Mapping.
+
+El As-Is map es usado para mostrar la situación actual del usuario, evidenciando sus problemas sin usar nuestra aplicación
+
+**Perosnas no videntes:**
+
+<img src="./images/Chapter2/Needfinding/AsIsSegmento1.png" alt="Empathy map 1" width="auto">
+
+**Familiares y cuidadores:**
+
+<img src="./images/Chapter2/Needfinding/AsIsSegmento2.png" alt="Empathy map 1" width="auto">
 
 ## 2.4. Ubiquitous Language.
 
 # Capítulo III: Requirements Specification
 ## 3.1. To-Be Scenario Mapping.
+
+El To-Be map es usado para mostrar la situación futura del usuario, evidenciando los cambios tras usar nuestra aplcación
+
+**Perosnas no videntes:**
+
+<img src="./images/Chapter2/Needfinding/ToBeSegmento1.png" alt="Empathy map 1" width="auto">
+
+**Familiares y cuidadores:**
+
+<img src="./images/Chapter2/Needfinding/ToBeSegmento2.png" alt="Empathy map 1" width="auto">
+
 ## 3.2. User Stories.
 Redactamos las historias de usuario para el sistema de "VisualGuide", basándonos en las necesidades y expectativas de los usuarios no videntes y sus cuidadores. Estas historias reflejan las funcionalidades clave que el sistema debe ofrecer para mejorar la autonomía y seguridad dentro del hogar.
 
