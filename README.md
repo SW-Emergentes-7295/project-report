@@ -11,9 +11,8 @@
 
 <center>
 
-#### Startup: **Nombre**
-
-#### Product: **Nombre**
+#### Startup: **HomeSense**
+#### Product: **VisualGuide**
 
 </center>
 
@@ -36,11 +35,87 @@
 
 # Registro de Versiones del Informe
 
----
+<table>
+  <thead>
+    <tr>
+      <th>Versión</th>
+      <th>Fecha</th>
+      <th>Autor</th>
+      <th>Descripción de modificación</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td rowspan="6">V1</td>
+      <td>20/09/2025</td>
+      <td>xxx</td>
+      <td>
+        <ul>
+          <li>Antecedentes y Problemática</li>
+          <li>User stories</li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td>20/09/2025</td>
+      <td>xxx</td>
+      <td>
+        <ul>
+          <li>Lean UX Process</li>
+          <li>Product Backlog</li>
+          <li>Ubiquitous Language</li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td>20/09/2025</td>
+      <td>xxx</td>
+      <td>
+        <ul>
+          <li>User Journey Mapping</li>
+          <li>Impact Mapping</li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td>20/09/2025</td>
+      <td>Arian Martín Rodriguez Vargas</td>
+      <td>
+        <ul>
+          <li>Análisis Competitivo</li>
+          <li>Estrategias Frente a Competidores</li>
+          <li>Empathy Mapping</li>
+        </ul>
+      </td>
+    </tr>
+  </tbody>
+</table>
+  </tbody>
+</table>
 
 # Project Report Collaboration Insights
 
 En esta sección, registraremos los cambios y logros que se completaron en cada entrega del reporte.
+
+TB1
+La entrega TB1 finalizó con éxito y están documentadas en el siguiente repositorio de Github perteneciente a la organización del equipo: https://github.com/SW-Emergentes-7295/project-report Durante el desarrollo del informe se tuvieron en cuenta los siguientes aspectos:
+
+- Se definió la startup y el producto a desarrollar.
+- Se establecieron los segmentos objetivo.
+- Se aplicó el proceso de Lean UX para definir problem statements, assumptions e hipótesis.
+- Se realizó un análisis competitivo de los principales competidores en el mercado.
+- Se diseñaron entrevistas semiestructuradas para recolectar datos cualitativos.
+- Se llevaron a cabo entrevistas con personas no videntes y sus cuidadores.
+- Se crearon user personas para representar a los segmentos objetivo.
+- Se desarrollaron user task matrix, empathy maps y as-is scenario maps para comprender mejor a los usuarios.
+- Mediante el eventstorming se definió el ubiquitous language del dominio.
+- Se establecieron las primeras versiones de la arquitectura del sistema.
+- Se documentaron todas las actividades y hallazgos en el repositorio de Github.
+
+
+Imagen 1: Gráfico general de commits y contribuciones hechas por cada miembros del equipo de VisualGuide. Incluye tambien los pull requests activos y aceptados. 
+![image](https://github.com/user-attachments/assets/fa3d4175-c603-4bb3-b582-5980284581f0)
+
 
 # Contenido
 
@@ -81,6 +156,24 @@ En esta sección, registraremos los cambios y logros que se completaron en cada 
 - [Capítulo IV: Strategic-Level Domain-Driven Design](#capítulo-iv-strategic-level-domain-driven-design)
    * [4.1. Strategic-Level Attribute-Driven Design](#41-strategic-level-attribute-driven-design)
       + [4.1.1. Design Purpose](#411-design-purpose)
+      + [4.1.2. Attribute-Driven Design Inputs](#412-attribute-driven-design-inputs)
+         - [4.1.2.1. Primary Functionality (Primary User Stories)](#4121-primary-functionality-primary-user-stories)
+         - [4.1.2.2. Quality attribute Scenarios](#4122-quality-attribute-scenarios)
+         - [4.1.2.3. Constraints](#4123-constraints)
+      + [4.1.3. Architectural Drivers Backlog](#413-architectural-drivers-backlog)
+      + [4.1.4. Architectural Design Decisions](#414-architectural-design-decisions)
+      + [4.1.5. Quality Attribute Scenario Refinements](#415-quality-attribute-scenario-refinements)
+   * [4.2. Strategic-Level Domain-Driven Design](#42-strategic-level-domain-driven-design)
+      + [4.2.1. EventStorming](#421-eventstorming)
+      + [4.2.2. Candidate Context Discovery](#422-candidate-context-discovery)
+      + [4.2.3. Domain Message Flows Modeling](#423-domain-message-flows-modeling)
+      + [4.2.4. Bounded Context Canvases](#424-bounded-context-canvas)
+      + [4.2.5. Context Mapping](#425-context-mapping)
+   * [4.3. Software Architecture](#43-software-architecture)
+      + [4.3.1. Software Architecture System Landscape Diagram](#431-software-architecture-system-landscape-diagram)
+      + [4.3.2. Software Architecture Context Level Diagrams](#432-software-architecture-context-level-diagrams)
+      + [4.3.3. Software Architecture Container Level Diagrams](#433-software-architecture-container-level-diagrams)
+      + [4.3.4. Software Architecture Deployment Diagrams](#434-software-architecture-deployment-diagrams)
 
 
 # Student Outcome
