@@ -23,9 +23,9 @@
 |               Member                |    Code    |
 | :---------------------------------: | :--------: |
 | Rodriguez Vargas, Arian Martín  | U202212096 |
-|   | U202|
-|   | U202 |
-|   | U202|
+| Perez Pizarro, Pedro Jeremy  | U202022237 |
+| More Rondon, Christopher Sebastian  | U202212199 |
+| Ramos Najar, Tony Alexander  | U20211A153 |
 
 
 
@@ -48,7 +48,7 @@
     <tr>
       <td rowspan="6">V1</td>
       <td>20/09/2025</td>
-      <td>xxx</td>
+      <td>Ramos Najar, Tony Alexander</td>
       <td>
         <ul>
           <li>Antecedentes y Problemática</li>
@@ -58,7 +58,7 @@
     </tr>
     <tr>
       <td>20/09/2025</td>
-      <td>xxx</td>
+      <td>More Rondon, Christopher Sebastian</td>
       <td>
         <ul>
           <li>Lean UX Process</li>
@@ -69,7 +69,7 @@
     </tr>
     <tr>
       <td>20/09/2025</td>
-      <td>xxx</td>
+      <td>Perez Pizarro, Pedro Jeremy </td>
       <td>
         <ul>
           <li>User Journey Mapping</li>
@@ -114,7 +114,9 @@ La entrega TB1 finalizó con éxito y están documentadas en el siguiente reposi
 
 
 Imagen 1: Gráfico general de commits y contribuciones hechas por cada miembros del equipo de VisualGuide. Incluye tambien los pull requests activos y aceptados. 
-![image](https://github.com/user-attachments/assets/fa3d4175-c603-4bb3-b582-5980284581f0)
+<img src="./images/pulse-tb1.PNG " alt="Gráfico de contribuciones del equipo" width="800">
+
+<img src="./images/network-graph-tb1.PNG " alt="Gráfico de contribuciones del equipo" width="800">
 
 
 # Contenido
@@ -239,6 +241,14 @@ A continuación, presentamos la startup <strong>“HomeSense”</strong>, dedica
     </p>
 
 ### 1.1.2. Perfiles de integrantes del equipo
+
+<img src="./images/team/1.png" alt="Foto del equipo de HomeSense" width="600">
+
+<img src="./images/team/2.png" alt="Foto del equipo de HomeSense" width="600">
+
+<img src="./images/team/3.png" alt="Foto del equipo de HomeSense" width="600">
+
+<img src="./images/team/4.png" alt="Foto del equipo de HomeSense" width="600">
 
 ## 1.2. Solution Profile
 ### 1.2.1 Antecedentes y problemática
