@@ -655,14 +655,147 @@ Redactamos las historias de usuario para el sistema de "VisualGuide", basándono
 
 # Capítulo IV: Strategic-Level Software Design.
 ## 4.1. Strategic-Level Attribute-Driven Design.
+En esta sección se presenta el proceso de Attribute-Driven Design (ADD) aplicado al proyecto de la aplicación móvil asistente visual inteligente para personas no videntes. El enfoque estratégico de ADD permite transformar los requisitos funcionales y no funcionales en decisiones arquitectónicas que guiarán el diseño del sistema.
+
+El objetivo es evidenciar cómo los atributos de calidad más relevantes —como la seguridad física del usuario, privacidad, latencia de respuesta, precisión de la detección, robustez y mantenibilidad— influyen directamente en la arquitectura propuesta.
 ### 4.1.1. Design Purpose.
+El propósito del proceso de diseño de la solución es garantizar que la arquitectura del sistema responda de forma efectiva a la problemática identificada: la necesidad de las personas no videntes de desenvolverse de manera segura y autónoma en su entorno doméstico.
+La aplicación móvil se concibe como un asistente visual inteligente, capaz de interpretar el entorno del hogar mediante técnicas de inteligencia artificial y visión por computadora, reconociendo objetos, muebles, electrodomésticos, personas, textos y colores, para guiar al usuario en tiempo real.
+
+El diseño estratégico busca:
+
+- Satisfacer las necesidades de los segmentos objetivo (usuarios no videntes y sus cuidadores), priorizando la seguridad, privacidad y accesibilidad.
+- Ofrecer valor al negocio al posicionarse como una solución innovadora de transformación digital orientada a la inclusión, con potencial de escalar hacia diferentes hogares y dispositivos móviles.
+- Asegurar la viabilidad tecnológica mediante decisiones arquitectónicas que permitan baja latencia, procesamiento local de datos sensibles, actualizaciones seguras de modelos de IA y facilidad de mantenimiento.
+
+De esta manera, el proceso de diseño no solo se enfoca en los requerimientos técnicos, sino también en la experiencia del usuario final y en la creación de una solución confiable, sostenible y alineada con los objetivos de accesibilidad e inclusión social.
+A continuación, en la sección 4.1.2 Attribute-Driven Design Inputs, se presentan los insumos principales que guían el diseño estratégico, incluyendo la funcionalidad prioritaria, los escenarios de atributos de calidad y las restricciones del sistema.
 ### 4.1.2. Attribute-Driven Design Inputs.
+El proceso de Attribute-Driven Design (ADD) requiere identificar de manera explícita los inputs fundamentales que orientan la arquitectura de la solución. Estos insumos permiten transformar los objetivos del proyecto y las necesidades del usuario en decisiones arquitectónicas claras y justificadas.
+
+En el caso de la aplicación móvil asistente visual inteligente para personas no videntes, los inputs iniciales reflejan tanto la funcionalidad prioritaria del sistema, como los atributos de calidad críticos que deben garantizarse (seguridad, privacidad, latencia, precisión y robustez), además de las restricciones técnicas y contextuales que condicionan el diseño.
+
+De este modo, la definición temprana y sistemática de los inputs asegura que la arquitectura resultante esté alineada con la problemática identificada, las expectativas de los usuarios y los objetivos del negocio.
 #### 4.1.2.1. Primary Functionality (Primary User Stories).
+En esta sección se especifican los Epics y User Stories que poseen mayor relevancia en términos de requisitos funcionales, dado que impactan de manera directa en las decisiones arquitectónicas de la solución. Estas funcionalidades constituyen la base del sistema, ya que aseguran que la aplicación cumpla con su propósito principal: asistir a personas no videntes en la navegación y comprensión de su entorno doméstico de forma segura y accesible.
+
+| Epic / User Story ID | Título | Descripción | Criterios de Aceptación | Relacionado con (Epic ID) |
+| -------------------- | ---------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------- |
+| HU01                 | Obtener información de la empresa        | Como visitante del sitio web, quiero obtener información adicional sobre la empresa a cargo del producto.                     | **Given** el visitante se encuentra en la sección de HomeSense.<br>**When** observa la información relevante sobre la empresa.<br>**Then** se interesa en saber más sobre el producto.<br>**Y** se redirecciona a la descarga directa de la aplicación móvil.                                                                                                                                                                                           | EP07                      |
+| HU02                 | Uso de la aplicación móvil               | Como usuario no vidente, quiero utilizar la aplicación móvil para recibir asistencia en la navegación dentro de mi hogar.     | **Given** el usuario ha descargado e instalado la aplicación móvil.<br>**When** abre la aplicación y sigue las instrucciones para mapear su hogar.<br>**Then** puede recibir indicaciones de voz en tiempo real para moverse de manera segura dentro de su casa.<br><br>**Given** el usuario está utilizando la aplicación dentro de su hogar.<br>**When** la aplicación detecta objetos y muebles.<br>**Then** proporciona indicaciones de voz claras. | EP03                      |
+| HU03                 | Mapeo del hogar                          | Como usuario no vidente, quiero mapear mi hogar utilizando la aplicación para que pueda reconocer objetos y muebles.          | **Given** el usuario ha iniciado el proceso de mapeo.<br>**When** captura imágenes y escanea su entorno.<br>**Then** la aplicación crea un mapa detallado.<br><br>**Given** el usuario ha descargado la aplicación.<br>**When** realiza el mapeo.<br>**Then** puede recibir indicaciones de voz en tiempo real.                                                                                                                                         | EP02                      |
+| HU04                 | Reconocimiento de objetos y muebles      | Como usuario no vidente, quiero que la aplicación reconozca objetos y muebles en mi hogar para recibir indicaciones precisas. | **Given** el usuario utiliza la aplicación.<br>**When** la aplicación detecta objetos y muebles.<br>**Then** proporciona indicaciones de voz claras.<br><br>**Given** el usuario ha completado el mapeo.<br>**When** navega con la aplicación.<br>**Then** reconoce objetos previamente mapeados y guía al usuario para evitar obstáculos.                                                                                                              | EP01                      |
+| HU05                 | Notificaciones a cuidadores              | Como cuidador, quiero recibir notificaciones sobre la actividad del usuario no vidente para asegurarme de su seguridad.       | **Given** el cuidador configuró las notificaciones.<br>**When** el usuario realiza movimientos significativos o riesgosos.<br>**Then** recibe alertas en tiempo real.<br><br>**Given** el cuidador configuró notificaciones.<br>**When** el usuario se desplaza.<br>**Then** recibe información de su actividad para garantizar su seguridad.                                                                                                           | EP04                      |
+| HU06                 | Acceso a la información de la aplicación | Como usuario no vidente, quiero acceder a la información de la aplicación a través de comandos de voz.                        | **Given** el usuario está en la aplicación.<br>**When** solicita información con un comando de voz.<br>**Then** la aplicación responde con voz de manera clara y concisa.                                                                                                                                                                                                                                                                               | EP05                      |
+| HU07                 | Configuración de preferencias            | Como usuario no vidente, quiero configurar mis preferencias en la aplicación para personalizar mi experiencia.                | **Given** el usuario accede a la configuración.<br>**When** ajusta voz, notificaciones y parámetros.<br>**Then** la aplicación guarda y aplica las preferencias.                                                                                                                                                                                                                                                                                        | EP06                      |
+| HU08                 | Reconocimiento de voz                    | Como usuario no vidente, quiero que la aplicación registre y reconozca mis comandos de voz para facilitar la interacción.     | **Given** el usuario configura comandos de voz personalizados.<br>**When** los utiliza.<br>**Then** la aplicación los reconoce y responde.<br><br>**Given** el usuario emite un comando.<br>**When** la aplicación lo recibe.<br>**Then** lo interpreta y responde adecuadamente.                                                                                                                                                                       | EP03                      |
+
 #### 4.1.2.2. Quality attribute Scenarios.
+En esta sección se describen los escenarios de atributos de calidad que impactan directamente en la arquitectura de la aplicación. Se priorizan aquellos que aseguran que el asistente visual inteligente cumpla con su propósito principal: brindar asistencia confiable, en tiempo real y accesible a personas no videntes dentro de un entorno controlado (el hogar).
+
+Los atributos considerados en esta primera versión son:
+- Precisión / Exactitud, para garantizar que el reconocimiento de objetos y muebles sea confiable.
+- Latencia / Rendimiento, para que las respuestas de la aplicación se produzcan en tiempo real y sin retrasos.
+- Usabilidad / Accesibilidad, para asegurar que la interacción con el sistema sea clara, sencilla y efectiva mediante comandos y retroalimentación por voz.
+
+| Atributo | Fuente | Estímulo | Artefacto | Entorno | Respuesta | Medida |
+| -------------------------- | ------------------ | ---------------------------------------------------------------------------- | ----------------------------------- | ----------------------------------------------------------------------- | ---------------------------------------------------------------------------------------- | --------------------------------------------------------------- |
+| Precisión / Exactitud      | Usuario no vidente | El usuario solicita identificar un objeto o mueble en el entorno.            | Módulo de reconocimiento de objetos | El sistema está operando en el hogar con mapeo previamente configurado. | El sistema procesa la imagen y emite una identificación de objeto clara y correcta.      | ≥ 90% de acierto en la detección de objetos mapeados.           |
+| Latencia / Rendimiento     | Usuario no vidente | El usuario solicita indicaciones para moverse dentro del hogar.              | Módulo de guía en tiempo real       | El usuario está desplazándose en una habitación del hogar.              | El sistema genera y comunica la instrucción de voz en menos de un segundo.               | Tiempo de respuesta ≤ 1 segundo desde la solicitud del usuario. |
+| Usabilidad / Accesibilidad | Usuario no vidente | El usuario da un comando de voz para acceder a información de la aplicación. | Módulo de interacción por voz       | El sistema está en uso normal, en ambiente hogareño.                    | El sistema reconoce el comando y responde con una instrucción de voz clara y entendible. | ≥ 95% de comandos de voz reconocidos correctamente.             |
+
 #### 4.1.2.3. Constraints.
+En esta sección se especifican las restricciones que no pueden ser negociadas en el diseño de la solución. Estas restricciones son impuestas por la naturaleza del proyecto y las necesidades del negocio, y deben cumplirse obligatoriamente en la implementación de la aplicación. En particular, se consideran los siguientes aspectos: el uso exclusivo en entornos controlados como el hogar, la obligatoriedad del mapeo previo del entorno, la accesibilidad completa mediante voz, la compatibilidad multiplataforma (Android e iOS) y la protección de los datos sensibles de los usuarios.
+
+| Technical Story ID | Título | Descripción | Criterios de Aceptación | Relacionado con (Epic ID) |
+| ------------------ | ------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------- |
+| C01                | Uso exclusivo en entornos controlados | La aplicación solo debe funcionar en espacios previamente mapeados del hogar y no en espacios públicos, garantizando seguridad del usuario. | **Given** que el usuario intente usar la app fuera del hogar, **When** no existe un mapa validado, **Then** la aplicación bloquea el uso y muestra un mensaje de advertencia por voz. | EP02, EP03                |
+| C02                | Mapeo previo obligatorio              | Para habilitar la guía en tiempo real, es necesario realizar un mapeo previo del hogar mediante fotos y escaneos controlados.               | **Given** que el usuario no ha completado el mapeo, **When** intente activar la guía, **Then** la aplicación le solicita completar el proceso de mapeo antes de continuar.            | EP02, EP03                |
+| C03                | Accesibilidad 100% por voz            | Toda la interacción debe estar disponible mediante comandos de voz, sin depender de la visión del usuario.                                  | **Given** que el usuario emite un comando de voz, **When** el sistema lo procesa, **Then** la aplicación responde de forma clara por voz, sin requerir acciones visuales.             | EP05, EP06                |
+| C04                | Compatibilidad multiplataforma        | La aplicación debe funcionar en dispositivos móviles Android e iOS para asegurar la cobertura de usuarios.                                  | **Given** un dispositivo con Android o iOS, **When** el usuario descarga la aplicación, **Then** esta debe instalarse y ejecutarse correctamente en ambas plataformas.                | EP03, EP05                |
+| C05                | Seguridad y privacidad de datos       | Los datos de mapeo, imágenes y voz deben ser procesados localmente o en entornos seguros, sin ser compartidos sin autorización del usuario. | **Given** que el sistema captura imágenes o voz, **When** se procesa la información, **Then** la aplicación garantiza que no se comparte sin consentimiento explícito del usuario.    | EP02, EP05                |
+
 ### 4.1.3. Architectural Drivers Backlog.
+El conjunto de Architectural Drivers fue definido a partir del proceso iterativo realizado durante el Quality Attribute Workshop (QAW). En este proceso, nuestro equipo identificó y priorizó los requerimientos funcionales clave (Functional Drivers), los escenarios de atributos de calidad de mayor impacto (Quality Attribute Drivers) y las restricciones no negociables (Constraints). El resultado es un backlog que orienta directamente las decisiones de arquitectura, priorizando aquellos drivers de mayor importancia para los stakeholders y mayor impacto en la complejidad técnica de la solución.
+
+| Driver ID | Título de Driver | Descripción | Importancia para Stakeholders | Impacto en Architecture Technical Complexity |
+| --------- | ------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------- | ----------------------------- | -------------------------------------------- |
+| FD01      | Guía en tiempo real                   | Permitir que el usuario reciba indicaciones de voz en tiempo real para moverse de manera segura en su hogar.                  | High                          | High                                         |
+| FD02      | Mapeo del hogar                       | Crear un mapa del hogar a partir de fotografías y escaneos, base para el reconocimiento y la navegación.                      | High                          | High                                         |
+| FD03      | Reconocimiento de objetos y muebles   | Detectar e identificar con precisión objetos y muebles en el entorno del usuario.                                             | High                          | Medium                                       |
+| QAD01     | Precisión / Exactitud                 | El sistema debe reconocer objetos y muebles con al menos 90% de acierto en entornos controlados.                              | High                          | High                                         |
+| QAD02     | Latencia / Rendimiento                | El sistema debe emitir respuestas en menos de 1 segundo para garantizar asistencia en tiempo real.                            | High                          | High                                         |
+| QAD03     | Usabilidad / Accesibilidad            | La aplicación debe reconocer ≥95% de comandos de voz y responder de manera clara, sin requerir acciones visuales.             | High                          | Medium                                       |
+| C01       | Uso exclusivo en entornos controlados | La aplicación no puede usarse en espacios públicos, solo en el hogar mapeado.                                                 | High                          | Medium                                       |
+| C02       | Mapeo previo obligatorio              | El usuario debe completar el mapeo antes de acceder a la guía en tiempo real.                                                 | High                          | Medium                                       |
+| C03       | Accesibilidad 100% por voz            | Toda la interacción debe realizarse mediante comandos y respuestas por voz.                                                   | High                          | Medium                                       |
+| C04       | Compatibilidad multiplataforma        | La aplicación debe funcionar tanto en Android como en iOS.                                                                    | Medium                        | High                                         |
+| C05       | Seguridad y privacidad de datos       | Los datos de imágenes, voz y mapeo deben procesarse localmente o de manera segura, evitando su exposición sin consentimiento. | High                          | High                                         |
+
 ### 4.1.4. Architectural Design Decisions.
+El proceso de diseño arquitectónico se realizó siguiendo los stages del Quality Attribute Workshop (QAW). Para cada iteración, nuestro equipo revisó los drivers más relevantes, analizó posibles tácticas y patrones de diseño, y finalmente se seleccionó las alternativas más adecuadas considerando los criterios de precisión, rendimiento, seguridad y accesibilidad.
+
+A continuación, se resumen las decisiones de diseño para los drivers priorizados, incluyendo la evaluación de patrones candidatos:
+
+| Driver ID | Título de Driver | Pattern 1: **Event-Driven Architecture (EDA)** | | Pattern 2: **Microservices** | | Pattern 3: **Layered Architecture** | |
+| --------- | ------------------------------- | ---------------------------------------------------------------------- | -------------------------------------------------------- | ------------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------- | -------------------------------------------------------------- |
+| | | **Pro** | **Con** | **Pro** | **Con** | **Pro** | **Con** |
+| FD01      | Guía en tiempo real             | Bajo acoplamiento, adecuado para manejar eventos en tiempo real.       | Mayor complejidad en el manejo de eventos concurrentes.  | Escalabilidad por servicios independientes.                        | Mayor esfuerzo de despliegue y comunicación entre servicios. | Simplicidad en la organización por capas.                     | Latencia más alta por pasos adicionales entre capas.           |
+| QAD01     | Precisión / Exactitud           | Integración fácil de motores de IA como microservicios independientes. | Puede requerir más recursos y procesamiento distribuido. | Permite aislar el módulo de IA y escalarlo según demanda.          | Incrementa la complejidad de la arquitectura.                | Arquitectura conocida y simple de implementar.                | Riesgo de poca flexibilidad ante cambios en los modelos de IA. |
+| QAD02     | Latencia / Rendimiento          | Procesamiento rápido de eventos en tiempo real.                        | Requiere infraestructura optimizada.                     | Microservicios especializados pueden reducir carga en cada módulo. | Sobrecarga de comunicación inter-servicios.                  | Simplicidad al procesar en capas secuenciales.                | Tiempo de respuesta mayor a lo esperado.                       |
+| C05       | Seguridad y privacidad de datos | Control granular de flujos de datos mediante eventos seguros.          | Complejidad en encriptar y auditar eventos.              | Servicios aislados con control de acceso independiente.            | Necesidad de mayor gestión de seguridad distribuida.         | Claridad en manejo de datos en una capa dedicada a seguridad. | Difícil escalar seguridad en sistemas distribuidos.            |
+
 ### 4.1.5. Quality Attribute Scenario Refinements.
+Al concluir el Quality Attribute Workshop, nuestro equipo priorizó los escenarios relacionados con la precisión en la detección de distracciones de los taxistas, la latencia y rendimiento en la respuesta en tiempo real y la usabilidad/accesibilidad de la aplicación móvil. Estos atributos fueron refinados en detalle para asegurar su alineación con los objetivos de negocio y guiar el diseño arquitectónico de la solución.
+
+A continuación se presentan los escenarios refinados en orden de prioridad:
+
+### Scenario Refinement for Scenario 1 – Precisión en la detección de distracciones
+| **Scenario(s):**                 | El sistema debe detectar distracciones del taxista con un nivel de exactitud superior al 90%. |
+| -------------------------------- | --------------------------------------------------------------------------------------------- |
+| **Business Goals:**              | Reducir accidentes de tránsito y mejorar la seguridad vial en taxis mediante IA confiable.    |
+| **Relevant Quality Attributes:** | Precisión / Exactitud                                                                         |
+| **Stimulus:**                    | Una distracción del conductor (ej. mirar el celular, bostezar, cerrar los ojos).              |
+| **Stimulus Source:**             | Taxista monitoreado a través de cámara del celular.                                           |
+| **Environment:**                 | Entorno urbano con variaciones de luz y movimiento del vehículo.                              |
+| **Components:**                  | Módulo de visión por computadora (modelo IA) y cámara del dispositivo.                        |
+| **Artifact (if Known):**         | Motor de IA de detección de rostros y patrones de distracción.                                |
+| **Response:**                    | El sistema identifica la distracción y genera una alerta.                                     |
+| **Response Measure:**            | Precisión ≥ 90% en pruebas con dataset representativo.                                        |
+| **Questions:**                   | ¿Cómo se garantiza la precisión en condiciones de baja iluminación?                           |
+| **Issues:**                      | Necesidad de entrenar el modelo con datasets balanceados de distracciones reales.             |
+
+
+### Scenario Refinement for Scenario 2 – Latencia en la detección y alerta
+| **Scenario(s):**                 | El sistema debe generar una alerta en menos de 1 segundo desde que ocurre la distracción. |
+| -------------------------------- | ----------------------------------------------------------------------------------------- |
+| **Business Goals:**              | Garantizar una reacción inmediata para prevenir riesgos de accidente.                     |
+| **Relevant Quality Attributes:** | Rendimiento / Latencia                                                                    |
+| **Stimulus:**                    | Evento de distracción detectado por el modelo IA.                                         |
+| **Stimulus Source:**             | Procesamiento de video en tiempo real.                                                    |
+| **Environment:**                 | Aplicación corriendo en smartphone Android/iOS de gama media.                             |
+| **Components:**                  | Motor de IA optimizado para dispositivos móviles, módulo de notificaciones.               |
+| **Artifact (if Known):**         | Framework de inferencia (ej. TensorFlow Lite).                                            |
+| **Response:**                    | Mostrar alerta visual y sonora al taxista.                                                |
+| **Response Measure:**            | Tiempo de respuesta ≤ 1 segundo en al menos el 95% de los casos.                          |
+| **Questions:**                   | ¿Qué pasa si el procesamiento excede el tiempo por sobrecarga del dispositivo?            |
+| **Issues:**                      | Balance entre precisión del modelo y tiempo de inferencia.                                |
+
+### Scenario Refinement for Scenario 3 – Usabilidad y accesibilidad de la aplicación
+| **Scenario(s):**                 | La aplicación debe ser fácil de usar y accesible para taxistas de distintos perfiles.                  |
+| -------------------------------- | ------------------------------------------------------------------------------------------------------ |
+| **Business Goals:**              | Maximizar adopción de la solución y asegurar que los taxistas puedan usarla sin capacitación compleja. |
+| **Relevant Quality Attributes:** | Usabilidad / Accesibilidad                                                                             |
+| **Stimulus:**                    | El taxista inicia y usa la aplicación mientras conduce.                                                |
+| **Stimulus Source:**             | Interacción directa del usuario.                                                                       |
+| **Environment:**                 | Conducción en tránsito real con necesidad de mínima distracción.                                       |
+| **Components:**                  | Interfaz de usuario móvil (Android/iOS).                                                               |
+| **Artifact (if Known):**         | UI/UX con accesibilidad (botones grandes, alertas claras, soporte de voz).                             |
+| **Response:**                    | La aplicación se puede usar de forma intuitiva y sin desviar la atención de la conducción.             |
+| **Response Measure:**            | Tiempo de aprendizaje ≤ 5 minutos; error de interacción ≤ 5%.                                          |
+| **Questions:**                   | ¿Cómo garantizar la accesibilidad para taxistas con limitaciones visuales o auditivas?                 |
+| **Issues:**                      | Equilibrar simplicidad de UI con la inclusión de funcionalidades críticas.                             |
+
 
 ## 4.2. Strategic-Level Domain-Driven Design.
 ### 4.2.1. EventStorming.
