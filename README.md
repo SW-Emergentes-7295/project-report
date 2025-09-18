@@ -553,7 +553,45 @@ Para la recolección de datos cualitativos, se diseñaron entrevistas semiestruc
 15. ¿Qué mejoras o funciones adicionales le gustaría ver en una aplicación como esta?
 
 ### 2.2.2. Registro de entrevistas.
+
+**Segmento objetivo 1: Personas no videntes**
+
+// EJEMPLO DE ENTREVISTA
+
+**Entrevista 1: Persona no vidente -**
+- Nombre: Marco Méndez
+- Edad: 35 años
+- Residencia: Lima, Perú
+- Desde cuándo es no vidente: Desde nacimiento
+- Vive con familiares
+
+<img src="./images/Chapter2/Entrevistas/Marco Mendez.png" alt="Foto de Marco Méndez" width="200">
+
+**Resumen de la entrevista:**
+Marco Méndez, de 35 años y no vidente desde nacimiento, reside en Lima y vive con su familia. Durante la entrevista, Marco compartió que las actividades más complicadas dentro de su hogar incluyen moverse entre habitaciones y ubicar objetos pequeños como llaves o el control remoto. Actualmente, utiliza un bastón para desplazarse y depende en gran medida de la ayuda de sus familiares para tareas cotidianas.
+
+**Segmento objetivo 2: Familiares o cuidadores de personas no videntes**
+
+**Entrevista 1: Familiar de persona no vidente - Carlos Chavez**
+- Nombre: Carlos Sebastián Chavez Morales
+- Edad: 21 años
+- Residencia: La Perla, Callao, Perú
+- Familiar no vidente: Primo
+- Convive con su familiar no vidente: No, pero lo visita frecuentemente.
+
+<img src="./images/interviews/carlos-chavez-interview.PNG" alt="Foto de Carlos Chavez" width="100%">
+
+**URL de la entrevista:** [https://acortar.link/c6DJAQ](https://acortar.link/c6DJAQ)
+
+**Resumen de la entrevista:**
+Carlos Chávez, de 21 años, es primo de una persona no vidente y reside en La Perla, Callao. Aunque no convive con su primo, lo visita frecuentemente y se preocupa por su seguridad dentro del hogar. Carlos mencionó que las principales preocupaciones incluyen la posibilidad de accidentes domésticos y la dependencia constante de ayuda para moverse y realizar tareas básicas. Actualmente, su familia utiliza un bastón y la ayuda de otros familiares para asistir a su primo.
+
+Mencionó que una aplicación como VisualGuide podría ser muy beneficiosa, ya que permitiría a su primo ganar más autonomía y reducir la necesidad de supervisión constante. Carlos también expresó interés en recibir notificaciones sobre el uso de la aplicación para monitorear la seguridad de su primo.
+
 ### 2.2.3. Análisis de entrevistas.
+
+// aqui se debe hacer un analisis con GOOGLE FORMS con preguntas a personas anónimas, y sacando captura de pantalla de los resultados
+
 
 ## 2.3. Needfinding.
 ### 2.3.1. User Personas.
