@@ -1143,16 +1143,53 @@ En este paso, se añadieron los agregados que representan las entidades principa
 
 <br><br>
 <img src="./images/eventstorming/step-10.PNG" alt="EventStorming" width="auto">
+<img src="./images/eventstorming/bounded contexts.PNG" alt="EventStorming" width="auto">
 Imagen 10: EventStorming - Paso 10
 Finalmente, se obtuvieron 4 bounded contexts (contextos limitados) que representan las áreas funcionales del dominio. "Gestión de usuarios y autenticación (IAM)", "Configuración del hogar (mapa del espacio, fotos de referencia)", "Procesamiento de solicitudes de reconocimiento (Envío a modelo IA)" y "Notificaciones Bounded Context".
 
-
-
-
-
-
-
 ### 4.2.2. Candidate Context Discovery.
+
+**Paso 1: Unstructured Exploration:** En el primer paso del EventStorming, se inicia con una sesión de lluvia de ideas enfocada en definir eventos o "cosas interesantes que sucedieron en el negocio". Es importante destacar que los eventos siempre son escritos en pasado. Para lograrlo, nos reunimos en grupo y empezamos a hacer una lluvia de ideas en la herramienta de Miro, con ayuda de post-its, los cuales reflejan un mapeo inicial de todos los posibles eventos que el sistema debería manejar para brindar una solución integral. 
+**Imagen ejemplo:**  
+<img src="./images/eventstorming/brainstorming.PNG" alt="EventStorming" width="auto">
+
+**Paso 2: Timelines:** En este segundo paso, organizamos los eventos en el orden en el que ocurren dentro del dominio. En algunos casos, se dividen los eventos en ramificaciones, dependiendo de si se pueden generar diferentes resultados vinculados a un mismo evento. Para elaborarlas, primero debemos empezar con un happy path, o sea un escenario en el que todo resultó de forma exitosa. Después de ello, se pueden crear otras alternativas, que abarquen tanto fallos como otros resultados alternativos. Para conseguirlo, cada miembro seleccionó ciertos eventos y empezó a desarrollar una sucesión entre ellos. En este proceso, también definimos más eventos, así como happy paths. Este paso permite visualizar todas las posibles trayectorias que seguiría el sistema en respuesta a cada evento, estableciendo la base para desarrollar un flujo de trabajo eficiente y cohesivo que garantice una respuesta rápida y adecuada a cada situación monitorizada.  
+**Imagen ejemplo:**  
+<img src="./images/eventstorming/timeline.PNG" alt="EventStorming" width="auto">
+
+**Paso 3: Pain Points:** Aprovechamos este paso para establecer algunos puntos de interés, incluidos cuellos de botella, falta de documentación y carencias de conocimiento.
+**Imagen ejemplo:**
+<img src="./images/eventstorming/painpoints.PNG" alt="EventStorming" width="auto">
+
+**Paso 4: Pivotal Points:** Una vez que tenemos nuestras líneas de eventos al completo e incluimos los pain points, debemos definir eventos que marquen un cambio, ya sea en el contexto o en el proceso. Estos eventos se denominan eventos principales.  
+**Imagen ejemplo:**
+<img src="./images/eventstorming/pivotalpoints.PNG" alt="EventStorming" width="auto">
+
+**Paso 5: Commands:** En este paso introducimos los comandos, los cuales describen las acciones o causas que desencadenan eventos. Estos son escritos en imperativo y describen las operaciones que se ejecutan en el sistema.
+**Imagen de ejemplo:**
+<img src="./images/eventstorming/commands.PNG" alt="EventStorming" width="auto">
+
+
+**Paso 6: Policies:** En este sexto paso, aquellos comandos no vinculados con ningún usuario pueden ser vinculados con políticas de automatización que los ejecutan. Básicamente, hace que un comando se ejecute automáticamente cuando ciertos eventos ocurren.  
+**Imagen de ejemplo:**  
+<img src="./images/eventstorming/policies.PNG" alt="EventStorming" width="auto">
+
+**Paso 7: Read Models:** Introducimos los modelos de lectura, que abarcan desde reportes, vistas del frontend y queries. Permite definir una vista de datos para cada comando.  
+**Imagen de ejemplo:**  
+<img src="./images/eventstorming/read-models.PNG" alt="EventStorming" width="auto">
+
+**Paso 8: External Systems:** Incluimos los sistemas externos que no pertenecen al dominio en el que estamos trabajando. Estos sistemas pueden recibir eventos o ejecutar comandos.  
+**Imagen ejemplo:**  
+<img src="./images/eventstorming/external-systems.PNG" alt="EventStorming" width="auto">
+
+**Paso 9: Aggregates:** Organizamos conceptos relacionados en Aggregates, encargados de recibir comandos y producir eventos.  
+**Imagen ejemplo:** 
+<img src="./images/eventstorming/aggregates.PNG" alt="EventStorming" width="auto">
+
+**Paso 10: Bounded Context:** Identificamos los aggregates relacionados entre sí y agrupamos aquellos que representen funciones estrechamente relacionadas. Estos grupos de agregados sirven como unidades de funcionalidad coherente dentro del sistema.  
+**Imagen ejemplo:** 
+<img src="./images/eventstorming/bounded contexts.PNG" alt="EventStorming" width="auto">
+
 ### 4.2.3. Domain Message Flows Modeling.
 ### 4.2.4. Bounded Context Canvases.
 ### 4.2.5. Context Mapping.
