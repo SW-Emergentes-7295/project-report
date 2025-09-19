@@ -1093,6 +1093,65 @@ A continuación se presentan los escenarios refinados en orden de prioridad:
 
 ## 4.2. Strategic-Level Domain-Driven Design.
 ### 4.2.1. EventStorming.
+Para esta sección, se ha utilizado la técnica de EventStorming para modelar el dominio de la aplicación "VisualGuide". A través de talleres colaborativos, se han identificado los eventos clave, comandos, agregados y actores involucrados en el sistema. El resultado es un mapa visual que representa las interacciones y flujos de información dentro del dominio, facilitando la comprensión y comunicación entre los miembros del equipo.
+
+El equipo se reunió en sesiones de Discord y utilizó Miro como herramienta colaborativa para plasmar las ideas y conceptos. A continuación, se presentan los pasos seguidos en el proceso de EventStorming: https://acortar.link/RPXn2V
+
+<img src="./images/eventstorming/step-1.PNG" alt="EventStorming" width="auto">
+Imagen 1: EventStorming - Paso 1
+En este paso, se inició con la identificación de los eventos principales mediante el Brainstorming. Se utilizaron notas adhesivas de color naranja para representar los eventos que ocurren en el sistema, como "Usuario inicia mapeo", "Objeto detectado", "Alerta enviada", entre otros. Estos eventos fueron organizados cronológicamente para visualizar el flujo de acciones dentro del dominio.
+
+<br><br>
+<img src="./images/eventstorming/step-2.PNG" alt="EventStorming" width="auto">
+Imagen 2: EventStorming - Paso 2
+En el segundo paso, se ordenaron los eventos identificados en una línea de tiempo, lo que permitió observar las relaciones causales entre ellos.
+
+<br><br>
+<img src="./images/eventstorming/step-3.PNG" alt="EventStorming" width="auto">
+Imagen 3: EventStorming - Paso 3
+En este paso, se añadieron los pain points (puntos de dolor) y las oportunidades de mejora al mapa. Se utilizaron notas adhesivas con forma de rombo morado para los pain points, como "Falta de precisión en detección" o "Latencia en respuestas", y notas de color verde para las oportunidades, como "Mejorar modelo IA" o "Optimizar flujo de datos".
+
+<br><br>
+<img src="./images/eventstorming/step-4.PNG" alt="EventStorming" width="auto">
+Imagen 4: EventStorming - Paso 4
+En el cuarto paso, se identificaron los pivotal points (eventos pivote) que son cruciales para el funcionamiento del sistema. Estos eventos fueron destacados con notas adhesivas de color amarillo, como "Mapa creado" o "Alerta crítica enviada".
+
+<br><br>
+<img src="./images/eventstorming/step-5.PNG" alt="EventStorming" width="auto">
+Imagen 5: EventStorming - Paso 5
+En este paso, se añadieron los comandos que desencadenan los eventos. Se utilizaron notas adhesivas de color azul para representar los comandos, como "Iniciar mapeo", "Detectar objeto" o "Enviar alerta". Estos comandos fueron vinculados a los eventos correspondientes para mostrar la relación entre ellos.
+
+<br><br>
+<img src="./images/eventstorming/step-6.PNG" alt="EventStorming" width="auto">
+Imagen 6: EventStorming - Paso 6
+En el sexto paso, se identificaron los policies (o políticas) que regulan el comportamiento del sistema. Se utilizaron notas adhesivas de color morado para representar las políticas.
+
+<br><br>
+<img src="./images/eventstorming/step-7.PNG" alt="EventStorming" width="auto">
+Imagen 7: EventStorming - Paso 7
+En este paso, se añadieron los read model (consultas) que permiten obtener información del sistema. Se utilizaron notas adhesivas de color verde para representar las consultas, como "Obtener estado del mapeo" o "Consultar historial de alertas".
+
+<br><br>
+<img src="./images/eventstorming/step-8.PNG" alt="EventStorming" width="auto">
+Imagen 8: EventStorming - Paso 8
+En el octavo paso, se identificaron los external systems (sistemas externos) que interactúan con el dominio. Se utilizaron notas adhesivas de color rosa para representar estos sistemas, como "Servicio de email" o "Servicio de pagos".
+
+<br><br>
+<img src="./images/eventstorming/step-9.PNG" alt="EventStorming" width="auto">
+Imagen 9: EventStorming - Paso 9
+En este paso, se añadieron los agregados que representan las entidades principales del dominio. Se utilizaron notas adhesivas de color amarillo
+
+<br><br>
+<img src="./images/eventstorming/step-10.PNG" alt="EventStorming" width="auto">
+Imagen 10: EventStorming - Paso 10
+Finalmente, se obtuvieron 4 bounded contexts (contextos limitados) que representan las áreas funcionales del dominio. "Gestión de usuarios y autenticación (IAM)", "Configuración del hogar (mapa del espacio, fotos de referencia)", "Procesamiento de solicitudes de reconocimiento (Envío a modelo IA)" y "Notificaciones Bounded Context".
+
+
+
+
+
+
+
 ### 4.2.2. Candidate Context Discovery.
 ### 4.2.3. Domain Message Flows Modeling.
 ### 4.2.4. Bounded Context Canvases.
