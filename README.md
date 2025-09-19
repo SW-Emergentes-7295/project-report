@@ -1215,6 +1215,11 @@ En este apartado, se ha modelado el flujo de mensajes dentro del dominio utiliza
 
 ### 4.2.4. Bounded Context Canvases.
 
+A continuación, se presentan los Bounded Context Canvases para cada uno de los contextos limitados identificados en el EventStorming. Estos canvases proporcionan una visión detallada de cada contexto, incluyendo sus responsabilidades, actores, entidades y relaciones con otros contextos.
+
+#### **AI Recognition Bounded Context**
+<img src="./images/bc-canvases/ai-recognition.PNG" alt="AI Recognition Bounded Context" width="auto">
+
 ### 4.2.5. Context Mapping.
 
 ## 4.3. Software Architecture.
