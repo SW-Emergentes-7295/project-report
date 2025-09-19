@@ -736,6 +736,21 @@ Redactamos las historias de usuario para el sistema de "VisualGuide", basándono
          <td>Información de la empresa</td>
          <td>Proporcionar información relevante sobre la empresa a cargo del producto en la sección de HomeSense.</td>
       </tr>
+      <tr>
+         <td>EP08</td>
+         <td>Asociación de usuario no vidente y familiar</td>
+         <td>Desarrollar funcionalidad para, como familiar del usuario no vidente, ver alertas y detalles sobre el usuario.</td>
+      </tr>
+      <tr>
+         <td>EP09</td>
+         <td>Monitoreo y soporte</td>
+         <td>Desarrollar logs, métricas y notificaciones de acuerdo a errores o bugs que pueda presentar el sistema.</td>
+      </tr>
+      <tr>
+         <td>EP10</td>
+         <td>Gestión de usuarios y perfiles</td>
+         <td>Implementar un registro y gestión de usuarios de forma segura y sencilla.</td>
+      </tr>
    </tbody>
 
 <table>
@@ -939,6 +954,62 @@ Redactamos las historias de usuario para el sistema de "VisualGuide", basándono
       <td>Como visitante de la página web, quiero poder visualizar una guía de la aplicación móvil, para poder explicarle a mi familiar como funciona</td>
       <td><b>Given</b> que el usuario esta en la página web, <br/><b>When</b> avanze hasta la sección de guía, <br><b>Then</b> podrá ver ejemplos de la aplicación</td>
       <td>EP05</td>
+   </tr>
+   <tr>
+      <td>HU26</td>
+      <td>Registro de logs</td>
+      <td>Como backend, quiero registrar logs de cada interacción, para detectar fallos y mejorar el sistema.</td>
+      <td><b>Given</b> que la aplicación móvil interactúa con el asistente,<br/><b>When</b> se realiza una solicitud (ej. búsqueda de objeto, guía de movimiento),<br><b>Then</b> el backend debe guardar un log con el detalle de la acción.</td>
+      <td>EP09</td>
+   </tr>
+   <tr>
+      <td>HU27</td>
+      <td>Métricas de uso</td>
+      <td>Como administrador, quiero ver métricas de uso del asistente (frecuencia, funciones más usadas), para identificar mejoras necesarias.</td>
+      <td><b>Given</b> que el sistema está en funcionamiento,<br/><b>When</b> los usuarios realizan interacciones frecuentes, <br><b>Then</b> el backend debe generar métricas de uso (ej. cantidad de consultas, funciones más usadas).</td>
+      <td>EP09</td>
+   </tr>
+   <tr>
+      <td>HU28</td>
+      <td>Manejo de errores críticos</td>
+      <td>Como backend, quiero manejar notificaciones de errores críticos, para garantizar la estabilidad del servicio.</td>
+      <td><b>Given</b> que ocurre un fallo grave en el sistema,<br/><b>When</b> el backend detecta el error,<br><b>Then</b> debe generar una alerta o notificación al administrador para tomar acción inmediata.</td>
+      <td>EP09</td>
+   </tr>
+   <tr>
+      <td>HU29</td>
+      <td>Inicio de sesión</td>
+      <td>Como usuario, quiero poder iniciar sesión de forma segura, para acceder a mis datos y configuraciones.</td>
+      <td><b>Given</b> que un usuario ya está registrado en el sistema,<br/><b>When</b> ingresa sus credenciales correctamente,<br><b>Then</b> el backend valida sus datos y permite el acceso a su información personal.</td>
+      <td>EP10</td>
+   </tr>
+   <tr>
+      <td>HU30</td>
+      <td>Actualización de preferencias</td>
+      <td>Como usuario, quiero poder actualizar mis preferencias (ej. idioma, velocidad de voz), para personalizar mi experiencia.</td>
+      <td><b>Given</b> que un usuario ya está autenticado,<br/><b>When</b> solicita cambiar configuraciones como idioma o velocidad de voz, <br><b>Then</b> el backend guarda y aplica esos cambios en su perfil.</td>
+      <td>EP10</td>
+   </tr>
+   <tr>
+      <td>HU31</td>
+      <td>Gestión por administrador</td>
+      <td>Como administrador, quiero poder gestionar usuarios (bloquear, desbloquear, soporte), para garantizar el correcto uso de la app.</td>
+      <td><b>Given</b> que un administrador necesita dar soporte,<br/><b>When</b> accede a la información de usuarios desde el panel de gestión,<br><b>Then</b> el backend debe permitir ver, bloquear o desbloquear usuarios según sea necesario.</td>
+      <td>EP10</td>
+   </tr>
+   <tr>
+      <td>HU32</td>
+      <td>Historial de objetos reconocidos</td>
+      <td>Como persona relacionada con el usuario no vidente, quiero poder ver un historial de objetos buscados por el usuario, para poder tomar medidas futuras para la comodidad del usuario.</td>
+      <td><b>Given</b> que el usuario no vidente pida a la aplicación móvil buscar un objeto,<br/><b>When</b> la aplicación móvil termine con dicha tarea,<br><b>Then</b> guardará detalles sobre el caso para revisiones futuras.</td>
+      <td>EP08</td>
+   </tr>
+   <tr>
+      <td>HU33</td>
+      <td>Alertas de problemas con el usuario</td>
+      <td>Como persona relacionada con el usuario, quiero poder recibir alerrtas de la aplicación móvil, para saber si el usuario tiene algún problema que no pueda solucionar con la aplicación.</td>
+      <td><b>Given</b> que el usuario no vidente tenga algún problema grave,<br/><b>When</b> el aplicativo detecte que la situación es crítica, <br><b>Then</b> mandará una alerta a la persona relacionada con el usuario.</td>
+      <td>EP08</td>
    </tr>
    </tbody>
 </table>
