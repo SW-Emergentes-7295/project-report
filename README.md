@@ -1191,7 +1191,30 @@ Finalmente, se obtuvieron 4 bounded contexts (contextos limitados) que represent
 <img src="./images/eventstorming/bounded contexts.PNG" alt="EventStorming" width="auto">
 
 ### 4.2.3. Domain Message Flows Modeling.
+En este apartado, se ha modelado el flujo de mensajes dentro del dominio utilizando la herramienta Miro. Este modelo permite visualizar cómo los diferentes componentes del sistema interactúan entre sí a través del intercambio de mensajes, facilitando la comprensión de las dependencias y la comunicación entre los distintos bounded contexts identificados en el EventStorming.
+
+#### **AI Recognition Bounded Context**
+**Escenario 1:** Un usuario invidente utiliza el comando por voz, de este modo, la aplicación envía una solicitud al modelo de IA para reconocer un objeto en el entorno. El modelo procesa la imagen y devuelve la información del objeto reconocido, que luego es comunicada al usuario mediante una indicación de voz.
+<img src="./images/domaing-flows/scenario1-ai-recognition.PNG" alt="Scenario" width="auto">
+<br>
+
+**Escenario 2:** Un usuario familiar o cuidador configura el modelo a utilizar para el reconocimiento de objetos. La aplicación envía esta configuración al modelo de IA, que la almacena y utiliza para futuras solicitudes de reconocimiento. Cuando el usuario invidente solicita el reconocimiento de un objeto, el modelo utiliza la configuración previamente establecida para procesar la imagen y devolver la información correspondiente.
+<img src="./images/domaing-flows/scenario2-ai-recognition.PNG" alt="Scenario" width="auto">
+<br>
+
+**Escenario 3:** El familiar del usuario invidente realiza el mapeo del hogar mediante la aplicación. La aplicación envía las imágenes y datos del entorno al modelo de IA, que procesa esta información para crear un mapa detallado del hogar. Este mapa es almacenado y utilizado para mejorar la precisión del reconocimiento de objetos y la navegación dentro del hogar.
+<img src="./images/domaing-flows/scenario3-ai-recognition.PNG" alt="Scenario" width="auto">
+<br>
+
+**Escenario 4:** Reconocimiento de objeto con feedback inmediato, donde el usuario invidente solicita el reconocimiento de un objeto en su entorno. La aplicación envía la imagen al modelo de IA, que procesa la solicitud y devuelve la información del objeto reconocido. Esta información es comunicada al usuario mediante una indicación de voz, proporcionando feedback inmediato sobre el objeto identificado.
+<img src="./images/domaing-flows/scenario4-ai-recognition.PNG" alt="Scenario" width="auto">
+<br>
+
+**Escenario 5:** Alerta de objeto no identificado, donde el usuario invidente solicita el reconocimiento de un objeto que no está en la base de datos del modelo de IA. La aplicación envía la imagen al modelo, que procesa la solicitud y determina que el objeto no puede ser identificado. La aplicación entonces notifica al usuario mediante una indicación de voz, informándole que el objeto no ha sido reconocido y sugiriendo posibles acciones a seguir.
+<img src="./images/domaing-flows/scenario5-ai-recognition.PNG" alt="Scenario" width="auto">
+
 ### 4.2.4. Bounded Context Canvases.
+
 ### 4.2.5. Context Mapping.
 
 ## 4.3. Software Architecture.
