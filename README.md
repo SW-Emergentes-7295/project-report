@@ -1222,6 +1222,59 @@ A continuación, se presentan los Bounded Context Canvases para cada uno de los 
 
 ### 4.2.5. Context Mapping.
 
+#### Proceso para Crear el Context Mapping y Análisis de Alternativas
+
+##### 1. Pasos para Crear el Context Mapping
+
+###### 1.1. Identificación de los Bounded Contexts
+- **IAM Bounded Context:** Gestión de usuarios y autenticación.
+- **Home Configuration Bounded Context:** Configuración del hogar, incluyendo el mapeo del espacio y fotos de referencia.
+- **AI Recognition Bounded Context:** Procesamiento de solicitudes de reconocimiento mediante el modelo de IA.
+- **Notifications Bounded Context:** Gestión de notificaciones y alertas para los usuarios.
+
+###### 1.2. Identificación de Relaciones Iniciales
+- **IAM ↔ Home Configuration:** Los usuarios autenticados pueden configurar su hogar.
+- **Home Configuration ↔ AI Recognition:** La configuración del hogar proporciona datos para el reconocimiento de objetos.
+- **AI Recognition ↔ Notifications:** Las alertas de reconocimiento se envían a través del sistema de notificaciones.
+- **IAM ↔ Notifications:** Los usuarios reciben notificaciones relacionadas con su cuenta y actividades.
+
+
+##### 2. Análisis de Alternativas y Preguntas Clave
+
+###### 2.1. ¿Qué pasaría si movemos este capability a otro bounded context?
+Si movemos este capability a otro bounded context, tendríamos que considerar cómo afectaría a las interacciones y dependencias existentes. Podría simplificar el contexto original, pero también podría introducir nuevas complejidades en el contexto al que se mueve.
+
+###### 2.2. ¿Qué pasaría si descomponemos este capability y movemos uno de los sub-capabilities a otro bounded context?
+Descomponer el capability podría permitir una mayor especialización y enfoque en cada bounded context. Sin embargo, también podría aumentar la complejidad de la comunicación entre los contextos y requerir una mayor coordinación para mantener la coherencia del sistema.
+
+###### 2.3. ¿Qué pasaría si partimos el bounded context en múltiples bounded contexts?
+Partir el bounded context en múltiples bounded contexts podría facilitar la gestión y el desarrollo independiente de cada parte. Sin embargo, también podría generar desafíos en la integración y la comunicación entre los nuevos contextos, así como en la gestión de transacciones y consistencia de datos.
+
+###### 2.4. ¿Qué pasaría si tomamos este capability de estos 3 contexts y lo usamos para formar un nuevo context?
+Crear un nuevo bounded context a partir de capabilities existentes podría permitir una mayor claridad y enfoque en esa área específica. Sin embargo, también podría requerir una reestructuración significativa del sistema y la redefinición de las relaciones entre los contextos originales.
+
+###### 2.5. ¿Qué pasaría si duplicamos una funcionalidad para romper la dependencia?
+Duplicar una funcionalidad podría reducir las dependencias entre bounded contexts, permitiendo que cada uno opere de manera más independiente. Sin embargo, esto también podría llevar a problemas de mantenimiento y sincronización, ya que cualquier cambio en la funcionalidad duplicada tendría que ser replicado en ambos contextos.
+
+###### 2.6. ¿Qué pasaría si creamos un shared service para reducir la duplicación entre múltiples bounded contexts?
+Crear un servicio compartido podría ayudar a centralizar la funcionalidad duplicada y reducir la redundancia. Sin embargo, esto también podría introducir un nuevo punto de fallo y aumentar la complejidad de la arquitectura, ya que los contextos tendrían que depender de este servicio compartido.
+
+###### 2.7. ¿Qué pasaría si aislamos los core capabilities y movemos los otros a un context aparte?
+Aislar los core capabilities podría permitir un enfoque más claro en las funcionalidades principales del sistema, mientras que las funcionalidades secundarias podrían ser gestionadas de manera independiente. Sin embargo, esto también podría generar desafíos en la integración y la comunicación entre los contextos, así como en la gestión de transacciones y consistencia de datos.
+
+##### 3. Alternativa Recomendada de Context Mapping
+- **IAM Bounded Context:** Mantener la gestión de usuarios y autenticación en un contexto separado para asegurar la seguridad y la integridad de los datos de los usuarios.
+- **Home Configuration Bounded Context:** Mantener la configuración del hogar en un contexto separado para facilitar la gestión y el desarrollo independiente de esta funcionalidad.
+
+- **AI Recognition Bounded Context:** Mantener el procesamiento de solicitudes de reconocimiento en un contexto separado para permitir la especialización y el enfoque en esta área crítica.
+- **Notifications Bounded Context:** Mantener la gestión de notificaciones en un contexto separado para asegurar una comunicación efectiva y oportuna con los usuarios.
+
+##### 4. Patrones de Relaciones Sugeridos
+- **Anti-corruption Layer (ACL):** Para proteger el contexto *Home configuration* de cambios en *IAM*.
+- **Open/Host Service:** Para que *AI Recognition* reciba los datos de *Home Configuration*.
+
+<img src="./images/eventstorming/context-mapping.PNG" alt="Context Mapping" width="auto">
+
 ## 4.3. Software Architecture.
 Los diagramas de arquitectura de software se han creado utilizando el enfoque C4 Model, que proporciona una manera clara y estructurada de representar la arquitectura del sistema en diferentes niveles de detalle. A continuación, se presentan los diagramas correspondientes a cada nivel del modelo C4 para la aplicación "VisualGuide".
 URL Structurizr: https://structurizr.com/workspace/101375
