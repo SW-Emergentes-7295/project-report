@@ -1164,10 +1164,187 @@ A continuación se presentan los escenarios refinados en orden de prioridad:
 
 ## 4.2. Strategic-Level Domain-Driven Design.
 ### 4.2.1. EventStorming.
+Para esta sección, se ha utilizado la técnica de EventStorming para modelar el dominio de la aplicación "VisualGuide". A través de talleres colaborativos, se han identificado los eventos clave, comandos, agregados y actores involucrados en el sistema. El resultado es un mapa visual que representa las interacciones y flujos de información dentro del dominio, facilitando la comprensión y comunicación entre los miembros del equipo.
+
+El equipo se reunió en sesiones de Discord y utilizó Miro como herramienta colaborativa para plasmar las ideas y conceptos. A continuación, se presentan los pasos seguidos en el proceso de EventStorming: https://acortar.link/RPXn2V
+
+<img src="./images/eventstorming/step-1.PNG" alt="EventStorming" width="auto">
+Imagen 1: EventStorming - Paso 1
+En este paso, se inició con la identificación de los eventos principales mediante el Brainstorming. Se utilizaron notas adhesivas de color naranja para representar los eventos que ocurren en el sistema, como "Usuario inicia mapeo", "Objeto detectado", "Alerta enviada", entre otros. Estos eventos fueron organizados cronológicamente para visualizar el flujo de acciones dentro del dominio.
+
+<br><br>
+<img src="./images/eventstorming/step-2.PNG" alt="EventStorming" width="auto">
+Imagen 2: EventStorming - Paso 2
+En el segundo paso, se ordenaron los eventos identificados en una línea de tiempo, lo que permitió observar las relaciones causales entre ellos.
+
+<br><br>
+<img src="./images/eventstorming/step-3.PNG" alt="EventStorming" width="auto">
+Imagen 3: EventStorming - Paso 3
+En este paso, se añadieron los pain points (puntos de dolor) y las oportunidades de mejora al mapa. Se utilizaron notas adhesivas con forma de rombo morado para los pain points, como "Falta de precisión en detección" o "Latencia en respuestas", y notas de color verde para las oportunidades, como "Mejorar modelo IA" o "Optimizar flujo de datos".
+
+<br><br>
+<img src="./images/eventstorming/step-4.PNG" alt="EventStorming" width="auto">
+Imagen 4: EventStorming - Paso 4
+En el cuarto paso, se identificaron los pivotal points (eventos pivote) que son cruciales para el funcionamiento del sistema. Estos eventos fueron destacados con notas adhesivas de color amarillo, como "Mapa creado" o "Alerta crítica enviada".
+
+<br><br>
+<img src="./images/eventstorming/step-5.PNG" alt="EventStorming" width="auto">
+Imagen 5: EventStorming - Paso 5
+En este paso, se añadieron los comandos que desencadenan los eventos. Se utilizaron notas adhesivas de color azul para representar los comandos, como "Iniciar mapeo", "Detectar objeto" o "Enviar alerta". Estos comandos fueron vinculados a los eventos correspondientes para mostrar la relación entre ellos.
+
+<br><br>
+<img src="./images/eventstorming/step-6.PNG" alt="EventStorming" width="auto">
+Imagen 6: EventStorming - Paso 6
+En el sexto paso, se identificaron los policies (o políticas) que regulan el comportamiento del sistema. Se utilizaron notas adhesivas de color morado para representar las políticas.
+
+<br><br>
+<img src="./images/eventstorming/step-7.PNG" alt="EventStorming" width="auto">
+Imagen 7: EventStorming - Paso 7
+En este paso, se añadieron los read model (consultas) que permiten obtener información del sistema. Se utilizaron notas adhesivas de color verde para representar las consultas, como "Obtener estado del mapeo" o "Consultar historial de alertas".
+
+<br><br>
+<img src="./images/eventstorming/step-8.PNG" alt="EventStorming" width="auto">
+Imagen 8: EventStorming - Paso 8
+En el octavo paso, se identificaron los external systems (sistemas externos) que interactúan con el dominio. Se utilizaron notas adhesivas de color rosa para representar estos sistemas, como "Servicio de email" o "Servicio de pagos".
+
+<br><br>
+<img src="./images/eventstorming/step-9.PNG" alt="EventStorming" width="auto">
+Imagen 9: EventStorming - Paso 9
+En este paso, se añadieron los agregados que representan las entidades principales del dominio. Se utilizaron notas adhesivas de color amarillo
+
+<br><br>
+<img src="./images/eventstorming/step-10.PNG" alt="EventStorming" width="auto">
+<img src="./images/eventstorming/bounded contexts.PNG" alt="EventStorming" width="auto">
+Imagen 10: EventStorming - Paso 10
+Finalmente, se obtuvieron 4 bounded contexts (contextos limitados) que representan las áreas funcionales del dominio. "Gestión de usuarios y autenticación (IAM)", "Configuración del hogar (mapa del espacio, fotos de referencia)", "Procesamiento de solicitudes de reconocimiento (Envío a modelo IA)" y "Notificaciones Bounded Context".
+
 ### 4.2.2. Candidate Context Discovery.
+
+**Paso 1: Unstructured Exploration:** En el primer paso del EventStorming, se inicia con una sesión de lluvia de ideas enfocada en definir eventos o "cosas interesantes que sucedieron en el negocio". Es importante destacar que los eventos siempre son escritos en pasado. Para lograrlo, nos reunimos en grupo y empezamos a hacer una lluvia de ideas en la herramienta de Miro, con ayuda de post-its, los cuales reflejan un mapeo inicial de todos los posibles eventos que el sistema debería manejar para brindar una solución integral. 
+**Imagen ejemplo:**  
+<img src="./images/eventstorming/brainstorming.PNG" alt="EventStorming" width="auto">
+
+**Paso 2: Timelines:** En este segundo paso, organizamos los eventos en el orden en el que ocurren dentro del dominio. En algunos casos, se dividen los eventos en ramificaciones, dependiendo de si se pueden generar diferentes resultados vinculados a un mismo evento. Para elaborarlas, primero debemos empezar con un happy path, o sea un escenario en el que todo resultó de forma exitosa. Después de ello, se pueden crear otras alternativas, que abarquen tanto fallos como otros resultados alternativos. Para conseguirlo, cada miembro seleccionó ciertos eventos y empezó a desarrollar una sucesión entre ellos. En este proceso, también definimos más eventos, así como happy paths. Este paso permite visualizar todas las posibles trayectorias que seguiría el sistema en respuesta a cada evento, estableciendo la base para desarrollar un flujo de trabajo eficiente y cohesivo que garantice una respuesta rápida y adecuada a cada situación monitorizada.  
+**Imagen ejemplo:**  
+<img src="./images/eventstorming/timeline.PNG" alt="EventStorming" width="auto">
+
+**Paso 3: Pain Points:** Aprovechamos este paso para establecer algunos puntos de interés, incluidos cuellos de botella, falta de documentación y carencias de conocimiento.
+**Imagen ejemplo:**
+<img src="./images/eventstorming/painpoints.PNG" alt="EventStorming" width="auto">
+
+**Paso 4: Pivotal Points:** Una vez que tenemos nuestras líneas de eventos al completo e incluimos los pain points, debemos definir eventos que marquen un cambio, ya sea en el contexto o en el proceso. Estos eventos se denominan eventos principales.  
+**Imagen ejemplo:**
+<img src="./images/eventstorming/pivotalpoints.PNG" alt="EventStorming" width="auto">
+
+**Paso 5: Commands:** En este paso introducimos los comandos, los cuales describen las acciones o causas que desencadenan eventos. Estos son escritos en imperativo y describen las operaciones que se ejecutan en el sistema.
+**Imagen de ejemplo:**
+<img src="./images/eventstorming/commands.PNG" alt="EventStorming" width="auto">
+
+
+**Paso 6: Policies:** En este sexto paso, aquellos comandos no vinculados con ningún usuario pueden ser vinculados con políticas de automatización que los ejecutan. Básicamente, hace que un comando se ejecute automáticamente cuando ciertos eventos ocurren.  
+**Imagen de ejemplo:**  
+<img src="./images/eventstorming/policies.PNG" alt="EventStorming" width="auto">
+
+**Paso 7: Read Models:** Introducimos los modelos de lectura, que abarcan desde reportes, vistas del frontend y queries. Permite definir una vista de datos para cada comando.  
+**Imagen de ejemplo:**  
+<img src="./images/eventstorming/read-models.PNG" alt="EventStorming" width="auto">
+
+**Paso 8: External Systems:** Incluimos los sistemas externos que no pertenecen al dominio en el que estamos trabajando. Estos sistemas pueden recibir eventos o ejecutar comandos.  
+**Imagen ejemplo:**  
+<img src="./images/eventstorming/external-systems.PNG" alt="EventStorming" width="auto">
+
+**Paso 9: Aggregates:** Organizamos conceptos relacionados en Aggregates, encargados de recibir comandos y producir eventos.  
+**Imagen ejemplo:** 
+<img src="./images/eventstorming/aggregates.PNG" alt="EventStorming" width="auto">
+
+**Paso 10: Bounded Context:** Identificamos los aggregates relacionados entre sí y agrupamos aquellos que representen funciones estrechamente relacionadas. Estos grupos de agregados sirven como unidades de funcionalidad coherente dentro del sistema.  
+**Imagen ejemplo:** 
+<img src="./images/eventstorming/bounded contexts.PNG" alt="EventStorming" width="auto">
+
 ### 4.2.3. Domain Message Flows Modeling.
+En este apartado, se ha modelado el flujo de mensajes dentro del dominio utilizando la herramienta Miro. Este modelo permite visualizar cómo los diferentes componentes del sistema interactúan entre sí a través del intercambio de mensajes, facilitando la comprensión de las dependencias y la comunicación entre los distintos bounded contexts identificados en el EventStorming.
+
+#### **AI Recognition Bounded Context**
+**Escenario 1:** Un usuario invidente utiliza el comando por voz, de este modo, la aplicación envía una solicitud al modelo de IA para reconocer un objeto en el entorno. El modelo procesa la imagen y devuelve la información del objeto reconocido, que luego es comunicada al usuario mediante una indicación de voz.
+<img src="./images/domaing-flows/scenario1-ai-recognition.PNG" alt="Scenario" width="auto">
+<br>
+
+**Escenario 2:** Un usuario familiar o cuidador configura el modelo a utilizar para el reconocimiento de objetos. La aplicación envía esta configuración al modelo de IA, que la almacena y utiliza para futuras solicitudes de reconocimiento. Cuando el usuario invidente solicita el reconocimiento de un objeto, el modelo utiliza la configuración previamente establecida para procesar la imagen y devolver la información correspondiente.
+<img src="./images/domaing-flows/scenario2-ai-recognition.PNG" alt="Scenario" width="auto">
+<br>
+
+**Escenario 3:** El familiar del usuario invidente realiza el mapeo del hogar mediante la aplicación. La aplicación envía las imágenes y datos del entorno al modelo de IA, que procesa esta información para crear un mapa detallado del hogar. Este mapa es almacenado y utilizado para mejorar la precisión del reconocimiento de objetos y la navegación dentro del hogar.
+<img src="./images/domaing-flows/scenario3-ai-recognition.PNG" alt="Scenario" width="auto">
+<br>
+
+**Escenario 4:** Reconocimiento de objeto con feedback inmediato, donde el usuario invidente solicita el reconocimiento de un objeto en su entorno. La aplicación envía la imagen al modelo de IA, que procesa la solicitud y devuelve la información del objeto reconocido. Esta información es comunicada al usuario mediante una indicación de voz, proporcionando feedback inmediato sobre el objeto identificado.
+<img src="./images/domaing-flows/scenario4-ai-recognition.PNG" alt="Scenario" width="auto">
+<br>
+
+**Escenario 5:** Alerta de objeto no identificado, donde el usuario invidente solicita el reconocimiento de un objeto que no está en la base de datos del modelo de IA. La aplicación envía la imagen al modelo, que procesa la solicitud y determina que el objeto no puede ser identificado. La aplicación entonces notifica al usuario mediante una indicación de voz, informándole que el objeto no ha sido reconocido y sugiriendo posibles acciones a seguir.
+<img src="./images/domaing-flows/scenario5-ai-recognition.PNG" alt="Scenario" width="auto">
+
 ### 4.2.4. Bounded Context Canvases.
+
+A continuación, se presentan los Bounded Context Canvases para cada uno de los contextos limitados identificados en el EventStorming. Estos canvases proporcionan una visión detallada de cada contexto, incluyendo sus responsabilidades, actores, entidades y relaciones con otros contextos.
+
+#### **AI Recognition Bounded Context**
+<img src="./images/bc-canvases/ai-recognition.PNG" alt="AI Recognition Bounded Context" width="auto">
+
 ### 4.2.5. Context Mapping.
+
+#### Proceso para Crear el Context Mapping y Análisis de Alternativas
+
+##### 1. Pasos para Crear el Context Mapping
+
+###### 1.1. Identificación de los Bounded Contexts
+- **IAM Bounded Context:** Gestión de usuarios y autenticación.
+- **Home Configuration Bounded Context:** Configuración del hogar, incluyendo el mapeo del espacio y fotos de referencia.
+- **AI Recognition Bounded Context:** Procesamiento de solicitudes de reconocimiento mediante el modelo de IA.
+- **Notifications Bounded Context:** Gestión de notificaciones y alertas para los usuarios.
+
+###### 1.2. Identificación de Relaciones Iniciales
+- **IAM ↔ Home Configuration:** Los usuarios autenticados pueden configurar su hogar.
+- **Home Configuration ↔ AI Recognition:** La configuración del hogar proporciona datos para el reconocimiento de objetos.
+- **AI Recognition ↔ Notifications:** Las alertas de reconocimiento se envían a través del sistema de notificaciones.
+- **IAM ↔ Notifications:** Los usuarios reciben notificaciones relacionadas con su cuenta y actividades.
+
+
+##### 2. Análisis de Alternativas y Preguntas Clave
+
+###### 2.1. ¿Qué pasaría si movemos este capability a otro bounded context?
+Si movemos este capability a otro bounded context, tendríamos que considerar cómo afectaría a las interacciones y dependencias existentes. Podría simplificar el contexto original, pero también podría introducir nuevas complejidades en el contexto al que se mueve.
+
+###### 2.2. ¿Qué pasaría si descomponemos este capability y movemos uno de los sub-capabilities a otro bounded context?
+Descomponer el capability podría permitir una mayor especialización y enfoque en cada bounded context. Sin embargo, también podría aumentar la complejidad de la comunicación entre los contextos y requerir una mayor coordinación para mantener la coherencia del sistema.
+
+###### 2.3. ¿Qué pasaría si partimos el bounded context en múltiples bounded contexts?
+Partir el bounded context en múltiples bounded contexts podría facilitar la gestión y el desarrollo independiente de cada parte. Sin embargo, también podría generar desafíos en la integración y la comunicación entre los nuevos contextos, así como en la gestión de transacciones y consistencia de datos.
+
+###### 2.4. ¿Qué pasaría si tomamos este capability de estos 3 contexts y lo usamos para formar un nuevo context?
+Crear un nuevo bounded context a partir de capabilities existentes podría permitir una mayor claridad y enfoque en esa área específica. Sin embargo, también podría requerir una reestructuración significativa del sistema y la redefinición de las relaciones entre los contextos originales.
+
+###### 2.5. ¿Qué pasaría si duplicamos una funcionalidad para romper la dependencia?
+Duplicar una funcionalidad podría reducir las dependencias entre bounded contexts, permitiendo que cada uno opere de manera más independiente. Sin embargo, esto también podría llevar a problemas de mantenimiento y sincronización, ya que cualquier cambio en la funcionalidad duplicada tendría que ser replicado en ambos contextos.
+
+###### 2.6. ¿Qué pasaría si creamos un shared service para reducir la duplicación entre múltiples bounded contexts?
+Crear un servicio compartido podría ayudar a centralizar la funcionalidad duplicada y reducir la redundancia. Sin embargo, esto también podría introducir un nuevo punto de fallo y aumentar la complejidad de la arquitectura, ya que los contextos tendrían que depender de este servicio compartido.
+
+###### 2.7. ¿Qué pasaría si aislamos los core capabilities y movemos los otros a un context aparte?
+Aislar los core capabilities podría permitir un enfoque más claro en las funcionalidades principales del sistema, mientras que las funcionalidades secundarias podrían ser gestionadas de manera independiente. Sin embargo, esto también podría generar desafíos en la integración y la comunicación entre los contextos, así como en la gestión de transacciones y consistencia de datos.
+
+##### 3. Alternativa Recomendada de Context Mapping
+- **IAM Bounded Context:** Mantener la gestión de usuarios y autenticación en un contexto separado para asegurar la seguridad y la integridad de los datos de los usuarios.
+- **Home Configuration Bounded Context:** Mantener la configuración del hogar en un contexto separado para facilitar la gestión y el desarrollo independiente de esta funcionalidad.
+
+- **AI Recognition Bounded Context:** Mantener el procesamiento de solicitudes de reconocimiento en un contexto separado para permitir la especialización y el enfoque en esta área crítica.
+- **Notifications Bounded Context:** Mantener la gestión de notificaciones en un contexto separado para asegurar una comunicación efectiva y oportuna con los usuarios.
+
+##### 4. Patrones de Relaciones Sugeridos
+- **Anti-corruption Layer (ACL):** Para proteger el contexto *Home configuration* de cambios en *IAM*.
+- **Open/Host Service:** Para que *AI Recognition* reciba los datos de *Home Configuration*.
+
+<img src="./images/eventstorming/context-mapping.PNG" alt="Context Mapping" width="auto">
 
 ## 4.3. Software Architecture.
 Los diagramas de arquitectura de software se han creado utilizando el enfoque C4 Model, que proporciona una manera clara y estructurada de representar la arquitectura del sistema en diferentes niveles de detalle. A continuación, se presentan los diagramas correspondientes a cada nivel del modelo C4 para la aplicación "VisualGuide".
