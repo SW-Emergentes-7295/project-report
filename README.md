@@ -620,9 +620,8 @@ Los user personas son usados para definir los segmentos objetivos, asignando cua
 
 El user task matrix muestra las acciones realizadas por los usuarios, junto con su importancia y frecuencia realizada
 
-|-----------------|------------|-----------|--------------|-----------|
-|-|-|-|-|-|
 | Tarea           | Importancia No Videntes | Frecuencia No Videntes | Importancia Familiares y Cuidadores | Frecuencia Familiares y Cuidadores |
+| :---------------------------------: | :--------: |:--------: |:--------: |:--------: |
 | Moverse por su casa | alta | media | alta | alta |
 | Hablar con sus familiares | alta | alta | alta | alta |
 | Ayudar a otras personas en su dia a dias | alta | baja | alta | alta |
@@ -1017,6 +1016,44 @@ Redactamos las historias de usuario para el sistema de "VisualGuide", basándono
 
 ## 3.3. Impact Mapping.
 ## 3.4. Product Backlog.
+
+El produckt backlog es utilizado para reunir las funciones del sistema y darles story points para poder priorizar el desarrollo de estas.
+
+| User Story ID  |                             Titulo                        | Story Points (1 / 2 / 3 / 5 / 8) | Sprint |
+| :------------: | :-------------------------------------------------------: |:-------------------------------: |:------:|
+| EX-HU01        | Obtener información de la empresa                         | 2                                | X      |
+| EX-HU02        | Uso de la aplicación móvil                                | 5                                | X      |
+| EX-HU03        | Mapeo del hogar                                           | 5                                | X      |
+| EX-HU04        | Reconocimiento de objetos y muebles                       | 5                                | X      |
+| EX-HU05        | Notificaciones a cuidadores                               | 3                                | X      |
+| EX-HU06        | Acceso a la información de la aplicación                  | 2                                | X      |
+| EX-HU07        | Configuración de preferencias                             | 2                                | X      |
+| EX-HU08        | Reconocimiento de voz                                     | 3                                | X      |
+| EX-HU09        | Reconocer objetos básicos                                 | 5                                | X      |
+| EX-HU10        | Guardar mapa simple del hogar                             | 3                                | X      |
+| EX-HU11        | Guía con voz paso a paso                                  | 5                                | X      |
+| EX-HU12        | Notificación rápida al cuidador                           | 3                                | X      |
+| EX-HU13        | Historial de recorridos                                   | 2                                | X      |
+| EX-HU14        | Ajustar velocidad de voz                                  | 2                                | X      |
+| EX-HU15        | Recordatorio de batería baja                              | 2                                | X      |
+| EX-HU16        | Perfil de usuario básico                                  | 2                                | X      |
+| EX-HU17        | Perfil de usuario básico                                  | 2                                | X      |
+| EX-HU18        | Perfil de usuario básico                                  | 2                                | X      |
+| EX-HU19        | Cambiar tipo de voz                                       | 3                                | X      |
+| EX-HU20        | Reconocimiento de obstáculos                              | 3                                | X      |
+| EX-HU21        | Reconocimiento de escaleras                               | 3                                | X      |
+| EX-HU22        | Reconocimiento del nivel del suelo                        | 5                                | X      |
+| EX-HU23        | Ajustar volúmen de voz                                    | 2                                | X      |
+| EX-HU24        | Opiniones en la página                                    | 2                                | X      |
+| EX-HU25        | Guía en la página                                         | 3                                | X      |
+| EX-HU26        | Registro de logs                                          | 3                                | X      |
+| EX-HU27        | Métricas de uso                                           | 3                                | X      |
+| EX-HU28        | Manejo de errores críticos                                | 2                                | X      |
+| EX-HU29        | Inicio de sesión                                          | 3                                | X      |
+| EX-HU30        | Actualización de preferencias                             | 2                                | X      |
+| EX-HU31        | Gestión por administrador                                 | 2                                | X      |
+| EX-HU32        | Historial de objetos reconocidos                          | 3                                | X      |
+| EX-HU33        | Alertas de problemas con el usuario                       | 3                                | X      |
 
 # Capítulo IV: Strategic-Level Software Design.
 ## 4.1. Strategic-Level Attribute-Driven Design.
