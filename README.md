@@ -843,7 +843,7 @@ Redactamos las historias de usuario para el sistema de "VisualGuide", basándono
       </tr>
    </tbody>
 
-<table>
+<table border="1" cellspacing="0" cellpadding="5">
   <thead>
     <tr>
       <th>Epic / Story ID</th>
@@ -858,7 +858,11 @@ Redactamos las historias de usuario para el sistema de "VisualGuide", basándono
       <td>HU01</td>
       <td>Obtener información de la empresa</td>
       <td>Como visitante del sitio web, quiero obtener información adicional sobre la empresa a cargo del producto.</td>
-      <td><b>Given</b> el visitante se encuentra en la sección de HomeSense.<br/><b>When</b> observa la información relevante sobre la empresa. <br><b>Then</b> se interesa en saber más sobre el producto.<br><b>Y</b> se redirecciona a la descarga directa de la aplicación móvil.
+      <td>
+        <b>Given</b> el visitante se encuentra en la sección de HomeSense.<br/>
+        <b>When</b> observa la información relevante sobre la empresa.<br/>
+        <b>Then</b> se interesa en saber más sobre el producto.<br/>
+        <b>Y</b> se redirecciona a la descarga directa de la aplicación móvil.
       </td>
       <td>EP07</td>
     </tr>
@@ -866,242 +870,406 @@ Redactamos las historias de usuario para el sistema de "VisualGuide", basándono
       <td>HU02</td>
       <td>Uso de la aplicación móvil</td>
       <td>Como usuario no vidente, quiero utilizar la aplicación móvil para recibir asistencia en la navegación dentro de mi hogar.</td>
-      <td><b>Given</b> el usuario ha descargado e instalado la aplicación móvil.<br/><b>When</b> abre la aplicación y sigue las instrucciones para mapear su hogar.<br><b>Then</b> puede recibir indicaciones de voz en tiempo real para moverse de manera segura dentro de su casa.<br><br><b>Given</b> el usuario está utilizando la aplicación dentro de su hogar.<br/><b>When</b> la aplicación detecta objetos y muebles a través de la cámara.<br><b>Then</b> proporciona indicaciones de voz claras sobre la ubicación y características de los objetos cercanos.</td>
+      <td>
+        <b>Given</b> el usuario ha descargado e instalado la aplicación móvil.<br/>
+        <b>When</b> abre la aplicación y sigue las instrucciones para mapear su hogar.<br/>
+        <b>Then</b> puede recibir indicaciones de voz en tiempo real para moverse de manera segura dentro de su casa.<br/><br/>
+        <b>Given</b> el usuario está utilizando la aplicación dentro de su hogar.<br/>
+        <b>When</b> la aplicación detecta objetos y muebles a través de la cámara.<br/>
+        <b>Then</b> proporciona indicaciones de voz claras sobre la ubicación y características de los objetos cercanos.
+      </td>
       <td>EP03</td>
-   </tr>
-   <tr>
+    </tr>
+    <tr>
       <td>HU03</td>
       <td>Mapeo del hogar</td>
       <td>Como usuario no vidente, quiero mapear mi hogar utilizando la aplicación para que pueda reconocer objetos y muebles.</td>
-      <td><b>Given</b> el usuario ha iniciado el proceso de mapeo en la aplicación.<br/><b>When</b> sigue las instrucciones para capturar imágenes y escanear su entorno.<br><b>Then</b> la aplicación crea un mapa detallado de su hogar que puede utilizar para navegación futura.<br><br><b>Given</b> el usuario ha descargado e instalado la aplicación móvil.<br/><b>When</b> abre la aplicación y sigue las instrucciones para mapear su hogar.<br><b>Then</b> puede recibir indicaciones de voz en tiempo real para moverse de manera segura dentro de su casa.</td>
+      <td>
+        <b>Given</b> el usuario ha iniciado el proceso de mapeo en la aplicación.<br/>
+        <b>When</b> sigue las instrucciones para capturar imágenes y escanear su entorno.<br/>
+        <b>Then</b> la aplicación crea un mapa detallado de su hogar que puede utilizar para navegación futura.<br/><br/>
+        <b>Given</b> el usuario ha descargado e instalado la aplicación móvil.<br/>
+        <b>When</b> abre la aplicación y sigue las instrucciones para mapear su hogar.<br/>
+        <b>Then</b> puede recibir indicaciones de voz en tiempo real para moverse de manera segura dentro de su casa.
+      </td>
       <td>EP02</td>
-   </tr>
-   <tr>
+    </tr>
+    <tr>
       <td>HU04</td>
       <td>Reconocimiento de objetos y muebles</td>
       <td>Como usuario no vidente, quiero que la aplicación reconozca objetos y muebles en mi hogar para recibir indicaciones precisas.</td>
-      <td><b>Given</b> el usuario está utilizando la aplicación dentro de su hogar.<br/><b>When</b> la aplicación detecta objetos y muebles a través de la cámara.<br><b>Then</b> proporciona indicaciones de voz claras sobre la ubicación y características de los objetos cercanos.<br><br><b>Given</b> el usuario ha completado el mapeo de su hogar.<br/><b>When</b> utiliza la aplicación para navegar.<br><b>Then</b> la aplicación reconoce objetos y muebles previamente mapeados y proporciona indicaciones precisas para evitar obstáculos y moverse con seguridad.</td>
+      <td>
+        <b>Given</b> el usuario está utilizando la aplicación dentro de su hogar.<br/>
+        <b>When</b> la aplicación detecta objetos y muebles a través de la cámara.<br/>
+        <b>Then</b> proporciona indicaciones de voz claras sobre la ubicación y características de los objetos cercanos.<br/><br/>
+        <b>Given</b> el usuario ha completado el mapeo de su hogar.<br/>
+        <b>When</b> utiliza la aplicación para navegar.<br/>
+        <b>Then</b> la aplicación reconoce objetos y muebles previamente mapeados y proporciona indicaciones precisas para evitar obstáculos y moverse con seguridad.
+      </td>
       <td>EP01</td>
-   </tr>
-   <tr>
+    </tr>
+    <tr>
       <td>HU05</td>
       <td>Notificaciones a cuidadores</td>
       <td>Como cuidador, quiero recibir notificaciones sobre la actividad del usuario no vidente para asegurarme de su seguridad.</td>
-      <td><b>Given</b> el cuidador ha configurado las notificaciones en la aplicación.<br/><b>When</b> el usuario realiza movimientos significativos o se encuentra en situaciones potencialmente peligrosas.<br><b>Then</b> el cuidador recibe alertas en tiempo real para tomar las acciones necesarias.<br><br><b>Given</b> el cuidador ha configurado las notificaciones en la aplicación.<br/><b>When</b> el usuario no vidente se mueve dentro de su hogar.<br><b>Then</b> el cuidador recibe notificaciones sobre la actividad del usuario para asegurar su seguridad.</td>
+      <td>
+        <b>Given</b> el cuidador ha configurado las notificaciones en la aplicación.<br/>
+        <b>When</b> el usuario realiza movimientos significativos o se encuentra en situaciones potencialmente peligrosas.<br/>
+        <b>Then</b> el cuidador recibe alertas en tiempo real para tomar las acciones necesarias.<br/><br/>
+        <b>Given</b> el cuidador ha configurado las notificaciones en la aplicación.<br/>
+        <b>When</b> el usuario no vidente se mueve dentro de su hogar.<br/>
+        <b>Then</b> el cuidador recibe notificaciones sobre la actividad del usuario para asegurar su seguridad.
+      </td>
       <td>EP04</td>
-   </tr>
-   <tr>
+    </tr>
+    <tr>
       <td>HU06</td>
       <td>Acceso a la información de la aplicación</td>
       <td>Como usuario no vidente, quiero acceder a la información de la aplicación a través de comandos de voz para facilitar su uso.</td>
-      <td><b>Given</b> el usuario está utilizando la aplicación.<br/><b>When</b> solicita información sobre una función específica mediante un comando de voz.<br><b>Then</b> la aplicación proporciona una respuesta clara y concisa a través de la síntesis de voz.</td>
+      <td>
+        <b>Given</b> el usuario está utilizando la aplicación.<br/>
+        <b>When</b> solicita información sobre una función específica mediante un comando de voz.<br/>
+        <b>Then</b> la aplicación proporciona una respuesta clara y concisa a través de la síntesis de voz.
+      </td>
       <td>EP05</td>
-   </tr>
-   <tr>
+    </tr>
+    <tr>
       <td>HU07</td>
       <td>Configuración de preferencias</td>
       <td>Como usuario no vidente, quiero configurar mis preferencias en la aplicación para personalizar mi experiencia.</td>
-      <td><b>Given</b> el usuario ha accedido a la sección de configuración en la aplicación.<br/><b>When</b> ajusta las opciones de voz, notificaciones y otros parámetros según sus necesidades.<br><b>Then</b> la aplicación guarda las preferencias y las aplica durante su uso.</td>
+      <td>
+        <b>Given</b> el usuario ha accedido a la sección de configuración en la aplicación.<br/>
+        <b>When</b> ajusta las opciones de voz, notificaciones y otros parámetros según sus necesidades.<br/>
+        <b>Then</b> la aplicación guarda las preferencias y las aplica durante su uso.
+      </td>
       <td>EP06</td>
-   </tr>
-   <tr>
+    </tr>
+    <tr>
       <td>HU08</td>
       <td>Reconocimiento de voz</td>
       <td>Como usuario no vidente, quiero que la aplicación registre y reconozca mis comandos de voz para facilitar la interacción.</td>
-      <td><b>Given</b> el usuario está utilizando la aplicación.<br/><b>When</b> el usuario configura sus comandos de voz personalizados.<br><b>Then</b> la aplicación reconoce y responde a estos comandos de manera efectiva durante su uso.<br><br><b>Given</b> el usuario está utilizando la aplicación.<br/><b>When</b> emite un comando de voz.<br><b>Then</b> la aplicación reconoce el comando y responde adecuadamente para facilitar la interacción.</td>
+      <td>
+        <b>Given</b> el usuario está utilizando la aplicación.<br/>
+        <b>When</b> el usuario configura sus comandos de voz personalizados.<br/>
+        <b>Then</b> la aplicación reconoce y responde a estos comandos de manera efectiva durante su uso.<br/><br/>
+        <b>Given</b> el usuario está utilizando la aplicación.<br/>
+        <b>When</b> emite un comando de voz.<br/>
+        <b>Then</b> la aplicación reconoce el comando y responde adecuadamente para facilitar la interacción.
+      </td>
       <td>EP03</td>
-   </tr>
-   <tr>
+    </tr>
+    <tr>
       <td>HU09</td>
       <td>Reconocer objetos básicos</td>
       <td>Como usuario no vidente, quiero que la app me diga qué objeto tengo enfrente, para orientarme en mi casa.</td>
-      <td><b>Given</b> el usuario abre la cámara, <br/><b>When</b> la IA detecta un objeto, <br><b>Then</b> la app anuncia por voz el nombre del objeto. <br><br><b>Given</b> el objeto no se reconoce, <br/><b>When</b> la IA no tiene certeza, <br><b>Then</b> la app indica “objeto no identificado”. </td>
+      <td>
+        <b>Given</b> el usuario abre la cámara,<br/>
+        <b>When</b> la IA detecta un objeto,<br/>
+        <b>Then</b> la app anuncia por voz el nombre del objeto.<br/><br/>
+        <b>Given</b> el objeto no se reconoce,<br/>
+        <b>When</b> la IA no tiene certeza,<br/>
+        <b>Then</b> la app indica “objeto no identificado”.
+      </td>
       <td>EP01</td>
-   </tr>
-   <tr>
+    </tr>
+    <tr>
       <td>HU10</td>
       <td>Guardar mapa simple del hogar</td>
       <td>Como usuario no vidente, quiero que la app guarde un mapa sencillo de mi casa, para usarlo después en la navegación.</td>
-      <td><b>Given</b> el usuario inicia el mapeo <br/><b>When</b> recorre los espacios y toma fotos, <br><b>Then</b> la app guarda un mapa básico. <br><br><b>Given</b> el usuario ya mapeó antes, <br/><b>When</b> actualiza el mapeo, <br><b>Then</b> la app reemplaza el mapa antiguo por el nuevo. </td>
+      <td>
+        <b>Given</b> el usuario inicia el mapeo,<br/>
+        <b>When</b> recorre los espacios y toma fotos,<br/>
+        <b>Then</b> la app guarda un mapa básico.<br/><br/>
+        <b>Given</b> el usuario ya mapeó antes,<br/>
+        <b>When</b> actualiza el mapeo,<br/>
+        <b>Then</b> la app reemplaza el mapa antiguo por el nuevo.
+      </td>
       <td>EP02</td>
-   </tr>
-   <tr>
+    </tr>
+    <tr>
       <td>HU11</td>
       <td>Guía con voz paso a paso</td>
       <td>Como usuario no vidente, quiero que la app me indique con voz hacia dónde moverme, para llegar a un lugar de mi casa.</td>
-      <td><b>Given</b> el usuario selecciona un destino, <br/><b>When</b> inicia la navegación, <br><b>Then</b> la app da instrucciones de voz paso a paso. <br><br><b>Given</b> el usuario se equivoca de camino <br/><b>When</b> la app detecta que salió de la ruta, <br><b>Then</b> recalcula y actualiza la guía. </td>
+      <td>
+        <b>Given</b> el usuario selecciona un destino,<br/>
+        <b>When</b> inicia la navegación,<br/>
+        <b>Then</b> la app da instrucciones de voz paso a paso.<br/><br/>
+        <b>Given</b> el usuario se equivoca de camino,<br/>
+        <b>When</b> la app detecta que salió de la ruta,<br/>
+        <b>Then</b> recalcula y actualiza la guía.
+      </td>
       <td>EP03</td>
-   </tr>
-   <tr>
+    </tr>
+    <tr>
       <td>HU12</td>
       <td>Notificación rápida al cuidador</td>
       <td>Como cuidador, quiero recibir una alerta si el usuario tiene un problema en casa, para poder ayudarlo rápido.</td>
-      <td><b>Given</b> el usuario está en casa, <br/><b>When</b> la app detecta falta de movimiento, <br><b>Then</b> envía una notificación al cuidador. <br><br><b>Given</b> la app detecta movimiento brusco, <br/><b>When</b> interpreta posible caída, <br><b>Then</b> envía una alerta inmediata al cuidador. </td>
+      <td>
+        <b>Given</b> el usuario está en casa,<br/>
+        <b>When</b> la app detecta falta de movimiento,<br/>
+        <b>Then</b> envía una notificación al cuidador.<br/><br/>
+        <b>Given</b> la app detecta movimiento brusco,<br/>
+        <b>When</b> interpreta posible caída,<br/>
+        <b>Then</b> envía una alerta inmediata al cuidador.
+      </td>
       <td>EP04</td>
-   </tr>
-<tr>
-  <td>HU13</td>
-  <td>Historial de recorridos</td>
-  <td>Como usuario no vidente, quiero que la aplicación guarde un historial de mis recorridos dentro del hogar, para poder revisar rutas frecuentes y optimizar mi movilidad.</td>
-  <td>
-    <b>Given</b> el usuario ha realizado recorridos guiados en la aplicación, <br/>
-    <b>When</b> accede a la sección de historial, <br/>
-    <b>Then</b> puede visualizar mediante síntesis de voz las rutas más utilizadas.<br/><br/>
-    <b>Given</b> el usuario consulta una ruta del historial, <br/>
-    <b>When</b> selecciona “repetir recorrido”, <br/>
-    <b>Then</b> la aplicación activa la guía paso a paso de esa ruta específica.
-  </td>
-  <td>EP05</td>
-</tr>
-
-   <tr>
+    </tr>
+    <tr>
+      <td>HU13</td>
+      <td>Historial de recorridos</td>
+      <td>Como usuario no vidente, quiero que la aplicación guarde un historial de mis recorridos dentro del hogar, para poder revisar rutas frecuentes y optimizar mi movilidad.</td>
+      <td>
+        <b>Given</b> el usuario ha realizado recorridos guiados en la aplicación,<br/>
+        <b>When</b> accede a la sección de historial,<br/>
+        <b>Then</b> puede visualizar mediante síntesis de voz las rutas más utilizadas.<br/><br/>
+        <b>Given</b> el usuario consulta una ruta del historial,<br/>
+        <b>When</b> selecciona “repetir recorrido”,<br/>
+        <b>Then</b> la aplicación activa la guía paso a paso de esa ruta específica.
+      </td>
+      <td>EP05</td>
+    </tr>
+    <tr>
       <td>HU14</td>
       <td>Ajustar velocidad de voz</td>
       <td>Como usuario no vidente, quiero cambiar la velocidad de la voz de la app, para que me sea más cómodo escucharla.</td>
-      <td><b>Given</b> el usuario entra a configuración, <br/><b>When</b> ajusta la velocidad de voz, <br><b>Then</b> la app guarda la preferencia. <br><br><b>Given</b> el usuario cambia entre velocidades rápidas y lentas, <br/><b>When</b> confirma la opción, <br><b>Then</b> la app aplica el cambio inmediato en las siguientes instrucciones. </td>
+      <td>
+        <b>Given</b> el usuario entra a configuración,<br/>
+        <b>When</b> ajusta la velocidad de voz,<br/>
+        <b>Then</b> la app guarda la preferencia.<br/><br/>
+        <b>Given</b> el usuario cambia entre velocidades rápidas y lentas,<br/>
+        <b>When</b> confirma la opción,<br/>
+        <b>Then</b> la app aplica el cambio inmediato en las siguientes instrucciones.
+      </td>
       <td>EP06</td>
-   </tr>
-<tr>
-  <td>HU15</td>
-  <td>Recordatorio de batería baja</td>
-  <td>Como usuario no vidente, quiero que la aplicación me avise cuando la batería de mi dispositivo esté baja, para no quedarme sin asistencia inesperadamente.</td>
-  <td>
-    <b>Given</b> la batería del dispositivo baja al 20%, <br/>
-    <b>When</b> el usuario está utilizando la aplicación, <br/>
-    <b>Then</b> la app emite una alerta de voz indicando “batería baja, conecte el cargador”.<br/><br/>
-    <b>Given</b> la batería llega al 10%, <br/>
-    <b>When</b> la app sigue en uso, <br/>
-    <b>Then</b> se activa un recordatorio de voz más insistente cada 2 minutos.
-  </td>
-  <td>EP06</td>
-</tr>
-   <tr>
+    </tr>
+    <tr>
+      <td>HU15</td>
+      <td>Recordatorio de batería baja</td>
+      <td>Como usuario no vidente, quiero que la aplicación me avise cuando la batería de mi dispositivo esté baja, para no quedarme sin asistencia inesperadamente.</td>
+      <td>
+        <b>Given</b> la batería del dispositivo baja al 20%,<br/>
+        <b>When</b> el usuario está utilizando la aplicación,<br/>
+        <b>Then</b> la app emite una alerta de voz indicando “batería baja, conecte el cargador”.<br/><br/>
+        <b>Given</b> la batería llega al 10%,<br/>
+        <b>When</b> la app sigue en uso,<br/>
+        <b>Then</b> se activa un recordatorio de voz más insistente cada 2 minutos.
+      </td>
+      <td>EP06</td>
+    </tr>
+    <tr>
       <td>HU16</td>
       <td>Perfil de usuario básico</td>
       <td>Como usuario no vidente, quiero tener un perfil sencillo en la app con mi nombre y preferencias de voz, para que la aplicación recuerde mis configuraciones automáticamente.</td>
-      <td><b>Given</b> el usuario crea un perfil, <br/><b>When</b> guarda su nombre y preferencias de voz, <br><b>Then</b> la app aplica esa configuración cada vez que inicia. <br><br><b>Given</b> el usuario cambia de dispositivo <br/><b>When</b> inicia sesión con su perfil, <br><b>Then</b> la app carga las mismas configuraciones.</td>
+      <td>
+        <b>Given</b> el usuario crea un perfil,<br/>
+        <b>When</b> guarda su nombre y preferencias de voz,<br/>
+        <b>Then</b> la app aplica esa configuración cada vez que inicia.<br/><br/>
+        <b>Given</b> el usuario cambia de dispositivo,<br/>
+        <b>When</b> inicia sesión con su perfil,<br/>
+        <b>Then</b> la app carga las mismas configuraciones.
+      </td>
       <td>EP06</td>
-   </tr>
-   <tr>
+    </tr>
+    <tr>
       <td>HU17</td>
       <td>Perfil de usuario básico</td>
       <td>Como usuario no vidente, quiero tener un perfil sencillo en la app con mi nombre y preferencias de voz, para que la aplicación recuerde mis configuraciones automáticamente.</td>
-      <td><b>Given</b> el usuario crea un perfil, <br/><b>When</b> guarda su nombre y preferencias de voz, <br><b>Then</b> la app aplica esa configuración cada vez que inicia. <br><br><b>Given</b> el usuario cambia de dispositivo <br/><b>When</b> inicia sesión con su perfil, <br><b>Then</b> la app carga las mismas configuraciones.</td>
+      <td>
+        <b>Given</b> el usuario crea un perfil,<br/>
+        <b>When</b> guarda su nombre y preferencias de voz,<br/>
+        <b>Then</b> la app aplica esa configuración cada vez que inicia.<br/><br/>
+        <b>Given</b> el usuario cambia de dispositivo,<br/>
+        <b>When</b> inicia sesión con su perfil,<br/>
+        <b>Then</b> la app carga las mismas configuraciones.
+      </td>
       <td>EP06</td>
-   </tr>
-   <tr>
+    </tr>
+    <tr>
       <td>HU18</td>
       <td>Perfil de usuario básico</td>
       <td>Como usuario no vidente, quiero tener un perfil sencillo en la app con mi nombre y preferencias de voz, para que la aplicación recuerde mis configuraciones automáticamente.</td>
-      <td><b>Given</b> el usuario crea un perfil, <br/><b>When</b> guarda su nombre y preferencias de voz, <br><b>Then</b> la app aplica esa configuración cada vez que inicia. <br><br><b>Given</b> el usuario cambia de dispositivo <br/><b>When</b> inicia sesión con su perfil, <br><b>Then</b> la app carga las mismas configuraciones.</td>
+      <td>
+        <b>Given</b> el usuario crea un perfil,<br/>
+        <b>When</b> guarda su nombre y preferencias de voz,<br/>
+        <b>Then</b> la app aplica esa configuración cada vez que inicia.<br/><br/>
+        <b>Given</b> el usuario cambia de dispositivo,<br/>
+        <b>When</b> inicia sesión con su perfil,<br/>
+        <b>Then</b> la app carga las mismas configuraciones.
+      </td>
       <td>EP06</td>
-   </tr>
-   <tr>
+    </tr>
+    <tr>
       <td>HU19</td>
       <td>Cambiar tipo de voz</td>
       <td>Como usuario no vidente, quiero contar con distintas voces, para poder elegir la que enteinda mejor.</td>
-      <td><b>Given</b> que el uusario esta configurando la aplicación, <br/><b>When</b> el usuario pida cambiar el tipo de voz, <br><b>Then</b> la aplicación le mostrará posibles alternativas. <br><br><br> <b>Given</b> que el uusario esta configurando la aplicación, <br/><b>When</b> el usuario elija un tipo de voz, <br><b>Then</b> la aplicación cambiará la voz usada al guiarlo.</td>
+      <td>
+        <b>Given</b> que el uusario esta configurando la aplicación,<br/>
+        <b>When</b> el usuario pida cambiar el tipo de voz,<br/>
+        <b>Then</b> la aplicación le mostrará posibles alternativas.<br/><br/>
+        <b>Given</b> que el uusario esta configurando la aplicación,<br/>
+        <b>When</b> el usuario elija un tipo de voz,<br/>
+        <b>Then</b> la aplicación cambiará la voz usada al guiarlo.
+      </td>
       <td>EP06</td>
-   </tr>
-   <tr>
+    </tr>
+    <tr>
       <td>HU20</td>
       <td>Reconocimiento de obstáculos</td>
       <td>Como usuario no vidente, quiero que la aplicación me advierta de objetos pequeños en el suelo, para evitar tropezarme</td>
-      <td><b>Given</b> que el usuario este siendo guiado por la aplicación, <br/><b>When</b> halla un obstáculo en el suelo, <br><b>Then</b> la aplicación le advertirá que camine con cuidado</td>
+      <td>
+        <b>Given</b> que el usuario este siendo guiado por la aplicación,<br/>
+        <b>When</b> halla un obstáculo en el suelo,<br/>
+        <b>Then</b> la aplicación le advertirá que camine con cuidado
+      </td>
       <td>EP01</td>
-   </tr>
-   <tr>
+    </tr>
+    <tr>
       <td>HU21</td>
       <td>Reconocimiento de escaleras</td>
       <td>Como usuario no vidente, quiero que la aplicación me advierta cuando me acerca a unas escalera, para evitar chocar con ellas</td>
-      <td><b>Given</b> que el usuario camina hacia unas escalera , <br/><b>When</b> esté a menos de un metro , <br><b>Then</b> la aplicación le dirá que hay escaleras enfrente</td>
+      <td>
+        <b>Given</b> que el usuario camina hacia unas escalera,<br/>
+        <b>When</b> esté a menos de un metro,<br/>
+        <b>Then</b> la aplicación le dirá que hay escaleras enfrente
+      </td>
       <td>EP01</td>
-   </tr>
-   <tr>
+    </tr>
+    <tr>
       <td>HU22</td>
       <td>Reconocimiento del nivel del suelo</td>
       <td>Como usuario no vidente, quiero que la aplicación me avise ante desniveles, para evitar caerme</td>
-      <td><b>Given</b> el usuario camina cerca a un desnivel , <br/><b>When</b> esté a menos de un metro de este , <br><b>Then</b> la aplicación advertirá que hay un desnivel</td>
+      <td>
+        <b>Given</b> el usuario camina cerca a un desnivel,<br/>
+        <b>When</b> esté a menos de un metro de este,<br/>
+        <b>Then</b> la aplicación advertirá que hay un desnivel
+      </td>
       <td>EP02</td>
-   </tr>
-   <tr>
+    </tr>
+    <tr>
       <td>HU23</td>
       <td>Ajustar volúmen de voz</td>
       <td>Como usuario no vidente, quiero poder elegir distintos volumenes de voz, para poder seleccionar el que escuche mejor</td>
-      <td><b>Given</b> que el usuario esté configurando la aplicación, <br/><b>When</b> pida cambiar el volumen, <br><b>Then</b> la aplicación le indicará si aumentar o subirlo. <br><br><br> <b>Given</b> que el usuario esté configurando la aplicación, <br/><b>When</b> pida subir el volumen, <br><b>Then</b> la aplicación aumentará el volumen de la voz usada para guiarlo.</td>
+      <td>
+        <b>Given</b> que el usuario esté configurando la aplicación,<br/>
+        <b>When</b> pida cambiar el volumen,<br/>
+        <b>Then</b> la aplicación le indicará si aumentar o subirlo.<br/><br/>
+        <b>Given</b> que el usuario esté configurando la aplicación,<br/>
+        <b>When</b> pida subir el volumen,<br/>
+        <b>Then</b> la aplicación aumentará el volumen de la voz usada para guiarlo.
+      </td>
       <td>EP06</td>
-   </tr>
-   <tr>
+    </tr>
+    <tr>
       <td>HU24</td>
       <td>Opiniones en la página</td>
       <td>Como visitante de la página web, quiero poder visualizar las opiniones de la aplicación, para saber que opinan los usuarios</td>
-      <td><b>Given</b> que el usuario esta en la página web, <br/><b>When</b> avanze hasta la parte inferior, <br><b>Then</b> podrá ver cards con opiniones de usuario</td>
+      <td>
+        <b>Given</b> que el usuario esta en la página web,<br/>
+        <b>When</b> avanze hasta la parte inferior,<br/>
+        <b>Then</b> podrá ver cards con opiniones de usuario
+      </td>
       <td>EP07</td>
-   </tr>
-   <tr>
+    </tr>
+    <tr>
       <td>HU25</td>
       <td>Guía en la página</td>
       <td>Como visitante de la página web, quiero poder visualizar una guía de la aplicación móvil, para poder explicarle a mi familiar como funciona</td>
-      <td><b>Given</b> que el usuario esta en la página web, <br/><b>When</b> avanze hasta la sección de guía, <br><b>Then</b> podrá ver ejemplos de la aplicación</td>
+      <td>
+        <b>Given</b> que el usuario esta en la página web,<br/>
+        <b>When</b> avanze hasta la sección de guía,<br/>
+        <b>Then</b> podrá ver ejemplos de la aplicación
+      </td>
       <td>EP05</td>
-   </tr>
-   <tr>
+    </tr>
+    <tr>
       <td>HU26</td>
       <td>Registro de logs</td>
       <td>Como backend, quiero registrar logs de cada interacción, para detectar fallos y mejorar el sistema.</td>
-      <td><b>Given</b> que la aplicación móvil interactúa con el asistente,<br/><b>When</b> se realiza una solicitud (ej. búsqueda de objeto, guía de movimiento),<br><b>Then</b> el backend debe guardar un log con el detalle de la acción.</td>
+      <td>
+        <b>Given</b> que la aplicación móvil interactúa con el asistente,<br/>
+        <b>When</b> se realiza una solicitud (ej. búsqueda de objeto, guía de movimiento),<br/>
+        <b>Then</b> el backend debe guardar un log con el detalle de la acción.
+      </td>
       <td>EP09</td>
-   </tr>
-   <tr>
+    </tr>
+    <tr>
       <td>HU27</td>
       <td>Métricas de uso</td>
       <td>Como administrador, quiero ver métricas de uso del asistente (frecuencia, funciones más usadas), para identificar mejoras necesarias.</td>
-      <td><b>Given</b> que el sistema está en funcionamiento,<br/><b>When</b> los usuarios realizan interacciones frecuentes, <br><b>Then</b> el backend debe generar métricas de uso (ej. cantidad de consultas, funciones más usadas).</td>
+      <td>
+        <b>Given</b> que el sistema está en funcionamiento,<br/>
+        <b>When</b> los usuarios realizan interacciones frecuentes,<br/>
+        <b>Then</b> el backend debe generar métricas de uso (ej. cantidad de consultas, funciones más usadas).
+      </td>
       <td>EP09</td>
-   </tr>
-   <tr>
+    </tr>
+    <tr>
       <td>HU28</td>
       <td>Manejo de errores críticos</td>
       <td>Como backend, quiero manejar notificaciones de errores críticos, para garantizar la estabilidad del servicio.</td>
-      <td><b>Given</b> que ocurre un fallo grave en el sistema,<br/><b>When</b> el backend detecta el error,<br><b>Then</b> debe generar una alerta o notificación al administrador para tomar acción inmediata.</td>
+      <td>
+        <b>Given</b> que ocurre un fallo grave en el sistema,<br/>
+        <b>When</b> el backend detecta el error,<br/>
+        <b>Then</b> debe generar una alerta o notificación al administrador para tomar acción inmediata.
+      </td>
       <td>EP09</td>
-   </tr>
-   <tr>
+    </tr>
+    <tr>
       <td>HU29</td>
       <td>Inicio de sesión</td>
       <td>Como usuario, quiero poder iniciar sesión de forma segura, para acceder a mis datos y configuraciones.</td>
-      <td><b>Given</b> que un usuario ya está registrado en el sistema,<br/><b>When</b> ingresa sus credenciales correctamente,<br><b>Then</b> el backend valida sus datos y permite el acceso a su información personal.</td>
+      <td>
+        <b>Given</b> que un usuario ya está registrado en el sistema,<br/>
+        <b>When</b> ingresa sus credenciales correctamente,<br/>
+        <b>Then</b> el backend valida sus datos y permite el acceso a su información personal.
+      </td>
       <td>EP10</td>
-   </tr>
-   <tr>
+    </tr>
+    <tr>
       <td>HU30</td>
       <td>Actualización de preferencias</td>
       <td>Como usuario, quiero poder actualizar mis preferencias (ej. idioma, velocidad de voz), para personalizar mi experiencia.</td>
-      <td><b>Given</b> que un usuario ya está autenticado,<br/><b>When</b> solicita cambiar configuraciones como idioma o velocidad de voz, <br><b>Then</b> el backend guarda y aplica esos cambios en su perfil.</td>
+      <td>
+        <b>Given</b> que un usuario ya está autenticado,<br/>
+        <b>When</b> solicita cambiar configuraciones como idioma o velocidad de voz,<br/>
+        <b>Then</b> el backend guarda y aplica esos cambios en su perfil.
+      </td>
       <td>EP10</td>
-   </tr>
-   <tr>
+    </tr>
+    <tr>
       <td>HU31</td>
       <td>Gestión por administrador</td>
       <td>Como administrador, quiero poder gestionar usuarios (bloquear, desbloquear, soporte), para garantizar el correcto uso de la app.</td>
-      <td><b>Given</b> que un administrador necesita dar soporte,<br/><b>When</b> accede a la información de usuarios desde el panel de gestión,<br><b>Then</b> el backend debe permitir ver, bloquear o desbloquear usuarios según sea necesario.</td>
+      <td>
+        <b>Given</b> que un administrador necesita dar soporte,<br/>
+        <b>When</b> accede a la información de usuarios desde el panel de gestión,<br/>
+        <b>Then</b> el backend debe permitir ver, bloquear o desbloquear usuarios según sea necesario.
+      </td>
       <td>EP10</td>
-   </tr>
-   <tr>
+    </tr>
+    <tr>
       <td>HU32</td>
       <td>Historial de objetos reconocidos</td>
       <td>Como persona relacionada con el usuario no vidente, quiero poder ver un historial de objetos buscados por el usuario, para poder tomar medidas futuras para la comodidad del usuario.</td>
-      <td><b>Given</b> que el usuario no vidente pida a la aplicación móvil buscar un objeto,<br/><b>When</b> la aplicación móvil termine con dicha tarea,<br><b>Then</b> guardará detalles sobre el caso para revisiones futuras.</td>
+      <td>
+        <b>Given</b> que el usuario no vidente pida a la aplicación móvil buscar un objeto,<br/>
+        <b>When</b> la aplicación móvil termine con dicha tarea,<br/>
+        <b>Then</b> guardará detalles sobre el caso para revisiones futuras.
+      </td>
       <td>EP08</td>
-   </tr>
-   <tr>
+    </tr>
+    <tr>
       <td>HU33</td>
       <td>Alertas de problemas con el usuario</td>
       <td>Como persona relacionada con el usuario, quiero poder recibir alerrtas de la aplicación móvil, para saber si el usuario tiene algún problema que no pueda solucionar con la aplicación.</td>
-      <td><b>Given</b> que el usuario no vidente tenga algún problema grave,<br/><b>When</b> el aplicativo detecte que la situación es crítica, <br><b>Then</b> mandará una alerta a la persona relacionada con el usuario.</td>
+      <td>
+        <b>Given</b> que el usuario no vidente tenga algún problema grave,<br/>
+        <b>When</b> el aplicativo detecte que la situación es crítica,<br/>
+        <b>Then</b> mandará una alerta a la persona relacionada con el usuario.
+      </td>
       <td>EP08</td>
-   </tr>
-   </tbody>
+    </tr>
+  </tbody>
 </table>
     
 
