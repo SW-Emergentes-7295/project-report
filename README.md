@@ -1617,5 +1617,5 @@ La base de datos MySQL 8.0 está alojada como contenedor dentro del servidor bac
 | Título | URL |
 |--------|-----|
 | **TB1:** Presentación del proyecto | https://acortar.link/V3AnHH |
-| **Video entrevistas TB1:** Entrevistas consolidadas en un solo video |  |
+| **Video entrevistas TB1:** Entrevistas consolidadas en un solo video | https://acortar.link/zDs5b6 |
 
