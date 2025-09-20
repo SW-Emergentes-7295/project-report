@@ -620,9 +620,8 @@ Los user personas son usados para definir los segmentos objetivos, asignando cua
 
 El user task matrix muestra las acciones realizadas por los usuarios, junto con su importancia y frecuencia realizada
 
-|-----------------|------------|-----------|--------------|-----------|
-|-|-|-|-|-|
 | Tarea           | Importancia No Videntes | Frecuencia No Videntes | Importancia Familiares y Cuidadores | Frecuencia Familiares y Cuidadores |
+| :---------------------------------: | :--------: |:--------: |:--------: |:--------: |
 | Moverse por su casa | alta | media | alta | alta |
 | Hablar con sus familiares | alta | alta | alta | alta |
 | Ayudar a otras personas en su dia a dias | alta | baja | alta | alta |
@@ -1017,6 +1016,44 @@ Redactamos las historias de usuario para el sistema de "VisualGuide", basándono
 
 ## 3.3. Impact Mapping.
 ## 3.4. Product Backlog.
+
+El produckt backlog es utilizado para reunir las funciones del sistema y darles story points para poder priorizar el desarrollo de estas.
+
+| User Story ID  |                             Titulo                        | Story Points (1 / 2 / 3 / 5 / 8) | Sprint |
+| :------------: | :-------------------------------------------------------: |:-------------------------------: |:------:|
+| S1-HU01        | Obtener información de la empresa                         | 2                                | 1      |
+| S1-HU02        | Uso de la aplicación móvil                                | 5                                | 1      |
+| S1-HU05        | Notificaciones a cuidadores                               | 3                                | 1      |
+| S1-HU06        | Acceso a la información de la aplicación                  | 2                                | 1      |
+| S1-HU09        | Reconocer objetos básicos                                 | 5                                | 1      |
+| S1-HU15        | Recordatorio de batería baja                              | 2                                | 1      |
+| S1-HU16        | Perfil de usuario básico                                  | 2                                | 1      |
+| S1-HU17        | Perfil de usuario básico                                  | 2                                | 1      |
+| S1-HU18        | Perfil de usuario básico                                  | 2                                | 1      |
+| S1-HU20        | Reconocimiento de obstáculos                              | 3                                | 1      |
+| S1-HU21        | Reconocimiento de escaleras                               | 3                                | 1      |
+| S1-HU22        | Reconocimiento del nivel del suelo                        | 5                                | 1      |
+| S1-HU24        | Opiniones en la página                                    | 2                                | 1      |
+| S1-HU25        | Guía en la página                                         | 3                                | 1      |
+| S1-HU29        | Inicio de sesión                                          | 3                                | 1      |
+| S1-HU33        | Alertas de problemas con el usuario                       | 3                                | 1      |
+| S2-HU03        | Mapeo del hogar                                           | 5                                | 2      |
+| S2-HU04        | Reconocimiento de objetos y muebles                       | 5                                | 2      |
+| S2-HU07        | Configuración de preferencias                             | 2                                | 2      |
+| S2-HU08        | Reconocimiento de voz                                     | 3                                | 2      |
+| S2-HU10        | Guardar mapa simple del hogar                             | 3                                | 2      |
+| S2-HU11        | Guía con voz paso a paso                                  | 5                                | 2      |
+| S2-HU12        | Notificación rápida al cuidador                           | 3                                | 2      |
+| S2-HU13        | Historial de recorridos                                   | 2                                | 2      |
+| S2-HU14        | Ajustar velocidad de voz                                  | 2                                | 2      |
+| S2-HU19        | Cambiar tipo de voz                                       | 3                                | 2      |
+| S2-HU23        | Ajustar volúmen de voz                                    | 2                                | 2      |
+| S2-HU26        | Registro de logs                                          | 3                                | 2      |
+| S2-HU27        | Métricas de uso                                           | 3                                | 2      |
+| S2-HU28        | Manejo de errores críticos                                | 2                                | 2      |
+| S2-HU30        | Actualización de preferencias                             | 2                                | 2      |
+| S2-HU31        | Gestión por administrador                                 | 2                                | 2      |
+| S2-HU32        | Historial de objetos reconocidos                          | 3                                | 2      |
 
 # Capítulo IV: Strategic-Level Software Design.
 ## 4.1. Strategic-Level Attribute-Driven Design.
