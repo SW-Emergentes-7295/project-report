@@ -614,6 +614,22 @@ Carlos Chávez, de 21 años, es primo de una persona no vidente y reside en La P
 
 Mencionó que una aplicación como VisualGuide podría ser muy beneficiosa, ya que permitiría a su primo ganar más autonomía y reducir la necesidad de supervisión constante. Carlos también expresó interés en recibir notificaciones sobre el uso de la aplicación para monitorear la seguridad de su primo.
 
+**Entrevista 2: Familiar de persona no vidente - Harold Elias**
+- Nombre: Harold Elias
+- Edad: 21 años
+- Residencia: Los Olivos, Perú
+- Familiar no vidente: Primo
+- Convive con su familiar no vidente: Si
+
+<img src="./images/interviews/Entrevista-HaroldElias.png" alt="Foto de Harold Elias" width="100%">
+
+**URL de la entrevista:** [https://acortar.link/hiRi0l](https://acortar.link/hiRi0l)
+
+**Resumen de la entrevista:**
+Harol Elias de 21 años, expresó su deseo de poder usar la aplicación para darle más independencia a su primo, así como también expresó su actual preocupacio por la posibilidad de que se lastime. Si bien espera que la aplicación sea de ayuda, también cree que seguirá teniendo que ayudar a su primo en taeas más complejas como subir escaleras.
+
+El entrevistado expresó no sentirse preocupado por el hecho de que se mapee su casa en la aplicación, sin embargo mencionó que no desea que esa información sea compartida con terceros, considerandola altamente sensible.
+
 ### 2.2.3. Análisis de entrevistas.
 
 // aqui se debe hacer un analisis con GOOGLE FORMS con preguntas a personas anónimas, y sacando captura de pantalla de los resultados
