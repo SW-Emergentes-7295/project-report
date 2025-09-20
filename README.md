@@ -634,6 +634,20 @@ Carlos Chávez, de 21 años, es primo de una persona no vidente y reside en La P
 
 Mencionó que una aplicación como VisualGuide podría ser muy beneficiosa, ya que permitiría a su primo ganar más autonomía y reducir la necesidad de supervisión constante. Carlos también expresó interés en recibir notificaciones sobre el uso de la aplicación para monitorear la seguridad de su primo.
 
+**Entrevista 4: Persona no vidente - Juan Navarro**
+- Nombre: Juan José Navarro Chacón
+- Edad: 21 años
+- Residencia: Los Olivos, Lima, Perú
+
+<img src="./images/interviews/juan_navarro_interview.PNG" alt="Foto de Juan Navarro" width="50%">
+
+**URL de la entrevista:** [https://acortar.link/cIuMmt](https://acortar.link/cIuMmt)
+
+**Resumen de la entrevista:**
+Juan Navarro, de 21 años, es una persona no vidente y reside en Los Olivos, Lima. Tenía muchas dificultades al inicio como persona no vidente pero luego se aocstumbró a muchas actividades diarias pero no de forma efectiva. Juan mencionó que sus principales problemas son al momento de buscar objetos específicos dentro de su hogar y moverse entre él. Actualmente, se ayuda de sus familiares para diversas acciones pero no le gusta incomodarlos todo el tiempo.
+
+Mencionó que una aplicación como VisualGuide podría ser muy beneficiosa, ya que le permitiría buscar objetos o ubicarse dentro de su hogar de una manera más independiente. Juan también expresó mucho interés en un asistente inteligente con voz para su propia hogar.
+
 ### 2.2.3. Análisis de entrevistas.
 
 Para esta sección, el equipo elaboró un análisis detallado de las entrevistas realizadas a personas no videntes y sus familiares o cuidadores, a partir de un formulario creado en Google Forms y entrevistas grabadas en video.
