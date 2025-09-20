@@ -1115,52 +1115,50 @@ Al concluir el Quality Attribute Workshop, nuestro equipo priorizó los escenari
 
 A continuación se presentan los escenarios refinados en orden de prioridad:
 
-### Scenario Refinement for Scenario 1 – Precisión en la detección de distracciones
-| **Scenario(s):**                 | El sistema debe detectar distracciones del taxista con un nivel de exactitud superior al 90%. |
-| -------------------------------- | --------------------------------------------------------------------------------------------- |
-| **Business Goals:**              | Reducir accidentes de tránsito y mejorar la seguridad vial en taxis mediante IA confiable.    |
-| **Relevant Quality Attributes:** | Precisión / Exactitud                                                                         |
-| **Stimulus:**                    | Una distracción del conductor (ej. mirar el celular, bostezar, cerrar los ojos).              |
-| **Stimulus Source:**             | Taxista monitoreado a través de cámara del celular.                                           |
-| **Environment:**                 | Entorno urbano con variaciones de luz y movimiento del vehículo.                              |
-| **Components:**                  | Módulo de visión por computadora (modelo IA) y cámara del dispositivo.                        |
-| **Artifact (if Known):**         | Motor de IA de detección de rostros y patrones de distracción.                                |
-| **Response:**                    | El sistema identifica la distracción y genera una alerta.                                     |
-| **Response Measure:**            | Precisión ≥ 90% en pruebas con dataset representativo.                                        |
-| **Questions:**                   | ¿Cómo se garantiza la precisión en condiciones de baja iluminación?                           |
-| **Issues:**                      | Necesidad de entrenar el modelo con datasets balanceados de distracciones reales.             |
+| Scenario Refinement for Scenario 1                                                                                             |
+| ------------------------------------------------------------------------------------------------------------------------------ |
+| **Scenario(s):** El sistema reconoce un objeto (ej. una silla o un electrodoméstico) en el hogar.                              |
+| **Business Goals:** Asegurar que el asistente guíe al usuario sin dar indicaciones erróneas que pongan en riesgo su seguridad. |
+| **Relevant Quality Attributes:** Precisión / Exactitud                                                                         |
+| **Stimulus:** El usuario pregunta “¿Qué objeto está frente a mí?”                                                              |
+| **Stimulus Source:** Usuario no vidente                                                                                        |
+| **Environment:** El hogar previamente mapeado con fotos y escaneo                                                              |
+| **Artifact (if Known):** Módulo de visión por computadora                                                                      |
+| **Response:** El sistema identifica el objeto y responde por voz con su nombre y ubicación                                     |
+| **Response Measure:** Exactitud ≥ 90% en la identificación de objetos en condiciones de iluminación estándar                   |
+| **Questions:** ¿Cómo mantener la precisión si cambia la iluminación del ambiente?                                              |
+| **Issues:** Posibles falsos positivos si hay objetos nuevos no registrados en el mapeo                                         |
 
 
-### Scenario Refinement for Scenario 2 – Latencia en la detección y alerta
-| **Scenario(s):**                 | El sistema debe generar una alerta en menos de 1 segundo desde que ocurre la distracción. |
-| -------------------------------- | ----------------------------------------------------------------------------------------- |
-| **Business Goals:**              | Garantizar una reacción inmediata para prevenir riesgos de accidente.                     |
-| **Relevant Quality Attributes:** | Rendimiento / Latencia                                                                    |
-| **Stimulus:**                    | Evento de distracción detectado por el modelo IA.                                         |
-| **Stimulus Source:**             | Procesamiento de video en tiempo real.                                                    |
-| **Environment:**                 | Aplicación corriendo en smartphone Android/iOS de gama media.                             |
-| **Components:**                  | Motor de IA optimizado para dispositivos móviles, módulo de notificaciones.               |
-| **Artifact (if Known):**         | Framework de inferencia (ej. TensorFlow Lite).                                            |
-| **Response:**                    | Mostrar alerta visual y sonora al taxista.                                                |
-| **Response Measure:**            | Tiempo de respuesta ≤ 1 segundo en al menos el 95% de los casos.                          |
-| **Questions:**                   | ¿Qué pasa si el procesamiento excede el tiempo por sobrecarga del dispositivo?            |
-| **Issues:**                      | Balance entre precisión del modelo y tiempo de inferencia.                                |
 
-### Scenario Refinement for Scenario 3 – Usabilidad y accesibilidad de la aplicación
-| **Scenario(s):**                 | La aplicación debe ser fácil de usar y accesible para taxistas de distintos perfiles.                  |
-| -------------------------------- | ------------------------------------------------------------------------------------------------------ |
-| **Business Goals:**              | Maximizar adopción de la solución y asegurar que los taxistas puedan usarla sin capacitación compleja. |
-| **Relevant Quality Attributes:** | Usabilidad / Accesibilidad                                                                             |
-| **Stimulus:**                    | El taxista inicia y usa la aplicación mientras conduce.                                                |
-| **Stimulus Source:**             | Interacción directa del usuario.                                                                       |
-| **Environment:**                 | Conducción en tránsito real con necesidad de mínima distracción.                                       |
-| **Components:**                  | Interfaz de usuario móvil (Android/iOS).                                                               |
-| **Artifact (if Known):**         | UI/UX con accesibilidad (botones grandes, alertas claras, soporte de voz).                             |
-| **Response:**                    | La aplicación se puede usar de forma intuitiva y sin desviar la atención de la conducción.             |
-| **Response Measure:**            | Tiempo de aprendizaje ≤ 5 minutos; error de interacción ≤ 5%.                                          |
-| **Questions:**                   | ¿Cómo garantizar la accesibilidad para taxistas con limitaciones visuales o auditivas?                 |
-| **Issues:**                      | Equilibrar simplicidad de UI con la inclusión de funcionalidades críticas.                             |
+| Scenario Refinement for Scenario 2                                                                        |
+| --------------------------------------------------------------------------------------------------------- |
+| **Scenario(s):** El sistema procesa imágenes en tiempo real para guiar al usuario en su desplazamiento.   |
+| **Business Goals:** Brindar asistencia inmediata para evitar accidentes al caminar dentro del hogar.      |
+| **Relevant Quality Attributes:** Latencia / Rendimiento                                                   |
+| **Stimulus:** El usuario inicia desplazamiento y solicita guía hacia un objeto (ej. “Llévame al sillón”). |
+| **Stimulus Source:** Usuario no vidente                                                                   |
+| **Environment:** Ejecución en dispositivo móvil con conectividad limitada                                 |
+| **Artifact (if Known):** Módulo de procesamiento en tiempo real                                           |
+| **Response:** El sistema genera instrucciones por voz en menos de 2 segundos desde la captura de imagen   |
+| **Response Measure:** Latencia máxima aceptable: 2 segundos por instrucción                               |
+| **Questions:** ¿Qué sucede si el procesamiento requiere conexión a la nube?                               |
+| **Issues:** Dependencia de la capacidad del dispositivo móvil (Android/iOS)                               |
 
+
+| Scenario Refinement for Scenario 3                                                                            |
+| ------------------------------------------------------------------------------------------------------------- |
+| **Scenario(s):** El usuario interactúa con la aplicación usando únicamente comandos de voz.                   |
+| **Business Goals:** Garantizar que personas no videntes puedan usar la aplicación sin apoyo externo.          |
+| **Relevant Quality Attributes:** Usabilidad / Accesibilidad                                                   |
+| **Stimulus:** El usuario dice “¿Qué colores hay aquí?” o “¿Quién está frente a mí?”                           |
+| **Stimulus Source:** Usuario no vidente                                                                       |
+| **Environment:** Uso doméstico en situación cotidiana                                                         |
+| **Artifact (if Known):** Interfaz de interacción por voz                                                      |
+| **Response:** El sistema responde claramente en lenguaje natural, con volumen y claridad adecuados            |
+| **Response Measure:** 95% de los comandos de voz reconocidos correctamente; respuestas en menos de 3 segundos |
+| **Questions:** ¿Cómo manejar diferentes acentos o variaciones de voz del usuario?                             |
+| **Issues:** Posibles problemas si hay ruido de fondo en el hogar                                              |
 
 ## 4.2. Strategic-Level Domain-Driven Design.
 ### 4.2.1. EventStorming.
