@@ -588,7 +588,7 @@ Marco Méndez, de 35 años y no vidente desde nacimiento, reside en Lima y vive 
 - Desde cuándo es no vidente: Perdió la visión a los 20 años
 - Vive con familiares
 
-<img src="./images/Chapter2/Entrevistas/Sandy.png" alt="Foto de Sandy" width="200">
+<img src="./images/interviews/Sandy.png" alt="Foto de Sandy" width="1000">
 
 **Resumen de la entrevista:**
 Sandy, una joven de 26 años residente en Ate–Lima que perdió la visión moderadamente a los 20 años, vive con su madre y hermana y enfrenta mayores riesgos en la cocina y al desplazarse cuando cambian los muebles. Actualmente se apoya en memoria, tacto y algunas apps poco confiables. Considera indispensable que una aplicación de asistencia visual reconozca objetos y personas con precisión, brinde instrucciones claras por audio, funcione sin internet y garantice la privacidad del mapeo de su hogar. Está dispuesta a invertir tiempo inicial en aprender y realizar un mapeo con ayuda de su hermana. Para ella, contar con un asistente visual inteligente significaría más independencia, seguridad y tranquilidad en su día a día.
