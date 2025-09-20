@@ -599,6 +599,7 @@ Para la recolección de datos cualitativos, se diseñaron entrevistas semiestruc
 15. ¿Qué mejoras o funciones adicionales le gustaría ver en una aplicación como esta?
 
 ### 2.2.2. Registro de entrevistas.
+Las entrevistas han sido consolidadas en un solo video registrado en la sección de Anexos, donde se pueden observar las respuestas y reacciones de los entrevistados. A continuación, se presenta un resumen de las entrevistas individualmente realizadas a cada segmento objetivo.
 
 **Segmento objetivo 1: Personas no videntes**
 
@@ -1582,4 +1583,10 @@ La base de datos MySQL 8.0 está alojada como contenedor dentro del servidor bac
 - Hersh, M., & Johnson, M. A. (2010). *Assistive Technology for Visually Impaired and Blind People*. Springer. https://doi.org/10.1007/978-1-84882-181-9  
 - Manduchi, R., & Coughlan, J. M. (2012). The Role of Computer Vision in Accessible Technology. *Computer, 45*(3), 65–71. https://doi.org/10.1109/MC.2012.64  
 - World Health Organization. (2021). *World Report on Vision*. World Health Organization. https://www.who.int/publications/i/item/9789241516570  
+
+# Anexos
+| Título | URL |
+|--------|-----|
+| **TB1:** Presentación del proyecto | https://acortar.link/V3AnHH |
+| **Video entrevistas TB1:** Entrevistas consolidadas en un solo video |  |
 
