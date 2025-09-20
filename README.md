@@ -1015,6 +1015,17 @@ Redactamos las historias de usuario para el sistema de "VisualGuide", basándono
     
 
 ## 3.3. Impact Mapping.
+
+El Impact Map nos ayuda a visualizar como el usuario va a verse afectado por nuestra aplicación, descomponiendo el proceso hasta las historias de usuario que más lo afectan.
+
+**No vidente:**
+
+<img src="./images/Chapter3/Impact map 1.png" alt="Impact map 1" width="auto">
+
+**Familiares o cuidadores:**
+
+<img src="./images/Chapter3/Impact map 2.png" alt="Impact map 2" width="auto">
+
 ## 3.4. Product Backlog.
 
 El produckt backlog es utilizado para reunir las funciones del sistema y darles story points para poder priorizar el desarrollo de estas.
