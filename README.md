@@ -634,7 +634,32 @@ Mencionó que una aplicación como VisualGuide podría ser muy beneficiosa, ya q
 
 ### 2.2.3. Análisis de entrevistas.
 
-// aqui se debe hacer un analisis con GOOGLE FORMS con preguntas a personas anónimas, y sacando captura de pantalla de los resultados
+Para esta sección, el equipo elaboró un análisis detallado de las entrevistas realizadas a personas no videntes y sus familiares o cuidadores, a partir de un formulario creado en Google Forms y entrevistas grabadas en video.
+**Formulario de encuesta**: [https://forms.gle/rkaVKpQX8PGiSA1W7](https://forms.gle/rkaVKpQX8PGiSA1W7)
+
+<img src="./images/interviews/question-1.PNG" alt="Análisis de entrevistas" width="auto">
+Para esta pregunta, se observa que la mayoría de personas cuentan con alguna persona no vidente su entorno cercano, lo que indica una alta relevancia del problema en la sociedad.
+<br><br>
+
+<img src="./images/interviews/question-2.PNG" alt="Análisis de entrevistas" width="auto">
+En esta pregunta, se evidencia la relevancia de contar con herramientas de asistencia para personas no videntes, ya que la mayoría de encuestados considera que es muy importante.
+<br><br>
+
+<img src="./images/interviews/question-3.PNG" alt="Análisis de entrevistas" width="auto">
+En esta pregunta se observa cuáles son los mayores beneficios que los usuarios esperan de una aplicación como VisualGuide, destacando la seguridad y la autonomía.
+<br><br>
+
+<img src="./images/interviews/question-4.PNG" alt="Análisis de entrevistas" width="auto">
+En esta pregunta, se evidencia que la mayoría de usuarios tendrían una confianza moderada a alta en una aplicación como VisualGuide, lo que indica una buena disposición hacia la tecnología.
+<br><br>
+
+<img src="./images/interviews/question-5.PNG" alt="Análisis de entrevistas" width="auto">
+En esta pregunta, se observa que la mayoría de encuestados prefieren que la aplicación se utilice en un dispositivo móvil, lo que sugiere la importancia de la portabilidad y accesibilidad.
+<br><br>
+
+<img src="./images/interviews/question-6.PNG" alt="Análisis de entrevistas" width="auto">
+En esta pregunta, se evidencia la gran aprobación de la idea de VisualGuide, ya que la mayoría de encuestados considera que es una solución muy buena y la recomendarían pero con pruebas previas de seguridad.
+<br><br>
 
 
 ## 2.3. Needfinding.
