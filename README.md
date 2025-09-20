@@ -22,10 +22,10 @@
 
 |               Member                |    Code    |
 | :---------------------------------: | :--------: |
-| Rodriguez Vargas, Arian Martín  | U202212096 |
-| Perez Pizarro, Pedro Jeremy  | U202022237 |
 | More Rondon, Christopher Sebastian  | U202212199 |
+| Perez Pizarro, Pedro Jeremy  | U202022237 |
 | Ramos Najar, Tony Alexander  | U20211A153 |
+| Rodriguez Vargas, Arian Martín  | U202212096 |
 
 
 
@@ -51,8 +51,14 @@
       <td>Ramos Najar, Tony Alexander</td>
       <td>
         <ul>
-          <li>Antecedentes y Problemática</li>
-          <li>User stories</li>
+          <li>Startup Profile</li>
+          <li>Solution Profile</li>
+          <li>Antecedentes y problemática</li>
+          <li>Lean UX Process</li>
+          <li>Segmentos objetivo</li>
+          <li>Competidores</li>
+          <li>EventStorming</li>
+          <li>User Stories</li>
         </ul>
       </td>
     </tr>
@@ -61,9 +67,13 @@
       <td>More Rondon, Christopher Sebastian</td>
       <td>
         <ul>
-          <li>Lean UX Process</li>
+          <li>To-Be Scenario Mapping</li>
+          <li>Impact Mapping</li>
           <li>Product Backlog</li>
           <li>Ubiquitous Language</li>
+          <li>NeedFinding</li>
+          <li>EventStorming</li>
+          <li>User Stories</li>
         </ul>
       </td>
     </tr>
@@ -72,8 +82,14 @@
       <td>Perez Pizarro, Pedro Jeremy </td>
       <td>
         <ul>
-          <li>User Journey Mapping</li>
-          <li>Impact Mapping</li>
+          <li>Strategic-Level Attribute-Driven Design</li>
+          <li>Design Purpose</li>
+          <li>Attribute-Driven Design Inputs</li>
+          <li>Architectural Drivers Backlog</li>
+          <li>Architectural Design Decisions</li>
+          <li>Quality Attribute Scenario Refinements</li>
+          <li>EventStorming</li>
+          <li>User Stories</li>
         </ul>
       </td>
     </tr>
@@ -82,9 +98,13 @@
       <td>Arian Martín Rodriguez Vargas</td>
       <td>
         <ul>
-          <li>Análisis Competitivo</li>
-          <li>Estrategias Frente a Competidores</li>
-          <li>Empathy Mapping</li>
+          <li>Context Mapping</li>
+          <li>Software Architecture System Landscape Diagram</li>
+          <li>Software Architecture Context Level Diagrams</li>
+          <li>Software Architecture Container Diagrams</li>
+          <li>Software Architecture Deployment Diagrams</li>
+          <li>EventStorming</li>
+          <li>User Stories</li>
         </ul>
       </td>
     </tr>
@@ -176,6 +196,8 @@ Imagen 1: Gráfico general de commits y contribuciones hechas por cada miembros 
       + [4.3.2. Software Architecture Context Level Diagrams](#432-software-architecture-context-level-diagrams)
       + [4.3.3. Software Architecture Container Level Diagrams](#433-software-architecture-container-level-diagrams)
       + [4.3.4. Software Architecture Deployment Diagrams](#434-software-architecture-deployment-diagrams)
+- [Conclusiones](#conclusiones)
+- [Referencias](#referencias)
 
 
 # Student Outcome
@@ -200,9 +222,15 @@ especialidades y niveles
 jerarquicos, en el marco del
 desarrollo de un proyecto en
 ingeniería.</td>
-    <td></td>
-        <td></td>
-
+    <td>
+      <p><b>TB1 - More Rondon, Christopher Sebastian:</b> Expuse con claridad conceptos técnicos y esto me ayudará a ganar confianza en futuras presentaciones profesionales.</p>
+      <p><b>TB1 - Perez Pizarro, Pedro Jeremy:</b> Compartí ideas con ejemplos comprensibles y esto me permitirá desenvolverme mejor frente a audiencias diversas.</p>
+      <p><b>TB1 - Ramos Najar, Tony Alexander:</b> Participé en discusiones transmitiendo resultados de manera precisa y esto reforzará mi comunicación en el ámbito laboral.</p>
+      <p><b>TB1 - Rodriguez Vargas, Arian Martín:</b> Lideré la exposición de hallazgos y con ello perfeccioné mi capacidad de persuadir en entornos de ingeniería.</p>
+    </td>
+    <td>
+      <p><b>TB1:</b> Como equipo demostramos nuestra capacidad de comunicar oralmente ideas y resultados de manera objetiva, alcanzando un nivel de claridad y efectividad aplicable en nuestra futura carrera profesional.</p>
+    </td>
   </tr>
 
   <tr>
@@ -213,11 +241,19 @@ especialidades y niveles
 jerarquicos, en el marco del
 desarrollo de un proyecto en
 ingeniería..</td>
-      <td></td>
-    <td></td>
-
+    <td>
+      <p><b>TB1 - More Rondon, Christopher Sebastian:</b> Redacté reportes técnicos concisos y esto fortalecerá mi competencia para elaborar documentación profesional.</p>
+      <p><b>TB1 - Perez Pizarro, Pedro Jeremy:</b> Elaboré resúmenes claros y estructurados y esto mejorará mi comunicación escrita hacia distintos públicos.</p>
+      <p><b>TB1 - Ramos Najar, Tony Alexander:</b> Contribuí con informes analíticos bien organizados y esto me permitirá aplicar una mejor documentación en mi vida académica y laboral.</p>
+      <p><b>TB1 - Rodriguez Vargas, Arian Martín:</b> Preparé documentos con lenguaje técnico adaptado y esto me ayudará a desarrollar competencias para la escritura en proyectos de ingeniería.</p>
+    </td>
+    <td>
+      <p><b>TB1:</b> Como equipo alcanzamos una comunicación escrita objetiva y clara, adaptada a diversos niveles jerárquicos y especialidades, consolidando una competencia esencial en nuestra formación y ejercicio profesional.</p>
+    </td>
   </tr>
 </table>
+
+
 
 
 # Capítulo I: Introducción
@@ -600,7 +636,32 @@ Mencionó que una aplicación como VisualGuide podría ser muy beneficiosa, ya q
 
 ### 2.2.3. Análisis de entrevistas.
 
-// aqui se debe hacer un analisis con GOOGLE FORMS con preguntas a personas anónimas, y sacando captura de pantalla de los resultados
+Para esta sección, el equipo elaboró un análisis detallado de las entrevistas realizadas a personas no videntes y sus familiares o cuidadores, a partir de un formulario creado en Google Forms y entrevistas grabadas en video.
+**Formulario de encuesta**: [https://forms.gle/rkaVKpQX8PGiSA1W7](https://forms.gle/rkaVKpQX8PGiSA1W7)
+
+<img src="./images/interviews/question-1.PNG" alt="Análisis de entrevistas" width="auto">
+Para esta pregunta, se observa que la mayoría de personas cuentan con alguna persona no vidente su entorno cercano, lo que indica una alta relevancia del problema en la sociedad.
+<br><br>
+
+<img src="./images/interviews/question-2.PNG" alt="Análisis de entrevistas" width="auto">
+En esta pregunta, se evidencia la relevancia de contar con herramientas de asistencia para personas no videntes, ya que la mayoría de encuestados considera que es muy importante.
+<br><br>
+
+<img src="./images/interviews/question-3.PNG" alt="Análisis de entrevistas" width="auto">
+En esta pregunta se observa cuáles son los mayores beneficios que los usuarios esperan de una aplicación como VisualGuide, destacando la seguridad y la autonomía.
+<br><br>
+
+<img src="./images/interviews/question-4.PNG" alt="Análisis de entrevistas" width="auto">
+En esta pregunta, se evidencia que la mayoría de usuarios tendrían una confianza moderada a alta en una aplicación como VisualGuide, lo que indica una buena disposición hacia la tecnología.
+<br><br>
+
+<img src="./images/interviews/question-5.PNG" alt="Análisis de entrevistas" width="auto">
+En esta pregunta, se observa que la mayoría de encuestados prefieren que la aplicación se utilice en un dispositivo móvil, lo que sugiere la importancia de la portabilidad y accesibilidad.
+<br><br>
+
+<img src="./images/interviews/question-6.PNG" alt="Análisis de entrevistas" width="auto">
+En esta pregunta, se evidencia la gran aprobación de la idea de VisualGuide, ya que la mayoría de encuestados considera que es una solución muy buena y la recomendarían pero con pruebas previas de seguridad.
+<br><br>
 
 
 ## 2.3. Needfinding.
@@ -1310,6 +1371,36 @@ Finalmente, se obtuvieron 4 bounded contexts (contextos limitados) que represent
 ### 4.2.3. Domain Message Flows Modeling.
 En este apartado, se ha modelado el flujo de mensajes dentro del dominio utilizando la herramienta Miro. Este modelo permite visualizar cómo los diferentes componentes del sistema interactúan entre sí a través del intercambio de mensajes, facilitando la comprensión de las dependencias y la comunicación entre los distintos bounded contexts identificados en el EventStorming.
 
+#### **IAM Bounded Context**
+**Escenario 1:** Un usuario nuevo se registra en la aplicación proporcionando su información personal. La aplicación envía esta información al sistema de gestión de usuarios, que crea una nueva cuenta y envía una confirmación al usuario.
+
+<img src="./images/domaing-flows/scenario1-iam.PNG" alt="Scenario" width="auto">
+
+<br>
+
+**Escenario 2:** Un usuario existente inicia sesión en la aplicación. La aplicación envía las credenciales del usuario al sistema de autenticación, que verifica la información y concede acceso si las credenciales son correctas.
+<img src="./images/domaing-flows/scenario2-iam.PNG" alt="Scenario" width="auto">
+
+<br>
+
+**Escenario 3:** Un usuario registra su dispositivo de confianza. De esta manera, la aplicación envía la información del dispositivo al sistema de gestión de usuarios, que asocia el dispositivo con la cuenta del usuario y envía una confirmación.
+<img src="./images/domaing-flows/scenario3-iam.PNG" alt="Scenario" width="auto">
+<br>
+
+#### **Home Configuration Bounded Context**
+**Escenario 1:** Un usuario invidente utiliza el comando por voz para iniciar el mapeo de su hogar. La aplicación envía una solicitud al sistema de configuración del hogar, que inicia el proceso de mapeo y guía al usuario a través de las instrucciones por voz.
+<img src="./images/domaing-flows/scenario1-home.PNG" alt="Scenario" width="auto">
+<br>
+
+**Escenario 2:** Un usuario familiar o cuidador toma fotos de referencia del hogar. La aplicación envía estas fotos al sistema de configuración del hogar, que las almacena y las utiliza para mejorar el mapeo y el reconocimiento de objetos.
+<img src="./images/domaing-flows/scenario2-home.PNG" alt="Scenario" width="auto">
+<br>
+
+**Escenario 3:** Un usuario invidente solicita el mapeo de su hogar. La aplicación envía una solicitud al sistema de configuración del hogar, que procesa la solicitud y devuelve el estado del mapeo, incluyendo cualquier error o confirmación de éxito.
+<img src="./images/domaing-flows/scenario3-home.PNG" alt="Scenario" width="auto">
+<br>
+
+
 #### **AI Recognition Bounded Context**
 **Escenario 1:** Un usuario invidente utiliza el comando por voz, de este modo, la aplicación envía una solicitud al modelo de IA para reconocer un objeto en el entorno. El modelo procesa la imagen y devuelve la información del objeto reconocido, que luego es comunicada al usuario mediante una indicación de voz.
 <img src="./images/domaing-flows/scenario1-ai-recognition.PNG" alt="Scenario" width="auto">
@@ -1329,13 +1420,36 @@ En este apartado, se ha modelado el flujo de mensajes dentro del dominio utiliza
 
 **Escenario 5:** Alerta de objeto no identificado, donde el usuario invidente solicita el reconocimiento de un objeto que no está en la base de datos del modelo de IA. La aplicación envía la imagen al modelo, que procesa la solicitud y determina que el objeto no puede ser identificado. La aplicación entonces notifica al usuario mediante una indicación de voz, informándole que el objeto no ha sido reconocido y sugiriendo posibles acciones a seguir.
 <img src="./images/domaing-flows/scenario5-ai-recognition.PNG" alt="Scenario" width="auto">
+<br>
+
+#### **Notifications Bounded Context**
+**Escenario 1:** Un usuario invidente recibe una alerta de advertencia sobre un objeto peligroso en su entorno. La aplicación envía una notificación al sistema de notificaciones, que procesa la alerta y envía un mensaje al usuario mediante una indicación de voz, informándole sobre el peligro y sugiriendo precauciones.
+<img src="./images/domaing-flows/scenario1-notification.PNG" alt="Scenario" width="auto">
+<br>
+
+**Escenario 2:** Un usuario invidente recibe una notificación de éxito después de completar el mapeo de su hogar. La aplicación envía una notificación al sistema de notificaciones, que procesa la información y envía un mensaje al usuario mediante una indicación de voz, confirmando que el mapeo ha sido exitoso y está listo para su uso.
+<img src="./images/domaing-flows/scenario2-notification.PNG" alt="Scenario" width="auto">
+<br>
+
+**Escenario 3:** Un usuario familiar o cuidador recibe una notificación de escalamiento cuando el usuario invidente no responde a una alerta crítica. La aplicación envía una notificación al sistema de notificaciones, que procesa la información y envía un mensaje al familiar o cuidador mediante una indicación de voz o un mensaje de texto, informándole sobre la situación y sugiriendo que tome medidas para asistir al usuario invidente.
+<img src="./images/domaing-flows/scenario3-notification.PNG" alt="Scenario" width="auto">
+<br>
 
 ### 4.2.4. Bounded Context Canvases.
 
 A continuación, se presentan los Bounded Context Canvases para cada uno de los contextos limitados identificados en el EventStorming. Estos canvases proporcionan una visión detallada de cada contexto, incluyendo sus responsabilidades, actores, entidades y relaciones con otros contextos.
 
+#### **IAM Bounded Context**
+<img src="./images/bc-canvases/iam.PNG" alt="IAM Bounded Context" width="auto">
+
+#### **Home Configuration Bounded Context**
+<img src="./images/bc-canvases/home-configuration.PNG" alt="Home Configuration Bounded Context" width="auto">
+
 #### **AI Recognition Bounded Context**
 <img src="./images/bc-canvases/ai-recognition.PNG" alt="AI Recognition Bounded Context" width="auto">
+
+#### **Notifications Bounded Context**
+<img src="./images/bc-canvases/notification.PNG" alt="Notifications Bounded Context" width="auto">
 
 ### 4.2.5. Context Mapping.
 
@@ -1440,3 +1554,32 @@ El backend de la aplicación está alojado en un servidor Linux Ubuntu 22.04 LTS
 La base de datos MySQL 8.0 está alojada como contenedor dentro del servidor backend, gestionando la información del usuario, configuraciones y datos de mapeo del hogar. Además, utilizamos un S3 Bucket AWS para almacenar imágenes y datos relacionados con el reconocimiento de objetos, asegurando un acceso rápido y seguro a estos recursos.
 
 <img src="./images/c4-model/deployment-diagram.PNG" alt="Deployment Level Diagram" width="auto">
+
+# Conclusiones
+
+1. **Accesibilidad e inclusión:** *VisualGuide* contribuye a la autonomía y seguridad de personas no videntes, ofreciendo un entorno doméstico más accesible gracias al reconocimiento inteligente de objetos, textos, colores y personas.  
+
+2. **Innovación tecnológica:** La integración de inteligencia artificial y mapeo controlado del hogar garantiza precisión y reduce riesgos, diferenciándose de aplicaciones orientadas a espacios públicos.  
+
+3. **Relevancia social:** Este proyecto responde a una necesidad real de la comunidad no vidente, alineándose con los principios de diseño inclusivo y fomentando una mayor calidad de vida.  
+
+4. **Proyección de uso:** La escalabilidad de la aplicación permite futuras integraciones con dispositivos como lentes inteligentes o asistentes de voz, aumentando su potencial en el mercado tecnológico asistivo.  
+
+5. **Impacto profesional:** Desarrollar soluciones como *VisualGuide* refuerza la importancia del rol de la ingeniería de software en la creación de tecnologías con propósito social y ético.  
+
+6. **Adopción potencial:** La simplicidad de uso mediante dispositivos móviles comunes facilita que la solución sea adoptada por una gran variedad de usuarios sin requerir costosos equipos adicionales.  
+
+7. **Seguridad en el hogar:** El enfoque en espacios controlados, como el hogar, minimiza riesgos de accidentes y ofrece un entorno confiable para la interacción diaria del usuario.  
+
+8. **Contribución académica y científica:** El proyecto puede servir como base para investigaciones futuras en inteligencia artificial aplicada a accesibilidad, fomentando avances en la intersección de tecnología y discapacidad.  
+
+---
+
+# Referencias
+
+- American Foundation for the Blind. (2020). *Assistive Technology for People Who are Blind or Visually Impaired*. https://www.afb.org/  
+- Bai, J., Lian, S., Liu, Z., Wang, K., & Liu, D. (2017). Virtual-Blind-Road Following Based Wearable Navigation Device for Blind People. *IEEE Transactions on Consumer Electronics, 63*(2), 258–266. https://doi.org/10.1109/TCE.2017.014975  
+- Hersh, M., & Johnson, M. A. (2010). *Assistive Technology for Visually Impaired and Blind People*. Springer. https://doi.org/10.1007/978-1-84882-181-9  
+- Manduchi, R., & Coughlan, J. M. (2012). The Role of Computer Vision in Accessible Technology. *Computer, 45*(3), 65–71. https://doi.org/10.1109/MC.2012.64  
+- World Health Organization. (2021). *World Report on Vision*. World Health Organization. https://www.who.int/publications/i/item/9789241516570  
+
