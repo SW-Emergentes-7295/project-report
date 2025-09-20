@@ -22,10 +22,10 @@
 
 |               Member                |    Code    |
 | :---------------------------------: | :--------: |
-| Rodriguez Vargas, Arian Martín  | U202212096 |
-| Perez Pizarro, Pedro Jeremy  | U202022237 |
 | More Rondon, Christopher Sebastian  | U202212199 |
+| Perez Pizarro, Pedro Jeremy  | U202022237 |
 | Ramos Najar, Tony Alexander  | U20211A153 |
+| Rodriguez Vargas, Arian Martín  | U202212096 |
 
 
 
@@ -51,8 +51,14 @@
       <td>Ramos Najar, Tony Alexander</td>
       <td>
         <ul>
-          <li>Antecedentes y Problemática</li>
-          <li>User stories</li>
+          <li>Startup Profile</li>
+          <li>Solution Profile</li>
+          <li>Antecedentes y problemática</li>
+          <li>Lean UX Process</li>
+          <li>Segmentos objetivo</li>
+          <li>Competidores</li>
+          <li>EventStorming</li>
+          <li>User Stories</li>
         </ul>
       </td>
     </tr>
@@ -61,9 +67,13 @@
       <td>More Rondon, Christopher Sebastian</td>
       <td>
         <ul>
-          <li>Lean UX Process</li>
+          <li>To-Be Scenario Mapping</li>
+          <li>Impact Mapping</li>
           <li>Product Backlog</li>
           <li>Ubiquitous Language</li>
+          <li>NeedFinding</li>
+          <li>EventStorming</li>
+          <li>User Stories</li>
         </ul>
       </td>
     </tr>
@@ -72,8 +82,14 @@
       <td>Perez Pizarro, Pedro Jeremy </td>
       <td>
         <ul>
-          <li>User Journey Mapping</li>
-          <li>Impact Mapping</li>
+          <li>Strategic-Level Attribute-Driven Design</li>
+          <li>Design Purpose</li>
+          <li>Attribute-Driven Design Inputs</li>
+          <li>Architectural Drivers Backlog</li>
+          <li>Architectural Design Decisions</li>
+          <li>Quality Attribute Scenario Refinements</li>
+          <li>EventStorming</li>
+          <li>User Stories</li>
         </ul>
       </td>
     </tr>
@@ -82,9 +98,13 @@
       <td>Arian Martín Rodriguez Vargas</td>
       <td>
         <ul>
-          <li>Análisis Competitivo</li>
-          <li>Estrategias Frente a Competidores</li>
-          <li>Empathy Mapping</li>
+          <li>Context Mapping</li>
+          <li>Software Architecture System Landscape Diagram</li>
+          <li>Software Architecture Context Level Diagrams</li>
+          <li>Software Architecture Container Diagrams</li>
+          <li>Software Architecture Deployment Diagrams</li>
+          <li>EventStorming</li>
+          <li>User Stories</li>
         </ul>
       </td>
     </tr>
@@ -200,9 +220,15 @@ especialidades y niveles
 jerarquicos, en el marco del
 desarrollo de un proyecto en
 ingeniería.</td>
-    <td></td>
-        <td></td>
-
+    <td>
+      <p><b>TB1 - More Rondon, Christopher Sebastian:</b> Expuse con claridad conceptos técnicos y esto me ayudará a ganar confianza en futuras presentaciones profesionales.</p>
+      <p><b>TB1 - Perez Pizarro, Pedro Jeremy:</b> Compartí ideas con ejemplos comprensibles y esto me permitirá desenvolverme mejor frente a audiencias diversas.</p>
+      <p><b>TB1 - Ramos Najar, Tony Alexander:</b> Participé en discusiones transmitiendo resultados de manera precisa y esto reforzará mi comunicación en el ámbito laboral.</p>
+      <p><b>TB1 - Rodriguez Vargas, Arian Martín:</b> Lideré la exposición de hallazgos y con ello perfeccioné mi capacidad de persuadir en entornos de ingeniería.</p>
+    </td>
+    <td>
+      <p><b>TB1:</b> Como equipo demostramos nuestra capacidad de comunicar oralmente ideas y resultados de manera objetiva, alcanzando un nivel de claridad y efectividad aplicable en nuestra futura carrera profesional.</p>
+    </td>
   </tr>
 
   <tr>
@@ -213,11 +239,19 @@ especialidades y niveles
 jerarquicos, en el marco del
 desarrollo de un proyecto en
 ingeniería..</td>
-      <td></td>
-    <td></td>
-
+    <td>
+      <p><b>TB1 - More Rondon, Christopher Sebastian:</b> Redacté reportes técnicos concisos y esto fortalecerá mi competencia para elaborar documentación profesional.</p>
+      <p><b>TB1 - Perez Pizarro, Pedro Jeremy:</b> Elaboré resúmenes claros y estructurados y esto mejorará mi comunicación escrita hacia distintos públicos.</p>
+      <p><b>TB1 - Ramos Najar, Tony Alexander:</b> Contribuí con informes analíticos bien organizados y esto me permitirá aplicar una mejor documentación en mi vida académica y laboral.</p>
+      <p><b>TB1 - Rodriguez Vargas, Arian Martín:</b> Preparé documentos con lenguaje técnico adaptado y esto me ayudará a desarrollar competencias para la escritura en proyectos de ingeniería.</p>
+    </td>
+    <td>
+      <p><b>TB1:</b> Como equipo alcanzamos una comunicación escrita objetiva y clara, adaptada a diversos niveles jerárquicos y especialidades, consolidando una competencia esencial en nuestra formación y ejercicio profesional.</p>
+    </td>
   </tr>
 </table>
+
+
 
 
 # Capítulo I: Introducción
