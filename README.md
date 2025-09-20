@@ -1252,6 +1252,36 @@ Finalmente, se obtuvieron 4 bounded contexts (contextos limitados) que represent
 ### 4.2.3. Domain Message Flows Modeling.
 En este apartado, se ha modelado el flujo de mensajes dentro del dominio utilizando la herramienta Miro. Este modelo permite visualizar cómo los diferentes componentes del sistema interactúan entre sí a través del intercambio de mensajes, facilitando la comprensión de las dependencias y la comunicación entre los distintos bounded contexts identificados en el EventStorming.
 
+#### **IAM Bounded Context**
+**Escenario 1:** Un usuario nuevo se registra en la aplicación proporcionando su información personal. La aplicación envía esta información al sistema de gestión de usuarios, que crea una nueva cuenta y envía una confirmación al usuario.
+
+<img src="./images/domaing-flows/scenario1-iam.PNG" alt="Scenario" width="auto">
+
+<br>
+
+**Escenario 2:** Un usuario existente inicia sesión en la aplicación. La aplicación envía las credenciales del usuario al sistema de autenticación, que verifica la información y concede acceso si las credenciales son correctas.
+<img src="./images/domaing-flows/scenario2-iam.PNG" alt="Scenario" width="auto">
+
+<br>
+
+**Escenario 3:** Un usuario registra su dispositivo de confianza. De esta manera, la aplicación envía la información del dispositivo al sistema de gestión de usuarios, que asocia el dispositivo con la cuenta del usuario y envía una confirmación.
+<img src="./images/domaing-flows/scenario3-iam.PNG" alt="Scenario" width="auto">
+<br>
+
+#### **Home Configuration Bounded Context**
+**Escenario 1:** Un usuario invidente utiliza el comando por voz para iniciar el mapeo de su hogar. La aplicación envía una solicitud al sistema de configuración del hogar, que inicia el proceso de mapeo y guía al usuario a través de las instrucciones por voz.
+<img src="./images/domaing-flows/scenario1-home.PNG" alt="Scenario" width="auto">
+<br>
+
+**Escenario 2:** Un usuario familiar o cuidador toma fotos de referencia del hogar. La aplicación envía estas fotos al sistema de configuración del hogar, que las almacena y las utiliza para mejorar el mapeo y el reconocimiento de objetos.
+<img src="./images/domaing-flows/scenario2-home.PNG" alt="Scenario" width="auto">
+<br>
+
+**Escenario 3:** Un usuario invidente solicita el mapeo de su hogar. La aplicación envía una solicitud al sistema de configuración del hogar, que procesa la solicitud y devuelve el estado del mapeo, incluyendo cualquier error o confirmación de éxito.
+<img src="./images/domaing-flows/scenario3-home.PNG" alt="Scenario" width="auto">
+<br>
+
+
 #### **AI Recognition Bounded Context**
 **Escenario 1:** Un usuario invidente utiliza el comando por voz, de este modo, la aplicación envía una solicitud al modelo de IA para reconocer un objeto en el entorno. El modelo procesa la imagen y devuelve la información del objeto reconocido, que luego es comunicada al usuario mediante una indicación de voz.
 <img src="./images/domaing-flows/scenario1-ai-recognition.PNG" alt="Scenario" width="auto">
@@ -1271,13 +1301,36 @@ En este apartado, se ha modelado el flujo de mensajes dentro del dominio utiliza
 
 **Escenario 5:** Alerta de objeto no identificado, donde el usuario invidente solicita el reconocimiento de un objeto que no está en la base de datos del modelo de IA. La aplicación envía la imagen al modelo, que procesa la solicitud y determina que el objeto no puede ser identificado. La aplicación entonces notifica al usuario mediante una indicación de voz, informándole que el objeto no ha sido reconocido y sugiriendo posibles acciones a seguir.
 <img src="./images/domaing-flows/scenario5-ai-recognition.PNG" alt="Scenario" width="auto">
+<br>
+
+#### **Notifications Bounded Context**
+**Escenario 1:** Un usuario invidente recibe una alerta de advertencia sobre un objeto peligroso en su entorno. La aplicación envía una notificación al sistema de notificaciones, que procesa la alerta y envía un mensaje al usuario mediante una indicación de voz, informándole sobre el peligro y sugiriendo precauciones.
+<img src="./images/domaing-flows/scenario1-notification.PNG" alt="Scenario" width="auto">
+<br>
+
+**Escenario 2:** Un usuario invidente recibe una notificación de éxito después de completar el mapeo de su hogar. La aplicación envía una notificación al sistema de notificaciones, que procesa la información y envía un mensaje al usuario mediante una indicación de voz, confirmando que el mapeo ha sido exitoso y está listo para su uso.
+<img src="./images/domaing-flows/scenario2-notification.PNG" alt="Scenario" width="auto">
+<br>
+
+**Escenario 3:** Un usuario familiar o cuidador recibe una notificación de escalamiento cuando el usuario invidente no responde a una alerta crítica. La aplicación envía una notificación al sistema de notificaciones, que procesa la información y envía un mensaje al familiar o cuidador mediante una indicación de voz o un mensaje de texto, informándole sobre la situación y sugiriendo que tome medidas para asistir al usuario invidente.
+<img src="./images/domaing-flows/scenario3-notification.PNG" alt="Scenario" width="auto">
+<br>
 
 ### 4.2.4. Bounded Context Canvases.
 
 A continuación, se presentan los Bounded Context Canvases para cada uno de los contextos limitados identificados en el EventStorming. Estos canvases proporcionan una visión detallada de cada contexto, incluyendo sus responsabilidades, actores, entidades y relaciones con otros contextos.
 
+#### **IAM Bounded Context**
+<img src="./images/bc-canvases/iam.PNG" alt="IAM Bounded Context" width="auto">
+
+#### **Home Configuration Bounded Context**
+<img src="./images/bc-canvases/home-configuration.PNG" alt="Home Configuration Bounded Context" width="auto">
+
 #### **AI Recognition Bounded Context**
 <img src="./images/bc-canvases/ai-recognition.PNG" alt="AI Recognition Bounded Context" width="auto">
+
+#### **Notifications Bounded Context**
+<img src="./images/bc-canvases/notification.PNG" alt="Notifications Bounded Context" width="auto">
 
 ### 4.2.5. Context Mapping.
 
