@@ -1021,39 +1021,39 @@ El produckt backlog es utilizado para reunir las funciones del sistema y darles 
 
 | User Story ID  |                             Titulo                        | Story Points (1 / 2 / 3 / 5 / 8) | Sprint |
 | :------------: | :-------------------------------------------------------: |:-------------------------------: |:------:|
-| EX-HU01        | Obtener información de la empresa                         | 2                                | X      |
-| EX-HU02        | Uso de la aplicación móvil                                | 5                                | X      |
-| EX-HU03        | Mapeo del hogar                                           | 5                                | X      |
-| EX-HU04        | Reconocimiento de objetos y muebles                       | 5                                | X      |
-| EX-HU05        | Notificaciones a cuidadores                               | 3                                | X      |
-| EX-HU06        | Acceso a la información de la aplicación                  | 2                                | X      |
-| EX-HU07        | Configuración de preferencias                             | 2                                | X      |
-| EX-HU08        | Reconocimiento de voz                                     | 3                                | X      |
-| EX-HU09        | Reconocer objetos básicos                                 | 5                                | X      |
-| EX-HU10        | Guardar mapa simple del hogar                             | 3                                | X      |
-| EX-HU11        | Guía con voz paso a paso                                  | 5                                | X      |
-| EX-HU12        | Notificación rápida al cuidador                           | 3                                | X      |
-| EX-HU13        | Historial de recorridos                                   | 2                                | X      |
-| EX-HU14        | Ajustar velocidad de voz                                  | 2                                | X      |
-| EX-HU15        | Recordatorio de batería baja                              | 2                                | X      |
-| EX-HU16        | Perfil de usuario básico                                  | 2                                | X      |
-| EX-HU17        | Perfil de usuario básico                                  | 2                                | X      |
-| EX-HU18        | Perfil de usuario básico                                  | 2                                | X      |
-| EX-HU19        | Cambiar tipo de voz                                       | 3                                | X      |
-| EX-HU20        | Reconocimiento de obstáculos                              | 3                                | X      |
-| EX-HU21        | Reconocimiento de escaleras                               | 3                                | X      |
-| EX-HU22        | Reconocimiento del nivel del suelo                        | 5                                | X      |
-| EX-HU23        | Ajustar volúmen de voz                                    | 2                                | X      |
-| EX-HU24        | Opiniones en la página                                    | 2                                | X      |
-| EX-HU25        | Guía en la página                                         | 3                                | X      |
-| EX-HU26        | Registro de logs                                          | 3                                | X      |
-| EX-HU27        | Métricas de uso                                           | 3                                | X      |
-| EX-HU28        | Manejo de errores críticos                                | 2                                | X      |
-| EX-HU29        | Inicio de sesión                                          | 3                                | X      |
-| EX-HU30        | Actualización de preferencias                             | 2                                | X      |
-| EX-HU31        | Gestión por administrador                                 | 2                                | X      |
-| EX-HU32        | Historial de objetos reconocidos                          | 3                                | X      |
-| EX-HU33        | Alertas de problemas con el usuario                       | 3                                | X      |
+| E1-HU01        | Obtener información de la empresa                         | 2                                | 1      |
+| E1-HU02        | Uso de la aplicación móvil                                | 5                                | 1      |
+| E3-HU03        | Mapeo del hogar                                           | 5                                | 3      |
+| E2-HU04        | Reconocimiento de objetos y muebles                       | 5                                | 2      |
+| E1-HU05        | Notificaciones a cuidadores                               | 3                                | 1      |
+| E1-HU06        | Acceso a la información de la aplicación                  | 2                                | 1      |
+| E2-HU07        | Configuración de preferencias                             | 2                                | 2      |
+| E2-HU08        | Reconocimiento de voz                                     | 3                                | 2      |
+| E1-HU09        | Reconocer objetos básicos                                 | 5                                | 1      |
+| E2-HU10        | Guardar mapa simple del hogar                             | 3                                | 2      |
+| E2-HU11        | Guía con voz paso a paso                                  | 5                                | 2      |
+| E2-HU12        | Notificación rápida al cuidador                           | 3                                | 2      |
+| E2-HU13        | Historial de recorridos                                   | 2                                | 2      |
+| E2-HU14        | Ajustar velocidad de voz                                  | 2                                | 2      |
+| E1-HU15        | Recordatorio de batería baja                              | 2                                | 1      |
+| E1-HU16        | Perfil de usuario básico                                  | 2                                | 1      |
+| E1-HU17        | Perfil de usuario básico                                  | 2                                | 1      |
+| E1-HU18        | Perfil de usuario básico                                  | 2                                | 1      |
+| E2-HU19        | Cambiar tipo de voz                                       | 3                                | 2      |
+| E1-HU20        | Reconocimiento de obstáculos                              | 3                                | 1      |
+| E1-HU21        | Reconocimiento de escaleras                               | 3                                | 1      |
+| E1-HU22        | Reconocimiento del nivel del suelo                        | 5                                | 1      |
+| E2-HU23        | Ajustar volúmen de voz                                    | 2                                | 2      |
+| E1-HU24        | Opiniones en la página                                    | 2                                | 1      |
+| E1-HU25        | Guía en la página                                         | 3                                | 1      |
+| E2-HU26        | Registro de logs                                          | 3                                | 2      |
+| E2-HU27        | Métricas de uso                                           | 3                                | 2      |
+| E2-HU28        | Manejo de errores críticos                                | 2                                | 2      |
+| E1-HU29        | Inicio de sesión                                          | 3                                | 1      |
+| E2-HU30        | Actualización de preferencias                             | 2                                | 2      |
+| E2-HU31        | Gestión por administrador                                 | 2                                | 2      |
+| E1-HU32        | Historial de objetos reconocidos                          | 3                                | 1      |
+| E1-HU33        | Alertas de problemas con el usuario                       | 3                                | 1      |
 
 # Capítulo IV: Strategic-Level Software Design.
 ## 4.1. Strategic-Level Attribute-Driven Design.
