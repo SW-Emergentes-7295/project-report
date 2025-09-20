@@ -566,8 +566,6 @@ Para la recolección de datos cualitativos, se diseñaron entrevistas semiestruc
 
 **Segmento objetivo 1: Personas no videntes**
 
-// EJEMPLO DE ENTREVISTA
-
 **Entrevista 1: Persona no vidente -**
 - Nombre: Marco Méndez
 - Edad: 35 años
@@ -579,6 +577,24 @@ Para la recolección de datos cualitativos, se diseñaron entrevistas semiestruc
 
 **Resumen de la entrevista:**
 Marco Méndez, de 35 años y no vidente desde nacimiento, reside en Lima y vive con su familia. Durante la entrevista, Marco compartió que las actividades más complicadas dentro de su hogar incluyen moverse entre habitaciones y ubicar objetos pequeños como llaves o el control remoto. Actualmente, utiliza un bastón para desplazarse y depende en gran medida de la ayuda de sus familiares para tareas cotidianas.
+
+**URL de la entrevista:**
+
+
+**Entrevista 2: Persona no vidente -**
+- Nombre: Sandy Baez
+- Edad: 26 años
+- Residencia: Lima, Ate - Perú
+- Desde cuándo es no vidente: Perdió la visión a los 20 años
+- Vive con familiares
+
+<img src="./images/Chapter2/Entrevistas/Sandywpng" alt="Foto de Sandy" width="200">
+
+**Resumen de la entrevista:**
+Sandy, una joven de 26 años residente en Ate–Lima que perdió la visión moderadamente a los 20 años, vive con su madre y hermana y enfrenta mayores riesgos en la cocina y al desplazarse cuando cambian los muebles. Actualmente se apoya en memoria, tacto y algunas apps poco confiables. Considera indispensable que una aplicación de asistencia visual reconozca objetos y personas con precisión, brinde instrucciones claras por audio, funcione sin internet y garantice la privacidad del mapeo de su hogar. Está dispuesta a invertir tiempo inicial en aprender y realizar un mapeo con ayuda de su hermana. Para ella, contar con un asistente visual inteligente significaría más independencia, seguridad y tranquilidad en su día a día.
+
+**URL de la entrevista:** [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202212096_upc_edu_pe/ESCJzFoqWJ9Anblw-RigMZoBnGz-uwCmr_k2oBi2pdl35A?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=8R7gCJ](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202212096_upc_edu_pe/ESCJzFoqWJ9Anblw-RigMZoBnGz-uwCmr_k2oBi2pdl35A?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=8R7gCJ)
+
 
 **Segmento objetivo 2: Familiares o cuidadores de personas no videntes**
 
