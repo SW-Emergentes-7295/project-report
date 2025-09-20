@@ -196,6 +196,8 @@ Imagen 1: Gráfico general de commits y contribuciones hechas por cada miembros 
       + [4.3.2. Software Architecture Context Level Diagrams](#432-software-architecture-context-level-diagrams)
       + [4.3.3. Software Architecture Container Level Diagrams](#433-software-architecture-container-level-diagrams)
       + [4.3.4. Software Architecture Deployment Diagrams](#434-software-architecture-deployment-diagrams)
+- [Conclusiones](#conclusiones)
+- [Referencias](#referencias)
 
 
 # Student Outcome
@@ -1435,3 +1437,32 @@ El backend de la aplicación está alojado en un servidor Linux Ubuntu 22.04 LTS
 La base de datos MySQL 8.0 está alojada como contenedor dentro del servidor backend, gestionando la información del usuario, configuraciones y datos de mapeo del hogar. Además, utilizamos un S3 Bucket AWS para almacenar imágenes y datos relacionados con el reconocimiento de objetos, asegurando un acceso rápido y seguro a estos recursos.
 
 <img src="./images/c4-model/deployment-diagram.PNG" alt="Deployment Level Diagram" width="auto">
+
+# Conclusiones
+
+1. **Accesibilidad e inclusión:** *VisualGuide* contribuye a la autonomía y seguridad de personas no videntes, ofreciendo un entorno doméstico más accesible gracias al reconocimiento inteligente de objetos, textos, colores y personas.  
+
+2. **Innovación tecnológica:** La integración de inteligencia artificial y mapeo controlado del hogar garantiza precisión y reduce riesgos, diferenciándose de aplicaciones orientadas a espacios públicos.  
+
+3. **Relevancia social:** Este proyecto responde a una necesidad real de la comunidad no vidente, alineándose con los principios de diseño inclusivo y fomentando una mayor calidad de vida.  
+
+4. **Proyección de uso:** La escalabilidad de la aplicación permite futuras integraciones con dispositivos como lentes inteligentes o asistentes de voz, aumentando su potencial en el mercado tecnológico asistivo.  
+
+5. **Impacto profesional:** Desarrollar soluciones como *VisualGuide* refuerza la importancia del rol de la ingeniería de software en la creación de tecnologías con propósito social y ético.  
+
+6. **Adopción potencial:** La simplicidad de uso mediante dispositivos móviles comunes facilita que la solución sea adoptada por una gran variedad de usuarios sin requerir costosos equipos adicionales.  
+
+7. **Seguridad en el hogar:** El enfoque en espacios controlados, como el hogar, minimiza riesgos de accidentes y ofrece un entorno confiable para la interacción diaria del usuario.  
+
+8. **Contribución académica y científica:** El proyecto puede servir como base para investigaciones futuras en inteligencia artificial aplicada a accesibilidad, fomentando avances en la intersección de tecnología y discapacidad.  
+
+---
+
+# Referencias
+
+- American Foundation for the Blind. (2020). *Assistive Technology for People Who are Blind or Visually Impaired*. https://www.afb.org/  
+- Bai, J., Lian, S., Liu, Z., Wang, K., & Liu, D. (2017). Virtual-Blind-Road Following Based Wearable Navigation Device for Blind People. *IEEE Transactions on Consumer Electronics, 63*(2), 258–266. https://doi.org/10.1109/TCE.2017.014975  
+- Hersh, M., & Johnson, M. A. (2010). *Assistive Technology for Visually Impaired and Blind People*. Springer. https://doi.org/10.1007/978-1-84882-181-9  
+- Manduchi, R., & Coughlan, J. M. (2012). The Role of Computer Vision in Accessible Technology. *Computer, 45*(3), 65–71. https://doi.org/10.1109/MC.2012.64  
+- World Health Organization. (2021). *World Report on Vision*. World Health Organization. https://www.who.int/publications/i/item/9789241516570  
+
