@@ -601,21 +601,34 @@ Para la recolección de datos cualitativos, se diseñaron entrevistas semiestruc
 ### 2.2.2. Registro de entrevistas.
 Las entrevistas han sido consolidadas en un solo video registrado en la sección de Anexos, donde se pueden observar las respuestas y reacciones de los entrevistados. A continuación, se presenta un resumen de las entrevistas individualmente realizadas a cada segmento objetivo.
 
-**Segmento objetivo 1: Personas no videntes**
+**Entrevista 1: Persona no vidente - Juan Navarro**
+- Nombre: Juan José Navarro Chacón
+- Edad: 21 años
+- Residencia: Los Olivos, Lima, Perú
 
-// EJEMPLO DE ENTREVISTA
+<img src="./images/interviews/juan_navarro_interview.PNG" alt="Foto de Juan Navarro" width="50%">
 
-**Entrevista 1: Persona no vidente -**
-- Nombre: Marco Méndez
-- Edad: 35 años
-- Residencia: Lima, Perú
-- Desde cuándo es no vidente: Desde nacimiento
-- Vive con familiares
-
-<img src="./images/Chapter2/Entrevistas/Marco Mendez.png" alt="Foto de Marco Méndez" width="200">
+**URL de la entrevista:** [https://acortar.link/cIuMmt](https://acortar.link/cIuMmt)
 
 **Resumen de la entrevista:**
-Marco Méndez, de 35 años y no vidente desde nacimiento, reside en Lima y vive con su familia. Durante la entrevista, Marco compartió que las actividades más complicadas dentro de su hogar incluyen moverse entre habitaciones y ubicar objetos pequeños como llaves o el control remoto. Actualmente, utiliza un bastón para desplazarse y depende en gran medida de la ayuda de sus familiares para tareas cotidianas.
+Juan Navarro, de 21 años, es una persona no vidente y reside en Los Olivos, Lima. Tenía muchas dificultades al inicio como persona no vidente pero luego se aocstumbró a muchas actividades diarias pero no de forma efectiva. Juan mencionó que sus principales problemas son al momento de buscar objetos específicos dentro de su hogar y moverse entre él. Actualmente, se ayuda de sus familiares para diversas acciones pero no le gusta incomodarlos todo el tiempo.
+
+Mencionó que una aplicación como VisualGuide podría ser muy beneficiosa, ya que le permitiría buscar objetos o ubicarse dentro de su hogar de una manera más independiente. Juan también expresó mucho interés en un asistente inteligente con voz para su propia hogar.
+
+**Entrevista 2: Persona no vidente**
+- Nombre: Sandy Baez
+- Edad: 26 años
+- Residencia: Lima, Ate - Perú
+- Desde cuándo es no vidente: Perdió la visión a los 20 años
+- Vive con familiares
+
+<img src="./images/interviews/Sandy.png" alt="Foto de Sandy" width="1000">
+
+**Resumen de la entrevista:**
+Sandy, una joven de 26 años residente en Ate–Lima que perdió la visión moderadamente a los 20 años, vive con su madre y hermana y enfrenta mayores riesgos en la cocina y al desplazarse cuando cambian los muebles. Actualmente se apoya en memoria, tacto y algunas apps poco confiables. Considera indispensable que una aplicación de asistencia visual reconozca objetos y personas con precisión, brinde instrucciones claras por audio, funcione sin internet y garantice la privacidad del mapeo de su hogar. Está dispuesta a invertir tiempo inicial en aprender y realizar un mapeo con ayuda de su hermana. Para ella, contar con un asistente visual inteligente significaría más independencia, seguridad y tranquilidad en su día a día.
+
+**URL de la entrevista:** [https://acortar.link/apfTsV](https://acortar.link/apfTsV)
+
 
 **Segmento objetivo 2: Familiares o cuidadores de personas no videntes**
 
@@ -635,19 +648,21 @@ Carlos Chávez, de 21 años, es primo de una persona no vidente y reside en La P
 
 Mencionó que una aplicación como VisualGuide podría ser muy beneficiosa, ya que permitiría a su primo ganar más autonomía y reducir la necesidad de supervisión constante. Carlos también expresó interés en recibir notificaciones sobre el uso de la aplicación para monitorear la seguridad de su primo.
 
-**Entrevista 4: Persona no vidente - Juan Navarro**
-- Nombre: Juan José Navarro Chacón
+**Entrevista 2: Familiar de persona no vidente - Harold Elias**
+- Nombre: Harold Elias
 - Edad: 21 años
-- Residencia: Los Olivos, Lima, Perú
+- Residencia: Los Olivos, Perú
+- Familiar no vidente: Primo
+- Convive con su familiar no vidente: Si
 
-<img src="./images/interviews/juan_navarro_interview.PNG" alt="Foto de Juan Navarro" width="50%">
+<img src="./images/interviews/Entrevista-HaroldElias.png" alt="Foto de Harold Elias" width="100%">
 
-**URL de la entrevista:** [https://acortar.link/cIuMmt](https://acortar.link/cIuMmt)
+**URL de la entrevista:** [https://acortar.link/hiRi0l](https://acortar.link/hiRi0l)
 
 **Resumen de la entrevista:**
-Juan Navarro, de 21 años, es una persona no vidente y reside en Los Olivos, Lima. Tenía muchas dificultades al inicio como persona no vidente pero luego se aocstumbró a muchas actividades diarias pero no de forma efectiva. Juan mencionó que sus principales problemas son al momento de buscar objetos específicos dentro de su hogar y moverse entre él. Actualmente, se ayuda de sus familiares para diversas acciones pero no le gusta incomodarlos todo el tiempo.
+Harol Elias de 21 años, expresó su deseo de poder usar la aplicación para darle más independencia a su primo, así como también expresó su actual preocupacio por la posibilidad de que se lastime. Si bien espera que la aplicación sea de ayuda, también cree que seguirá teniendo que ayudar a su primo en taeas más complejas como subir escaleras.
 
-Mencionó que una aplicación como VisualGuide podría ser muy beneficiosa, ya que le permitiría buscar objetos o ubicarse dentro de su hogar de una manera más independiente. Juan también expresó mucho interés en un asistente inteligente con voz para su propia hogar.
+El entrevistado expresó no sentirse preocupado por el hecho de que se mapee su casa en la aplicación, sin embargo mencionó que no desea que esa información sea compartida con terceros, considerandola altamente sensible.
 
 ### 2.2.3. Análisis de entrevistas.
 
