@@ -1801,7 +1801,61 @@ La base de datos MySQL 8.0 está alojada como contenedor dentro del servidor bac
 
 # Capítulo VI: Solution UX Design
 ## 6.1. Style Guidelines
+
+Se presentan las bases del repositorio central y organizado de uso común para todo el equipo con el fin de mantener una presentación consistente. Se incluyen secciones para General Style Guidelines y Mobile Style Guidelines.
+
 ### 6.1.1. General Style Guidelines
+
+**Personalidad de la marca**  
+La personalidad de HomeSense es inclusiva, confiable y empática. Se busca transmitir seguridad y accesibilidad, combinando innovación tecnológica con cercanía y comprensión hacia las necesidades de los usuarios. VisualGuide se comunica con calidez, respeto y precisión, ofreciendo confianza y simplicidad de uso.  
+
+**Valores fundamentales**  
+- **Inclusión:** Diseñamos soluciones pensadas para todos.  
+- **Seguridad:** Protegemos la integridad y autonomía de los usuarios.  
+- **Confianza:** Priorizamos privacidad y fiabilidad en cada interacción.  
+- **Innovación:** Aplicamos IA y tecnología avanzada con impacto positivo.  
+- **Empatía:** Ponemos a las personas en el centro de cada decisión.  
+
+**Tono de comunicación**  
+El tono debe ser cercano, accesible y claro. La comunicación prioriza la **simplicidad, la serenidad y la comprensión universal**, evitando tecnicismos innecesarios y manteniendo un lenguaje directo y respetuoso.  
+
+**Lineamientos visuales**  
+
+| Elemento        | Lineamiento |
+|-----------------|-------------|
+| **Logotipo**    | Representa un ojo estilizado dentro de un círculo protector en color verde accesible, simbolizando visión asistida y seguridad inclusiva. Debe usarse sobre fondos claros para resaltar accesibilidad visual. |
+| **Tipografía**  | Uso preferente de Sans Serif accesibles y legibles (como **Roboto o Open Sans**). Se deben evitar fuentes decorativas o con baja legibilidad. |
+| **Colores**     | El verde accesible (#2ECC71 aprox.) comunica inclusión, confianza y apoyo. Se complementa con blanco, gris claro y negro para un estilo limpio y profesional. |
+| **Iconografía** | Íconos minimalistas, de alto contraste y universales. Deben ser intuitivos, compatibles con lectores de pantalla y coherentes con la identidad visual. |
+| **Espaciado**   | Mantener un espaciado amplio y coherente para favorecer legibilidad y navegación accesible. |
+| **Diseño responsivo** | Interfaces optimizadas para móviles como prioridad, adaptables a tablets y web. Los elementos visuales deben ajustarse dinámicamente según necesidades de accesibilidad. |
+
+<img src="./images/Chapter6/logo.png" alt="Logo" width="auto">
+
+
+<img src="./images/Chapter6/colors.png" alt="Colores" width="auto">
+
+
+<img src="./images/Chapter6/tipografia.png" alt="Tipografía" width="auto">
+
+
+### Consideraciones tipográficas
+
+- **Tipografía para títulos:** **Roboto** (Bold / SemiBold según jerarquía).  
+- **Tipografía para cuerpo de texto:** **Open Sans** (Regular).  
+- **Tamaño mínimo recomendado para cuerpo de texto:** **16px**.  
+
+**Jerarquía clara:**  
+- **H1:** Roboto Bold (32–40px)  
+- **H2:** Roboto SemiBold (24–28px)  
+- **Body text:** Open Sans Regular (16px)  
+- **Small text / Labels:** Open Sans Regular (12–14px)  
+
+**Otras consideraciones:**  
+- Uso de sans serif para máxima legibilidad y accesibilidad.  
+- Compatible con lectores de pantalla y adaptable a distintos tamaños de dispositivo.  
+
+
 ### 6.1.2. Web, Mobile & Devices Style Guidelines
 
 ## 6.2. Information Architecture
