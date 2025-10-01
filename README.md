@@ -1858,6 +1858,40 @@ El tono debe ser cercano, accesible y claro. La comunicación prioriza la **simp
 
 ### 6.1.2. Web, Mobile & Devices Style Guidelines
 
+En esta sección se definen las pautas específicas de diseño para la aplicación móvil y los dispositivos IoT de **VisualGuide**, asegurando una experiencia coherente, accesible y optimizada según el canal de uso.
+
+#### Principios Generales
+- **Consistencia visual y funcional**: Todos los elementos mantienen el mismo estilo en color, tipografía y jerarquía, tanto en la app móvil como en los dispositivos conectados.  
+- **Priorización de contenido**: Las funciones más utilizadas (historial de navegación de rutas, accesibilidad al asistente ia clave, ajustes) se ubican en la parte inferior de la app para acceso rápido.  
+- **Interacción accesible**: Uso de tipografías legibles (Roboto en títulos, Open Sans en cuerpo), contrastes adecuados y botones amplios para facilitar el uso en pantallas táctiles.  
+- **Adaptabilidad**: Interfaces diseñadas para distintos tamaños de móviles y tablets, así como sincronización fluida con dispositivos IoT compatibles.  
+
+---
+
+#### Mobile Style Guidelines
+- **Diseño centrado en la usabilidad**: La pantalla de inicio muestra un botón llamativo, que al ser interactuado inicia un escaneo automático del ambiente mediante la cámara del dispositivo.
+- **Navegación inferior (Bottom Navigation Bar)**: Incluye secciones principales: Rutas, Alertas, Configuración y Perfil.  
+- **Diseño responsivo**: La aplicación se adapta a distintos tamaños de pantalla y orientaciones (vertical/horizontal).  
+- **Tipografía clara y moderna**:  
+  - Títulos → *Roboto Bold*  
+  - Texto de cuerpo → *Open Sans Regular*  
+  - Tamaño mínimo de texto: **16px**  
+- **Colores y contrastes**: Se utilizan los tonos oficiales de VisualGuide Verdes accesibles) para resaltar botones primarios y estados de alerta.  
+- **Componentes reutilizables**: Formularios, tarjetas y botones siguen un patrón unificado para mantener coherencia en toda la app.  
+
+---
+
+### Devices (IoT) Style Guidelines
+- **Pantallas simplificadas**: Los dispositivos asociados (ej. módulos de acceso o sensores) muestran únicamente la información esencial: estado de conexión, alertas inmediatas y acciones rápidas.  
+- **Retroalimentación visual clara**: Uso de luces LED o íconos simples para estados (verde = correcto, rojo = alerta, azul = activo).  
+- **Accesibilidad física**: Botones grandes y fácilmente distinguibles para personas con movilidad reducida.  
+- **Compatibilidad**: Sincronización inmediata con la aplicación móvil para que toda interacción quede reflejada en tiempo real.  
+
+
+<img src="./images/Chapter6/visualGuide.png" alt="VisualGuide" width="auto">
+
+
+
 
 ## 6.2. Information Architecture
 La arquitectura de información de **VisualGuide** está diseñada para ofrecer una experiencia intuitiva, eficiente y accesible a personas con discapacidad visual y a sus cuidadores. Nuestra meta es estructurar el contenido y las funcionalidades de forma lógica y predecible, asegurando que el usuario pueda interactuar mediante voz, gestos o lectores de pantalla sin fricciones.
