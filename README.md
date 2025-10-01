@@ -1858,8 +1858,30 @@ El tono debe ser cercano, accesible y claro. La comunicación prioriza la **simp
 
 ### 6.1.2. Web, Mobile & Devices Style Guidelines
 
+
 ## 6.2. Information Architecture
-### 6.2.1. Labeling Systems
+La arquitectura de información de **VisualGuide** está diseñada para ofrecer una experiencia intuitiva, eficiente y accesible a personas con discapacidad visual y a sus cuidadores. Nuestra meta es estructurar el contenido y las funcionalidades de forma lógica y predecible, asegurando que el usuario pueda interactuar mediante voz, gestos o lectores de pantalla sin fricciones.
+
+### 6.2.1. Organization Systems
+Para garantizar una experiencia de usuario fluida, accesible y centrada en la asistencia cotidiana, se ha definido una estrategia de organización del contenido que combina distintas estructuras de presentación según el propósito de cada módulo funcional dentro de VisualGuide. A continuación, se describen los principales enfoques aplicados:
+
+#### Organización Visual y Auditiva del Contenido
+- **Jerárquica (Visual & Voice Hierarchy):** Se utiliza en la pantalla principal de la aplicación móvil. Las funciones críticas como *Escanear ahora* y *Guía en vivo* se ubican en la parte superior o como accesos rápidos por voz. Elementos secundarios como historial, configuración y perfil se presentan en secciones subordinadas, siguiendo una jerarquía clara y consistente.
+
+- **Secuencial (Step-by-Step):** Se aplica en flujos como el mapeo inicial del hogar, el registro de objetos y la calibración de la cámara. Las tareas se presentan paso a paso con validación progresiva, acompañadas de instrucciones verbales, para evitar errores y asegurar una configuración exitosa.
+
+- **Matricial:** En secciones como el historial de detecciones o los registros de eventos, la información se organiza en listas auditivas o tablas simplificadas, que permiten comparar múltiples parámetros (fecha, hora, tipo de objeto o persona detectada, nivel de confianza) de manera simultánea y multidimensional.
+
+#### Esquemas de Categorización de Contenido
+- **Alfabético:** Se aplica en la lista de objetos registrados o contactos de cuidadores, facilitando la búsqueda rápida por nombre.
+
+- **Cronológico:** Utilizado en el historial de detecciones y en las alertas, donde los eventos se ordenan del más reciente al más antiguo, permitiendo un seguimiento lógico y sencillo de la actividad del sistema.
+
+- **Por Tópicos:** Empleado en la sección de configuración, donde se agrupan funciones según su tipo: accesibilidad, voz y audio, privacidad, cámara, dispositivos, etc. Esto permite al usuario identificar y gestionar fácilmente las funcionalidades según su categoría.
+
+
+
+### 6.2.2. Labeling Systems
 ### 6.2.3. Searching Systems
 ### 6.2.4. SEO Tags and Meta Tags
 ### 6.2.5. Navigation Systems
