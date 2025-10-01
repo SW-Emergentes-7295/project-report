@@ -1768,14 +1768,197 @@ La base de datos MySQL 8.0 está alojada como contenedor dentro del servidor bac
 
 ## 5.2. Bounded Context: Home Configuration Bounded Context
 ### 5.2.1. Domain Layer
+
+### `Home` 
+
+Representa el hogar del usuario. 
+
+#### Atributos principales:
+
+| Atributo     | Tipo                  | Descripción |
+|--------------|-----------------------|-------------|
+| `Id`         | `int`                 | Identificador único de la casa |
+| `Date`    | `Date?`                | Fecha de creación o ultima actualización |
+| `OwnerId`      | `int`             | Id del usuario dueño |
+| `Map`   | `String?`| String usado para mostrar el mapa de la casa |
+| `Rooms`   | `List<int>?`           | Lista de ids de habitaciones en la casa |
+
+#### Constructores:
+
+- Por parámetros individuales
+- A partir de `CreateHomeCommand` y `UpdateHomeCommand`
+
+### `Path` 
+
+Representa el hogar del usuario. 
+
+#### Atributos principales:
+
+| Atributo     | Tipo                  | Descripción |
+|--------------|-----------------------|-------------|
+| `Id`         | `int`                 | Identificador único de la casa |
+| `Date`    | `Date?`                | Fecha de creación o ultima actualización |
+| `OwnerId`      | `int`             | Id del usuario dueño |
+| `Map`   | `String?`| String usado para mostrar el mapa de la casa |
+| `Rooms`   | `List<int>?`           | Lista de ids de habitaciones en la casa |
+
+#### Constructores:
+
+- Por parámetros individuales
+- A partir de `CreateHomeCommand` y `UpdateHomeCommand`
+
+### `Room` 
+
+Representa el hogar del usuario. 
+
+#### Atributos principales:
+
+| Atributo     | Tipo                  | Descripción |
+|--------------|-----------------------|-------------|
+| `Id`         | `int`                 | Identificador único de la casa |
+| `Date`    | `Date?`                | Fecha de creación o ultima actualización |
+| `OwnerId`      | `int`             | Id del usuario dueño |
+| `Map`   | `String?`| String usado para mostrar el mapa de la casa |
+| `Rooms`   | `List<int>?`           | Lista de ids de habitaciones en la casa |
+
+#### Constructores:
+
+- Por parámetros individuales
+- A partir de `CreateHomeCommand` y `UpdateHomeCommand`
+
+---
+## Comandos
+
+---
+
+### Home
+
+| Comando                            | Descripción |
+|-----------------------------------|-------------|
+| `CreateHomeCommand.cs`         | Recibe los datos para crear un (`Home`) incluyendo ownerId, , mapa y lista de cuartos. |
+| `UpdateHomeCommand.cs`  | Permite actualizar la información del  (`Home`). |
+
+---
+
+### Room
+
+| Comando                            | Descripción |
+|-----------------------------------|-------------|
+| `CreateHomeCommand.cs`         | Recibe los datos para crear un (`Home`) incluyendo ownerId, , mapa y lista de cuartos. |
+| `UpdateHomeCommand.cs`  | Permite actualizar la información del  (`Home`). |
+
+---
+
+### Path
+
+| Comando                            | Descripción |
+|-----------------------------------|-------------|
+| `CreateHomeCommand.cs`         | Recibe los datos para crear un (`Home`) incluyendo ownerId, , mapa y lista de cuartos. |
+| `UpdateHomeCommand.cs`  | Permite actualizar la información del  (`Home`). |
+
+---
+## Queries
+| Query                                 | Descripción breve |
+|----------------------------------------|--------------------|
+| `GetAllHomes`               | Obtiene todos los hogares registrados en el sistema. |
+| `GetHomeById`               | Obtiene el hogar segun el id. |
+| `GetHomeByOwnerId`               | Obtiene el hogar segun el id del dueño. |
+| `GetHomeMapById`               | Obtiene el mapa segun el id del dueño. |
+| `...`               | ... |
+
+---
+## Repositories (Interfaces)
+
+| Repository                   | Descripción breve |
+|--------------------------|--------------------|
+| `IHomeRepository`  | Define operaciones: FindHomeByOwnerId |
+| `IRoomRepository`  | Define operaciones: FindHomeByOwnerId |
+| `IPathRepository`  | Define operaciones: FindHomeByOwnerId |
+
+--- 
+### Services
+---
+
+###  Home Services
+
+| Service                          | Descripción breve |
+|----------------------------------|--------------------|
+| `HomeCommandServices.cs`     | Define comandos  |
+| `HomeQueryServices.cs`       | Define consultas |
+
+
 ### 5.2.2. Interface Layer
+
+### Resources
+
+Las clases *Resource* funcionan como objetos de transferencia  entre el mundo externo (API REST) y la capa de aplicación. 
+
+| Archivo                           | Función |
+|-----------------------------------|---------|
+| `HomeResource.cs`        | Devuelve los datos del hogar. |
+| `CreateHomeResource.cs`        | Recibe los datos para crear un nuevo Home. |
+
+--- 
+### Transform/Assemblers
+
+| Archivo                                                        | Función                                                                 |
+|-----------------------------------------------------------------|-------------------------------------------------------------------------|
+| `CreateHomeCommandFromResourceAssembler.cs`                 | Transforma `CreateHomeResource` en `CreateHomeCommand`.           |
+| `HomeResourceFromEntityAssembler.cs`                 | Transforma una entidad `Home` en `HomeResource`.           |
+
+
+
+### Controllers
+
+Cada entidad clave en el Bounded Context `Home Monitoring` cuenta con un **REST Controller**. Estos controladores definen los endpoints públicos de la aplicación y orquestan los flujos de ejecución:
+
+| Controlador           | Ruta base típica        | Responsabilidad principal |
+|------------------------|--------------------------|----------------------------|
+| `HomeController.cs` | `/api/home`           | Gestiona la creación, actualización, consulta de casas. |
+
 ### 5.2.3. Application Layer
+
+## Services
+---
+
+###  Home Services
+
+| Service                          | Descripción breve |
+|----------------------------------|--------------------|
+| `HomeCommandServices.cs`     | Define comandos  |
+| `HomeQueryServices.cs`       | Define consultas |
+
+## Capabilities del Bounded Context `Home Monitoring`
+
+Extraído del Bounded Context Canvas y el Event Storming elaborado: 
+
+| Capability (Funcionalidad)                    | Tipo          | Handler Responsable                          | Descripción |
+|----------------------------------------------|---------------|----------------------------------------------|-------------|
+| ✅ **A**    | Query         | `HomeQueryService.FindB(...)`          | Devuelve . |
+
+
 ### 5.2.4. Infrastructure Layer
 
+### Implementación de Repositories
+
+| Clase                     | Interfaz implementada       | Función principal |
+|---------------------------|------------------------------|-------------------|
+| `HomeRepository.cs`    | `IHomeRepository`         | Implementa operaciones de persistencia y consultas sobre las habitaciones (`Home`) |
+
+
 ### 5.2.5. Bounded Context Software Architecture Component Level Diagrams
+
+
+
 ### 5.2.6. Bounded Context Software Architecture Code Level Diagrams
 #### 5.2.6.1. Bounded Context Domain Layer Class Diagrams
+
+
+
 #### 5.2.6.2. Bounded Context Database Design Diagram
+
+
+
 
 ## 5.3. Bounded Context: AI Recognition Bounded Context
 ### 5.3.1. Domain Layer
