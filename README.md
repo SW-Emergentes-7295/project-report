@@ -1949,6 +1949,10 @@ A continuación, se presenta el diagrama de clases del Domain Layer del Bounded 
 
 #### 5.3.6.2. Bounded Context Database Design Diagram
 
+A continuación, se presenta el diagrama de diseño de la base de datos del Bounded Context AI Recognition. Este diagrama muestra las tablas, relaciones y esquemas utilizados para persistir la información en la base de datos.
+
+<img src="./images/c4-model/ai-recognition-db-diagram.png" alt="Database Design Diagram" width="auto">
+
 ## 5.4. Bounded Context: Notifications Bounded Context
 ### 5.4.1. Domain Layer
 ### 5.4.2. Interface Layer
