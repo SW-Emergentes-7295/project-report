@@ -1922,6 +1922,24 @@ Implementación de **Repositories** y servicios de persistencia.
 | Get Active AI Model            | Query    | `AIModelQueryService.get_active_model(...)`           | Devuelve el modelo de IA actualmente en uso. |
 
 ### 5.3.5. Bounded Context Software Architecture Component Level Diagrams
+
+El diagrama de componentes del AI Recognition Bounded Context representa la arquitectura interna y las interacciones externas del sistema, siguiendo un enfoque DDD + CQRS.
+
+Internamente, el contexto se organiza en cuatro capas:
+- Interface Layer (Flask): gestiona las peticiones HTTP y expone los endpoints REST.
+- Application Layer: coordina casos de uso, comandos y consultas aplicando CQRS.
+- Domain Layer: contiene la lógica central del negocio con entidades, agregados y objetos de valor.
+- Infrastructure Layer (SQLAlchemy + adaptadores): maneja persistencia y la integración con sistemas externos.
+
+La infraestructura se apoya en una base de datos relacional (MySQL) para persistir la información y en un AWS S3 Bucket para almacenar imágenes y videos del entorno mapeado.
+
+Externamente, el contexto se comunica con:
+- IAM (Identity & Access Management): para autenticación/autorización mediante JWT.
+- External Payment Gateway: en caso de procesamiento de transacciones relacionadas.
+- Home Configuration Bounded Context: para consumir datos del mapa del hogar y configuraciones de objetos, necesarios en los procesos de reconocimiento.
+
+<img src="./images/c4-model/ai-recognition-component.PNG" alt="Component Level Diagram" width="auto">
+
 ### 5.3.6. Bounded Context Software Architecture Code Level Diagrams
 #### 5.3.6.1. Bounded Context Domain Layer Class Diagrams
 #### 5.3.6.2. Bounded Context Database Design Diagram
