@@ -1825,123 +1825,44 @@ Representa un camino que puede seguir el usuario para llegar a su destino.
 - A partir de `CreatePathCommand`
 
 ---
-## Comandos
-
----
-
-### Home
-
-| Comando                            | Descripción |
-|-----------------------------------|-------------|
-| `CreateHomeCommand.cs`         | Recibe los datos para crear un (`Home`) incluyendo ownerId, , mapa y lista de cuartos. |
-| `UpdateHomeCommand.cs`  | Permite actualizar la información del  (`Home`). |
-
----
-
-### Room
-
-| Comando                            | Descripción |
-|-----------------------------------|-------------|
-| `CreateHomeCommand.cs`         | Recibe los datos para crear un (`Home`) incluyendo ownerId, , mapa y lista de cuartos. |
-| `UpdateHomeCommand.cs`  | Permite actualizar la información del  (`Home`). |
-
----
-
-### Path
-
-| Comando                            | Descripción |
-|-----------------------------------|-------------|
-| `CreateHomeCommand.cs`         | Recibe los datos para crear un (`Home`) incluyendo ownerId, , mapa y lista de cuartos. |
-| `UpdateHomeCommand.cs`  | Permite actualizar la información del  (`Home`). |
-
----
-## Queries
-| Query                                 | Descripción breve |
-|----------------------------------------|--------------------|
-| `GetAllHomes`               | Obtiene todos los hogares registrados en el sistema. |
-| `GetHomeById`               | Obtiene el hogar segun el id. |
-| `GetHomeByOwnerId`               | Obtiene el hogar segun el id del dueño. |
-| `GetHomeMapById`               | Obtiene el mapa segun el id del dueño. |
-| `...`               | ... |
-
----
-## Repositories (Interfaces)
-
-| Repository                   | Descripción breve |
-|--------------------------|--------------------|
-| `IHomeRepository`  | Define operaciones: FindHomeByOwnerId |
-| `IRoomRepository`  | Define operaciones: FindHomeByOwnerId |
-| `IPathRepository`  | Define operaciones: FindHomeByOwnerId |
-
---- 
-### Services
----
-
-###  Home Services
-
-| Service                          | Descripción breve |
-|----------------------------------|--------------------|
-| `HomeCommandServices.cs`     | Define comandos  |
-| `HomeQueryServices.cs`       | Define consultas |
-
 
 ### 5.2.2. Interface Layer
+La carpeta `interfaces/rest` contiene controladores, resources y assemblers:
 
-### Resources
+**Resources:**
+- `CreateHomeResource`
+- `HomeResource`
+- `UpdateHomeResource`
+- `CreateRoomResource`
+- `RoomResource`
+- `UpdateRoomResource`
+- `CreatePathResource`
+- `PathResource`
 
-Las clases *Resource* funcionan como objetos de transferencia  entre el mundo externo (API REST) y la capa de aplicación. 
-
-| Archivo                           | Función |
-|-----------------------------------|---------|
-| `HomeResource.cs`        | Devuelve los datos del hogar. |
-| `CreateHomeResource.cs`        | Recibe los datos para crear un nuevo Home. |
-
---- 
-### Transform/Assemblers
-
-| Archivo                                                        | Función                                                                 |
-|-----------------------------------------------------------------|-------------------------------------------------------------------------|
-| `CreateHomeCommandFromResourceAssembler.cs`                 | Transforma `CreateHomeResource` en `CreateHomeCommand`.           |
-| `HomeResourceFromEntityAssembler.cs`                 | Transforma una entidad `Home` en `HomeResource`.           |
+**Transform/Assemblers:**
+- `CreateHomeCommandFromResourceAssembler`
+- `HomeResourceFromEntityAssembler`
+- `UpdateHomeCommandFromResourceAssembler`
+-`CreateRoomCommandFromResourceAssembler`
+- `RoomResourceFromEntityAssembler`
+- `UpdateRoomCommandFromResourceAssembler`
+-`CreatePathCommandFromResourceAssembler`
+- `PathResourceFromEntityAssembler`
 
 
+**Controllers:**
+- `home_controller.py` → `/api/home`
+- `room_controller.py` → `/api/room`
+- `path_controller.py` → `/api/path`
 
-### Controllers
-
-Cada entidad clave en el Bounded Context `Home Monitoring` cuenta con un **REST Controller**. Estos controladores definen los endpoints públicos de la aplicación y orquestan los flujos de ejecución:
-
-| Controlador           | Ruta base típica        | Responsabilidad principal |
-|------------------------|--------------------------|----------------------------|
-| `HomeController.cs` | `/api/home`           | Gestiona la creación, actualización, consulta de casas. |
 
 ### 5.2.3. Application Layer
 
-## Services
----
-
-###  Home Services
-
-| Service                          | Descripción breve |
-|----------------------------------|--------------------|
-| `HomeCommandServices.cs`     | Define comandos  |
-| `HomeQueryServices.cs`       | Define consultas |
-
-## Capabilities del Bounded Context `Home Monitoring`
-
-Extraído del Bounded Context Canvas y el Event Storming elaborado: 
-
-| Capability (Funcionalidad)                    | Tipo          | Handler Responsable                          | Descripción |
-|----------------------------------------------|---------------|----------------------------------------------|-------------|
-| ✅ **A**    | Query         | `HomeQueryService.FindB(...)`          | Devuelve . |
 
 
 ### 5.2.4. Infrastructure Layer
 
-### Implementación de Repositories
 
-| Clase                     | Interfaz implementada       | Función principal |
-|---------------------------|------------------------------|-------------------|
-| `HomeRepository.cs`    | `IHomeRepository`         | Implementa operaciones de persistencia y consultas sobre las habitaciones (`Home`) |
 
 
 ### 5.2.5. Bounded Context Software Architecture Component Level Diagrams
