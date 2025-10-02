@@ -1938,10 +1938,15 @@ Externamente, el contexto se comunica con:
 - External Payment Gateway: en caso de procesamiento de transacciones relacionadas.
 - Home Configuration Bounded Context: para consumir datos del mapa del hogar y configuraciones de objetos, necesarios en los procesos de reconocimiento.
 
-<img src="./images/c4-model/ai-recognition-component.PNG" alt="Component Level Diagram" width="auto">
+<img src="./images/c4-model/ai-recognition-component.png" alt="Component Level Diagram" width="auto">
 
 ### 5.3.6. Bounded Context Software Architecture Code Level Diagrams
 #### 5.3.6.1. Bounded Context Domain Layer Class Diagrams
+
+A continuación, se presenta el diagrama de clases del Domain Layer del Bounded Context AI Recognition. Este diagrama ilustra las principales entidades, agregados y objetos de valor que componen la lógica de negocio del sistema de reconocimiento de objetos mediante inteligencia artificial.
+
+<img src="./images/c4-model/ai-recognition-class-diagram.png" alt="Domain Layer Class Diagram" width="auto">
+
 #### 5.3.6.2. Bounded Context Database Design Diagram
 
 ## 5.4. Bounded Context: Notifications Bounded Context
