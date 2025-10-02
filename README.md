@@ -1855,14 +1855,44 @@ La carpeta `interfaces/rest` contiene controladores, resources y assemblers:
 - `room_controller.py` → `/api/room`
 - `path_controller.py` → `/api/path`
 
+---
 
 ### 5.2.3. Application Layer
 
+Servicios de Aplicación – Gestión de Flujos de Negocio.  
+Separados en **Command Services** y **Query Services** siguiendo CORS.
 
+**CommandServices**
+- `HomeCommandService` → gestiona la información de los hogares.
+- `RoomCommandService` →organiza los cuartos para definir el hogar del isuario
+- `PathCommandService` → genera los caminos a seguir por la aplicación.
+
+**QueryServices**
+- `HomeQueryService` → obtiene el mapa y dueño del hogar.
+- `RoomQueryService` → recupera medidas de los cuartos.
+- `PathQueryService` → recupera caminos favoritos del usuario.
+
+---
 
 ### 5.2.4. Infrastructure Layer
 
+Implementación de **Repositories** y servicios de persistencia.
 
+| Clase                    | Interfaz implementada             | Función principal                       |
+|---------------------------|-----------------------------------|-----------------------------------------|
+| HomeRepository | IHomeRepository | Almacenamiento de mapa del hogar|
+| RoomRepository | IRoomRepository              | Gestión de información de los cuartos      |
+| PathRepository  | IPathRepository               | Almacen de caminos favoritos |
+
+---
+
+### Capabilities del Bounded Context Home Configuration
+
+| Capability (Funcionalidad)     | Tipo     | Handler Responsable                                   | Descripción |
+|--------------------------------|----------|------------------------------------------------------|-------------|
+| Home Mapped      | Command  | `HomeCommandService.handle(CreateHomeCommand)` | Crea el mapa inicial de la casa. |
+| Home's Configuration Added.    | Command  | `HomeCommandService.handle(UpdateHomeCommand)` | Mapa del hogar reconfigurado |
+| Reference photo added. | `RoomCommandService.handle(UpdateRoomCommand)` | Actualiza el estado de una habitación. |
 
 
 ### 5.2.5. Bounded Context Software Architecture Component Level Diagrams
