@@ -1788,43 +1788,41 @@ Representa el hogar del usuario.
 - Por parámetros individuales
 - A partir de `CreateHomeCommand` y `UpdateHomeCommand`
 
-### `Path` 
-
-Representa el hogar del usuario. 
-
-#### Atributos principales:
-
-| Atributo     | Tipo                  | Descripción |
-|--------------|-----------------------|-------------|
-| `Id`         | `int`                 | Identificador único de la casa |
-| `Date`    | `Date?`                | Fecha de creación o ultima actualización |
-| `OwnerId`      | `int`             | Id del usuario dueño |
-| `Map`   | `String?`| String usado para mostrar el mapa de la casa |
-| `Rooms`   | `List<int>?`           | Lista de ids de habitaciones en la casa |
-
-#### Constructores:
-
-- Por parámetros individuales
-- A partir de `CreateHomeCommand` y `UpdateHomeCommand`
-
 ### `Room` 
 
-Representa el hogar del usuario. 
+Representa una habitación del hogar. 
 
 #### Atributos principales:
 
 | Atributo     | Tipo                  | Descripción |
 |--------------|-----------------------|-------------|
-| `Id`         | `int`                 | Identificador único de la casa |
-| `Date`    | `Date?`                | Fecha de creación o ultima actualización |
-| `OwnerId`      | `int`             | Id del usuario dueño |
-| `Map`   | `String?`| String usado para mostrar el mapa de la casa |
-| `Rooms`   | `List<int>?`           | Lista de ids de habitaciones en la casa |
+| `Id`         | `int`                 | Identificador único del cuarto|
+| `HomeId`    | `int`                | ID de la casa asociada |
+| `Width`      | `int?`             | Ancho de la habitación|
+| `Heigth`      | `int?`             | Alto de la habitación|
+| `Depth`      | `int?`             | Profundidad de la habitación|
 
 #### Constructores:
 
 - Por parámetros individuales
-- A partir de `CreateHomeCommand` y `UpdateHomeCommand`
+- A partir de `CreateRoomCommand` y `UpdateRoomCommand`
+
+### `Path` 
+
+Representa un camino que puede seguir el usuario para llegar a su destino. 
+
+#### Atributos principales:
+
+| Atributo     | Tipo                  | Descripción |
+|--------------|-----------------------|-------------|
+| `Id`         | `int`                 | Identificador único del camino |
+| `HomeId`    | `int`                | ID de la casa asociada |
+| `Lenght`      | `int?`             | Longitud del camino en metros |
+
+#### Constructores:
+
+- Por parámetros individuales
+- A partir de `CreatePathCommand`
 
 ---
 ## Comandos
