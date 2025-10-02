@@ -1818,6 +1818,7 @@ Representa un camino que puede seguir el usuario para llegar a su destino.
 | `Id`         | `int`                 | Identificador único del camino |
 | `HomeId`    | `int`                | ID de la casa asociada |
 | `Lenght`      | `int?`             | Longitud del camino en metros |
+| `RoomIds`      | `List<int>`             | Ids de los cuartos a recorrer, de principio a fin |
 
 #### Constructores:
 
@@ -1864,7 +1865,7 @@ Separados en **Command Services** y **Query Services** siguiendo CORS.
 
 **CommandServices**
 - `HomeCommandService` → gestiona la información de los hogares.
-- `RoomCommandService` →organiza los cuartos para definir el hogar del isuario
+- `RoomCommandService` → organiza los cuartos para definir el hogar del isuario
 - `PathCommandService` → genera los caminos a seguir por la aplicación.
 
 **QueryServices**
@@ -1892,7 +1893,7 @@ Implementación de **Repositories** y servicios de persistencia.
 |--------------------------------|----------|------------------------------------------------------|-------------|
 | Home Mapped      | Command  | `HomeCommandService.handle(CreateHomeCommand)` | Crea el mapa inicial de la casa. |
 | Home's Configuration Added.    | Command  | `HomeCommandService.handle(UpdateHomeCommand)` | Mapa del hogar reconfigurado |
-| Reference photo added. | `RoomCommandService.handle(UpdateRoomCommand)` | Actualiza el estado de una habitación. |
+| Reference photo added. | Command  | `RoomCommandService.handle(UpdateRoomCommand)` | Actualiza el estado de una habitación. |
 
 
 ### 5.2.5. Bounded Context Software Architecture Component Level Diagrams
