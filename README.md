@@ -1779,9 +1779,147 @@ La base de datos MySQL 8.0 está alojada como contenedor dentro del servidor bac
 
 ## 5.3. Bounded Context: AI Recognition Bounded Context
 ### 5.3.1. Domain Layer
+### Agregados y Entidades del Dominio `AI Recognition` en nuestro Web Services
+
+En el contexto limitado de `AI Recognition`, hemos identificado los siguientes agregados y entidades del dominio que son fundamentales para el funcionamiento de nuestro sistema de reconocimiento de objetos mediante inteligencia artificial, aplicando el patrón de diseño Domain-Driven Design (DDD):
+
+En este contexto limitado, definimos las entidades que representan el núcleo del reconocimiento visual, las detecciones de objetos y el mapeo del hogar en coordinación con el bounded context **Home Configuration**.
+
+---
+
+### RecognitionSession (Agregado raíz)
+Representa una sesión activa de reconocimiento visual que procesa imágenes del entorno y genera resultados de guía.
+
+| Atributo      | Tipo       | Descripción                                                                 |
+|---------------|------------|-----------------------------------------------------------------------------|
+| id            | UUID       | Identificador único de la sesión                                            |
+| user_id       | UUID       | Relación con el usuario que activa la sesión                                |
+| home_map_id   | UUID       | Relación con el mapa del hogar configurado (del contexto Home Configuration)|
+| start_time    | datetime   | Inicio de la sesión                                                         |
+| end_time      | datetime\|None | Fin de la sesión (opcional)                                              |
+| detections    | list[Detection] | Objetos detectados durante la sesión                                    |
+| status        | str        | Estado (`"ACTIVE"`, `"FINISHED"`, `"INTERRUPTED"`)                          |
+
+**Constructores:**
+- Por parámetros básicos (`user_id`, `home_map_id`)
+- A partir de `StartRecognitionSessionCommand`
+
+---
+
+### Detection (Entidad)
+Representa un objeto detectado por el motor de IA durante una sesión.
+
+| Atributo             | Tipo       | Descripción                                     |
+|----------------------|------------|-------------------------------------------------|
+| id                   | UUID       | Identificador único de la detección             |
+| recognition_session_id | UUID     | Sesión a la que pertenece                       |
+| object_type          | str        | Tipo de objeto detectado (`"Chair"`, `"Table"`, `"Person"`, `"Appliance"`, etc.) |
+| confidence           | float      | Nivel de confianza de la detección (0–1)        |
+| bounding_box         | BoundingBox | Coordenadas rectangulares en la imagen         |
+| timestamp            | datetime   | Momento de la detección                         |
+
+---
+
+### BoundingBox (Value Object)
+Delimita la posición del objeto detectado en la imagen.
+
+| Atributo | Tipo   | Descripción               |
+|----------|--------|---------------------------|
+| x        | float  | Coordenada X inicial      |
+| y        | float  | Coordenada Y inicial      |
+| width    | float  | Ancho de la caja          |
+| height   | float  | Alto de la caja           |
+
+---
+
+### GuidanceInstruction (Entidad)
+Instrucción generada para guiar al usuario según las detecciones.
+
+| Atributo             | Tipo     | Descripción                                                   |
+|----------------------|----------|---------------------------------------------------------------|
+| id                   | UUID     | Identificador único                                           |
+| recognition_session_id | UUID   | Relación con la sesión de reconocimiento                      |
+| message              | str      | Texto descriptivo o instrucción (ej: “Silla a la derecha a 2 metros”) |
+| priority             | int      | Nivel de urgencia (ej: 1 = riesgo, 5 = informativo)           |
+| timestamp            | datetime | Cuándo fue generada                                           |
+
+---
+
+### AIModel (Entidad)
+Representa un modelo de IA entrenado que puede usarse para el reconocimiento.
+
+| Atributo | Tipo   | Descripción                               |
+|----------|--------|-------------------------------------------|
+| id       | UUID   | Identificador del modelo                  |
+| name     | str    | Nombre descriptivo                        |
+| version  | str    | Versión del modelo                        |
+| accuracy | float  | Métrica de precisión                      |
+| is_active | bool  | Si el modelo está actualmente en uso       |
+
+---
+
 ### 5.3.2. Interface Layer
+**Presentación de la Aplicación**  
+
+La carpeta `interfaces/rest` contiene controladores, resources y assemblers:
+
+**Resources:**
+- `CreateRecognitionSessionResource`
+- `DetectionResource`
+- `GuidanceInstructionResource`
+
+**Transform/Assemblers:**
+- `CreateRecognitionSessionCommandFromResourceAssembler`
+- `DetectionResourceFromEntityAssembler`
+- `GuidanceInstructionResourceFromEntityAssembler`
+
+**Controllers:**
+- `recognition_session_controller.py` → `/api/recognition`
+- `detection_controller.py` → `/api/detections`
+- `guidance_controller.py` → `/api/guidance`
+
+---
+
 ### 5.3.3. Application Layer
+Servicios de Aplicación – Gestión de Flujos de Negocio.  
+Separados en **Command Services** y **Query Services** siguiendo CQRS.
+
+**CommandServices**
+- `RecognitionSessionCommandService` → inicia y termina sesiones.
+- `DetectionCommandService` → registra detecciones procesadas por IA.
+- `GuidanceCommandService` → genera instrucciones para el usuario.
+
+**QueryServices**
+- `RecognitionSessionQueryService` → obtiene sesiones activas o históricas.
+- `DetectionQueryService` → lista objetos detectados en una sesión.
+- `GuidanceQueryService` → obtiene instrucciones de guía generadas.
+
+---
+
 ### 5.3.4. Infrastructure Layer
+Implementación de **Repositories** y servicios de persistencia.
+
+| Clase                    | Interfaz implementada             | Función principal                       |
+|---------------------------|-----------------------------------|-----------------------------------------|
+| RecognitionSessionRepository | IRecognitionSessionRepository | Persistencia de sesiones de reconocimiento |
+| DetectionRepository       | IDetectionRepository              | Gestión de detecciones registradas      |
+| GuidanceRepository        | IGuidanceRepository               | Almacenamiento de instrucciones de guía |
+| AIModelRepository         | IAIModelRepository                | Gestión de versiones de modelos de IA   |
+
+---
+
+### Capabilities del Bounded Context AI Recognition
+
+| Capability (Funcionalidad)     | Tipo     | Handler Responsable                                   | Descripción |
+|--------------------------------|----------|------------------------------------------------------|-------------|
+| Start Recognition Session      | Command  | `RecognitionSessionCommandService.handle(CreateRecognitionSessionCommand)` | Inicia una sesión de reconocimiento vinculada a un usuario y un mapa de casa. |
+| End Recognition Session        | Command  | `RecognitionSessionCommandService.handle(FinishRecognitionSessionCommand)` | Finaliza sesión y guarda resultados. |
+| Process Image and Detect Objects | Command | `DetectionCommandService.handle(ProcessImageCommand)` | Procesa imagen y devuelve lista de objetos detectados. |
+| Generate Guidance Instruction  | Command  | `GuidanceCommandService.handle(CreateGuidanceCommand)` | Genera instrucción de orientación en base a detecciones. |
+| List Detections in Session     | Query    | `DetectionQueryService.get_by_session_id(...)`        | Lista todos los objetos detectados en una sesión activa o pasada. |
+| Get Guidance Instructions      | Query    | `GuidanceQueryService.get_by_session_id(...)`         | Obtiene instrucciones de guía emitidas. |
+| Switch AI Model Version        | Command  | `AIModelCommandService.handle(UpdateModelCommand)`    | Cambia el modelo de IA utilizado en producción. |
+| Get Active AI Model            | Query    | `AIModelQueryService.get_active_model(...)`           | Devuelve el modelo de IA actualmente en uso. |
 
 ### 5.3.5. Bounded Context Software Architecture Component Level Diagrams
 ### 5.3.6. Bounded Context Software Architecture Code Level Diagrams
