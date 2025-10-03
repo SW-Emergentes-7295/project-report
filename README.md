@@ -1966,10 +1966,100 @@ A continuación, se presenta el diagrama de diseño de la base de datos del Boun
 
 # Capítulo VI: Solution UX Design
 ## 6.1. Style Guidelines
+
+Se presentan las bases del repositorio central y organizado de uso común para todo el equipo con el fin de mantener una presentación consistente. Se incluyen secciones para General Style Guidelines y Mobile Style Guidelines.
+
 ### 6.1.1. General Style Guidelines
+
+**Personalidad de la marca**  
+La personalidad de HomeSense es inclusiva, confiable y empática. Se busca transmitir seguridad y accesibilidad, combinando innovación tecnológica con cercanía y comprensión hacia las necesidades de los usuarios. VisualGuide se comunica con calidez, respeto y precisión, ofreciendo confianza y simplicidad de uso.  
+
+**Valores fundamentales**  
+- **Inclusión:** Diseñamos soluciones pensadas para todos.  
+- **Seguridad:** Protegemos la integridad y autonomía de los usuarios.  
+- **Confianza:** Priorizamos privacidad y fiabilidad en cada interacción.  
+- **Innovación:** Aplicamos IA y tecnología avanzada con impacto positivo.  
+- **Empatía:** Ponemos a las personas en el centro de cada decisión.  
+
+**Tono de comunicación**  
+El tono debe ser cercano, accesible y claro. La comunicación prioriza la **simplicidad, la serenidad y la comprensión universal**, evitando tecnicismos innecesarios y manteniendo un lenguaje directo y respetuoso.  
+
+**Lineamientos visuales**  
+
+| Elemento        | Lineamiento |
+|-----------------|-------------|
+| **Logotipo**    | Representa un ojo estilizado dentro de un círculo protector en color verde accesible, simbolizando visión asistida y seguridad inclusiva. Debe usarse sobre fondos claros para resaltar accesibilidad visual. |
+| **Tipografía**  | Uso preferente de Sans Serif accesibles y legibles (como **Roboto o Open Sans**). Se deben evitar fuentes decorativas o con baja legibilidad. |
+| **Colores**     | El verde accesible (#2ECC71 aprox.) comunica inclusión, confianza y apoyo. Se complementa con blanco, gris claro y negro para un estilo limpio y profesional. |
+| **Iconografía** | Íconos minimalistas, de alto contraste y universales. Deben ser intuitivos, compatibles con lectores de pantalla y coherentes con la identidad visual. |
+| **Espaciado**   | Mantener un espaciado amplio y coherente para favorecer legibilidad y navegación accesible. |
+| **Diseño responsivo** | Interfaces optimizadas para móviles como prioridad, adaptables a tablets y web. Los elementos visuales deben ajustarse dinámicamente según necesidades de accesibilidad. |
+
+<img src="./images/Chapter6/logo.png" alt="Logo" width="auto">
+
+
+<img src="./images/Chapter6/colors.png" alt="Colores" width="auto">
+
+
+<img src="./images/Chapter6/tipografia.png" alt="Tipografía" width="auto">
+
+
+### Consideraciones tipográficas
+
+- **Tipografía para títulos:** **Roboto** (Bold / SemiBold según jerarquía).  
+- **Tipografía para cuerpo de texto:** **Open Sans** (Regular).  
+- **Tamaño mínimo recomendado para cuerpo de texto:** **16px**.  
+
+**Jerarquía clara:**  
+- **H1:** Roboto Bold (32–40px)  
+- **H2:** Roboto SemiBold (24–28px)  
+- **Body text:** Open Sans Regular (16px)  
+- **Small text / Labels:** Open Sans Regular (12–14px)  
+
+**Otras consideraciones:**  
+- Uso de sans serif para máxima legibilidad y accesibilidad.  
+- Compatible con lectores de pantalla y adaptable a distintos tamaños de dispositivo.  
+
+
 ### 6.1.2. Web, Mobile & Devices Style Guidelines
 
+En esta sección se definen las pautas específicas de diseño para la aplicación móvil y los dispositivos IoT de **VisualGuide**, asegurando una experiencia coherente, accesible y optimizada según el canal de uso.
+
+#### Principios Generales
+- **Consistencia visual y funcional**: Todos los elementos mantienen el mismo estilo en color, tipografía y jerarquía, tanto en la app móvil como en los dispositivos conectados.  
+- **Priorización de contenido**: Las funciones más utilizadas (historial de navegación de rutas, accesibilidad al asistente ia clave, ajustes) se ubican en la parte inferior de la app para acceso rápido.  
+- **Interacción accesible**: Uso de tipografías legibles (Roboto en títulos, Open Sans en cuerpo), contrastes adecuados y botones amplios para facilitar el uso en pantallas táctiles.  
+- **Adaptabilidad**: Interfaces diseñadas para distintos tamaños de móviles y tablets, así como sincronización fluida con dispositivos IoT compatibles.  
+
+---
+
+#### Mobile Style Guidelines
+- **Diseño centrado en la usabilidad**: La pantalla de inicio muestra un botón llamativo, que al ser interactuado inicia un escaneo automático del ambiente mediante la cámara del dispositivo.
+- **Navegación inferior (Bottom Navigation Bar)**: Incluye secciones principales: Rutas, Alertas, Configuración y Perfil.  
+- **Diseño responsivo**: La aplicación se adapta a distintos tamaños de pantalla y orientaciones (vertical/horizontal).  
+- **Tipografía clara y moderna**:  
+  - Títulos → *Roboto Bold*  
+  - Texto de cuerpo → *Open Sans Regular*  
+  - Tamaño mínimo de texto: **16px**  
+- **Colores y contrastes**: Se utilizan los tonos oficiales de VisualGuide Verdes accesibles) para resaltar botones primarios y estados de alerta.  
+- **Componentes reutilizables**: Formularios, tarjetas y botones siguen un patrón unificado para mantener coherencia en toda la app.  
+
+---
+
+### Devices (IoT) Style Guidelines
+- **Pantallas simplificadas**: Los dispositivos asociados (ej. módulos de acceso o sensores) muestran únicamente la información esencial: estado de conexión, alertas inmediatas y acciones rápidas.  
+- **Retroalimentación visual clara**: Uso de luces LED o íconos simples para estados (verde = correcto, rojo = alerta, azul = activo).  
+- **Accesibilidad física**: Botones grandes y fácilmente distinguibles para personas con movilidad reducida.  
+- **Compatibilidad**: Sincronización inmediata con la aplicación móvil para que toda interacción quede reflejada en tiempo real.  
+
+
+<img src="./images/Chapter6/visualGuide.png" alt="VisualGuide" width="auto">
+
+
+
 ## 6.2. Information Architecture
+La arquitectura de información de **VisualGuide** está diseñada para ofrecer una experiencia intuitiva, eficiente y accesible a personas con discapacidad visual y a sus cuidadores. Nuestra meta es estructurar el contenido y las funcionalidades de forma lógica y predecible, asegurando que el usuario pueda interactuar mediante voz, gestos o lectores de pantalla sin fricciones.
+
 ### 6.2.1. Labeling Systems
 
 Al ingresar a una pantalla, la aplicacion indica por voz el titulo de esta, mientras que se muestra el texto en la parte superior, esto con el objetivo de facilitarle la informacion al usuario invidente.
@@ -1977,13 +2067,13 @@ Al mismo tiempo, en la parte inferior se muestran los titulos de las pantallas a
 
 Una vez que el usuario elije un path , la aplicacion le indica la fecha y el punto de inicio y destino.
 
-### 6.2.3. Searching Systems
+### 6.2.2 Searching Systems
 
 El usuario puede usar la búsqueda por voz para indicarle a la aplicación la pantalla a la cual desea acceder, las opciones serán dadas por la aplicación, la cual esperara por una confirmación.
 Al entrar en ajustes, el usuario puede elegir el aspecto a modificar por voz.
 En historial, el usuario buscará por voz según la fecha y hora del recorrido.
 
-### 6.2.4. SEO Tags and Meta Tags
+### 6.2.3 SEO Tags and Meta Tags
 
 **Title**
 
@@ -2022,7 +2112,7 @@ APP keywords: Vision, ceguera, apoyo, IA, computadora, deteccion<br>
 App Subtitle: Helping to move in your house<br>
 App Description: Application to help no vident user move around their house. Use our AI vision computer to follow orders and prevent accidents<br>
 
-### 6.2.5. Navigation Systems
+### 6.2.4 Navigation Systems
 
 Se puede navegar por la aplicación mediante la barra inferior, igualmente se puede usar comandos de voz para cambiar de pantalla e iniciar un recorrido.
 
