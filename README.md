@@ -1971,9 +1971,60 @@ A continuación, se presenta el diagrama de diseño de la base de datos del Boun
 
 ## 6.2. Information Architecture
 ### 6.2.1. Labeling Systems
+
+Al ingresar a una pantalla, la aplicacion indica por voz el titulo de esta, mientras que se muestra el texto en la parte superior, esto con el objetivo de facilitarle la informacion al usuario invidente.
+Al mismo tiempo, en la parte inferior se muestran los titulos de las pantallas a las que puede acceder con los botones.
+
+Una vez que el usuario elije un path , la aplicacion le indica la fecha y el punto de inicio y destino.
+
 ### 6.2.3. Searching Systems
+
+El usuario puede usar la búsqueda por voz para indicarle a la aplicación la pantalla a la cual desea acceder, las opciones serán dadas por la aplicación, la cual esperara por una confirmación.
+Al entrar en ajustes, el usuario puede elegir el aspecto a modificar por voz.
+En historial, el usuario buscará por voz según la fecha y hora del recorrido.
+
 ### 6.2.4. SEO Tags and Meta Tags
+
+**Title**
+
+```html
+    <title>VisualGuideLandingPage</title>
+```
+
+**Charset**
+
+```html
+    <meta charset="UTF-8">
+```
+
+**Description**
+
+```html
+    <meta name="description" content="Visual Guide is a movil application made to help no vident persons to move aroun their houses"/>
+```
+
+**Keywords**
+
+```html
+    <meta name="keywords" content="deteccion de objetos, vision por computadora, ceguera, apoyo, vision"/>
+```
+**Copyright and Author**
+
+```html
+    <meta name="author" content="HomeSense"/>
+    <meta name="copyright" content="Copyright Home Sense team" />
+```
+
+**ASO**
+
+APP Title: VisualGuide<br>
+APP keywords: Vision, ceguera, apoyo, IA, computadora, deteccion<br>
+App Subtitle: Helping to move in your house<br>
+App Description: Application to help no vident user move around their house. Use our AI vision computer to follow orders and prevent accidents<br>
+
 ### 6.2.5. Navigation Systems
+
+Se puede navegar por la aplicación mediante la barra inferior, igualmente se puede usar comandos de voz para cambiar de pantalla e iniciar un recorrido.
 
 ## 6.3. Landing Page UI Design
 ### 6.3.1. Landing Page Wireframe
