@@ -1779,14 +1779,179 @@ La base de datos MySQL 8.0 está alojada como contenedor dentro del servidor bac
 
 ## 5.3. Bounded Context: AI Recognition Bounded Context
 ### 5.3.1. Domain Layer
+### Agregados y Entidades del Dominio `AI Recognition` en nuestro Web Services
+
+En el contexto limitado de `AI Recognition`, hemos identificado los siguientes agregados y entidades del dominio que son fundamentales para el funcionamiento de nuestro sistema de reconocimiento de objetos mediante inteligencia artificial, aplicando el patrón de diseño Domain-Driven Design (DDD):
+
+En este contexto limitado, definimos las entidades que representan el núcleo del reconocimiento visual, las detecciones de objetos y el mapeo del hogar en coordinación con el bounded context **Home Configuration**.
+
+---
+
+### RecognitionSession (Agregado raíz)
+Representa una sesión activa de reconocimiento visual que procesa imágenes del entorno y genera resultados de guía.
+
+| Atributo      | Tipo       | Descripción                                                                 |
+|---------------|------------|-----------------------------------------------------------------------------|
+| id            | UUID       | Identificador único de la sesión                                            |
+| user_id       | UUID       | Relación con el usuario que activa la sesión                                |
+| home_map_id   | UUID       | Relación con el mapa del hogar configurado (del contexto Home Configuration)|
+| start_time    | datetime   | Inicio de la sesión                                                         |
+| end_time      | datetime\|None | Fin de la sesión (opcional)                                              |
+| detections    | list[Detection] | Objetos detectados durante la sesión                                    |
+| status        | str        | Estado (`"ACTIVE"`, `"FINISHED"`, `"INTERRUPTED"`)                          |
+
+**Constructores:**
+- Por parámetros básicos (`user_id`, `home_map_id`)
+- A partir de `StartRecognitionSessionCommand`
+
+---
+
+### Detection (Entidad)
+Representa un objeto detectado por el motor de IA durante una sesión.
+
+| Atributo             | Tipo       | Descripción                                     |
+|----------------------|------------|-------------------------------------------------|
+| id                   | UUID       | Identificador único de la detección             |
+| recognition_session_id | UUID     | Sesión a la que pertenece                       |
+| object_type          | str        | Tipo de objeto detectado (`"Chair"`, `"Table"`, `"Person"`, `"Appliance"`, etc.) |
+| confidence           | float      | Nivel de confianza de la detección (0–1)        |
+| bounding_box         | BoundingBox | Coordenadas rectangulares en la imagen         |
+| timestamp            | datetime   | Momento de la detección                         |
+
+---
+
+### BoundingBox (Value Object)
+Delimita la posición del objeto detectado en la imagen.
+
+| Atributo | Tipo   | Descripción               |
+|----------|--------|---------------------------|
+| x        | float  | Coordenada X inicial      |
+| y        | float  | Coordenada Y inicial      |
+| width    | float  | Ancho de la caja          |
+| height   | float  | Alto de la caja           |
+
+---
+
+### GuidanceInstruction (Entidad)
+Instrucción generada para guiar al usuario según las detecciones.
+
+| Atributo             | Tipo     | Descripción                                                   |
+|----------------------|----------|---------------------------------------------------------------|
+| id                   | UUID     | Identificador único                                           |
+| recognition_session_id | UUID   | Relación con la sesión de reconocimiento                      |
+| message              | str      | Texto descriptivo o instrucción (ej: “Silla a la derecha a 2 metros”) |
+| priority             | int      | Nivel de urgencia (ej: 1 = riesgo, 5 = informativo)           |
+| timestamp            | datetime | Cuándo fue generada                                           |
+
+---
+
+### AIModel (Entidad)
+Representa un modelo de IA entrenado que puede usarse para el reconocimiento.
+
+| Atributo | Tipo   | Descripción                               |
+|----------|--------|-------------------------------------------|
+| id       | UUID   | Identificador del modelo                  |
+| name     | str    | Nombre descriptivo                        |
+| version  | str    | Versión del modelo                        |
+| accuracy | float  | Métrica de precisión                      |
+| is_active | bool  | Si el modelo está actualmente en uso       |
+
+---
+
 ### 5.3.2. Interface Layer
+**Presentación de la Aplicación**  
+
+La carpeta `interfaces/rest` contiene controladores, resources y assemblers:
+
+**Resources:**
+- `CreateRecognitionSessionResource`
+- `DetectionResource`
+- `GuidanceInstructionResource`
+
+**Transform/Assemblers:**
+- `CreateRecognitionSessionCommandFromResourceAssembler`
+- `DetectionResourceFromEntityAssembler`
+- `GuidanceInstructionResourceFromEntityAssembler`
+
+**Controllers:**
+- `recognition_session_controller.py` → `/api/recognition`
+- `detection_controller.py` → `/api/detections`
+- `guidance_controller.py` → `/api/guidance`
+
+---
+
 ### 5.3.3. Application Layer
+Servicios de Aplicación – Gestión de Flujos de Negocio.  
+Separados en **Command Services** y **Query Services** siguiendo CQRS.
+
+**CommandServices**
+- `RecognitionSessionCommandService` → inicia y termina sesiones.
+- `DetectionCommandService` → registra detecciones procesadas por IA.
+- `GuidanceCommandService` → genera instrucciones para el usuario.
+
+**QueryServices**
+- `RecognitionSessionQueryService` → obtiene sesiones activas o históricas.
+- `DetectionQueryService` → lista objetos detectados en una sesión.
+- `GuidanceQueryService` → obtiene instrucciones de guía generadas.
+
+---
+
 ### 5.3.4. Infrastructure Layer
+Implementación de **Repositories** y servicios de persistencia.
+
+| Clase                    | Interfaz implementada             | Función principal                       |
+|---------------------------|-----------------------------------|-----------------------------------------|
+| RecognitionSessionRepository | IRecognitionSessionRepository | Persistencia de sesiones de reconocimiento |
+| DetectionRepository       | IDetectionRepository              | Gestión de detecciones registradas      |
+| GuidanceRepository        | IGuidanceRepository               | Almacenamiento de instrucciones de guía |
+| AIModelRepository         | IAIModelRepository                | Gestión de versiones de modelos de IA   |
+
+---
+
+### Capabilities del Bounded Context AI Recognition
+
+| Capability (Funcionalidad)     | Tipo     | Handler Responsable                                   | Descripción |
+|--------------------------------|----------|------------------------------------------------------|-------------|
+| Start Recognition Session      | Command  | `RecognitionSessionCommandService.handle(CreateRecognitionSessionCommand)` | Inicia una sesión de reconocimiento vinculada a un usuario y un mapa de casa. |
+| End Recognition Session        | Command  | `RecognitionSessionCommandService.handle(FinishRecognitionSessionCommand)` | Finaliza sesión y guarda resultados. |
+| Process Image and Detect Objects | Command | `DetectionCommandService.handle(ProcessImageCommand)` | Procesa imagen y devuelve lista de objetos detectados. |
+| Generate Guidance Instruction  | Command  | `GuidanceCommandService.handle(CreateGuidanceCommand)` | Genera instrucción de orientación en base a detecciones. |
+| List Detections in Session     | Query    | `DetectionQueryService.get_by_session_id(...)`        | Lista todos los objetos detectados en una sesión activa o pasada. |
+| Get Guidance Instructions      | Query    | `GuidanceQueryService.get_by_session_id(...)`         | Obtiene instrucciones de guía emitidas. |
+| Switch AI Model Version        | Command  | `AIModelCommandService.handle(UpdateModelCommand)`    | Cambia el modelo de IA utilizado en producción. |
+| Get Active AI Model            | Query    | `AIModelQueryService.get_active_model(...)`           | Devuelve el modelo de IA actualmente en uso. |
 
 ### 5.3.5. Bounded Context Software Architecture Component Level Diagrams
+
+El diagrama de componentes del AI Recognition Bounded Context representa la arquitectura interna y las interacciones externas del sistema, siguiendo un enfoque DDD + CQRS.
+
+Internamente, el contexto se organiza en cuatro capas:
+- Interface Layer (Flask): gestiona las peticiones HTTP y expone los endpoints REST.
+- Application Layer: coordina casos de uso, comandos y consultas aplicando CQRS.
+- Domain Layer: contiene la lógica central del negocio con entidades, agregados y objetos de valor.
+- Infrastructure Layer (SQLAlchemy + adaptadores): maneja persistencia y la integración con sistemas externos.
+
+La infraestructura se apoya en una base de datos relacional (MySQL) para persistir la información y en un AWS S3 Bucket para almacenar imágenes y videos del entorno mapeado.
+
+Externamente, el contexto se comunica con:
+- IAM (Identity & Access Management): para autenticación/autorización mediante JWT.
+- External Payment Gateway: en caso de procesamiento de transacciones relacionadas.
+- Home Configuration Bounded Context: para consumir datos del mapa del hogar y configuraciones de objetos, necesarios en los procesos de reconocimiento.
+
+<img src="./images/c4-model/ai-recognition-component.png" alt="Component Level Diagram" width="auto">
+
 ### 5.3.6. Bounded Context Software Architecture Code Level Diagrams
 #### 5.3.6.1. Bounded Context Domain Layer Class Diagrams
+
+A continuación, se presenta el diagrama de clases del Domain Layer del Bounded Context AI Recognition. Este diagrama ilustra las principales entidades, agregados y objetos de valor que componen la lógica de negocio del sistema de reconocimiento de objetos mediante inteligencia artificial.
+
+<img src="./images/c4-model/ai-recognition-class-diagram.png" alt="Domain Layer Class Diagram" width="auto">
+
 #### 5.3.6.2. Bounded Context Database Design Diagram
+
+A continuación, se presenta el diagrama de diseño de la base de datos del Bounded Context AI Recognition. Este diagrama muestra las tablas, relaciones y esquemas utilizados para persistir la información en la base de datos.
+
+<img src="./images/c4-model/ai-recognition-db-diagram.png" alt="Database Design Diagram" width="auto">
 
 ## 5.4. Bounded Context: Notifications Bounded Context
 ### 5.4.1. Domain Layer
@@ -1892,33 +2057,64 @@ En esta sección se definen las pautas específicas de diseño para la aplicaci�
 
 
 
-
 ## 6.2. Information Architecture
 La arquitectura de información de **VisualGuide** está diseñada para ofrecer una experiencia intuitiva, eficiente y accesible a personas con discapacidad visual y a sus cuidadores. Nuestra meta es estructurar el contenido y las funcionalidades de forma lógica y predecible, asegurando que el usuario pueda interactuar mediante voz, gestos o lectores de pantalla sin fricciones.
 
-### 6.2.1. Organization Systems
-Para garantizar una experiencia de usuario fluida, accesible y centrada en la asistencia cotidiana, se ha definido una estrategia de organización del contenido que combina distintas estructuras de presentación según el propósito de cada módulo funcional dentro de VisualGuide. A continuación, se describen los principales enfoques aplicados:
+### 6.2.1. Labeling Systems
 
-#### Organización Visual y Auditiva del Contenido
-- **Jerárquica (Visual & Voice Hierarchy):** Se utiliza en la pantalla principal de la aplicación móvil. Las funciones críticas como *Escanear ahora* y *Guía en vivo* se ubican en la parte superior o como accesos rápidos por voz. Elementos secundarios como historial, configuración y perfil se presentan en secciones subordinadas, siguiendo una jerarquía clara y consistente.
+Al ingresar a una pantalla, la aplicacion indica por voz el titulo de esta, mientras que se muestra el texto en la parte superior, esto con el objetivo de facilitarle la informacion al usuario invidente.
+Al mismo tiempo, en la parte inferior se muestran los titulos de las pantallas a las que puede acceder con los botones.
 
-- **Secuencial (Step-by-Step):** Se aplica en flujos como el mapeo inicial del hogar, el registro de objetos y la calibración de la cámara. Las tareas se presentan paso a paso con validación progresiva, acompañadas de instrucciones verbales, para evitar errores y asegurar una configuración exitosa.
+Una vez que el usuario elije un path , la aplicacion le indica la fecha y el punto de inicio y destino.
 
-- **Matricial:** En secciones como el historial de detecciones o los registros de eventos, la información se organiza en listas auditivas o tablas simplificadas, que permiten comparar múltiples parámetros (fecha, hora, tipo de objeto o persona detectada, nivel de confianza) de manera simultánea y multidimensional.
+### 6.2.2 Searching Systems
 
-#### Esquemas de Categorización de Contenido
-- **Alfabético:** Se aplica en la lista de objetos registrados o contactos de cuidadores, facilitando la búsqueda rápida por nombre.
+El usuario puede usar la búsqueda por voz para indicarle a la aplicación la pantalla a la cual desea acceder, las opciones serán dadas por la aplicación, la cual esperara por una confirmación.
+Al entrar en ajustes, el usuario puede elegir el aspecto a modificar por voz.
+En historial, el usuario buscará por voz según la fecha y hora del recorrido.
 
-- **Cronológico:** Utilizado en el historial de detecciones y en las alertas, donde los eventos se ordenan del más reciente al más antiguo, permitiendo un seguimiento lógico y sencillo de la actividad del sistema.
+### 6.2.3 SEO Tags and Meta Tags
 
-- **Por Tópicos:** Empleado en la sección de configuración, donde se agrupan funciones según su tipo: accesibilidad, voz y audio, privacidad, cámara, dispositivos, etc. Esto permite al usuario identificar y gestionar fácilmente las funcionalidades según su categoría.
+**Title**
 
+```html
+    <title>VisualGuideLandingPage</title>
+```
 
+**Charset**
 
-### 6.2.2. Labeling Systems
-### 6.2.3. Searching Systems
-### 6.2.4. SEO Tags and Meta Tags
-### 6.2.5. Navigation Systems
+```html
+    <meta charset="UTF-8">
+```
+
+**Description**
+
+```html
+    <meta name="description" content="Visual Guide is a movil application made to help no vident persons to move aroun their houses"/>
+```
+
+**Keywords**
+
+```html
+    <meta name="keywords" content="deteccion de objetos, vision por computadora, ceguera, apoyo, vision"/>
+```
+**Copyright and Author**
+
+```html
+    <meta name="author" content="HomeSense"/>
+    <meta name="copyright" content="Copyright Home Sense team" />
+```
+
+**ASO**
+
+APP Title: VisualGuide<br>
+APP keywords: Vision, ceguera, apoyo, IA, computadora, deteccion<br>
+App Subtitle: Helping to move in your house<br>
+App Description: Application to help no vident user move around their house. Use our AI vision computer to follow orders and prevent accidents<br>
+
+### 6.2.4 Navigation Systems
+
+Se puede navegar por la aplicación mediante la barra inferior, igualmente se puede usar comandos de voz para cambiar de pantalla e iniciar un recorrido.
 
 ## 6.3. Landing Page UI Design
 ### 6.3.1. Landing Page Wireframe
