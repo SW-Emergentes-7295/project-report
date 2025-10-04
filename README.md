@@ -2122,7 +2122,90 @@ Se puede navegar por la aplicación mediante la barra inferior, igualmente se pu
 
 ## 6.4. Applications UX/UI Design
 ### 6.4.1. Applications Wireframes
+
+A continuación se presentan los wireframes de la aplicación móvil "VisualGuide", diseñada para asistir a personas no videntes en la navegación segura dentro de sus hogares mediante el uso de inteligencia artificial y reconocimiento de objetos.
+<img src="./images/ui-ux-design/13 Pro - 330.png" alt="Wireframe 1" width="auto" style="display: block; margin-left: auto; margin-right: auto;"/>
+Este wireframe muestra la pantalla de inicio de VisualGuide, donde el usuario debe ingresar a la aplicación con el botón "Get Started".
+<br><br>
+<img src="./images/ui-ux-design/13 Pro - 332.png" alt="Wireframe 2" width="auto" style="display: block; margin-left: auto; margin-right: auto;"/>
+En este wireframe se muestra la pantalla de inicio de sesión fácil y rápido para el usuario invidente, donde se pide escaneo de su cara para autenticarse.
+<br><br>
+<img src="./images/ui-ux-design/13 Pro - 329.png" alt="Wireframe 3" width="auto" style="display: block; margin-left: auto; margin-right: auto;"/>
+Este wireframe muestra la pantalla de inicio de sesión mediante email en caso no se pueda hacer el escaneo facial.
+<br><br>
+<img src="./images/ui-ux-design/13 Pro - 331.png" alt="Wireframe 4" width="auto" style="display: block; margin-left: auto; margin-right: auto;"/>
+Este wireframe muestra la pantalla de registro de un nuevo usuario, donde se pide ingresar su email y crear una contraseña segura.
+<br><br>
+<img src="./images/ui-ux-design/13 Pro - 333.png" alt="Wireframe 5" width="auto" style="display: block; margin-left: auto; margin-right: auto;"/>
+Este wireframe muestra la pantalla principal de la aplicación, donde el usuario puede iniciar el mapeo de su hogar con el botón "Start Home Mapping".
+<br><br>
+<img src="./images/ui-ux-design/13 Pro - 334.png" alt="Wireframe 6" width="auto" style="display: block; margin-left: auto; margin-right: auto;"/>
+Este wireframe muestra la pantalla de mapeo del hogar, donde el usuario puede seguir las instrucciones por voz para mapear su entorno.
+<br><br>
+<img src="./images/ui-ux-design/13 Pro - 335.png" alt="Wireframe 7" width="auto" style="display: block; margin-left: auto; margin-right: auto;"/>
+Este wireframe muestra la pantalla de reconocimiento de objetos, donde el usuario puede solicitar el reconocimiento de un objeto en su entorno.
+<br><br>
+<img src="./images/ui-ux-design/13 Pro - 336.png" alt="Wireframe 8" width="auto" style="display: block; margin-left: auto; margin-right: auto;"/>
+Este wireframe muestra la pantalla cuando se detecta una advertencia y se notifica al usuario mediante una indicación de voz.
+<br><br>
+<img src="./images/ui-ux-design/13 Pro - 337.png" alt="Wireframe 9" width="auto" style="display: block; margin-left: auto; margin-right: auto;"/>
+Este wireframe muestra la pantalla de visualización de objetos en la cámara
+<br><br>
+<img src="./images/ui-ux-design/13 Pro - 338.png" alt="Wireframe 10" width="auto" style="display: block; margin-left: auto; margin-right: auto;"/>
+Este wireframe muestra la pantalla de escanear nuevos objetos
+<br><br>
+<img src="./images/ui-ux-design/13 Pro - 339.png" alt="Wireframe 11" width="auto" style="display: block; margin-left: auto; margin-right: auto;"/>
+Este wireframe muestra la pantalla de configuración de preferencias del usuario
+<br><br>
+<img src="./images/ui-ux-design/13 Pro - 340.png" alt="Wireframe 12" width="auto" style="display: block; margin-left: auto; margin-right: auto;"/>
+Esta pantalla muestra la vista del familiar o cuidador de la persona invidente donde puede dar seguimiento de él
+<br><br>
+<img src="./images/ui-ux-design/13 Pro - 341.png" alt="Wireframe 13" width="auto" style="display: block; margin-left: auto; margin-right: auto;"/>
+Este wireframe muestra de forma más detallada las alertas y notificaciones del cuidador o familiar
+<br><br>
+<img src="./images/ui-ux-design/13 Pro - 342.png" alt="Wireframe 13" width="auto" style="display: block; margin-left: auto; margin-right: auto;"/>
+Este wireframe muestra la pantalla de perfil del usuario
+<br><br>
+<img src="./images/ui-ux-design/13 Pro - 343.png" alt="Wireframe 14" width="auto" style="display: block; margin-left: auto; margin-right: auto;"/>
+Esta pantalla muestra el historial de recorridos anteriores del usuario
+<br><br>
+<img src="./images/ui-ux-design/13 Pro - 344.png" alt="Wireframe 15" width="auto" style="display: block; margin-left: auto; margin-right: auto;"/>
+Esta pantalla muestra de forma más detallada un recorrido realizado por el usuario
+<br><br>
+<img src="./images/ui-ux-design/13 Pro - 345.png" alt="Wireframe 13" width="auto" style="display: block; margin-left: auto; margin-right: auto;"/>
+Esta pantalla muestra la sincronización con un cuidador
+
+<br><br>
+<img src="./images/ui-ux-design/13 Pro - 346.png" alt="Wireframe 13" width="auto" style="display: block; margin-left: auto; margin-right: auto;"/>
+Esta pantalla muestra la posibilidad de escanear un código QR.
+
+
 ### 6.4.2. Applications Wireflow Diagrams
+En esta sección, se presentan los diagramas de flujo de la aplicación móvil "VisualGuide", diseñada para asistir a personas no videntes en la navegación segura dentro de sus hogares mediante el uso de inteligencia artificial y reconocimiento de objetos.
+
+<img src="./images/ui-ux-design/Frame 3566.png" alt="Wireflow Diagram" width="auto" style="display: block; margin-left: auto; margin-right: auto;"/>
+
+En este flujo se demuestra las diferentes rutas del inicio de sesión, ya sea por reconocimiento facial o por email y contraseña.
+
+<br><br>
+
+<img src="./images/ui-ux-design/Frame 3567.png" alt="Wireflow Diagram" width="auto" style="display: block; margin-left: auto; margin-right: auto;"/>
+En este flujo se demuestra el mapeo del hogar, donde el usuario puede seguir las instrucciones por voz para mapear su entorno.
+
+<br><br>
+
+<img src="./images/ui-ux-design/Frame 3568.png" alt="Wireflow Diagram" width="auto" style="display: block; margin-left: auto; margin-right: auto;"/>
+En este flujo se demuestra el reconocimiento de objetos, donde el usuario puede solicitar el reconocimiento de un objeto en su entorno y recibir instrucciones de guía.
+
+<br><br>
+
+<img src="./images/ui-ux-design/Frame 3569.png" alt="Wireflow Diagram" width="auto" style="display: block; margin-left: auto; margin-right: auto;"/>
+En este flujo se demuestra la configuración de preferencias del usuario, donde puede ajustar las opciones de la aplicación según sus necesidades. Además de la vinculación con un cuidador o familiar.
+
+<br><br>
+
+<img src="./images/ui-ux-design/Frame 3570.png" alt="Wireflow Diagram" width="auto" style="display: block; margin-left: auto; margin-right: auto;"/>
+En este flujo se demuestra el historial de recorridos anteriores del usuario, donde puede revisar sus actividades pasadas y detalles de cada recorrido.
 
 # Conclusiones
 
