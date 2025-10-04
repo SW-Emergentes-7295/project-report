@@ -2040,6 +2040,31 @@ Esta pantalla muestra la posibilidad de escanear un código QR.
 
 
 ### 6.4.2. Applications Wireflow Diagrams
+En esta sección, se presentan los diagramas de flujo de la aplicación móvil "VisualGuide", diseñada para asistir a personas no videntes en la navegación segura dentro de sus hogares mediante el uso de inteligencia artificial y reconocimiento de objetos.
+
+<img src="./images/ui-ux-design/Frame 3566.png" alt="Wireflow Diagram" width="auto" style="display: block; margin-left: auto; margin-right: auto;"/>
+
+En este flujo se demuestra las diferentes rutas del inicio de sesión, ya sea por reconocimiento facial o por email y contraseña.
+
+<br><br>
+
+<img src="./images/ui-ux-design/Frame 3567.png" alt="Wireflow Diagram" width="auto" style="display: block; margin-left: auto; margin-right: auto;"/>
+En este flujo se demuestra el mapeo del hogar, donde el usuario puede seguir las instrucciones por voz para mapear su entorno.
+
+<br><br>
+
+<img src="./images/ui-ux-design/Frame 3568.png" alt="Wireflow Diagram" width="auto" style="display: block; margin-left: auto; margin-right: auto;"/>
+En este flujo se demuestra el reconocimiento de objetos, donde el usuario puede solicitar el reconocimiento de un objeto en su entorno y recibir instrucciones de guía.
+
+<br><br>
+
+<img src="./images/ui-ux-design/Frame 3569.png" alt="Wireflow Diagram" width="auto" style="display: block; margin-left: auto; margin-right: auto;"/>
+En este flujo se demuestra la configuración de preferencias del usuario, donde puede ajustar las opciones de la aplicación según sus necesidades. Además de la vinculación con un cuidador o familiar.
+
+<br><br>
+
+<img src="./images/ui-ux-design/Frame 3570.png" alt="Wireflow Diagram" width="auto" style="display: block; margin-left: auto; margin-right: auto;"/>
+En este flujo se demuestra el historial de recorridos anteriores del usuario, donde puede revisar sus actividades pasadas y detalles de cada recorrido.
 
 # Conclusiones
 
