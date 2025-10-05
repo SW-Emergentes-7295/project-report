@@ -1504,56 +1504,64 @@ Al concluir el Quality Attribute Workshop, nuestro equipo priorizó los escenari
 
 A continuación se presentan los escenarios refinados en orden de prioridad:
 
-| Scenario Refinement for Scenario 1                                                                                             |
-| ------------------------------------------------------------------------------------------------------------------------------ |
-| **Scenario(s):** El sistema reconoce un objeto (ej. una silla o un electrodoméstico) en el hogar.                              |
-| **Business Goals:** Asegurar que el asistente guíe al usuario sin dar indicaciones erróneas que pongan en riesgo su seguridad. |
-| **Relevant Quality Attributes:** Precisión / Exactitud                                                                         |
-| **Stimulus:** El usuario pregunta “¿Qué objeto está frente a mí?”                                                              |
-| **Stimulus Source:** Usuario no vidente                                                                                        |
-| **Environment:** El hogar previamente mapeado con fotos y escaneo                                                              |
-| **Artifact (if Known):** Módulo de visión por computadora                                                                      |
-| **Response:** El sistema identifica el objeto y responde por voz con su nombre y ubicación                                     |
-| **Response Measure:** Exactitud ≥ 90% en la identificación de objetos en condiciones de iluminación estándar                   |
-| **Questions:** ¿Cómo mantener la precisión si cambia la iluminación del ambiente?                                              |
-| **Issues:** Posibles falsos positivos si hay objetos nuevos no registrados en el mapeo                                         |
+### Scenario Refinement for Scenario 1
 
+| Element                     | Description                                                                 |
+| ---------------------------- | --------------------------------------------------------------------------- |
+| **Scenario(s):**             | El sistema reconoce un objeto (ej. una silla o un electrodoméstico) en el hogar. |
+| **Business Goals:**          | Asegurar que el asistente guíe al usuario sin dar indicaciones erróneas que pongan en riesgo su seguridad. |
+| **Relevant Quality Attributes:** | Precisión / Exactitud                                                   |
+| **Stimulus:**                | El usuario pregunta: “¿Qué objeto está frente a mí?”                        |
+| **Stimulus Source:**         | Usuario no vidente                                                          |
+| **Environment:**             | Hogar previamente mapeado con fotos y escaneo                               |
+| **Artifact (if Known):**     | Módulo de visión por computadora                                            |
+| **Response:**                | El sistema identifica el objeto y responde por voz con su nombre y ubicación |
+| **Response Measure:**        | Exactitud ≥ 90% en la identificación de objetos en condiciones de iluminación estándar |
+| **Questions:**               | - ¿Cómo mantener la precisión si cambia la iluminación del ambiente?        |
+| **Issues:**                  | - Posibles falsos positivos si hay objetos nuevos no registrados en el mapeo |
 
+---
 
-| Scenario Refinement for Scenario 2                                                                        |
-| --------------------------------------------------------------------------------------------------------- |
-| **Scenario(s):** El sistema procesa imágenes en tiempo real para guiar al usuario en su desplazamiento.   |
-| **Business Goals:** Brindar asistencia inmediata para evitar accidentes al caminar dentro del hogar.      |
-| **Relevant Quality Attributes:** Latencia / Rendimiento                                                   |
-| **Stimulus:** El usuario inicia desplazamiento y solicita guía hacia un objeto (ej. “Llévame al sillón”). |
-| **Stimulus Source:** Usuario no vidente                                                                   |
-| **Environment:** Ejecución en dispositivo móvil con conectividad limitada                                 |
-| **Artifact (if Known):** Módulo de procesamiento en tiempo real                                           |
-| **Response:** El sistema genera instrucciones por voz en menos de 2 segundos desde la captura de imagen   |
-| **Response Measure:** Latencia máxima aceptable: 2 segundos por instrucción                               |
-| **Questions:** ¿Qué sucede si el procesamiento requiere conexión a la nube?                               |
-| **Issues:** Dependencia de la capacidad del dispositivo móvil (Android/iOS)                               |
+### Scenario Refinement for Scenario 2
 
+| Element                     | Description                                                                 |
+| ---------------------------- | --------------------------------------------------------------------------- |
+| **Scenario(s):**             | El sistema procesa imágenes en tiempo real para guiar al usuario en su desplazamiento. |
+| **Business Goals:**          | Brindar asistencia inmediata para evitar accidentes al caminar dentro del hogar. |
+| **Relevant Quality Attributes:** | Latencia / Rendimiento                                                  |
+| **Stimulus:**                | El usuario inicia desplazamiento y solicita guía hacia un objeto (ej. “Llévame al sillón”). |
+| **Stimulus Source:**         | Usuario no vidente                                                          |
+| **Environment:**             | Ejecución en dispositivo móvil con conectividad limitada                    |
+| **Artifact (if Known):**     | Módulo de procesamiento en tiempo real                                      |
+| **Response:**                | El sistema genera instrucciones por voz en menos de 2 segundos desde la captura de imagen |
+| **Response Measure:**        | Latencia máxima aceptable: 2 segundos por instrucción                       |
+| **Questions:**               | - ¿Qué sucede si el procesamiento requiere conexión a la nube?              |
+| **Issues:**                  | - Dependencia de la capacidad del dispositivo móvil (Android/iOS)           |
 
-| Scenario Refinement for Scenario 3                                                                            |
-| ------------------------------------------------------------------------------------------------------------- |
-| **Scenario(s):** El usuario interactúa con la aplicación usando únicamente comandos de voz.                   |
-| **Business Goals:** Garantizar que personas no videntes puedan usar la aplicación sin apoyo externo.          |
-| **Relevant Quality Attributes:** Usabilidad / Accesibilidad                                                   |
-| **Stimulus:** El usuario dice “¿Qué colores hay aquí?” o “¿Quién está frente a mí?”                           |
-| **Stimulus Source:** Usuario no vidente                                                                       |
-| **Environment:** Uso doméstico en situación cotidiana                                                         |
-| **Artifact (if Known):** Interfaz de interacción por voz                                                      |
-| **Response:** El sistema responde claramente en lenguaje natural, con volumen y claridad adecuados            |
-| **Response Measure:** 95% de los comandos de voz reconocidos correctamente; respuestas en menos de 3 segundos |
-| **Questions:** ¿Cómo manejar diferentes acentos o variaciones de voz del usuario?                             |
-| **Issues:** Posibles problemas si hay ruido de fondo en el hogar                                              |
+---
+
+### Scenario Refinement for Scenario 3
+
+| Element                     | Description                                                                 |
+| ---------------------------- | --------------------------------------------------------------------------- |
+| **Scenario(s):**             | El usuario interactúa con la aplicación usando únicamente comandos de voz.  |
+| **Business Goals:**          | Garantizar que personas no videntes puedan usar la aplicación sin apoyo externo. |
+| **Relevant Quality Attributes:** | Usabilidad / Accesibilidad                                              |
+| **Stimulus:**                | El usuario dice: “¿Qué colores hay aquí?” o “¿Quién está frente a mí?”      |
+| **Stimulus Source:**         | Usuario no vidente                                                          |
+| **Environment:**             | Uso doméstico en situación cotidiana                                        |
+| **Artifact (if Known):**     | Interfaz de interacción por voz                                             |
+| **Response:**                | El sistema responde claramente en lenguaje natural, con volumen y claridad adecuados |
+| **Response Measure:**        | 95% de los comandos de voz reconocidos correctamente; respuestas en menos de 3 segundos |
+| **Questions:**               | - ¿Cómo manejar diferentes acentos o variaciones de voz del usuario?        |
+| **Issues:**                  | - Posibles problemas si hay ruido de fondo en el hogar                      |
+
 
 ## 4.2. Strategic-Level Domain-Driven Design.
 ### 4.2.1. EventStorming.
 Para esta sección, se ha utilizado la técnica de EventStorming para modelar el dominio de la aplicación "VisualGuide". A través de talleres colaborativos, se han identificado los eventos clave, comandos, agregados y actores involucrados en el sistema. El resultado es un mapa visual que representa las interacciones y flujos de información dentro del dominio, facilitando la comprensión y comunicación entre los miembros del equipo.
 
-El equipo se reunió en sesiones de Discord y utilizó Miro como herramienta colaborativa para plasmar las ideas y conceptos. A continuación, se presentan los pasos seguidos en el proceso de EventStorming: https://acortar.link/RPXn2V
+El equipo se reunió en sesiones de Discord y utilizó Miro como herramienta colaborativa para plasmar las ideas y conceptos. A continuación, se presentan los pasos seguidos en el proceso de EventStorming: [Link a EventStorming](https://miro.com/app/board/uXjVMIZTxgA=/?share_link_id=886293194536)
 
 <img src="./images/eventstorming/step-1.PNG" alt="EventStorming" width="auto">
 Imagen 1: EventStorming - Paso 1
@@ -1788,7 +1796,7 @@ Aislar los core capabilities podría permitir un enfoque más claro en las funci
 
 ## 4.3. Software Architecture.
 Los diagramas de arquitectura de software se han creado utilizando el enfoque C4 Model, que proporciona una manera clara y estructurada de representar la arquitectura del sistema en diferentes niveles de detalle. A continuación, se presentan los diagramas correspondientes a cada nivel del modelo C4 para la aplicación "VisualGuide".
-URL Structurizr: https://structurizr.com/workspace/101375
+URL Structurizr: [Link a Structurizr](https://structurizr.com/workspace/101375)
 
 ### 4.3.1. Software Architecture System Landscape Diagram.
 A continuación se demuestra el System Landscape Diagram de la solución propuesta "VisualGuide", una aplicación móvil diseñada para asistir a personas no videntes en la navegación segura dentro de sus hogares mediante el uso de inteligencia artificial y reconocimiento de objetos.
