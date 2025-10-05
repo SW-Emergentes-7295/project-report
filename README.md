@@ -2152,7 +2152,7 @@ Externamente, se integra con los contextos de **IAM** y **Home Environment Mappi
 
 El siguiente diagrama muestra la estructura interna del dominio de notificaciones, incluyendo entidades, objetos de valor y servicios que encapsulan la lógica principal para la gestión y envío de alertas dentro del sistema.
 
-<img src="./images/c4-model/DomainLayerClassDiagramNotifications" alt="Notifications BC Domain Layer Class Diagram" width="auto">
+<img src="./images/c4-model/DomainLayerClassDiagramNotifications.png" alt="Notifications BC Domain Layer Class Diagram" width="auto">
 
 
 #### 5.4.6.2. Bounded Context Database Design Diagram
