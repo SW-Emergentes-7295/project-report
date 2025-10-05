@@ -1,4 +1,4 @@
-# <center>Informe del Trabajo Final</center>
+# <center>Informe del Trabajo Parcial</center>
 
 <p align="center">
     <img src="https://upload.wikimedia.org/wikipedia/commons/f/fc/UPC_logo_transparente.png"></img><br>
@@ -6,7 +6,7 @@
     <strong>Ingeniería de Software</strong><br>
     <strong>1ASI0728 - Arquitecturas de Software Emergentes - 7295</strong><br>
     <strong>Profesor: Royer Edelwer Rojas Malasquez</strong><br>
-    <br>INFORME FINAL
+    <br>INFORME PARCIAL
 </p>
 
 <center>
@@ -45,8 +45,9 @@
     </tr>
   </thead>
   <tbody>
+    <!-- V1 -->
     <tr>
-      <td rowspan="6">V1</td>
+      <td rowspan="4">V1</td>
       <td>20/09/2025</td>
       <td>Ramos Najar, Tony Alexander</td>
       <td>
@@ -79,7 +80,7 @@
     </tr>
     <tr>
       <td>20/09/2025</td>
-      <td>Perez Pizarro, Pedro Jeremy </td>
+      <td>Perez Pizarro, Pedro Jeremy</td>
       <td>
         <ul>
           <li>Strategic-Level Attribute-Driven Design</li>
@@ -108,16 +109,65 @@
         </ul>
       </td>
     </tr>
+    <tr>
+      <td rowspan="4">V2</td>
+      <td>05/10/2025</td>
+      <td>Ramos Najar, Tony Alexander</td>
+      <td>
+        <ul>
+          <li>Bounded Context Design: IAM Bounded Context</li>
+          <li>Style Guidelines</li>
+          <li>Web, Mobile & Devices Style Guidelines</li>
+          <li>Information Architecture</li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td>05/10/2025</td>
+      <td>More Rondon, Christopher Sebastian</td>
+      <td>
+        <ul>
+          <li>Bounded Context Design: Home Configuration Bounded Context</li>
+          <li>Labeling Systems</li>
+          <li>Searching Systems</li>
+          <li>SEO Tags and Meta Tags</li>
+          <li>Navigation Systems</li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td>05/10/2025</td>
+      <td>Perez Pizarro, Pedro Jeremy</td>
+      <td>
+        <ul>
+          <li>Bounded Context Design: Notifications Bounded Context</li>
+          <li>Landing Page UI Design</li>
+          <li>Landing Page Wireframe</li>
+          <li>Landing Page Mock-up</li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td>05/10/2025</td>
+      <td>Arian Martín Rodriguez Vargas</td>
+      <td>
+        <ul>
+          <li>Bounded Context Design: AI Recognition Bounded Context</li>
+          <li>Applications UX/UI Design</li>
+          <li>Applications Wireframes</li>
+          <li>Applications Wireflow Diagrams</li>
+        </ul>
+      </td>
+    </tr>
   </tbody>
 </table>
-  </tbody>
-</table>
+
 
 # Project Report Collaboration Insights
 
 En esta sección, registraremos los cambios y logros que se completaron en cada entrega del reporte.
 
-TB1
+**TB1**
 La entrega TB1 finalizó con éxito y están documentadas en el siguiente repositorio de Github perteneciente a la organización del equipo: https://github.com/SW-Emergentes-7295/project-report Durante el desarrollo del informe se tuvieron en cuenta los siguientes aspectos:
 
 - Se definió la startup y el producto a desarrollar.
@@ -134,10 +184,23 @@ La entrega TB1 finalizó con éxito y están documentadas en el siguiente reposi
 
 
 Imagen 1: Gráfico general de commits y contribuciones hechas por cada miembros del equipo de VisualGuide. Incluye tambien los pull requests activos y aceptados. 
-<img src="./images/pulse-tb1.PNG " alt="Gráfico de contribuciones del equipo" width="800">
+<img src="./images/pulse-tb1.PNG" alt="Gráfico de contribuciones del equipo" width="800">
 
-<img src="./images/network-graph-tb1.PNG " alt="Gráfico de contribuciones del equipo" width="800">
+<img src="./images/network-graph-tb1.PNG" alt="Gráfico de contribuciones del equipo" width="800">
 
+<br><br>
+
+**TP**
+La entrega TP finalizó con éxito y están documentadas en el siguiente repositorio de Github perteneciente a la organización del equipo: https://github.com/SW-Emergentes-7295/project-report Durante el desarrollo del informe se tuvieron en cuenta los siguientes aspectos:
+
+- Se definieron los bounded contexts del dominio.
+- Se diseñaron los lineamientos de estilo para la aplicación móvil y landing page
+- Se desarrollaron wireframes y mockups para la landing page y aplicación móvil.
+- Se crearon wireflow diagrams para la navegación de la aplicación móvil.
+- Se documentaron todas las actividades y hallazgos en el repositorio de Github.
+
+Imagen 2: Gráfico general de commits y contribuciones hechas por cada miembros del equipo de VisualGuide. Incluye tambien los pull requests activos y aceptados.
+<img src="./images/network-graph-tp.PNG " alt="Gráfico de contribuciones del equipo" width="800">
 
 # Contenido
 
@@ -196,6 +259,26 @@ Imagen 1: Gráfico general de commits y contribuciones hechas por cada miembros 
       + [4.3.2. Software Architecture Context Level Diagrams](#432-software-architecture-context-level-diagrams)
       + [4.3.3. Software Architecture Container Level Diagrams](#433-software-architecture-container-level-diagrams)
       + [4.3.4. Software Architecture Deployment Diagrams](#434-software-architecture-deployment-diagrams)
+- [Capítulo V: Tactical-Level Software Design](#capítulo-v-tactical-level-software-design)
+   * [5.1. Bounded Context: IAM Bounded Context](#51-bounded-context-iam-bounded-context)
+   * [5.2. Bounded Context: Home Configuration Bounded Context](#52-bounded-context-home-configuration-bounded-context)
+    * [5.3. Bounded Context: Notifications Bounded Context](#53-bounded-context-notifications-bounded-context)
+    * [5.4. Bounded Context: AI Recognition Bounded Context](#54-bounded-context-ai-recognition-bounded-context)
+- [Capítulo VI: Solution UX Design](#capítulo-vi-solution-ux-design)
+   * [6.1. Style Guidelines](#61-style-guidelines)
+      + [6.1.1. General Style Guidelines](#611-general-style-guidelines)
+      + [6.1.2. Web, Mobile & Devices Style Guidelines](#612-web-mobile--devices-style-guidelines)
+    * [6.2. Information Architecture](#62-information-architecture)
+      + [6.2.1. Labeling Systems](#621-labeling-systems)
+      + [6.2.2. Searching Systems](#622-searching-systems)
+      + [6.2.3. SEO Tags and Meta Tags](#623-seo-tags-and-meta-tags)
+      + [6.2.4. Navigation Systems](#624-navigation-systems)
+    * [6.3. Landing Page UI Design](#63-landing-page-ui-design)
+      + [6.3.1. Landing Page Wireframe](#631-landing-page-wireframe)
+      + [6.3.2. Landing Page Mock-up](#632-landing-page-mock-up)
+    * [6.4. Applications UX/UI Design](#64-applications-uxui-design)
+      + [6.4.1. Applications Wireframes](#641-applications-wireframes)
+      + [6.4.2. Applications Wireflow Diagrams](#642-applications-wireflow-diagrams)  
 - [Conclusiones](#conclusiones)
 - [Referencias](#referencias)
 
@@ -2261,14 +2344,23 @@ En este flujo se demuestra el historial de recorridos anteriores del usuario, do
 
 8. **Contribución académica y científica:** El proyecto puede servir como base para investigaciones futuras en inteligencia artificial aplicada a accesibilidad, fomentando avances en la intersección de tecnología y discapacidad.  
 
+9. **Colaboración interdisciplinaria:** El desarrollo de *VisualGuide* resalta la importancia de trabajar en conjunto con expertos en accesibilidad, diseño UX y comunidades de usuarios para crear soluciones efectivas y centradas en las necesidades reales.
+
+10. **Sostenibilidad y ética:** La creación de tecnologías inclusivas como *VisualGuide* promueve un enfoque ético en el desarrollo tecnológico, priorizando el bienestar y la dignidad de todos los usuarios.
+
 ---
 
-# Referencias
+# Referencias  
 
 - American Foundation for the Blind. (2020). *Assistive Technology for People Who are Blind or Visually Impaired*. https://www.afb.org/  
-- Bai, J., Lian, S., Liu, Z., Wang, K., & Liu, D. (2017). Virtual-Blind-Road Following Based Wearable Navigation Device for Blind People. *IEEE Transactions on Consumer Electronics, 63*(2), 258–266. https://doi.org/10.1109/TCE.2017.014975  
-- Hersh, M., & Johnson, M. A. (2010). *Assistive Technology for Visually Impaired and Blind People*. Springer. https://doi.org/10.1007/978-1-84882-181-9  
+- Bai, J., Lian, S., Liu, Z., Wang, K., & Liu, D. (2017). Virtual-Blind-Road Following Based Wearable Navigation Device for Blind People. *IEEE Transactions on Consumer Electronics, 63*(2), 258–266. https://ieeexplore.ieee.org/document/8307352  
+- Coughlan, J. M., & Manduchi, R. (2007). Functional Assessment of a Camera Phone-Based Wayfinding System Operated by Blind and Visually Impaired Users. *International Journal on Artificial Intelligence Tools, 16*(03), 643–663. https://doi.org/10.1142/S0218213007003601  
+- Dakopoulos, D., & Bourbakis, N. G. (2010). Wearable Obstacle Avoidance Electronic Travel Aids for Blind: A Survey. *IEEE Transactions on Systems, Man, and Cybernetics, Part C (Applications and Reviews), 40*(1), 25–35. https://doi.org/10.1109/TSMCC.2009.2021255  
+- Guerreiro, J., Ahmetovic, D., Kitani, K. M., & Asakawa, C. (2017). Virtual Navigation for Blind People: Building Sequential Representations of the Real-World. *Proceedings of the 19th International ACM SIGACCESS Conference on Computers and Accessibility*, 280–289. https://doi.org/10.1145/3132525.3132545  
+- Hersh, M., & Johnson, M. A. (2010). *Assistive Technology for Visually Impaired and Blind People*. Springer. https://link.springer.com/book/10.1007/978-1-84628-867-8  
 - Manduchi, R., & Coughlan, J. M. (2012). The Role of Computer Vision in Accessible Technology. *Computer, 45*(3), 65–71. https://doi.org/10.1109/MC.2012.64  
+- Sanchez, J., & Lumbreras, M. (2000). Virtual Environments for Blind People: Representing Architectural Spaces Through Sound. *International Journal of Virtual Reality, 5*(4), 23–32.  
+- Ahmetovic, D., Gleason, C., Ruan, C., Kitani, K. M., Takagi, H., & Asakawa, C. (2016). NavCog: A Navigational Cognitive Assistant for the Blind. *Proceedings of the 18th International Conference on Human-Computer Interaction with Mobile Devices and Services*, 90–99. https://doi.org/10.1145/2935334.2935361  
 - World Health Organization. (2021). *World Report on Vision*. World Health Organization. https://www.who.int/publications/i/item/9789241516570  
 
 # Anexos
@@ -2276,4 +2368,5 @@ En este flujo se demuestra el historial de recorridos anteriores del usuario, do
 |--------|-----|
 | **TB1:** Presentación del proyecto | https://acortar.link/V3AnHH |
 | **Video entrevistas TB1:** Entrevistas consolidadas en un solo video | https://acortar.link/zDs5b6 |
+| **TP:** Exposición Parcial |  |
 
