@@ -1960,9 +1960,6 @@ A continuación, se presenta el diagrama de diseño de la base de datos del Boun
 
 ## 5.4. Bounded Context: Notifications Bounded Context
 
-
-
-
 ### 5.4.1. Domain Layer
 
 #### Agregados y Entidades del Dominio Notifications
@@ -2035,12 +2032,7 @@ Historial de notificaciones emitidas.
 | delivered_at | datetime | Fecha de entrega |
 | delivery_status | str | “DELIVERED”, “FAILED” |
 
-
-
-
-
 ### 5.4.2. Interface Layer
-
 
 La carpeta **interfaces/rest** contiene los controladores, resources y assemblers responsables de exponer los servicios del contexto **Notifications** hacia el resto del sistema **VisualGuide** y otros bounded contexts relacionados (como AI Recognition y User Profile).
 
@@ -2087,8 +2079,6 @@ La carpeta **interfaces/rest** contiene los controladores, resources y assembler
   Expone el historial completo de notificaciones emitidas por usuario.
 
 
-
-
 ### 5.4.3. Application Layer
 
 Servicios de Aplicación – Gestión de Flujos de Notificaciones.  
@@ -2107,7 +2097,6 @@ Separados en **Command Services** y **Query Services** siguiendo el patrón **CQ
 - **NotificationQueryService** → obtiene información detallada de notificaciones enviadas.
 - **NotificationSessionQueryService** → consulta sesiones activas y su estado actual.
 - **NotificationHistoryQueryService** → lista el historial completo de notificaciones asociadas a un usuario o dispositivo.
-
 
 
 ### 5.4.4. Infrastructure Layer
@@ -2142,12 +2131,35 @@ Implementación de **Repositories** y servicios de persistencia asociados al con
 
 
 ### 5.4.5. Bounded Context Software Architecture Component Level Diagrams
+
+
+El diagrama de componentes del **Notifications Bounded Context** muestra la arquitectura interna del sistema responsable de gestionar alertas y recordatorios en **VisualGuide**, bajo un enfoque **DDD + CQRS**.
+
+El contexto se organiza en cuatro capas:  
+- **Interface Layer (FastAPI):** expone los endpoints REST para enviar y consultar notificaciones.  
+- **Application Layer:** coordina comandos y consultas relacionadas con el envío, confirmación y consulta de notificaciones.  
+- **Domain Layer:** contiene las entidades y objetos de valor que modelan la lógica central, como `Notification`, `NotificationSession`, `UserPreference` y `DeviceChannel`.  
+- **Infrastructure Layer (PostgreSQL + MQTT/BLE):** implementa la persistencia y los adaptadores que permiten la entrega física de alertas auditivas o hápticas.
+
+Externamente, se integra con los contextos de **IAM** y **Home Environment Mapping** para autenticar usuarios y contextualizar las notificaciones dentro del entorno del hogar.
+
+<img src="./images/c4-model/BCsoftwareNotifications.png" alt="BC notifications" width="auto">
+
+
+
 ### 5.4.6. Bounded Context Software Architecture Code Level Diagrams
 #### 5.4.6.1. Bounded Context Domain Layer Class Diagrams
+
+El siguiente diagrama muestra la estructura interna del dominio de notificaciones, incluyendo entidades, objetos de valor y servicios que encapsulan la lógica principal para la gestión y envío de alertas dentro del sistema.
+
+<img src="./images/c4-model/DomainLayerClassDiagramNotifications" alt="Notifications BC Domain Layer Class Diagram" width="auto">
+
+
 #### 5.4.6.2. Bounded Context Database Design Diagram
 
+Este diagrama representa el modelo físico de datos del contexto de notificaciones, detallando las tablas, claves y relaciones necesarias para la persistencia de sesiones, notificaciones y preferencias de usuario.
 
-
+<img src="./images/c4-model/DatabaseDesignDiagramNotificationsBC.png" alt="Notifications BC Database Diagram" width="auto">
 
 
 
