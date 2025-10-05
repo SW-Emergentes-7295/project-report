@@ -291,52 +291,51 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de
 conclusiones por parte del grupo, que permiten sustentar el haber alcanzado el logro
 del ABET – EAC - Student Outcome 3.
 
-<table>
-  <tr>
-    <th>Criterio Especifico</th>
-    <th>Acciones Realizadas</th>
-    <th>Conclusiones</th>
-  </tr>
-  <tr>
-    <td>Comunica oralmente sus ideas
-y/o resultados con objetividad a
-público de diferentes
-especialidades y niveles
-jerarquicos, en el marco del
-desarrollo de un proyecto en
-ingeniería.</td>
-    <td>
-      <p><b>TB1 - More Rondon, Christopher Sebastian:</b> Expuse con claridad conceptos técnicos y esto me ayudará a ganar confianza en futuras presentaciones profesionales.</p>
-      <p><b>TB1 - Perez Pizarro, Pedro Jeremy:</b> Compartí ideas con ejemplos comprensibles y esto me permitirá desenvolverme mejor frente a audiencias diversas.</p>
-      <p><b>TB1 - Ramos Najar, Tony Alexander:</b> Participé en discusiones transmitiendo resultados de manera precisa y esto reforzará mi comunicación en el ámbito laboral.</p>
-      <p><b>TB1 - Rodriguez Vargas, Arian Martín:</b> Lideré la exposición de hallazgos y con ello perfeccioné mi capacidad de persuadir en entornos de ingeniería.</p>
-    </td>
-    <td>
-      <p><b>TB1:</b> Como equipo demostramos nuestra capacidad de comunicar oralmente ideas y resultados de manera objetiva, alcanzando un nivel de claridad y efectividad aplicable en nuestra futura carrera profesional.</p>
-    </td>
-  </tr>
-
-  <tr>
-    <td>Comunica en forma escrita ideas
-y/o resultados con objetividad a
-público de diferentes
-especialidades y niveles
-jerarquicos, en el marco del
-desarrollo de un proyecto en
-ingeniería..</td>
-    <td>
-      <p><b>TB1 - More Rondon, Christopher Sebastian:</b> Redacté reportes técnicos concisos y esto fortalecerá mi competencia para elaborar documentación profesional.</p>
-      <p><b>TB1 - Perez Pizarro, Pedro Jeremy:</b> Elaboré resúmenes claros y estructurados y esto mejorará mi comunicación escrita hacia distintos públicos.</p>
-      <p><b>TB1 - Ramos Najar, Tony Alexander:</b> Contribuí con informes analíticos bien organizados y esto me permitirá aplicar una mejor documentación en mi vida académica y laboral.</p>
-      <p><b>TB1 - Rodriguez Vargas, Arian Martín:</b> Preparé documentos con lenguaje técnico adaptado y esto me ayudará a desarrollar competencias para la escritura en proyectos de ingeniería.</p>
-    </td>
-    <td>
-      <p><b>TB1:</b> Como equipo alcanzamos una comunicación escrita objetiva y clara, adaptada a diversos niveles jerárquicos y especialidades, consolidando una competencia esencial en nuestra formación y ejercicio profesional.</p>
-    </td>
-  </tr>
+<table border="1" cellspacing="0" cellpadding="8">
+  <thead>
+    <tr>
+      <th>Criterio Específico</th>
+      <th>Acciones Realizadas</th>
+      <th>Conclusiones</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Comunica oralmente sus ideas y/o resultados con objetividad a público de diferentes especialidades y niveles jerárquicos, en el marco del desarrollo de un proyecto en ingeniería.</td>
+      <td>
+        <p><b>TB1 - More Rondon, Christopher Sebastian:</b> Expuse con claridad conceptos técnicos y esto me ayudará a ganar confianza en futuras presentaciones profesionales.</p>
+        <p><b>TB1 - Perez Pizarro, Pedro Jeremy:</b> Compartí ideas con ejemplos comprensibles y esto me permitirá desenvolverme mejor frente a audiencias diversas.</p>
+        <p><b>TB1 - Ramos Najar, Tony Alexander:</b> Participé en discusiones transmitiendo resultados de manera precisa y esto reforzará mi comunicación en el ámbito laboral.</p>
+        <p><b>TB1 - Rodriguez Vargas, Arian Martín:</b> Lideré la exposición de hallazgos y con ello perfeccioné mi capacidad de persuadir en entornos de ingeniería.</p>
+        <p><b>TP - More Rondon, Christopher Sebastian:</b> Presenté de manera clara los avances técnicos del proyecto, reforzando mi habilidad de explicar conceptos a públicos con distintos niveles de conocimiento.</p>
+        <p><b>TP - Perez Pizarro, Pedro Jeremy:</b> Expliqué resultados usando ejemplos prácticos, lo que me permitió transmitir confianza y mejorar mi capacidad de comunicación oral en ingeniería.</p>
+        <p><b>TP - Ramos Najar, Tony Alexander:</b> Defendí argumentos técnicos con fundamentos sólidos, desarrollando competencias para comunicarme con mayor seguridad en contextos profesionales.</p>
+        <p><b>TP - Rodriguez Vargas, Arian Martín:</b> Lideré parte de la exposición final del trabajo, fortaleciendo mi habilidad de síntesis y persuasión en entornos académicos y de ingeniería.</p>
+      </td>
+      <td>
+        <p><b>TB1:</b> Como equipo demostramos nuestra capacidad de comunicar oralmente ideas y resultados de manera objetiva, alcanzando un nivel de claridad y efectividad aplicable en nuestra futura carrera profesional.</p>
+        <p><b>TP:</b> Como equipo demostramos un progreso significativo en la comunicación oral, transmitiendo resultados de manera clara y profesional, lo que evidencia nuestra preparación para presentaciones en el ámbito laboral.</p>
+      </td>
+    </tr>
+    <tr>
+      <td>Comunica en forma escrita ideas y/o resultados con objetividad a público de diferentes especialidades y niveles jerárquicos, en el marco del desarrollo de un proyecto en ingeniería.</td>
+      <td>
+        <p><b>TB1 - More Rondon, Christopher Sebastian:</b> Redacté reportes técnicos concisos y esto fortalecerá mi competencia para elaborar documentación profesional.</p>
+        <p><b>TB1 - Perez Pizarro, Pedro Jeremy:</b> Elaboré resúmenes claros y estructurados y esto mejorará mi comunicación escrita hacia distintos públicos.</p>
+        <p><b>TB1 - Ramos Najar, Tony Alexander:</b> Contribuí con informes analíticos bien organizados y esto me permitirá aplicar una mejor documentación en mi vida académica y laboral.</p>
+        <p><b>TB1 - Rodriguez Vargas, Arian Martín:</b> Preparé documentos con lenguaje técnico adaptado y esto me ayudará a desarrollar competencias para la escritura en proyectos de ingeniería.</p>
+        <p><b>TP - More Rondon, Christopher Sebastian:</b> Redacté informes técnicos estructurados, reforzando mi capacidad de documentación formal en proyectos de ingeniería.</p>
+        <p><b>TP - Perez Pizarro, Pedro Jeremy:</b> Elaboré resúmenes ejecutivos claros, fortaleciendo mi habilidad de transmitir información relevante de forma concisa a distintos públicos.</p>
+        <p><b>TP - Ramos Najar, Tony Alexander:</b> Contribuí con análisis escritos bien fundamentados, lo que mejorará mi desempeño en la elaboración de documentación profesional.</p>
+        <p><b>TP - Rodriguez Vargas, Arian Martín:</b> Desarrollé reportes con terminología técnica adecuada, reforzando mi competencia en redacción académica y profesional.</p>
+      </td>
+      <td>
+        <p><b>TB1:</b> Como equipo alcanzamos una comunicación escrita objetiva y clara, adaptada a diversos niveles jerárquicos y especialidades, consolidando una competencia esencial en nuestra formación y ejercicio profesional.</p>
+        <p><b>TP:</b> Como equipo consolidamos una comunicación escrita clara y adaptada a diferentes audiencias, lo que demuestra nuestra preparación para la generación de documentación técnica en el ejercicio profesional.</p>
+      </td>
+    </tr>
+  </tbody>
 </table>
-
-
 
 
 # Capítulo I: Introducción
@@ -691,7 +690,7 @@ Las entrevistas han sido consolidadas en un solo video registrado en la sección
 
 <img src="./images/interviews/juan_navarro_interview.PNG" alt="Foto de Juan Navarro" width="50%">
 
-**URL de la entrevista:** [https://acortar.link/cIuMmt](https://acortar.link/cIuMmt)
+**URL de la entrevista:** [Entrevista Juan Navarro](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202212096_upc_edu_pe/EUkUOJYAenZMuMLNbVqi9TkB_OKfUZbk8xSJrsSqIxoLgA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=rcWFyN)
 
 **Resumen de la entrevista:**
 Juan Navarro, de 21 años, es una persona no vidente y reside en Los Olivos, Lima. Tenía muchas dificultades al inicio como persona no vidente pero luego se aocstumbró a muchas actividades diarias pero no de forma efectiva. Juan mencionó que sus principales problemas son al momento de buscar objetos específicos dentro de su hogar y moverse entre él. Actualmente, se ayuda de sus familiares para diversas acciones pero no le gusta incomodarlos todo el tiempo.
@@ -710,7 +709,7 @@ Mencionó que una aplicación como VisualGuide podría ser muy beneficiosa, ya q
 **Resumen de la entrevista:**
 Sandy, una joven de 26 años residente en Ate–Lima que perdió la visión moderadamente a los 20 años, vive con su madre y hermana y enfrenta mayores riesgos en la cocina y al desplazarse cuando cambian los muebles. Actualmente se apoya en memoria, tacto y algunas apps poco confiables. Considera indispensable que una aplicación de asistencia visual reconozca objetos y personas con precisión, brinde instrucciones claras por audio, funcione sin internet y garantice la privacidad del mapeo de su hogar. Está dispuesta a invertir tiempo inicial en aprender y realizar un mapeo con ayuda de su hermana. Para ella, contar con un asistente visual inteligente significaría más independencia, seguridad y tranquilidad en su día a día.
 
-**URL de la entrevista:** [https://acortar.link/apfTsV](https://acortar.link/apfTsV)
+**URL de la entrevista:** [Entrevista Sandy Baez](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202212096_upc_edu_pe/ESCJzFoqWJ9Anblw-RigMZoBnGz-uwCmr_k2oBi2pdl35A?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=1LVPBL)
 
 
 **Segmento objetivo 2: Familiares o cuidadores de personas no videntes**
@@ -724,7 +723,7 @@ Sandy, una joven de 26 años residente en Ate–Lima que perdió la visión mode
 
 <img src="./images/interviews/carlos-chavez-interview.PNG" alt="Foto de Carlos Chavez" width="100%">
 
-**URL de la entrevista:** [https://acortar.link/c6DJAQ](https://acortar.link/c6DJAQ)
+**URL de la entrevista:** [Entrevista Carlos Chavez](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202212096_upc_edu_pe/EY8HPTTWkNJJkxkdtcHoESYBN4DXqP7WpJ3efasJElzn2A?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=gsrUw1)
 
 **Resumen de la entrevista:**
 Carlos Chávez, de 21 años, es primo de una persona no vidente y reside en La Perla, Callao. Aunque no convive con su primo, lo visita frecuentemente y se preocupa por su seguridad dentro del hogar. Carlos mencionó que las principales preocupaciones incluyen la posibilidad de accidentes domésticos y la dependencia constante de ayuda para moverse y realizar tareas básicas. Actualmente, su familia utiliza un bastón y la ayuda de otros familiares para asistir a su primo.
@@ -740,7 +739,7 @@ Mencionó que una aplicación como VisualGuide podría ser muy beneficiosa, ya q
 
 <img src="./images/interviews/Entrevista-HaroldElias.png" alt="Foto de Harold Elias" width="100%">
 
-**URL de la entrevista:** [https://acortar.link/hiRi0l](https://acortar.link/hiRi0l)
+**URL de la entrevista:** [Entrevista Harold Elias](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202212096_upc_edu_pe/ETT9PkcwKnZBjmtzMwPcNioBWWCx1Coca_L_xTSO8Axl9A?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=7eXTOj)
 
 **Resumen de la entrevista:**
 Harol Elias de 21 años, expresó su deseo de poder usar la aplicación para darle más independencia a su primo, así como también expresó su actual preocupacio por la posibilidad de que se lastime. Si bien espera que la aplicación sea de ayuda, también cree que seguirá teniendo que ayudar a su primo en taeas más complejas como subir escaleras.
