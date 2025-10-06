@@ -2301,16 +2301,215 @@ A continuación, se presenta el diagrama de diseño de la base de datos del Boun
 
 <img src="./images/c4-model/ai-recognition-db-diagram.png" alt="Database Design Diagram" width="auto">
 
+
+
+
+
+
 ## 5.4. Bounded Context: Notifications Bounded Context
+
 ### 5.4.1. Domain Layer
+
+#### Agregados y Entidades del Dominio Notifications
+
+En el contexto limitado de **Notifications**, se gestionan las alertas auditivas, hápticas y verbales del sistema **VisualGuide**, permitiendo que el usuario reciba información procesada por el contexto **AI Recognition** según sus preferencias sensoriales.
+
+---
+
+#### NotificationSession (Agregado raíz)
+Representa una sesión activa de notificaciones vinculada a una sesión de reconocimiento.
+
+| Atributo | Tipo | Descripción |
+|-----------|------|-------------|
+| id | UUID | Identificador único |
+| recognition_session_id | UUID | Relación con AI Recognition |
+| user_id | UUID | Usuario que recibe las notificaciones |
+| start_time | datetime | Inicio de la sesión |
+| end_time | datetime \| None | Fin de la sesión |
+| status | str | “ACTIVE”, “PAUSED”, “FINISHED” |
+
+---
+
+#### Notification (Entidad)
+Notificación generada hacia el usuario (auditiva, háptica o verbal).
+
+| Atributo | Tipo | Descripción |
+|-----------|------|-------------|
+| id | UUID | Identificador único |
+| notification_session_id | UUID | Sesión a la que pertenece |
+| type | str | “AUDIO”, “HAPTIC”, “VOICE” |
+| message | str | Contenido o instrucción |
+| priority | int | Nivel de urgencia |
+| timestamp | datetime | Momento de emisión |
+
+---
+
+#### NotificationPattern (Entidad)
+Define la configuración base de patrones de alerta según tipo y prioridad.
+
+| Atributo | Tipo | Descripción |
+|-----------|------|-------------|
+| id | UUID | Identificador único |
+| name | str | Nombre del patrón |
+| type | str | “AUDIO”, “HAPTIC”, “VOICE” |
+| pattern_data | dict | Configuración (tono, vibración, etc.) |
+
+---
+
+#### UserNotificationPreferences (Entidad)
+Preferencias de notificación del usuario.
+
+| Atributo | Tipo | Descripción |
+|-----------|------|-------------|
+| id | UUID | Identificador único |
+| user_id | UUID | Usuario asociado |
+| allow_voice_guidance | bool | Activa guía por voz |
+| allow_vibration_feedback | bool | Activa vibración |
+| volume_level | float | Nivel de volumen |
+
+---
+
+#### NotificationHistory (Entidad)
+Historial de notificaciones emitidas.
+
+| Atributo | Tipo | Descripción |
+|-----------|------|-------------|
+| id | UUID | Identificador |
+| user_id | UUID | Usuario |
+| notification_id | UUID | Notificación original |
+| delivered_at | datetime | Fecha de entrega |
+| delivery_status | str | “DELIVERED”, “FAILED” |
+
 ### 5.4.2. Interface Layer
+
+La carpeta **interfaces/rest** contiene los controladores, resources y assemblers responsables de exponer los servicios del contexto **Notifications** hacia el resto del sistema **VisualGuide** y otros bounded contexts relacionados (como AI Recognition y User Profile).
+
+---
+
+#### Resources:
+- **SendNotificationResource**  
+  Representa los datos necesarios para crear y enviar una nueva notificación hacia el usuario (tipo, mensaje, prioridad).
+
+- **NotificationSessionResource**  
+  Define la estructura para consultar el estado de una sesión de notificaciones activa.
+
+- **AcknowledgeNotificationResource**  
+  Contiene la información necesaria para confirmar la recepción de una notificación por parte del usuario.
+
+- **NotificationHistoryResource**  
+  Devuelve la lista de notificaciones históricas emitidas a un usuario determinado.
+
+---
+
+#### Transform/Assemblers:
+- **SendNotificationCommandFromResourceAssembler**  
+  Transforma los datos del recurso de envío en un comando de aplicación `SendNotificationCommand`.
+
+- **NotificationResourceFromEntityAssembler**  
+  Convierte entidades del dominio `Notification` en representaciones REST para la respuesta HTTP.
+
+- **NotificationSessionResourceFromEntityAssembler**  
+  Adapta la entidad `NotificationSession` al formato JSON de salida.
+
+- **NotificationHistoryResourceFromEntityAssembler**  
+  Ensambla el historial de notificaciones desde las entidades de dominio para su visualización.
+
+---
+
+#### Controllers:
+- **notification_controller.py** → `/api/notifications`  
+  Gestiona el envío, recuperación y confirmación de notificaciones individuales.
+
+- **notification_session_controller.py** → `/api/notification-sessions`  
+  Controla la creación, estado y finalización de sesiones activas de notificaciones.
+
+- **notification_history_controller.py** → `/api/notification-history`  
+  Expone el historial completo de notificaciones emitidas por usuario.
+
+
 ### 5.4.3. Application Layer
+
+Servicios de Aplicación – Gestión de Flujos de Notificaciones.  
+Separados en **Command Services** y **Query Services** siguiendo el patrón **CQRS**.
+
+---
+
+#### Command Services
+- **NotificationCommandService** → gestiona el envío de nuevas notificaciones a los usuarios (push, email o in-app).
+- **NotificationSessionCommandService** → inicia, actualiza y finaliza sesiones de notificaciones activas.
+- **AcknowledgeNotificationCommandService** → registra la confirmación de recepción por parte del usuario.
+
+---
+
+#### Query Services
+- **NotificationQueryService** → obtiene información detallada de notificaciones enviadas.
+- **NotificationSessionQueryService** → consulta sesiones activas y su estado actual.
+- **NotificationHistoryQueryService** → lista el historial completo de notificaciones asociadas a un usuario o dispositivo.
+
+
 ### 5.4.4. Infrastructure Layer
 
+Implementación de **Repositories** y servicios de persistencia asociados al contexto de notificaciones.
+
+---
+
+#### Repositories
+
+| Clase | Interfaz implementada | Función principal |
+|:--|:--|:--|
+| **NotificationRepository** | `INotificationRepository` | Persistencia de notificaciones enviadas (push, email, in-app). |
+| **NotificationSessionRepository** | `INotificationSessionRepository` | Gestión de sesiones activas y su estado. |
+| **UserPreferenceRepository** | `IUserPreferenceRepository` | Almacenamiento de configuraciones de alerta (hápticas, sonoras o visuales). |
+| **DeviceChannelRepository** | `IDeviceChannelRepository` | Mapeo entre dispositivos y canales de notificación disponibles (Bluetooth, Wi-Fi, Cloud). |
+
+---
+
+#### Capabilities del Bounded Context Notifications
+
+| Capability (Funcionalidad) | Tipo | Handler Responsable | Descripción |
+|:--|:--|:--|:--|
+| **Send Notification** | Command | `NotificationCommandService.handle(SendNotificationCommand)` | Envía una nueva notificación al usuario mediante el canal preferido. |
+| **Start Notification Session** | Command | `NotificationSessionCommandService.handle(StartNotificationSessionCommand)` | Inicia una sesión activa de notificaciones asociada a un usuario o dispositivo. |
+| **Acknowledge Notification** | Command | `AcknowledgeNotificationCommandService.handle(ConfirmNotificationCommand)` | Registra que el usuario recibió o respondió a una notificación. |
+| **List Active Notifications** | Query | `NotificationQueryService.get_active_notifications(...)` | Lista todas las notificaciones activas para un usuario o sesión. |
+| **Get Notification History** | Query | `NotificationHistoryQueryService.get_by_user_id(...)` | Recupera el historial de notificaciones enviadas a un usuario. |
+| **Get User Preferences** | Query | `UserPreferenceQueryService.get_by_user_id(...)` | Obtiene las configuraciones de notificación personalizadas del usuario. |
+
+
+
+
 ### 5.4.5. Bounded Context Software Architecture Component Level Diagrams
+
+
+El diagrama de componentes del **Notifications Bounded Context** muestra la arquitectura interna del sistema responsable de gestionar alertas y recordatorios en **VisualGuide**, bajo un enfoque **DDD + CQRS**.
+
+El contexto se organiza en cuatro capas:  
+- **Interface Layer (FastAPI):** expone los endpoints REST para enviar y consultar notificaciones.  
+- **Application Layer:** coordina comandos y consultas relacionadas con el envío, confirmación y consulta de notificaciones.  
+- **Domain Layer:** contiene las entidades y objetos de valor que modelan la lógica central, como `Notification`, `NotificationSession`, `UserPreference` y `DeviceChannel`.  
+- **Infrastructure Layer (PostgreSQL + MQTT/BLE):** implementa la persistencia y los adaptadores que permiten la entrega física de alertas auditivas o hápticas.
+
+Externamente, se integra con los contextos de **IAM** y **Home Environment Mapping** para autenticar usuarios y contextualizar las notificaciones dentro del entorno del hogar.
+
+<img src="./images/c4-model/BCsoftwareNotifications.png" alt="BC notifications" width="auto">
+
+
+
 ### 5.4.6. Bounded Context Software Architecture Code Level Diagrams
 #### 5.4.6.1. Bounded Context Domain Layer Class Diagrams
+
+El siguiente diagrama muestra la estructura interna del dominio de notificaciones, incluyendo entidades, objetos de valor y servicios que encapsulan la lógica principal para la gestión y envío de alertas dentro del sistema.
+
+<img src="./images/c4-model/DomainLayerClassDiagramNotifications.png" alt="Notifications BC Domain Layer Class Diagram" width="auto">
+
+
 #### 5.4.6.2. Bounded Context Database Design Diagram
+
+Este diagrama representa el modelo físico de datos del contexto de notificaciones, detallando las tablas, claves y relaciones necesarias para la persistencia de sesiones, notificaciones y preferencias de usuario.
+
+<img src="./images/c4-model/DatabaseDesignDiagramNotificationsBC.png" alt="Notifications BC Database Diagram" width="auto">
+
+
 
 # Capítulo VI: Solution UX Design
 ## 6.1. Style Guidelines
