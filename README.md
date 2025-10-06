@@ -2207,8 +2207,89 @@ App Description: Application to help no vident user move around their house. Use
 Se puede navegar por la aplicación mediante la barra inferior, igualmente se puede usar comandos de voz para cambiar de pantalla e iniciar un recorrido.
 
 ## 6.3. Landing Page UI Design
+
+La Landing Page de VisualGuide fue diseñada para comunicar de forma clara la propuesta de valor del aplicativo: un asistente virtual que ayuda a personas con discapacidad visual a moverse de manera segura dentro de su hogar.
+
+La propuesta de diseño traduce las decisiones arquitectónicas y de experiencia de usuario en una estructura jerárquica e inclusiva, priorizando:
+
+- La accesibilidad, mediante contrastes altos, tipografía legible y compatibilidad con lectores de pantalla.
+- Una arquitectura de información clara, que presenta el mensaje principal (“Tu guía inteligente dentro del hogar”) en la parte superior, seguida de secciones informativas, testimonios y un llamado a la acción (“Descargar App”).
+- El uso del Design System de VisualGuide, que define la paleta de colores, componentes reutilizables y espaciado coherente en todo el producto.
+
+El diseño se elaboró en Figma, considerando tanto la versión Desktop Web Browser como la versión Mobile Web Browser, asegurando una experiencia responsiva y fluida.
+
 ### 6.3.1. Landing Page Wireframe
+
+Los Wireframes representan la estructura funcional y jerárquica del contenido antes de aplicar los estilos visuales finales.
+En esta fase se definieron las zonas principales de interacción e información, garantizando una navegación intuitiva y adaptable a distintos dispositivos.
+
+#### Wireframe – Desktop Web Browser
+
+El wireframe de escritorio está organizado en bloques verticales:
+
+- Header: Logotipo, navegación principal y botón de descarga.
+- Hero Section: Mensaje principal y breve descripción del aplicativo.
+- Características: Tres bloques explicativos con íconos representativos.
+- Cómo Funciona: Un flujo visual que explica la interacción del usuario con la app.
+- Testimonios: Sección para reforzar confianza.
+- Footer: Contacto, redes sociales y enlaces de soporte.
+
+#### Wireframe – Mobile Web Browser
+
+En la versión móvil se priorizó la usabilidad táctil:
+
+- Menú colapsable tipo “hamburguesa”.
+- Jerarquía vertical con espaciado amplio para lectura.
+- Botones de gran tamaño y centrados para accesibilidad.
+
+#### Principios aplicados:
+
+- Diseño inclusivo: Contraste adecuado, textos grandes, navegación clara.
+- Arquitectura de información: Contenido jerárquico (de lo general a lo específico).
+- Elementos de diseño: Uso de alineaciones, proximidad y repetición para consistencia visual.
+
+<img src="./images/landing-page/landing-page-1.PNG" alt="landing-page-1" width="auto">
+
+<img src="./images/landing-page/landing-page-2.PNG" alt="landing-page-2" width="auto">
+
+---
+
+<img src="./images/landing-page/landing-page-responsive-1.PNG" alt="landing-page-responsive-1" width="auto">
+
+<img src="./images/landing-page/landing-page-responsive-2.PNG" alt="landing-page-responsive-2" width="auto">
+
+<img src="./images/landing-page/landing-page-responsive-3.PNG" alt="landing-page-responsive-3" width="auto">
+
 ### 6.3.2. Landing Page Mock-up
+
+Los Mock-ups presentan el diseño visual final de la Landing Page de VisualGuide, integrando la identidad visual y el sistema de diseño establecido.
+Se elaboraron en Figma aplicando la paleta cromática, tipografía y componentes definidos en el Design System del proyecto.
+
+#### Mock-up – Desktop Web Browser
+
+La versión de escritorio destaca:
+
+- Fondo claro con acentos en color primario (por ejemplo, azul o morado de la marca).
+- Tipografía accesible y legible (ej. Poppins, Montserrat).
+- Ilustraciones y mockups del aplicativo para reforzar la propuesta de valor.
+- Call to action principal “Descargar App” resaltado en color contrastante.
+
+#### Mock-up – Mobile Web Browser
+
+En la versión móvil:
+
+- Se optimizaron los márgenes y tamaños para pantallas pequeñas.
+- Se priorizó el scroll vertical y la interacción con el pulgar.
+- Se mantuvieron los mismos componentes, garantizando coherencia visual y funcional.
+
+#### Principios y fundamentos aplicados:
+
+- Principios de diseño: Equilibrio, contraste, jerarquía visual y alineación coherente.
+- Diseño inclusivo: Compatibilidad con lectores de pantalla y navegación por teclado.
+- Design System: Uso consistente de componentes reutilizables, botones, tipografía y color.
+- Arquitectura de información: Estructura lógica y narrativa centrada en el usuario.
+
+<img src="./images/landing-page/landing-page-desplegada.PNG" alt="landing-page-desplegada" width="auto">
 
 ## 6.4. Applications UX/UI Design
 ### 6.4.1. Applications Wireframes
