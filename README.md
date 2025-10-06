@@ -1846,15 +1846,273 @@ La base de datos MySQL 8.0 está alojada como contenedor dentro del servidor bac
 # Capítulo V: Tactical-Level Software Design
 ## 5.1. Bounded Context: IAM Bounded Context
 ### 5.1.1. Domain Layer
+En el contexto limitado de IAM, el dominio se centra en la autenticación, autorización y gestión de identidades de los usuarios dentro del ecosistema del asistente virtual VisualGuide.
+Este contexto es responsable de garantizar que solo los usuarios registrados y validados puedan acceder a los servicios personalizados del sistema, como el reconocimiento de objetos, la navegación guiada y la configuración del hogar inteligente.
+
+---
+
+### UserAccount (Agregado raíz)
+Representa la cuenta principal del usuario dentro del sistema. Es el núcleo del contexto IAM y gestiona las credenciales, el estado y las relaciones con los roles y permisos asignados.
+
+| Atributo      | Tipo       | Descripción                                                              |
+| ------------- | ---------- | ------------------------------------------------------------------------ |
+| id            | UUID       | Identificador único de la cuenta de usuario                              |
+| email         | str        | Correo electrónico utilizado como identificador de inicio de sesión      |
+| password_hash | str        | Contraseña almacenada de forma segura (encriptada con hash y salt)       |
+| name          | str        | Nombre completo del usuario                                              |
+| phone_number  | str | None | Número de teléfono opcional                                              |
+| status        | str        | Estado de la cuenta (`"ACTIVE"`, `"INACTIVE"`, `"BLOCKED"`, `"PENDING"`) |
+| created_at    | datetime   | Fecha de creación de la cuenta                                           |
+| updated_at    | datetime   | Última actualización de datos del usuario                                |
+| roles         | list[Role] | Roles asignados al usuario dentro del sistema                            |
+
+Constructores:
+- create_account(email, password, name)
+- activate_account()
+- deactivate_account()
+- assign_role(role)
+
+---
+
+### Role (Entidad)
+
+Define el conjunto de permisos asociados a una categoría de usuario. Los roles determinan qué acciones puede realizar un usuario dentro del sistema.
+
+| Atributo    | Tipo             | Descripción                                             |
+| ----------- | ---------------- | ------------------------------------------------------- |
+| id          | UUID             | Identificador único del rol                             |
+| name        | str              | Nombre del rol (`"USER"`, `"ADMIN"`, `"SUPPORT"`, etc.) |
+| description | str              | Descripción funcional del rol                           |
+| permissions | list[Permission] | Lista de permisos asociados                             |
+
+---
+
+### Permission (Value Object)
+
+Representa una acción específica que puede ser autorizada dentro del sistema.
+
+| Atributo    | Tipo | Descripción                                                                             |
+| ----------- | ---- | --------------------------------------------------------------------------------------- |
+| name        | str  | Nombre técnico del permiso (`"READ_PROFILE"`, `"EDIT_HOME_MAP"`, `"DELETE_USER"`, etc.) |
+| description | str  | Descripción funcional del permiso                                                       |
+
+---
+
+### Session (Entidad)
+
+Mantiene información sobre una sesión activa de usuario, incluyendo tokens de autenticación, expiración y metadatos del dispositivo.
+
+| Atributo    | Tipo     | Descripción                                                |
+| ----------- | -------- | ---------------------------------------------------------- |
+| id          | UUID     | Identificador único de la sesión                           |
+| user_id     | UUID     | Referencia al usuario autenticado                          |
+| token       | str      | Token JWT o similar emitido para la sesión                 |
+| issued_at   | datetime | Fecha y hora de emisión                                    |
+| expires_at  | datetime | Fecha y hora de expiración                                 |
+| device_info | str      | Información del dispositivo desde el cual se inicia sesión |
+| is_revoked  | bool     | Indica si el token fue invalidado manualmente              |
+
+---
+
+### AuthenticationAttempt (Entidad)
+
+Registra los intentos de autenticación de usuarios, exitosos o fallidos, para control de seguridad y auditoría.
+
+| Atributo       | Tipo       | Descripción                                                              |
+| -------------- | ---------- | ------------------------------------------------------------------------ |
+| id             | UUID       | Identificador único del intento                                          |
+| user_email     | str        | Email usado para iniciar sesión                                          |
+| ip_address     | str        | Dirección IP desde la que se intentó el acceso                           |
+| timestamp      | datetime   | Fecha y hora del intento                                                 |
+| success        | bool       | Resultado del intento                                                    |
+| failure_reason | str | None | Motivo del fallo si aplica (`"InvalidPassword"`, `"UserNotFound"`, etc.) |
+
+---
+
+### PasswordResetRequest (Entidad)
+
+Gestiona los procesos de recuperación de contraseña mediante token temporal.
+
+| Atributo    | Tipo     | Descripción                                   |
+| ----------- | -------- | --------------------------------------------- |
+| id          | UUID     | Identificador único de la solicitud           |
+| user_id     | UUID     | Usuario asociado                              |
+| reset_token | str      | Token único generado para el restablecimiento |
+| created_at  | datetime | Fecha de creación                             |
+| expires_at  | datetime | Expiración del token                          |
+| is_used     | bool     | Si la solicitud ya fue utilizada              |
+
+---
+
+### Relaciones entre Entidades
+
+- UserAccount agrega Role
+- Role contiene múltiples Permission
+- UserAccount inicia múltiples Session
+- UserAccount puede generar múltiples PasswordResetRequest
+- AuthenticationAttempt no pertenece directamente al agregado, pero se relaciona por el email del usuario para auditoría
+
 ### 5.1.2. Interface Layer
+
+### Presentación de la Aplicación
+
+La carpeta interfaces/rest contiene los controladores, resources y assemblers/transformers que permiten la comunicación entre el dominio de IAM y las interfaces externas (frontend móvil, panel administrativo o servicios internos del sistema VisualGuide).
+
+Estos componentes exponen las operaciones de registro, autenticación, administración de sesiones y gestión de usuarios mediante RESTful APIs seguras, con soporte para tokens JWT.
+
+---
+
+### Resources
+
+Los resources representan los objetos de entrada y salida utilizados por los controladores del contexto IAM:
+
+- UserAccountResource → Representa la información pública o editable de un usuario.
+- CreateUserAccountResource → Estructura para la creación de una cuenta de usuario.
+- LoginRequestResource → Datos necesarios para iniciar sesión (correo, contraseña).
+- AuthTokenResource → Token y metadatos devueltos tras la autenticación.
+- PasswordResetRequestResource → Solicitud para iniciar el proceso de recuperación de contraseña.
+- PasswordResetConfirmResource → Datos para confirmar el cambio de contraseña.
+- RoleResource → Representación de un rol del sistema con sus permisos asociados.
+
+---
+
+### Transform/Assemblers
+
+Los assemblers son responsables de transformar los objetos entre el dominio y las representaciones REST (DTO ↔ Entity ↔ Command):
+
+- CreateUserAccountCommandFromResourceAssembler
+Convierte los datos recibidos en un comando de dominio para crear un nuevo usuario.
+- LoginCommandFromResourceAssembler
+Convierte las credenciales del usuario en un comando de autenticación.
+- UserAccountResourceFromEntityAssembler
+Transforma una entidad UserAccount en su representación pública.
+- AuthTokenResourceFromEntityAssembler Crea un recurso AuthTokenResource a partir del token JWT generado por el dominio.
+- PasswordResetRequestCommandFromResourceAssembler
+Convierte una solicitud REST en un comando de recuperación de contraseña.
+- RoleResourceFromEntityAssembler
+Transforma entidades Role y Permission del dominio en sus versiones REST.
+
+---
+
+### Controllers
+
+Los controladores exponen las operaciones del contexto IAM a través de endpoints REST, organizados según la funcionalidad:
+
+| Controlador                  | Ruta Base       | Descripción                                                                         |
+| ---------------------------- | --------------- | ----------------------------------------------------------------------------------- |
+| `auth_controller.py`         | `/api/auth`     | Maneja las operaciones de inicio de sesión, cierre de sesión y validación de tokens |
+| `user_account_controller.py` | `/api/users`    | Gestiona la creación, activación, edición y eliminación de cuentas de usuario       |
+| `password_controller.py`     | `/api/password` | Controla los procesos de recuperación y cambio de contraseña                        |
+| `role_controller.py`         | `/api/roles`    | Administra la asignación y consulta de roles y permisos                             |
+| `session_controller.py`      | `/api/sessions` | Permite gestionar sesiones activas o revocadas (solo para administradores)          |
+
+---
+
+###Ejemplo de Endpoints Clave
+
+- auth_controller.py → /api/auth
+  - POST /login → Autentica un usuario y retorna el token JWT.
+  - POST /logout → Cierra la sesión activa (revoca token).
+  - GET /validate → Valida un token y devuelve el usuario autenticado.
+
+user_account_controller.py → /api/users
+
+POST /register → Crea una nueva cuenta de usuario.
+
+GET /{id} → Recupera información pública del usuario.
+
+PATCH /{id} → Actualiza los datos personales del usuario.
+
+DELETE /{id} → Desactiva la cuenta del usuario.
+
+password_controller.py → /api/password
+
+POST /reset-request → Envía un token temporal de recuperación al correo.
+
+POST /reset-confirm → Valida el token y actualiza la contraseña.
+
 ### 5.1.3. Application Layer
+
+### CommandServices
+
+Encargados de ejecutar acciones que modifican el estado del sistema (escrituras).
+
+- `UserAccountCommandService` → gestiona la creación, activación, actualización y eliminación de cuentas de usuario.
+  - register_user(CreateUserAccountCommand)
+  - update_user(UpdateUserAccountCommand)
+  - deactivate_user(DeactivateUserAccountCommand)
+- `AuthenticationCommandService` → maneja el proceso de autenticación y emisión de tokens JWT.
+  - authenticate_user(LoginCommand)
+  - logout_user(LogoutCommand)
+  - refresh_token(RefreshTokenCommand)
+- `PasswordRecoveryCommandService` → controla el flujo de recuperación y cambio de contraseñas.
+  - request_password_reset(PasswordResetRequestCommand)
+  - confirm_password_reset(PasswordResetConfirmCommand)
+- `RoleManagementCommandService` → administra la creación y asignación de roles y permisos.
+  - create_role(CreateRoleCommand)
+  - assign_role(AssignRoleCommand)
+  - update_permissions(UpdatePermissionsCommand)
+- `SessionCommandService` → permite revocar, cerrar o limpiar sesiones activas.
+  - terminate_session(TerminateSessionCommand)
+  - revoke_token(RevokeTokenCommand)
+
+
 ### 5.1.4. Infrastructure Layer
 
+Implementación de Repositories, Adaptadores de Persistencia, Proveedores de Seguridad y Servicios Externos del contexto de Identity & Access Management (IAM).
+
+En esta capa se encapsula el acceso a datos, integración con sistemas externos (como autenticación JWT o servicios de correo electrónico) y persistencia de entidades del dominio.
+
+| Clase                   | Interfaz implementada    | Función principal                                                           |
+| ----------------------- | ------------------------ | --------------------------------------------------------------------------- |
+| `UserAccountRepository` | `IUserAccountRepository` | Gestiona la persistencia y recuperación de cuentas de usuario.              |
+| `RoleRepository`        | `IRoleRepository`        | Almacena y administra los roles y permisos definidos.                       |
+| `SessionRepository`     | `ISessionRepository`     | Registra y consulta sesiones activas de usuario.                            |
+| `AuthTokenProvider`     | `IAuthTokenProvider`     | Genera, valida y renueva tokens JWT de autenticación.                       |
+| `PasswordHasher`        | `IPasswordHasher`        | Provee la encriptación y verificación de contraseñas (por ejemplo, bcrypt). |
+| `EmailService`          | `IEmailService`          | Envía correos de verificación, recuperación de contraseña, etc.             |
+| `AuditLogRepository`    | `IAuditLogRepository`    | Guarda los eventos de acceso y acciones de seguridad relevantes.            |
+
+---
+
+### Capabilities del Bounded Context IAM
+
+| Capability (Funcionalidad)     | Tipo    | Handler Responsable                                                  | Descripción                                                                                                  |
+| ------------------------------ | ------- | -------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------ |
+| **Register New User**          | Command | `UserAccountCommandService.handle(CreateUserAccountCommand)`         | Crea una nueva cuenta de usuario en el sistema, encriptando su contraseña y enviando correo de confirmación. |
+| **Authenticate User**          | Command | `AuthenticationCommandService.handle(LoginCommand)`                  | Verifica credenciales del usuario, emite token JWT y registra sesión.                                        |
+| **Logout User**                | Command | `AuthenticationCommandService.handle(LogoutCommand)`                 | Cierra sesión activa e invalida el token.                                                                    |
+| **Refresh Token**              | Command | `AuthenticationCommandService.handle(RefreshTokenCommand)`           | Genera un nuevo token JWT cuando el actual está por expirar.                                                 |
+| **Request Password Reset**     | Command | `PasswordRecoveryCommandService.handle(PasswordResetRequestCommand)` | Inicia el flujo de recuperación de contraseña y envía un correo con el enlace de restablecimiento.           |
+| **Confirm Password Reset**     | Command | `PasswordRecoveryCommandService.handle(PasswordResetConfirmCommand)` | Valida el token del correo y actualiza la contraseña del usuario.                                            |
+| **Assign Role to User**        | Command | `RoleManagementCommandService.handle(AssignRoleCommand)`             | Asigna un rol determinado a un usuario.                                                                      |
+| **Revoke User Role**           | Command | `RoleManagementCommandService.handle(RevokeRoleCommand)`             | Elimina un rol asignado a un usuario.                                                                        |
+| **Get User Information**       | Query   | `UserAccountQueryService.get_user_by_id(user_id)`                    | Retorna los datos de perfil y roles asociados del usuario.                                                   |
+| **List Active Sessions**       | Query   | `SessionQueryService.get_user_sessions(user_id)`                     | Devuelve todas las sesiones activas o recientes de un usuario.                                               |
+| **Validate Token**             | Query   | `AuthenticationQueryService.validate_token(token)`                   | Comprueba la validez y vigencia de un token JWT.                                                             |
+| **List Roles and Permissions** | Query   | `RoleQueryService.list_roles()`                                      | Lista los roles existentes y sus permisos.                                                                   |
+| **Get Audit Log Events**       | Query   | `AuditLogQueryService.list_user_activity(user_id)`                   | Muestra registros de accesos y eventos de seguridad de un usuario.                                           |
+
+
 ### 5.1.5. Bounded Context Software Architecture Component Level Diagrams
+
+El siguiente diagrama describe los componentes principales del IAM Bounded Context (Identity & Access Management) dentro del ecosistema VisualGuide, y cómo interactúa con otros contextos y sistemas externos.
+El propósito principal de este contexto es gestionar la identidad de los usuarios, su registro, autenticación y autorización dentro del sistema.
+
+<img src="./images/c4-model/IAM-component.PNG" alt="Component Level Diagram" width="auto">
+
 ### 5.1.6. Bounded Context Software Architecture Code Level Diagrams
 #### 5.1.6.1. Bounded Context Domain Layer Class Diagrams
+
+A continuación, se presenta el diagrama de clases del Domain Layer del IAM Bounded Context. Este diagrama ilustra las principales entidades, agregados y objetos de valor que componen la lógica de gestión de usuarios, registro y autenticación.
+
+<img src="./images/c4-model/IAM-class-diagram.PNG" alt="Domain Layer Class Diagram" width="auto">
+
 #### 5.1.6.2. Bounded Context Database Design Diagram
 
+A continuación, se presenta el diagrama de diseño de la base de datos del IAM Bounded Context. Este diagrama muestra las tablas, relaciones y esquemas utilizados para persistir la información en la base de datos.
+
+<img src="./images/c4-model/IAM-db-diagram.PNG" alt="Database Design Diagram" width="auto">
 
 ## 5.2. Bounded Context: Home Configuration Bounded Context
 ### 5.2.1. Domain Layer
