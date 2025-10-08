@@ -1898,17 +1898,16 @@ Implementación de **Repositories** y servicios de persistencia.
 
 ### 5.2.5. Bounded Context Software Architecture Component Level Diagrams
 
-
+<img src="./images/Components_HomeConfiguration.png " alt="Diagrama de componentes de Home Configuration" width="800">
 
 ### 5.2.6. Bounded Context Software Architecture Code Level Diagrams
 #### 5.2.6.1. Bounded Context Domain Layer Class Diagrams
 
-
+<img src="./images/Class_HomeConfiguration.png " alt="Diagrama de clases de Home Configuration" width="800">
 
 #### 5.2.6.2. Bounded Context Database Design Diagram
 
-
-
+<img src="./images/DB_HomeConfiguration.png " alt="Diagrama de base de datos de Home Configuration" width="800">
 
 ## 5.3. Bounded Context: AI Recognition Bounded Context
 ### 5.3.1. Domain Layer
