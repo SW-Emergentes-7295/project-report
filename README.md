@@ -1898,14 +1898,24 @@ Implementación de **Repositories** y servicios de persistencia.
 
 ### 5.2.5. Bounded Context Software Architecture Component Level Diagrams
 
+Se dividió el Bounded Context en 4 capas: interfaz, aplicacion, dominio e infraestructura. Se usará una base de datos donde se almacene la información de la casa junto a los caminos y cuartos asociados. Así mismo, se cuenta con un AWS S3 Bucket donde almacenar la información relevante para que la IA pueda usarla.
+
+La capa de identidad se conecta con el bounded Context de IAM para validar la identidad del usuario y evitar ingresos de personas externas.
+
+La capa de aplicación se conecta con el bounded context de AI Recognition para enviarle el estado y mapa de la casa, con lo que pueda determinar como moverse por ella.
+
 <img src="./images/Components_HomeConfiguration.png " alt="Diagrama de componentes de Home Configuration" width="800">
 
 ### 5.2.6. Bounded Context Software Architecture Code Level Diagrams
 #### 5.2.6.1. Bounded Context Domain Layer Class Diagrams
 
+El diagrama de clases ilustra como los principales archivos de las capas interactuan entre sí, permitiendo la realización de comandos y consultas a la base de datos, y mostrando el resultado en forma de Json.
+
 <img src="./images/Class_HomeConfiguration.png " alt="Diagrama de clases de Home Configuration" width="800">
 
 #### 5.2.6.2. Bounded Context Database Design Diagram
+
+El diagrama de base de datos muestra la forma en que se almacenará la información del hogar, cuarto y camino, asegurándose de mantener las relaciones entre las tabla.
 
 <img src="./images/DB_HomeConfiguration.png " alt="Diagrama de base de datos de Home Configuration" width="800">
 
