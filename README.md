@@ -2762,6 +2762,34 @@ El usuario puede usar la búsqueda por voz para indicarle a la aplicación la pa
 Al entrar en ajustes, el usuario puede elegir el aspecto a modificar por voz.
 En historial, el usuario buscará por voz según la fecha y hora del recorrido.
 
+#### Objetos domésticos para el mapeo inicial del sistema VisualGuide
+A continuación, se presenta una lista de objetos domésticos comunes seleccionados para el mapeo inicial del sistema **VisualGuide**. El reconocimiento de estos elementos es fundamental para garantizar una navegación segura y eficiente del usuario dentro de su hogar.
+
+#### Sofá / Sillón
+- **Descripción** → Mueble de gran tamaño ubicado comúnmente en la sala de estar, diseñado para que se sienten varias personas. Es un punto de referencia clave para la orientación en espacios sociales.  
+- **Función en la App** → Identificarlo permite al usuario localizar la zona de descanso principal.
+
+#### Mesa
+- **Descripción** → Superficie plana sostenida por patas, utilizada para comer (mesa de comedor) o colocar objetos (mesa de centro, mesa de noche). Su altura y ubicación son cruciales para evitar colisiones.  
+- **Función en la App** → Alerta sobre obstáculos a media altura y guía al usuario hacia áreas de comida o trabajo.
+
+#### Silla
+- **Descripción** → Asiento individual con respaldo y patas. Generalmente se encuentra en conjunto con una mesa (comedor, escritorio) o de forma independiente. Suelen ser movibles, por lo que su detección es importante.  
+- **Función en la App** → Permite al usuario encontrar un lugar para sentarse de forma segura.
+
+#### Cama
+- **Descripción** → Mueble central del dormitorio, destinado al descanso. Su gran tamaño define la distribución del espacio en la habitación.  
+- **Función en la App** → Facilita la localización del dormitorio y el acceso seguro a la zona de descanso.
+
+#### Refrigerador
+- **Descripción** → Electrodoméstico de gran tamaño, usualmente ubicado en la cocina. Es un punto de interacción esencial para la vida diaria.  
+- **Función en la App** → Guía al usuario directamente a la cocina y a uno de sus electrodomésticos más importantes.
+
+#### Televisor
+- **Descripción** → Dispositivo electrónico ubicado comúnmente en la sala de estar o dormitorio. Suele estar montado en una pared o sobre un mueble, sirviendo como un punto focal en la habitación.  
+- **Función en la App** → Ayuda a orientar al usuario dentro de las áreas de entretenimiento y a identificar la dirección principal de la habitación.
+
+
 ### 6.2.3 SEO Tags and Meta Tags
 
 **Title**
@@ -3055,5 +3083,5 @@ En este flujo se demuestra el historial de recorridos anteriores del usuario, do
 |--------|-----|
 | **TB1:** Presentación del proyecto | [Video Exposición TB1](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202212096_upc_edu_pe/EWSOfpg9_WFHt5QdJVeVNmwBiSUd_kLe2iH7hqQ4aNLkQw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=qtaGHb) |
 | **Video entrevistas TB1:** Entrevistas consolidadas en un solo video | [Video Entrevistas TB1](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202212096_upc_edu_pe/EY1VitmjZ0tNgM3ZCvMIJt4B0e3KjzPCT7y6S75gHa4jkg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=glBLZg) |
-| **TP:** Exposición Parcial |  |
+| **TP:** Exposición Parcial | [Video Exposición TP](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202212096_upc_edu_pe/ET0k7riRA7ZFm18zT0vPC4YBlDYLyTEAU9CtV52ecIe2Sg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=4jK6eY) |
 
