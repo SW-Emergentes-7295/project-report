@@ -2116,14 +2116,156 @@ A continuación, se presenta el diagrama de diseño de la base de datos del IAM 
 
 ## 5.2. Bounded Context: Home Configuration Bounded Context
 ### 5.2.1. Domain Layer
+
+### `Home` 
+
+Representa el hogar del usuario. 
+
+#### Atributos principales:
+
+| Atributo     | Tipo                  | Descripción |
+|--------------|-----------------------|-------------|
+| `Id`         | `int`                 | Identificador único de la casa |
+| `Date`    | `Date?`                | Fecha de creación o ultima actualización |
+| `OwnerId`      | `int`             | Id del usuario dueño |
+| `Map`   | `String?`| String usado para mostrar el mapa de la casa |
+| `Rooms`   | `List<int>?`           | Lista de ids de habitaciones en la casa |
+
+#### Constructores:
+
+- Por parámetros individuales
+- A partir de `CreateHomeCommand` y `UpdateHomeCommand`
+
+### `Room` 
+
+Representa una habitación del hogar. 
+
+#### Atributos principales:
+
+| Atributo     | Tipo                  | Descripción |
+|--------------|-----------------------|-------------|
+| `Id`         | `int`                 | Identificador único del cuarto|
+| `HomeId`    | `int`                | ID de la casa asociada |
+| `Width`      | `int?`             | Ancho de la habitación|
+| `Heigth`      | `int?`             | Alto de la habitación|
+| `Depth`      | `int?`             | Profundidad de la habitación|
+
+#### Constructores:
+
+- Por parámetros individuales
+- A partir de `CreateRoomCommand` y `UpdateRoomCommand`
+
+### `Path` 
+
+Representa un camino que puede seguir el usuario para llegar a su destino. 
+
+#### Atributos principales:
+
+| Atributo     | Tipo                  | Descripción |
+|--------------|-----------------------|-------------|
+| `Id`         | `int`                 | Identificador único del camino |
+| `HomeId`    | `int`                | ID de la casa asociada |
+| `Lenght`      | `int?`             | Longitud del camino en metros |
+| `RoomIds`      | `List<int>`             | Ids de los cuartos a recorrer, de principio a fin |
+
+#### Constructores:
+
+- Por parámetros individuales
+- A partir de `CreatePathCommand`
+
+---
+
 ### 5.2.2. Interface Layer
+La carpeta `interfaces/rest` contiene controladores, resources y assemblers:
+
+**Resources:**
+- `CreateHomeResource`
+- `HomeResource`
+- `UpdateHomeResource`
+- `CreateRoomResource`
+- `RoomResource`
+- `UpdateRoomResource`
+- `CreatePathResource`
+- `PathResource`
+
+**Transform/Assemblers:**
+- `CreateHomeCommandFromResourceAssembler`
+- `HomeResourceFromEntityAssembler`
+- `UpdateHomeCommandFromResourceAssembler`
+-`CreateRoomCommandFromResourceAssembler`
+- `RoomResourceFromEntityAssembler`
+- `UpdateRoomCommandFromResourceAssembler`
+-`CreatePathCommandFromResourceAssembler`
+- `PathResourceFromEntityAssembler`
+
+
+**Controllers:**
+- `home_controller.py` → `/api/home`
+- `room_controller.py` → `/api/room`
+- `path_controller.py` → `/api/path`
+
+---
+
 ### 5.2.3. Application Layer
+
+Servicios de Aplicación – Gestión de Flujos de Negocio.  
+Separados en **Command Services** y **Query Services** siguiendo CORS.
+
+**CommandServices**
+- `HomeCommandService` → gestiona la información de los hogares.
+- `RoomCommandService` → organiza los cuartos para definir el hogar del isuario
+- `PathCommandService` → genera los caminos a seguir por la aplicación.
+
+**QueryServices**
+- `HomeQueryService` → obtiene el mapa y dueño del hogar.
+- `RoomQueryService` → recupera medidas de los cuartos.
+- `PathQueryService` → recupera caminos favoritos del usuario.
+
+---
+
 ### 5.2.4. Infrastructure Layer
 
+Implementación de **Repositories** y servicios de persistencia.
+
+| Clase                    | Interfaz implementada             | Función principal                       |
+|---------------------------|-----------------------------------|-----------------------------------------|
+| HomeRepository | IHomeRepository | Almacenamiento de mapa del hogar|
+| RoomRepository | IRoomRepository              | Gestión de información de los cuartos      |
+| PathRepository  | IPathRepository               | Almacen de caminos favoritos |
+
+---
+
+### Capabilities del Bounded Context Home Configuration
+
+| Capability (Funcionalidad)     | Tipo     | Handler Responsable                                   | Descripción |
+|--------------------------------|----------|------------------------------------------------------|-------------|
+| Home Mapped      | Command  | `HomeCommandService.handle(CreateHomeCommand)` | Crea el mapa inicial de la casa. |
+| Home's Configuration Added.    | Command  | `HomeCommandService.handle(UpdateHomeCommand)` | Mapa del hogar reconfigurado |
+| Reference photo added. | Command  | `RoomCommandService.handle(UpdateRoomCommand)` | Actualiza el estado de una habitación. |
+
+
 ### 5.2.5. Bounded Context Software Architecture Component Level Diagrams
+
+Se dividió el Bounded Context en 4 capas: interfaz, aplicacion, dominio e infraestructura. Se usará una base de datos donde se almacene la información de la casa junto a los caminos y cuartos asociados. Así mismo, se cuenta con un AWS S3 Bucket donde almacenar la información relevante para que la IA pueda usarla.
+
+La capa de identidad se conecta con el bounded Context de IAM para validar la identidad del usuario y evitar ingresos de personas externas.
+
+La capa de aplicación se conecta con el bounded context de AI Recognition para enviarle el estado y mapa de la casa, con lo que pueda determinar como moverse por ella.
+
+<img src="./images/Components_HomeConfiguration.png " alt="Diagrama de componentes de Home Configuration" width="800">
+
 ### 5.2.6. Bounded Context Software Architecture Code Level Diagrams
 #### 5.2.6.1. Bounded Context Domain Layer Class Diagrams
+
+El diagrama de clases ilustra como los principales archivos de las capas interactuan entre sí, permitiendo la realización de comandos y consultas a la base de datos, y mostrando el resultado en forma de Json.
+
+<img src="./images/Class_HomeConfiguration.png " alt="Diagrama de clases de Home Configuration" width="800">
+
 #### 5.2.6.2. Bounded Context Database Design Diagram
+
+El diagrama de base de datos muestra la forma en que se almacenará la información del hogar, cuarto y camino, asegurándose de mantener las relaciones entre las tabla.
+
+<img src="./images/DB_HomeConfiguration.png " alt="Diagrama de base de datos de Home Configuration" width="800">
 
 ## 5.3. Bounded Context: AI Recognition Bounded Context
 ### 5.3.1. Domain Layer
