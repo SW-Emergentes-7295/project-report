@@ -2911,7 +2911,7 @@ En este flujo se demuestra el historial de recorridos anteriores del usuario, do
 # Anexos
 | Título | URL |
 |--------|-----|
-| **TB1:** Presentación del proyecto | https://acortar.link/V3AnHH |
-| **Video entrevistas TB1:** Entrevistas consolidadas en un solo video | https://acortar.link/zDs5b6 |
+| **TB1:** Presentación del proyecto | [Video Exposición TB1](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202212096_upc_edu_pe/EWSOfpg9_WFHt5QdJVeVNmwBiSUd_kLe2iH7hqQ4aNLkQw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=qtaGHb) |
+| **Video entrevistas TB1:** Entrevistas consolidadas en un solo video | [Video Entrevistas TB1](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202212096_upc_edu_pe/EY1VitmjZ0tNgM3ZCvMIJt4B0e3KjzPCT7y6S75gHa4jkg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=glBLZg) |
 | **TP:** Exposición Parcial |  |
 
