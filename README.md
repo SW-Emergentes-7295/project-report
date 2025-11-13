@@ -3036,6 +3036,38 @@ En este flujo se demuestra el reconocimiento de objetos, donde el usuario puede 
 <img src="./images/ui-ux-design/Frame 3569.png" alt="Wireflow Diagram" width="auto" style="display: block; margin-left: auto; margin-right: auto;"/>
 En este flujo se demuestra la configuración de preferencias del usuario, donde puede ajustar las opciones de la aplicación según sus necesidades. Además de la vinculación con un cuidador o familiar.
 
+### 6.4.2. Applications Mock-ups.
+### 6.4.3. Applications User Flow Diagrams.
+
+## 6.5. Applications Prototyping.
+
+
+# Capítulo VII: Product Implementation, Validation & Deployment
+## 7.1. Software Configuration Management.
+### 7.1.1. Software Development Environment Configuration.
+### 7.1.2. Source Code Management.
+### 7.1.3. Source Code Style Guide & Conventions.
+### 7.1.4. Software Deployment Configuration.
+
+## 7.2. Solution Implementation.
+### 7.2.1. Sprint 1
+#### 7.2.1.1. Sprint Planning 1.
+#### 7.2.1.2. Sprint Backlog 1.
+#### 7.2.1.3. Development Evidence for Sprint Review.
+#### 7.2.1.4. Testing Suite Evidence for Sprint Review.
+#### 7.2.1.5. Execution Evidence for Sprint Review.
+#### 7.2.1.6. Services Documentation Evidence for Sprint Review.
+#### 7.2.1.7. Software Deployment Evidence for Sprint Review.
+#### 7.2.1.8. Team Collaboration Insights during Sprint.
+
+## 7.3. Validation Interviews.
+### 7.3.1. Diseño de Entrevistas.
+### 7.3.2. Registro de Entrevistas.
+### 7.3.3. Evaluaciones según heurísticas.
+
+## 7.4. Video About-the-Product.
+
+
 <br><br>
 
 <img src="./images/ui-ux-design/Frame 3570.png" alt="Wireflow Diagram" width="auto" style="display: block; margin-left: auto; margin-right: auto;"/>
