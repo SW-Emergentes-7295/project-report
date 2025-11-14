@@ -3036,6 +3036,11 @@ En este flujo se demuestra el reconocimiento de objetos, donde el usuario puede 
 <img src="./images/ui-ux-design/Frame 3569.png" alt="Wireflow Diagram" width="auto" style="display: block; margin-left: auto; margin-right: auto;"/>
 En este flujo se demuestra la configuración de preferencias del usuario, donde puede ajustar las opciones de la aplicación según sus necesidades. Además de la vinculación con un cuidador o familiar.
 
+<br><br>
+
+<img src="./images/ui-ux-design/Frame 3570.png" alt="Wireflow Diagram" width="auto" style="display: block; margin-left: auto; margin-right: auto;"/>
+En este flujo se demuestra el historial de recorridos anteriores del usuario, donde puede revisar sus actividades pasadas y detalles de cada recorrido.
+
 ### 6.4.2. Applications Mock-ups.
 ### 6.4.3. Applications User Flow Diagrams.
 
@@ -3068,10 +3073,7 @@ En este flujo se demuestra la configuración de preferencias del usuario, donde 
 ## 7.4. Video About-the-Product.
 
 
-<br><br>
 
-<img src="./images/ui-ux-design/Frame 3570.png" alt="Wireflow Diagram" width="auto" style="display: block; margin-left: auto; margin-right: auto;"/>
-En este flujo se demuestra el historial de recorridos anteriores del usuario, donde puede revisar sus actividades pasadas y detalles de cada recorrido.
 
 # Conclusiones
 
