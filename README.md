@@ -1,4 +1,4 @@
-# <center>Informe del Trabajo Parcial</center>
+# <center>Informe del Trabajo TB2</center>
 
 <p align="center">
     <img src="https://upload.wikimedia.org/wikipedia/commons/f/fc/UPC_logo_transparente.png"></img><br>
@@ -6,7 +6,7 @@
     <strong>Ingeniería de Software</strong><br>
     <strong>1ASI0728 - Arquitecturas de Software Emergentes - 7295</strong><br>
     <strong>Profesor: Royer Edelwer Rojas Malasquez</strong><br>
-    <br>INFORME PARCIAL
+    <br>INFORME TB2
 </p>
 
 <center>
@@ -3067,6 +3067,57 @@ En este flujo se demuestra el historial de recorridos anteriores del usuario, do
 
 ## 7.3. Validation Interviews.
 ### 7.3.1. Diseño de Entrevistas.
+
+Con el objetivo de evaluar la experiencia real de los usuarios finales luego de probar el MVP de *VisualGuide*, se diseñaron entrevistas semiestructuradas dirigidas a personas no videntes y a sus familiares o cuidadores.  
+Estas entrevistas se enfocan en recopilar percepciones sobre la usabilidad, precisión, seguridad y utilidad de la aplicación dentro del hogar.  
+Las preguntas están orientadas a identificar barreras aún presentes, validar hipótesis del producto, medir impacto en autonomía y recoger oportunidades de mejora para la siguiente versión del sistema.
+
+---
+
+## Segmento objetivo 1: Personas no videntes
+
+##### Preguntas de validación del MVP
+
+1. ¿Cómo describiría su primera experiencia usando VisualGuide dentro de su hogar?  
+2. ¿Qué tan fácil o difícil le resultó aprender a usar la aplicación por primera vez?  
+3. ¿Hubo algún momento inicial en que se sintiera confundido o inseguro al usar la app?  
+4. ¿Pudo ubicar objetos y muebles con claridad a partir de las indicaciones de la aplicación?  
+5. ¿Las instrucciones en audio o vibración fueron claras y oportunas? ¿En qué momentos no lo fueron?  
+6. ¿Qué tan preciso sintió que fue el reconocimiento de objetos realizado por la app?  
+7. ¿El mapeo previo de su hogar funcionó como esperaba? ¿Qué problemas notó?  
+8. ¿Se sintió más seguro al desplazarse por su hogar usando la aplicación? ¿Por qué?  
+9. ¿Hubo alguna indicación incorrecta o tardía durante su uso?  
+10. ¿Qué nivel de confianza le genera la aplicación después de haberla probado?  
+11. ¿En qué actividades se sintió más independiente al usar VisualGuide?  
+12. ¿Hubo tareas en las que la aplicación no le ayudó como esperaba?  
+13. ¿Notó una reducción en la necesidad de pedir ayuda a familiares o cuidadores?  
+14. ¿Cómo se sintió emocionalmente mientras usaba la aplicación (tranquilidad, miedo, frustración, confianza)?  
+14. Si pudiera cambiar una sola cosa en la aplicación, ¿cuál sería?  
+15. ¿Recomendaría la aplicación a otra persona no vidente? ¿Por qué?
+
+---
+
+## Segmento objetivo 2: Familiares o cuidadores
+
+##### Preguntas de validación del MVP
+
+1. ¿Cómo fue su experiencia apoyando a su familiar no vidente durante la prueba del MVP?  
+2. ¿Qué tan fácil fue ayudar con el mapeo inicial del hogar?  
+3. ¿Notó algún cambio en la manera en que su familiar se movió dentro de la casa después de usar la aplicación?  
+4. ¿La aplicación le brindó mayor tranquilidad respecto a la seguridad de su familiar?  
+5. ¿Hubo momentos en los que sintió que la app no estaba guiando correctamente?  
+6. ¿Notó que su familiar dependió menos de su ayuda diaria durante la prueba?  
+7. ¿Cree que su familiar estaría dispuesto a usarla de forma constante?  
+8. ¿Durante el uso del MVP tuvo que intervenir más, menos o igual que antes?  
+9. ¿Qué opinión le merece la precisión del reconocimiento de objetos y la guía proporcionada por la app?  
+10. ¿Le gustaría recibir notificaciones o alertas sobre riesgos o actividades importantes?  
+11. ¿Qué comentario o reacción de su familiar le pareció más relevante durante la experiencia?  
+12. ¿Qué función considera indispensable para la siguiente versión de VisualGuide?  
+13. ¿Qué problema considera urgente corregir antes de lanzar la versión final?  
+14. ¿Qué tipo de soporte técnico considera necesario para usar la aplicación a largo plazo?  
+15. ¿Recomendaría esta aplicación a otras familias con personas no videntes? ¿Por qué?
+
+
 ### 7.3.2. Registro de Entrevistas.
 ### 7.3.3. Evaluaciones según heurísticas.
 
@@ -3118,4 +3169,6 @@ En este flujo se demuestra el historial de recorridos anteriores del usuario, do
 | **TB1:** Presentación del proyecto | [Video Exposición TB1](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202212096_upc_edu_pe/EWSOfpg9_WFHt5QdJVeVNmwBiSUd_kLe2iH7hqQ4aNLkQw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=qtaGHb) |
 | **Video entrevistas TB1:** Entrevistas consolidadas en un solo video | [Video Entrevistas TB1](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202212096_upc_edu_pe/EY1VitmjZ0tNgM3ZCvMIJt4B0e3KjzPCT7y6S75gHa4jkg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=glBLZg) |
 | **TP:** Exposición Parcial | [Video Exposición TP](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202212096_upc_edu_pe/ET0k7riRA7ZFm18zT0vPC4YBlDYLyTEAU9CtV52ecIe2Sg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=4jK6eY) |
-
+| **Video entrevistas validación:** Entrevistas consolidadas en un solo video | [Video Entrevistas Validación]() |
+| **TB2:** Exposición Trabajo | [Video Exposición TB2]() |
+| **About-the-Product Video:** Video demostrativo del producto final | [Video About-the-Product]() |
