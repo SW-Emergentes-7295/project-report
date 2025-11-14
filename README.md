@@ -3060,7 +3060,39 @@ En este flujo se demuestra el historial de recorridos anteriores del usuario, do
 #### 7.2.1.2. Sprint Backlog 1.
 #### 7.2.1.3. Development Evidence for Sprint Review.
 #### 7.2.1.4. Testing Suite Evidence for Sprint Review.
+
+[Repositorio de Testing](https://github.com/SW-Emergentes-7295/VisualGuide-Testing)
+
+| Repositorio         | Branch | Commit Id  | Commit Message  | Commit Message Body  | Committed on (Date) |
+|---------------------|--------|------------|-----------------|-----------------------|----------------------|
+| VisualGuide-Testing | main   |  |  |  | 1/11/2025 |
+| VisualGuide-Testing | main   |  |  |  | 1/11/2025 |
+| VisualGuide-Testing | main   |  |  |  | 1/11/2025 |
+| VisualGuide-Testing | main   |  |  |  | 1/11/2025 |
+| VisualGuide-Testing | main   |  |  |  | 1/11/2025 |
+
 #### 7.2.1.5. Execution Evidence for Sprint Review.
+
+**Frontend**
+
+IAM:
+
+Configuration Preferences:
+
+Home Configuration
+
+Ai Recognition:
+
+**Backend**
+
+IAM:
+
+Configuration Preferences:
+
+Home Configuration
+
+Ai Recognition:
+
 #### 7.2.1.6. Services Documentation Evidence for Sprint Review.
 #### 7.2.1.7. Software Deployment Evidence for Sprint Review.
 #### 7.2.1.8. Team Collaboration Insights during Sprint.
