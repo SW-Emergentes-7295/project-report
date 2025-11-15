@@ -3228,7 +3228,61 @@ Las preguntas están orientadas a identificar barreras aún presentes, validar h
 
 
 ### 7.3.2. Registro de Entrevistas.
+Estas entrevistas funcionaron como una herramienta cualitativa para validar la efectividad del MVP de *VisualGuide* en un entorno real.
+Se realizó un registro detallado de las respuestas y observaciones de los participantes, permitiendo identificar patrones comunes, áreas de mejora y aspectos valorados positivamente.
+
+**Segmento objetivo 1**: Personas no videntes
+
+**Entrevista 1:** Persona no vidente - Sandy Baez
+Nombre: Sandy Baez
+Edad: 26 años
+Residencia: Lima, Ate - Perú
+Desde cuándo es no vidente: Perdió la visión a los 20 años
+Vive con familiares
+
+<img src="./images/interviews/sandy-entrevista-2.PNG" alt="Sandy Baez Interview 2" width="auto" style="display: block; margin-left: auto; margin-right: auto;"/>
+<br>
+
+**URL de la entrevista:** [Entrevista Sandy Baez](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202212096_upc_edu_pe/IQCjboxMa0auSLaOGrjsiphqAQhfhVWDkF_cFphW6kX2YnM?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=hGMFjy)
+
+**Resumen de la entrevista:**
+Sandy destacó la facilidad de uso de VisualGuide, mencionando que las instrucciones en audio fueron claras y oportunas. Sin embargo, señaló que el reconocimiento de objetos tuvo algunas imprecisiones, especialmente con objetos pequeños o poco contrastantes. A pesar de esto, se sintió más segura al desplazarse por su hogar y notó una reducción en la necesidad de pedir ayuda a sus familiares. Sandy recomendó la aplicación a otras personas no videntes, resaltando su potencial para mejorar la autonomía.
+
+<br><br>
+
+**Segmento objetivo 2: Familiares o cuidadores de personas no videntes**
+
+**Entrevista 1: Familiar de persona no vidente - Carlos Chavez**
+- Nombre: Carlos Sebastián Chavez Morales
+- Edad: 21 años
+- Residencia: La Perla, Callao, Perú
+- Familiar no vidente: Primo
+- Convive con su familiar no vidente: No, pero lo visita frecuentemente.
+
+
+<img src="./images/interviews/carlos-entrevista-2.PNG" alt="Carlos Chavez Interview 2" width="auto" style="display: block; margin-left: auto; margin-right: auto;"/>
+<br>
+
+**URL de la entrevista:** [Entrevista Carlos Chavez](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202212096_upc_edu_pe/IQBYXlCPFp7QTLyeEEc6nsu7AcGJzHrJYDvRo-D3FDoQ5RE?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=cBhNMQ)
+
+**Resumen de la entrevista:**
+Carlos expresó que la aplicación le brindó mayor tranquilidad respecto a la seguridad de su primo no vidente. Notó que su familiar dependió menos de su ayuda diaria durante la prueba y consideró que estaría dispuesto a usarla de forma constante. Sin embargo, mencionó que hubo momentos en los que sintió que la app no estaba guiando correctamente, especialmente en áreas con poca iluminación. Carlos sugirió la incorporación de notificaciones para familiares sobre actividades importantes o riesgos detectados.
+
 ### 7.3.3. Evaluaciones según heurísticas.
+
+A continuación, se presentan las evaluaciones realizadas según las heurísticas de usabilidad para la aplicación móvil *VisualGuide*.
+| Heurística                          | Evaluación                                                                                       |
+|------------------------------------|-------------------------------------------------------------------------------------------------|
+| Visibilidad del estado del sistema | La aplicación proporciona retroalimentación inmediata a través de audio y vibración, informando al usuario sobre su ubicación y los objetos detectados. |
+| Coincidencia entre el sistema y el mundo real | El lenguaje utilizado en las instrucciones es claro y familiar para los usuarios no videntes, facilitando la comprensión. |
+| Control y libertad del usuario     | Los usuarios pueden pausar o detener el mapeo en cualquier momento, brindándoles control sobre la navegación. |
+| Consistencia y estándares          | La interfaz mantiene una estructura coherente en todas las pantallas, utilizando iconos y comandos estándar para facilitar el aprendizaje. |
+| Prevención de errores              | La aplicación incluye confirmaciones de acciones importantes, como el inicio del mapeo, para evitar errores accidentales. |
+| Reconocimiento en lugar de recuerdo | Las instrucciones se presentan de manera clara y repetitiva, minimizando la carga cognitiva del usuario. |
+| Flexibilidad y eficiencia de uso   | La aplicación permite personalizar las preferencias de guía, adaptándose a las necesidades individuales de cada usuario. |
+| Estética y diseño minimalista      | La interfaz es sencilla y libre de elementos innecesarios, enfocándose en la funcionalidad principal. |
+| Ayuda a los usuarios a reconocer, diagnosticar y recuperarse de errores | La aplicación ofrece mensajes claros en caso de errores, como problemas de conexión o fallos en el reconocimiento de objetos. |
+| Ayuda y documentación              | Se proporciona una sección de ayuda accesible dentro de la aplicación, con tutoriales en audio para guiar a los usuarios. |
 
 ## 7.4. Video About-the-Product.
 
