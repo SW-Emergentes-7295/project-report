@@ -3063,35 +3063,28 @@ En este flujo se demuestra el historial de recorridos anteriores del usuario, do
 
 [Repositorio de Testing](https://github.com/SW-Emergentes-7295/VisualGuide-Testing)
 
-| Repositorio         | Branch | Commit Id  | Commit Message  | Commit Message Body  | Committed on (Date) |
-|---------------------|--------|------------|-----------------|-----------------------|----------------------|
-| VisualGuide-Testing | main   |  |  |  | 1/11/2025 |
-| VisualGuide-Testing | main   |  |  |  | 1/11/2025 |
-| VisualGuide-Testing | main   |  |  |  | 1/11/2025 |
-| VisualGuide-Testing | main   |  |  |  | 1/11/2025 |
-| VisualGuide-Testing | main   |  |  |  | 1/11/2025 |
+| Repositorio         | Branch | Commit Id | Commit Message  | Commit Message Body  | Committed on (Date) |
+|---------------------|--------|-----------|-----------------|----------------------|----------------------|
+| VisualGuide-Testing | main   | af16cd2   | User story 01   | User story 01        | 15/11/2025           |
+| VisualGuide-Testing | main   | 052ee60   | User story 02   | User story 02        | 15/11/2025           |
+| VisualGuide-Testing | main   | cf0d12c   | User story 03   | User story 03        | 15/11/2025           |
+| VisualGuide-Testing | main   | 1b64554   | User story 04   | User story 04        | 15/11/2025           |
+| VisualGuide-Testing | main   | e663c54   | User story 05   | User story 05        | 15/11/2025           |
+| VisualGuide-Testing | main   | a918227   | User story 06   | User story 06        | 15/11/2025           |
+| VisualGuide-Testing | main   | ab2ae11   | User story 07   | User story 07        | 15/11/2025           |
+| VisualGuide-Testing | main   | 000fa6b   | User story 08   | User story 08        | 15/11/2025           |
+
+Se crearon los archivos .feature junto a diversos escenarios para poner a prueba el funcionamiento de la palicación, asegurandonos de que cumpla con las funcionalidades básicas de cada User Story.
 
 #### 7.2.1.5. Execution Evidence for Sprint Review.
 
 **Frontend**
 
-IAM:
 
-Configuration Preferences:
-
-Home Configuration
-
-Ai Recognition:
 
 **Backend**
 
-IAM:
 
-Configuration Preferences:
-
-Home Configuration
-
-Ai Recognition:
 
 #### 7.2.1.6. Services Documentation Evidence for Sprint Review.
 #### 7.2.1.7. Software Deployment Evidence for Sprint Review.
