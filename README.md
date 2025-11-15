@@ -3286,6 +3286,14 @@ A continuación, se presentan las evaluaciones realizadas según las heurística
 
 ## 7.4. Video About-the-Product.
 
+En este video, se presenta de manera comercial la aplicación móvil *VisualGuide*, diseñada para asistir a personas no videntes en la navegación segura dentro de sus hogares mediante el uso de inteligencia artificial y reconocimiento de objetos.
+
+**URL del video:** [Video About-the-Product VisualGuide](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202212096_upc_edu_pe/IQBYhMO86XXARLK7KO9j7zbeAS4HTuHnxUBEQibbrTwvV0c?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=rc9ZGs)
+
+
+<img src="./images/visualguide-video.PNG" alt="VisualGuide Video" width="auto" style="display: block; margin-left: auto; margin-right: auto;"/>
+<br>
+
 
 
 
@@ -3334,4 +3342,4 @@ A continuación, se presentan las evaluaciones realizadas según las heurística
 | **TP:** Exposición Parcial | [Video Exposición TP](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202212096_upc_edu_pe/ET0k7riRA7ZFm18zT0vPC4YBlDYLyTEAU9CtV52ecIe2Sg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=4jK6eY) |
 | **Video entrevistas validación:** Entrevistas consolidadas en un solo video | [Video Entrevistas Validación]() |
 | **TB2:** Exposición Trabajo | [Video Exposición TB2]() |
-| **About-the-Product Video:** Video demostrativo del producto final | [Video About-the-Product]() |
+| **About-the-Product Video:** Video demostrativo del producto final | [Video About-the-Product](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202212096_upc_edu_pe/IQBYhMO86XXARLK7KO9j7zbeAS4HTuHnxUBEQibbrTwvV0c?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=rc9ZGs) |
