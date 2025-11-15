@@ -3292,8 +3292,7 @@ Cuando el código en la rama develop se estabiliza y está listo para ser lanzad
 
 ### 7.1.3. Source Code Style Guide & Conventions.
 
-Como convención general, todo el código realizado por los miembros del equipo debe redactarse en
-completo inglés.
+Como convención general, todo el código realizado por los miembros del equipo debe redactarse en completo inglés.
 
 **HTML**
 
@@ -3326,30 +3325,6 @@ Selector and Declaration Separation: Separar los selectores y declaraciones en n
 Para más información sobre las convenciones de CSS se usará como referencia:
 https://google.github.io/styleguide/htmlcssguide.html#CSS
 
-**JavaScript**
-
-Use expanded syntax: Cada línea de JavaScript en una nueva línea, con la llave de apertura en la misma línea de su
-declaración y la llave de cierre en una nueva línea al final.
-
-Variable naming: Para el nombre de las variables usar lowerCamelCase.
-
-Declaring variables: Para la declaración de variables usar las palabras reservadas let y const, no usar var.
-
-Use strict equality: Siempre usar la igualdad o inigualdad estricta.
-
-Function naming: Para el nombre de las funciones usar lowerCamelCase.
-
-Para más información sobre las convenciones de JavaScript se usará como referencia:
-https://www.w3schools.com/js/js_conventions.asp
-
-**TypeScript**
-
-Camel case: Usar camelCase cuando nombramos variables y funciones. También se debe usar camelCase en los miembros de una clase y sus métodos. En la interface, el camelCase se usa para nombrar miembros.
-
-Pascal case: Usar pascal case para nombres de clases. En la interface, sirve para nombres.
-
-Para más información sobre las convenciones de TypeScript se usará como referencia:
-https://basarat.gitbook.io/typescript/styleguide#array
 
 **Gherkin**
 
@@ -3393,12 +3368,10 @@ Para el despliegue de la Landing Page y la Aplicación Móvil, se utilizará la 
 
 Para el despliegue del Web Service, se utilizará la plataforma AWS. A continuación, se detallan los pasos necesarios:
 
-- Configuración del Repositorio: El código fuente de la aplicación Django debe almacenarse en un repositorio, usualmente en GitHub, e incluir archivos clave como requirements.txt (con dependencias) y un archivo Procfile (para definir el comando de inicio del servidor, como Gunicorn).
-- Preparación de AWS CLI: Instala y configura la CLI de AWS en tu máquina local para interactuar con los servicios de Amazon.
-- Creación del Entorno Elastic Beanstalk (EB): Utiliza la CLI de AWS o la consola para crear un nuevo entorno en Elastic Beanstalk (EB), seleccionando el tipo de entorno Python (que es ideal para Django). EB maneja la provisión de servidores (EC2), balanceadores de carga y autoescalado.
-- Configuración de Base de Datos: Crea una instancia de base de datos relacional separada, como Amazon RDS (PostgreSQL o MySQL), y configura el servicio Django en EB para que se conecte a ella.
-- Despliegue: Desde tu máquina local, utiliza la CLI de EB para subir tu código de Django (el contenido del repositorio) al entorno de Elastic Beanstalk. EB se encarga de instalar las dependencias, ejecutar la migración de la base de datos y arrancar el servidor web (Gunicorn/uWSGI).
-- Monitoreo y Escalado: AWS proporciona Amazon CloudWatch para monitorear métricas de rendimiento y salud de la aplicación. Elastic Beanstalk maneja automáticamente el escalado horizontal (añadiendo más instancias EC2) según la carga, asegurando un funcionamiento óptimo.
+- Configuración del Repositorio: El código fuente de la aplicación Flask debe almacenarse en un repositorio, usualmente en GitHub, e incluir archivos clave como requirements.txt (con dependencias).
+- Preparación de AWS CLI: Ingresando por SSH a nuestra instancia EC2.
+- Configuración de Base de Datos: Creando una instancia de base de datos relacional separada, MySQL.
+- Monitoreo y Escalado: Configurando CloudWatch para monitorear el rendimiento y establecer políticas de escalado automático si es necesario.
 
 ## 7.2. Solution Implementation.
 ## 7.2.1. Sprint 1
@@ -3706,29 +3679,6 @@ Las preguntas están orientadas a identificar barreras aún presentes, validar h
 
 ### 7.3.2. Registro de Entrevistas.
 
-**Segmento objetivo 1: Personas no videntes**
-
-**Segmento objetivo 2: Familiares o cuidadores de personas no videntes**
-
-**Entrevista 1: Familiar de persona no vidente - Harold Elias**
-- Nombre: Harold Elias
-- Edad: 21 años
-- Residencia: Los Olivos, Perú
-- Familiar no vidente: Primo
-- Convive con su familiar no vidente: Si
-
-<img src="./images/interviews/Validación-HaroldElías.png" alt="Foto de Harold Elias 2" width="100%">
-
-**URL de la entrevista:** [Entrevista Harold Elias](https://upcedupe-my.sharepoint.com/personal/u202212096_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu202212096_upc_edu_pe%2FDocuments%2FARQ.+SW+EMERGENTES%2FTB2%2Fvalidation-interviews%2FEntrevistaDeValidaci%C3%B3n_HaroldElias.mp4&startedResponseCatch=true&referrer=StreamWebApp.Web&referrerScenario=AddressBarCopied.view.f1c0d3da-1639-4383-8172-e3dec442720c)
-
-**Resumen de la entrevista:**
-Harol Elias de 21 años, expresó su conformidad con el funcionamiento actual de la aplicación, sin embargo, cree que el modelo podría ser mejor, permitiendo a los usuarios saber si hay puertas o escaleras cercanas. Así mismo, le gustaría ver que se añade la funcionalidad de resibir notificaciones sobre el estado de su familiar, para poder estar bien informado.
-
-En general, el usuario se vió satisfecho con las funcionalidades y calidad de la aplicación, permitiendole estar más tranquilo sobre la seguridad de us familiar, y dándole más independencia al no vidente.
-
-Estas entrevistas funcionaron como una herramienta cualitativa para validar la efectividad del MVP de *VisualGuide* en un entorno real.
-Se realizó un registro detallado de las respuestas y observaciones de los participantes, permitiendo identificar patrones comunes, áreas de mejora y aspectos valorados positivamente.
-
 **Segmento objetivo 1**: Personas no videntes
 
 **Entrevista 1:** Persona no vidente - Sandy Baez
@@ -3778,6 +3728,29 @@ Carlos expresó que la aplicación le brindó mayor tranquilidad respecto a la s
 
 **Resumen de la entrevista:**
 Marzzio Chicana nos comenta que el aplicativo ayudó mucho asu familiar para moverse por su hogar sin dificultades. Respecto a la guía para el uso de la aplicación, él nos dice que fue sencilla y corta. También comenta que siente que es un aplicativo móvil con mucho potencial y lo recomendaría a sus familiares. Respecto a la precisión de reconocimiento de objetos la nota precisa.
+
+<br><br>
+
+**Entrevista 3: Familiar de persona no vidente - Harold Elias**
+- Nombre: Harold Elias
+- Edad: 21 años
+- Residencia: Los Olivos, Perú
+- Familiar no vidente: Primo
+- Convive con su familiar no vidente: Si
+
+<img src="./images/interviews/Validación-HaroldElías.png" alt="Foto de Harold Elias 2" width="100%">
+
+**URL de la entrevista:** [Entrevista Harold Elias](https://upcedupe-my.sharepoint.com/personal/u202212096_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu202212096_upc_edu_pe%2FDocuments%2FARQ.+SW+EMERGENTES%2FTB2%2Fvalidation-interviews%2FEntrevistaDeValidaci%C3%B3n_HaroldElias.mp4&startedResponseCatch=true&referrer=StreamWebApp.Web&referrerScenario=AddressBarCopied.view.f1c0d3da-1639-4383-8172-e3dec442720c)
+
+**Resumen de la entrevista:**
+Harol Elias de 21 años, expresó su conformidad con el funcionamiento actual de la aplicación, sin embargo, cree que el modelo podría ser mejor, permitiendo a los usuarios saber si hay puertas o escaleras cercanas. Así mismo, le gustaría ver que se añade la funcionalidad de resibir notificaciones sobre el estado de su familiar, para poder estar bien informado.
+
+En general, el usuario se vió satisfecho con las funcionalidades y calidad de la aplicación, permitiendole estar más tranquilo sobre la seguridad de us familiar, y dándole más independencia al no vidente.
+
+Estas entrevistas funcionaron como una herramienta cualitativa para validar la efectividad del MVP de *VisualGuide* en un entorno real.
+Se realizó un registro detallado de las respuestas y observaciones de los participantes, permitiendo identificar patrones comunes, áreas de mejora y aspectos valorados positivamente.
+
+<br><br>
   
 ### 7.3.3. Evaluaciones según heurísticas.
 
