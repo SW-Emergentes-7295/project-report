@@ -3372,6 +3372,19 @@ Sandy destacó la facilidad de uso de VisualGuide, mencionando que las instrucci
 **Resumen de la entrevista:**
 Carlos expresó que la aplicación le brindó mayor tranquilidad respecto a la seguridad de su primo no vidente. Notó que su familiar dependió menos de su ayuda diaria durante la prueba y consideró que estaría dispuesto a usarla de forma constante. Sin embargo, mencionó que hubo momentos en los que sintió que la app no estaba guiando correctamente, especialmente en áreas con poca iluminación. Carlos sugirió la incorporación de notificaciones para familiares sobre actividades importantes o riesgos detectados.
 
+ 
+**Entrevista 2: Familiar de persona no vidente - Marzzio Chicana**
+- Nombre: Marzzio Chicana Romero
+- Edad: 22 años
+- Residencia: Carabayllo, Lima, Perú
+
+<img src="./images/interviews/interview-1-validation.png" alt="Foto de Marzzio Chicana" width="50%">
+
+**URL de la entrevista:** [Entrevista Marzzio Chicana](https://upcedupe-my.sharepoint.com/personal/u202212096_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu202212096%5Fupc%5Fedu%5Fpe%2FDocuments%2FARQ%2E%20SW%20EMERGENTES%2FTB2%2Fvalidation%2Dinterviews%2Finterview%2Dchapter%2DVII%20%2D%20Trim%2Emp4&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2E737296fe%2Dba26%2D4075%2Dac2d%2Da8b0413412b8)
+
+**Resumen de la entrevista:**
+Marzzio Chicana nos comenta que el aplicativo ayudó mucho asu familiar para moverse por su hogar sin dificultades. Respecto a la guía para el uso de la aplicación, él nos dice que fue sencilla y corta. También comenta que siente que es un aplicativo móvil con mucho potencial y lo recomendaría a sus familiares. Respecto a la precisión de reconocimiento de objetos la nota precisa.
+  
 ### 7.3.3. Evaluaciones según heurísticas.
 
 A continuación, se presentan las evaluaciones realizadas según las heurísticas de usabilidad para la aplicación móvil *VisualGuide*.
