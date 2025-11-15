@@ -3115,6 +3115,18 @@ Link del Prototipo: [https://www.figma.com/proto/iCmpJKu6xZ0wFe0REBihaq/Software
 #### 7.2.1.4. Testing Suite Evidence for Sprint Review.
 #### 7.2.1.5. Execution Evidence for Sprint Review.
 #### 7.2.1.6. Services Documentation Evidence for Sprint Review.
+
+Para la documentación de nuestros web-services utilizamos la herramienta de **Swagger** que nos permite documentar de manera automática nuestras APIs RESTful.
+En esta parte, Swagger genera una interfaz gráfica interactiva que facilita la comprensión y el uso de los endpoints disponibles en nuestros web-services.
+A continuación, se muestra la documentación generada por Swagger para nuestros web-services:
+
+<img src="./images/documentation/1.PNG" alt="Documentation Evidence 1" width="auto" style="display: block; margin-left: auto; margin-right: auto;"/>
+<br><br>
+<img src="./images/documentation/2.PNG" alt="Documentation Evidence 2" width="auto" style="display: block; margin-left: auto; margin-right: auto;"/>
+<br><br>
+<img src="./images/documentation/3.PNG" alt="Documentation Evidence 3" width="auto" style="display: block; margin-left: auto; margin-right: auto;"/>
+<br><br>
+
 #### 7.2.1.7. Software Deployment Evidence for Sprint Review.
 
 Para el despliegue de nuestro web-services utilizamos el servicio de **AWS** específicamente una instancia EC2 t2.micro con sistema operativo Ubuntu 20.04 LTS.
