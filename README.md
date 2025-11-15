@@ -3207,9 +3207,198 @@ Link del Prototipo: [https://www.figma.com/proto/iCmpJKu6xZ0wFe0REBihaq/Software
 # Capítulo VII: Product Implementation, Validation & Deployment
 ## 7.1. Software Configuration Management.
 ### 7.1.1. Software Development Environment Configuration.
+
+Este apartado detalla los productos de software necesarios para colaborar en el ciclo de vida de los productos digitales en el proyecto de IoT. Incluye nombres de productos, su propósito en el proyecto y las rutas de referencia/descarga para acceder a ellos.
+
+**Visual Studio Code**
+
+> Este editor de código será utilizado para desarrollar la landing page y el aplicativo móvil. Flutter se empleará para el aplicativo.
+
+Link: https://code.visualstudio.com/download
+
+**Github**
+
+> Esta plataforma será utilizada para gestionar el control de versiones de todos nuestros repositorios.
+
+Link: https://github.com/
+
+**Figma**
+
+> Esta herramienta se emplea para la creación de prototipos de nuestras aplicaciones web y móviles.
+
+Link: https://www.figma.com/
+
+**Netlify**
+
+> Contribuirá al despliegue de las aplicaciones frontend.
+
+Link: https://www.netlify.com/
+
+**AWS**
+
+> Será utilizado para desplegar el servicio backend.
+
+Link: https://aws.amazon.com/es/
+
+**Miro**
+
+> Se utiliza para realizar sesiones de lluvia de ideas y para secciones específicas del informe, como el escenario actual y el escenario deseado.
+
+Link: https://miro.com/es/
+
+**Lucidchart**
+
+> Se utiliza para la creación de diagramas de clases y diagramas de bases de datos.
+
+Link: https://www.lucidchart.com/pages
+
+**Visual Paradigm**
+
+> Se emplea para diagramar la arquitectura de software de nuestro proyecto.
+
+Link: https://www.visual-paradigm.com/
+
 ### 7.1.2. Source Code Management.
+
+**Landing Page**
+
+![](./images/landing-page/landing-page-desplegada.PNG)
+
+Link: https://sw-emergentes-7295.github.io/landing-page/
+
+**Web Services**
+
+![](./images/github/web-services-img.PNG)
+
+Link: https://github.com/SW-Emergentes-7295/web-services
+
+**Mobile Application**
+
+![](./images/github/web-services-img.png)
+
+Link: https://github.com/SW-Emergentes-7295/mobile-application
+
+----
+
+**Convenciones de GitHub**
+
+The main branch:
+
+El modelo de desarrollo se basa en prácticas establecidas. El repositorio central contiene dos ramas principales con una vida útil indefinida:
+
+main: Esta rama es conocida por todos los usuarios de Git. Representa un estado listo para producción.
+develop: Paralelamente a la rama main, la rama develop alberga los cambios de desarrollo más recientes para la próxima versión. Actúa como la rama de integración y es donde se generan las compilaciones automáticas nocturnas.
+Cuando el código en la rama develop se estabiliza y está listo para ser lanzado, todos los cambios se fusionan de nuevo en main y se etiquetan con un número de versión. Esto asegura que cada fusión en main constituya un nuevo lanzamiento de producción, facilitando la automatización potencial de la implementación de software.
+
 ### 7.1.3. Source Code Style Guide & Conventions.
+
+Como convención general, todo el código realizado por los miembros del equipo debe redactarse en
+completo inglés.
+
+**HTML**
+
+Use Lowercase Element Names: Se recomienda usar lowercase para los nombres de los elementos HTML.
+
+Close All HTML Elements: Se recomienda cerrar todos los elementos HTML.
+
+Use Lowercase Attribute Names: Se recomienda usar lowercase para los nombres de los atributos HTML.
+
+Always Specify alt, width, and height for Images: Se recomienda seguir estas convenciones en caso de que la imagen no se puede mostrar y ayudar con la accesibilidad del contenido.
+
+Spaces and Equal Signs: Se recomienda no usar espacios en blanco entre las entidades para una mejor lectura.
+
+Para más información sobre las convenciones de HTML se usará como referencia:
+https://www.w3schools.com/html/html5_syntax.asp
+
+**CSS**
+
+ID and Class Naming: Usar nombres de clases e ID significativos que expresen el propósito del elemento.
+
+ID and Class Name Style: Usar nombres cortos para nombrar ID o clases, pero lo suficientemente largo para saber cuál es su
+propósito.
+
+Shorthand Properties: Usar CSS shothand properties tanto como sea posible para que el código sea más eficiente y entendible.
+
+ID and Class Name Delimiters: Separar las palabras en ID y clases con un guión.
+
+Selector and Declaration Separation: Separar los selectores y declaraciones en nuevas líneas.
+
+Para más información sobre las convenciones de CSS se usará como referencia:
+https://google.github.io/styleguide/htmlcssguide.html#CSS
+
+**JavaScript**
+
+Use expanded syntax: Cada línea de JavaScript en una nueva línea, con la llave de apertura en la misma línea de su
+declaración y la llave de cierre en una nueva línea al final.
+
+Variable naming: Para el nombre de las variables usar lowerCamelCase.
+
+Declaring variables: Para la declaración de variables usar las palabras reservadas let y const, no usar var.
+
+Use strict equality: Siempre usar la igualdad o inigualdad estricta.
+
+Function naming: Para el nombre de las funciones usar lowerCamelCase.
+
+Para más información sobre las convenciones de JavaScript se usará como referencia:
+https://www.w3schools.com/js/js_conventions.asp
+
+**TypeScript**
+
+Camel case: Usar camelCase cuando nombramos variables y funciones. También se debe usar camelCase en los miembros de una clase y sus métodos. En la interface, el camelCase se usa para nombrar miembros.
+
+Pascal case: Usar pascal case para nombres de clases. En la interface, sirve para nombres.
+
+Para más información sobre las convenciones de TypeScript se usará como referencia:
+https://basarat.gitbook.io/typescript/styleguide#array
+
+**Gherkin**
+
+Discernible Given-When-Then Blocks: Se recomienda aplicar sangría a los bloques, para saber cuándo iniciar y terminan.
+
+![](./images/code-style-guidelines/Discernible%20Given-When-Then%20Blocks.png)
+
+Steps with Tables: Si necesitamos entrada de una tabla en nuestros pasos, para que sea reconocible, añadiremos dos puntos al final del paso.
+
+![](./images/code-style-guidelines/Steps%20with%20Tables.png)
+
+Reducing Noise: Se recomienda usar valores predeterminados para campos que requiere el software pero que no son relevantes para el escenario.
+
+![](./images/code-style-guidelines/Reducing%20Noise.png)
+ 
+Parameters in Steps: Para el ejemplo anterior, se pudo notar la inclusión de comillas simples para los parámetros en un paso, lo cual facilita la detección de estos.
+
+Newlines within Scenarios: En caso de que el escenario se está alargando, es recomendable agregar nuevas líneas entre cada paso para que los bloques sean más legibles.
+
+![](./images/code-style-guidelines/Newlines%20within%20Scenarios.png)
+ 
+Newlines between scenarios and separator comments: Cuando se tienen muchos escenarios, se vuelve difícil saber el punto donde inicia o termina otro. Por ello, se recomiendo agregar una línea de separación entre escenario y un separador de comentarios.
+
+![](./images/code-style-guidelines/Newlines%20between%20scenarios%20and%20separator%20comments.png)
+
 ### 7.1.4. Software Deployment Configuration.
+
+En esta sección, se detalla la configuración necesaria para llevar a cabo el despliegue satisfactorio de cada uno de los productos digitales en la solución, utilizando herramientas específicas para cada uno de ellos.
+
+**Despliegue de la Landing Page y la Aplicación Móvil**
+
+Para el despliegue de la Landing Page y la Aplicación Móvil, se utilizará la plataforma Firebase y Github. A continuación, se detallan los pasos necesarios:
+
+- Configuración del Repositorio: El código fuente de la Landing Page y la Aplicación Móvil se almacenará en un repositorio en la plataforma Github.
+- Instalación de Herramientas: Asegúrate de tener la CLI de Firebase instalada y haber iniciado sesión con tu cuenta
+- Inicialización de Firebase: Ejecuta el proceso de inicialización en el proyecto Flutter, vinculándolo al proyecto de Firebase deseado y configurando Hosting.
+- Despliegue Final: Ejecuta el comando de despliegue para subir el contenido de la carpeta de compilación a Firebase Hosting.
+
+
+**Despliegue del Web Service**
+
+Para el despliegue del Web Service, se utilizará la plataforma AWS. A continuación, se detallan los pasos necesarios:
+
+- Configuración del Repositorio: El código fuente de la aplicación Django debe almacenarse en un repositorio, usualmente en GitHub, e incluir archivos clave como requirements.txt (con dependencias) y un archivo Procfile (para definir el comando de inicio del servidor, como Gunicorn).
+- Preparación de AWS CLI: Instala y configura la CLI de AWS en tu máquina local para interactuar con los servicios de Amazon.
+- Creación del Entorno Elastic Beanstalk (EB): Utiliza la CLI de AWS o la consola para crear un nuevo entorno en Elastic Beanstalk (EB), seleccionando el tipo de entorno Python (que es ideal para Django). EB maneja la provisión de servidores (EC2), balanceadores de carga y autoescalado.
+- Configuración de Base de Datos: Crea una instancia de base de datos relacional separada, como Amazon RDS (PostgreSQL o MySQL), y configura el servicio Django en EB para que se conecte a ella.
+- Despliegue: Desde tu máquina local, utiliza la CLI de EB para subir tu código de Django (el contenido del repositorio) al entorno de Elastic Beanstalk. EB se encarga de instalar las dependencias, ejecutar la migración de la base de datos y arrancar el servidor web (Gunicorn/uWSGI).
+- Monitoreo y Escalado: AWS proporciona Amazon CloudWatch para monitorear métricas de rendimiento y salud de la aplicación. Elastic Beanstalk maneja automáticamente el escalado horizontal (añadiendo más instancias EC2) según la carga, asegurando un funcionamiento óptimo.
 
 ## 7.2. Solution Implementation.
 ## 7.2.1. Sprint 1
