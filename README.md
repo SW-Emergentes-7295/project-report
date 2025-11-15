@@ -33,7 +33,7 @@
 
 <div style="page-break-after: always;"></div>
 
-# Registro de Versiones del Informe
+## Registro de Versiones del Informe
 
 <table>
   <thead>
@@ -45,7 +45,6 @@
     </tr>
   </thead>
   <tbody>
-    <!-- V1 -->
     <tr>
       <td rowspan="4">V1</td>
       <td>20/09/2025</td>
@@ -159,8 +158,64 @@
         </ul>
       </td>
     </tr>
+    <tr>
+      <td rowspan="4">V3</td>
+      <td>15/11/2025</td>
+      <td>More Rondon, Christopher Sebastian</td>
+      <td>
+        <ul>
+          <li>Desarrollo Aplicación Móvil y Web Services</li>
+          <li>Testing Suite Evidence for Sprint Review</li>
+          <li>Execution Evidence for Sprint Review</li>
+          <li>Registro de entrevista</li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td>15/11/2025</td>
+      <td>Ramos Najar, Tony Alexander</td>
+      <td>
+        <ul>
+          <li>Desarrollo Aplicación Móvil y Web Services</li>
+          <li>Sprint 1</li>
+          <li>Sprint Planning y Backlog 1</li>
+          <li>Development Evidence for Sprint Review</li>
+          <li>Registro de entrevista</li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td>15/11/2025</td>
+      <td>Perez Pizarro, Pedro Jeremy</td>
+      <td>
+        <ul>
+          <li>Desarrollo Aplicación Móvil y Web Services</li>
+          <li>Software Configuration Management</li>
+          <li>Software Development Environment Configuration</li>
+          <li>Software Code Management</li>
+          <li>Registro de entrevista</li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td>15/11/2025</td>
+      <td>Arian Martín Rodriguez Vargas</td>
+      <td>
+        <ul>
+          <li>Desarrollo Aplicación Móvil y Web Services</li>
+          <li>Services Documentation</li>
+          <li>Evidence for Sprint Review</li>
+          <li>Software Deployment Evidence</li>
+          <li>Team Collaborations Insights</li>
+          <li>Registro de entrevista</li>
+          <li>Video About the Product</li>
+          <li>Mockups y Prototyping</li>
+        </ul>
+      </td>
+    </tr>
   </tbody>
 </table>
+
 
 
 # Project Report Collaboration Insights
@@ -201,6 +256,22 @@ La entrega TP finalizó con éxito y están documentadas en el siguiente reposit
 
 Imagen 2: Gráfico general de commits y contribuciones hechas por cada miembros del equipo de VisualGuide. Incluye tambien los pull requests activos y aceptados.
 <img src="./images/network-graph-tp.PNG " alt="Gráfico de contribuciones del equipo" width="800">
+
+
+<br>
+
+**TB2**
+La entrega TB2 finalizó con éxito y están documentadas en el siguiente repositorio de Github perteneciente a la organización del equipo: https://github.com/SW-Emergentes-7295/project-report Durante el desarrollo del informe se tuvieron en cuenta los siguientes aspectos:
+
+- Se definieron las actividades de configuración del entorno de desarrollo y despliegue.
+- Se establecieron las convenciones de estilo para el código fuente.
+- Se documentaron las actividades de implementación del producto durante el sprint 1.
+- Se diseñaron y registraron las entrevistas de validación con usuarios.
+- Se realizaron evaluaciones heurísticas de la solución implementada.
+- Se documentaron todas las actividades y hallazgos en el repositorio de Github.
+Imagen 3: Gráfico general de commits y contribuciones hechas por cada miembros del equipo de VisualGuide. Incluye tambien los pull requests activos y aceptados.
+
+<img src="./images/pulse-tb2.PNG " alt="Gráfico de contribuciones del equipo" width="800">
 
 # Contenido
 
@@ -279,6 +350,29 @@ Imagen 2: Gráfico general de commits y contribuciones hechas por cada miembros 
     * [6.4. Applications UX/UI Design](#64-applications-uxui-design)
       + [6.4.1. Applications Wireframes](#641-applications-wireframes)
       + [6.4.2. Applications Wireflow Diagrams](#642-applications-wireflow-diagrams)  
+      + [6.4.3. Applications Mock-ups.](#643-applications-mock-ups)
+      + [6.4.4. Applications User Flow Diagrams.](#644-applications-user-flow-diagrams)
+    * [6.5. Applications Prototyping.](#65-applications-prototyping)
+- [Capítulo VII: Product Implementation, Validation & Deployment](#capítulo-vii-product-implementation-validation--deployment)
+    * [7.1. Software Configuration Management.](#71-software-configuration-management)
+      + [7.1.1. Software Development Environment Configuration.](#711-software-development-environment-configuration)
+      + [7.1.2. Source Code Management.](#712-source-code-management)
+      + [7.1.3. Source Code Style Guide & Conventions.](#713-source-code-style-guide--conventions)
+      + [7.1.4. Software Deployment Configuration.](#714-software-deployment-configuration)
+    * [7.2. Solution Implementation.](#72-solution-implementation)
+      + [7.2.1. Sprint 1](#721-sprint-1)
+         - [7.2.1.1. Sprint Planning 1.](#7211-sprint-planning-1)
+         - [7.2.1.2. Sprint Backlog 1.](#7212-sprint-backlog-1)
+         - [7.2.1.3. Development Evidence for Sprint Review.](#7213-development-evidence-for-sprint-review)
+         - [7.2.1.4. Testing Suite Evidence for Sprint Review.](#7214-testing-suite-evidence-for-sprint-review)
+         - [7.2.1.5. Execution Evidence for Sprint Review.](#7215-execution-evidence-for-sprint-review)
+         - [7.2.1.6. Services Documentation Evidence for Sprint Review.](#7216-services-documentation-evidence-for-sprint-review)
+         - [7.2.1.7. Software Deployment Evidence for Sprint Review.](#7217-software-deployment-evidence-for-sprint-review)
+         - [7.2.1.8. Team Collaboration Insights during Sprint.](#7218-team-collaboration-insights-during-sprint)
+    * [7.3. Validation Interviews.](#73-validation-interviews)
+      + [7.3.1. Diseño de Entrevistas.](#731-diseño-de-entrevistas)
+      + [7.3.2. Registro de Entrevistas.](#732-registro-de-entrevistas)
+      + [7.3.3. Evaluaciones según heurísticas.](#733-evaluaciones-según-heurísticas)
 - [Conclusiones](#conclusiones)
 - [Referencias](#referencias)
 
@@ -311,10 +405,15 @@ del ABET – EAC - Student Outcome 3.
         <p><b>TP - Perez Pizarro, Pedro Jeremy:</b> Expliqué resultados usando ejemplos prácticos, lo que me permitió transmitir confianza y mejorar mi capacidad de comunicación oral en ingeniería.</p>
         <p><b>TP - Ramos Najar, Tony Alexander:</b> Defendí argumentos técnicos con fundamentos sólidos, desarrollando competencias para comunicarme con mayor seguridad en contextos profesionales.</p>
         <p><b>TP - Rodriguez Vargas, Arian Martín:</b> Lideré parte de la exposición final del trabajo, fortaleciendo mi habilidad de síntesis y persuasión en entornos académicos y de ingeniería.</p>
+        <p><b>TB2 - More Rondon, Christopher Sebastian:</b> Guié una parte de la presentación con mayor precisión técnica, demostrando soltura al responder preguntas especializadas del público.</p>
+        <p><b>TB2 - Perez Pizarro, Pedro Jeremy:</b> Expuse resultados con un discurso más estructurado, fortaleciendo mi habilidad para comunicar ideas complejas con claridad y seguridad.</p>
+        <p><b>TB2 - Ramos Najar, Tony Alexander:</b> Aporté explicaciones técnicas detalladas durante la exposición, aumentando mi confianza para comunicar avances de ingeniería a públicos diversos.</p>
+        <p><b>TB2 - Rodriguez Vargas, Arian Martín:</b> Coordiné la narrativa general de la presentación, reforzando mi liderazgo comunicacional y mi capacidad de dirigir exposiciones técnicas.</p>
       </td>
       <td>
         <p><b>TB1:</b> Como equipo demostramos nuestra capacidad de comunicar oralmente ideas y resultados de manera objetiva, alcanzando un nivel de claridad y efectividad aplicable en nuestra futura carrera profesional.</p>
         <p><b>TP:</b> Como equipo demostramos un progreso significativo en la comunicación oral, transmitiendo resultados de manera clara y profesional, lo que evidencia nuestra preparación para presentaciones en el ámbito laboral.</p>
+        <p><b>TB2:</b> Como equipo fortalecimos aún más nuestra comunicación oral, demostrando mayor dominio técnico, cohesión y claridad, lo que evidencia nuestro crecimiento continuo en la presentación de proyectos de ingeniería ante diferentes públicos.</p>
       </td>
     </tr>
     <tr>
@@ -328,10 +427,15 @@ del ABET – EAC - Student Outcome 3.
         <p><b>TP - Perez Pizarro, Pedro Jeremy:</b> Elaboré resúmenes ejecutivos claros, fortaleciendo mi habilidad de transmitir información relevante de forma concisa a distintos públicos.</p>
         <p><b>TP - Ramos Najar, Tony Alexander:</b> Contribuí con análisis escritos bien fundamentados, lo que mejorará mi desempeño en la elaboración de documentación profesional.</p>
         <p><b>TP - Rodriguez Vargas, Arian Martín:</b> Desarrollé reportes con terminología técnica adecuada, reforzando mi competencia en redacción académica y profesional.</p>
+        <p><b>TB2 - More Rondon, Christopher Sebastian:</b> Redacté documentación con mayor profundidad técnica, fortaleciendo mi capacidad para elaborar informes formales y detallados.</p>
+        <p><b>TB2 - Perez Pizarro, Pedro Jeremy:</b> Elaboré textos con un enfoque más analítico, mejorando mi habilidad para dirigir informes a públicos con conocimientos especializados.</p>
+        <p><b>TB2 - Ramos Najar, Tony Alexander:</b> Aporté secciones clave del informe integrando datos y conclusiones de manera coherente, reforzando mi habilidad de análisis escrito.</p>
+        <p><b>TB2 - Rodriguez Vargas, Arian Martín:</b> Organicé y consolidé la versión final del documento, demostrando capacidad para producir reportes técnicos completos y de alta calidad.</p>
       </td>
       <td>
         <p><b>TB1:</b> Como equipo alcanzamos una comunicación escrita objetiva y clara, adaptada a diversos niveles jerárquicos y especialidades, consolidando una competencia esencial en nuestra formación y ejercicio profesional.</p>
         <p><b>TP:</b> Como equipo consolidamos una comunicación escrita clara y adaptada a diferentes audiencias, lo que demuestra nuestra preparación para la generación de documentación técnica en el ejercicio profesional.</p>
+        <p><b>TB2:</b> Como equipo mejoramos notablemente la calidad de nuestra comunicación escrita, elaborando documentos más completos, estructurados y alineados con estándares profesionales en ingeniería.</p>
       </td>
     </tr>
   </tbody>
@@ -3041,7 +3145,7 @@ En este flujo se demuestra la configuración de preferencias del usuario, donde 
 <img src="./images/ui-ux-design/Frame 3570.png" alt="Wireflow Diagram" width="auto" style="display: block; margin-left: auto; margin-right: auto;"/>
 En este flujo se demuestra el historial de recorridos anteriores del usuario, donde puede revisar sus actividades pasadas y detalles de cada recorrido.
 
-### 6.4.2. Applications Mock-ups.
+### 6.4.3. Applications Mock-ups.
 
 Para el diseño de nuestra aplicación móvil "VisualGuide", hemos creado una serie de mock-ups que ilustran la interfaz de usuario y la experiencia de navegación dentro de la aplicación. Estos mock-ups fueron diseñados para asegurar que la aplicación sea intuitiva, accesible y funcional para personas no videntes.
 
@@ -3066,7 +3170,7 @@ En la siguiente figura se muestra el mockup de la pantalla de configuración de 
 <img src="./images/mockups/3.PNG" alt="Mockup 5" width="auto" style="display: block; margin-left: auto; margin-right: auto;"/>
 <br><br>
 
-### 6.4.3. Applications User Flow Diagrams.
+### 6.4.4. Applications User Flow Diagrams.
 
 A continuación, se presentan los diagramas de flujo de usuario (User Flow Diagrams) de la aplicación móvil "VisualGuide", diseñada para asistir a personas no videntes en la navegación segura dentro de sus hogares mediante el uso de inteligencia artificial y reconocimiento de objetos.
 
