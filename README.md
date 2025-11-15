@@ -3102,7 +3102,7 @@ Durante el primer sprint, el equipo desarrolló los componentes base del sistema
 
 En este Sprint Backlog, se completaron todas las historias de usuario base del proyecto VisualGuide, incluyendo reconocimiento de voz, configuración del hogar, autenticación y preferencias del usuario.
 
-<img src="./images/chapter6/trellosprint1.png" alt="trello" width="auto">
+<img src="./images/Chapter6/trellosprint1.png" alt="trello" width="auto">
 
 Link del trello: [https://trello.com/b/5p7QQbRp/sprint-1-visual-guide](https://trello.com/b/5p7QQbRp/sprint-1-visual-guide)
 
