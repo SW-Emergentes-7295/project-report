@@ -3042,9 +3042,62 @@ En este flujo se demuestra la configuración de preferencias del usuario, donde 
 En este flujo se demuestra el historial de recorridos anteriores del usuario, donde puede revisar sus actividades pasadas y detalles de cada recorrido.
 
 ### 6.4.2. Applications Mock-ups.
+
+Para el diseño de nuestra aplicación móvil "VisualGuide", hemos creado una serie de mock-ups que ilustran la interfaz de usuario y la experiencia de navegación dentro de la aplicación. Estos mock-ups fueron diseñados para asegurar que la aplicación sea intuitiva, accesible y funcional para personas no videntes.
+
+Link del Figma: [https://www.figma.com/design/iCmpJKu6xZ0wFe0REBihaq/Software-Emergentes?node-id=0-1&t=g8sCdk55WlGJdvJy-1](https://www.figma.com/design/iCmpJKu6xZ0wFe0REBihaq/Software-Emergentes?node-id=0-1&t=g8sCdk55WlGJdvJy-1)
+
+
+En la siguiente figura se muestra el mockup de la pantalla de inicio de la aplicación, donde el usuario puede iniciar sesión mediante reconocimiento facial o correo electrónico y contraseña.
+<img src="./images/mockups/1.PNG" alt="Mockup 1" width="auto" style="display: block; margin-left: auto; margin-right: auto;"/>
+
+<br><br>
+En la siguiente figura se muestra el mockup de la pantalla principal de la aplicación, donde el usuario puede iniciar el mapeo de su hogar con el botón "Start Home Mapping".
+<img src="./images/mockups/4.PNG" alt="Mockup 2" width="auto" style="display: block; margin-left: auto; margin-right: auto;"/>
+
+<br><br>
+En la siguiente figura se muestra el mockup de la pantalla de mapeo del hogar, donde el usuario puede seguir las instrucciones por voz para mapear su entorno, así como la pantalla de reconocimiento de objetos, donde el usuario puede solicitar el reconocimiento de un objeto en su entorno y recibir instrucciones de guía por parte de la inteligencia artificial.
+<img src="./images/mockups/6.PNG" alt="Mockup 3" width="auto" style="display: block; margin-left: auto; margin-right: auto;"/>
+
+<br><br>
+En la siguiente figura se muestra el mockup de la pantalla de configuración de preferencias del usuario, donde puede ajustar las opciones de la aplicación según sus necesidades, así como la vinculación con un cuidador o familiar.
+<img src="./images/mockups/2.PNG" alt="Mockup 4" width="auto" style="display: block; margin-left: auto; margin-right: auto;"/>
+
+<img src="./images/mockups/3.PNG" alt="Mockup 5" width="auto" style="display: block; margin-left: auto; margin-right: auto;"/>
+<br><br>
+
 ### 6.4.3. Applications User Flow Diagrams.
 
+A continuación, se presentan los diagramas de flujo de usuario (User Flow Diagrams) de la aplicación móvil "VisualGuide", diseñada para asistir a personas no videntes en la navegación segura dentro de sus hogares mediante el uso de inteligencia artificial y reconocimiento de objetos.
+
+En este flujo se demuestra las diferentes rutas del inicio de sesión, ya sea por reconocimiento facial o por email y contraseña.
+<img src="./images/mockups/flow-1.png" alt="User Flow Diagram 1" width="auto" style="display: block; margin-left: auto; margin-right: auto;"/>
+<br><br>
+
+En este flujo se demuestra el mapeo del hogar, donde el usuario puede seguir las instrucciones por voz para mapear su entorno.
+<img src="./images/mockups/flow-2.png" alt="User Flow Diagram 2" width="auto" style="display: block; margin-left: auto; margin-right: auto;"/>
+
+<br><br>
+En este flujo se demuestra el reconocimiento de objetos, donde el usuario puede solicitar el reconocimiento de un objeto en su entorno y recibir instrucciones de guía.
+<img src="./images/mockups/flow-3.png" alt="User Flow Diagram 3" width="auto" style="display: block; margin-left: auto; margin-right: auto;"/>
+<br><br>
+
+En este flujo se demuestra la configuración de preferencias del usuario, donde puede ajustar las opciones de la aplicación según sus necesidades. Además de la vinculación con un cuidador o familiar.
+<img src="./images/mockups/flow-4.png" alt="User Flow Diagram 4" width="auto" style="display: block; margin-left: auto; margin-right: auto;"/>
+
+<br><br>
+
+En este flujo se demuestra el historial de recorridos anteriores del usuario, donde puede revisar sus actividades pasadas y detalles de cada recorrido.
+<img src="./images/mockups/flow-5.png" alt="User Flow Diagram 5" width="auto" style="display: block; margin-left: auto; margin-right: auto;"/>
+<br><br>
+
 ## 6.5. Applications Prototyping.
+
+En esta sección se presentan los prototipos interactivos de la aplicación móvil "VisualGuide", diseñada para asistir a personas no videntes en la navegación segura dentro de sus hogares mediante el uso de inteligencia artificial y reconocimiento de objetos.
+
+Link del Prototipo: [https://www.figma.com/proto/iCmpJKu6xZ0wFe0REBihaq/Software-Emergentes?node-id=71-192&p=f&t=5fBWU08RGbwZlF6b-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=71%3A192&show-proto-sidebar=1](https://www.figma.com/proto/iCmpJKu6xZ0wFe0REBihaq/Software-Emergentes?node-id=71-192&p=f&t=5fBWU08RGbwZlF6b-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=71%3A192&show-proto-sidebar=1)
+
+<img src="./images/mockups/prototype.PNG" alt="Prototype 1" width="auto" style="display: block; margin-left: auto; margin-right: auto;"/>
 
 
 # Capítulo VII: Product Implementation, Validation & Deployment
