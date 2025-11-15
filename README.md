@@ -3212,10 +3212,140 @@ Link del Prototipo: [https://www.figma.com/proto/iCmpJKu6xZ0wFe0REBihaq/Software
 ### 7.1.4. Software Deployment Configuration.
 
 ## 7.2. Solution Implementation.
-### 7.2.1. Sprint 1
+## 7.2.1. Sprint 1
+
+Durante el primer sprint, el equipo desarrolló los componentes base del sistema VisualGuide. Los entregables principales fueron:
+
+### 1. Módulo de Linking Code (Backend Python + Frontend Flutter)
+- Implementación del servicio para autogenerar códigos de vinculación.
+- Creación del repositorio, servicio y endpoints en Flask, documentados en Swagger.
+- Integración con la app móvil: al presionar **Generate linking code**, el backend crea el código, lo guarda y se muestra en la interfaz.
+
+### 2. Base de datos inicial
+- Configuración de MySQL.
+- Creación de la tabla `links` con validación de unicidad por usuario y estado del link.
+
+### 3. Módulo inicial de IA por voz
+- Integración del reconocimiento de voz.
+- El usuario no vidente puede dar comandos como *"go to kitchen"* o *"go to room"*.
+
+### 4. Navegación por voz básica
+- Procesamiento de comandos y respuestas guiadas.
+- Flujo simple de movimiento entre lugares mediante interacción por voz.
+
+### 5. Configuración inicial de repositorios en GitHub
+- Conexión de backend y aplicación móvil a sus respectivos repos remotos.
+- Organización de ramas para desarrollo ordenado del proyecto.
+
+
 #### 7.2.1.1. Sprint Planning 1.
+
+
+| **Campo**                             | **Detalle**                                                                                                                                                                                      |
+|---------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Sprint #**                          | 1                                                                                                                                                                                                |
+| **Date**                              | 02/11/2025                                                                                                                                                                                       |
+| **Time**                              | 20:00                                                                                                                                                                                            |
+| **Location**                          | Reunión virtual vía Discord                                                                                                                                                                      |
+| **Prepared By**                       | Tony Ramos Najar                                                                                                                                                                                 |
+| **Attendees**                         | More Rondon Christopher Sebastian<br/>Perez Pizarro Pedro Jeremy<br/>Ramos Najar Tony Alexander<br/>Rodriguez Vargas Arian Martín                                                                 |
+| **Sprint n – 1 Review Summary**       | No aplica por ser el primer sprint del proyecto.                                                                                                                                                 |
+| **Sprint n – 1 Retrospective Summary**| No aplica por ser el primer sprint del proyecto.                                                                                                                                                 |
+| **Sprint Goal & User Stories**        | **Sprint 1 Goal:**<br/> Levantar la base funcional inicial del sistema VisualGuide, implementando los módulos esenciales asignados a cada integrante.<br/><br/>**User Stories Incluidas:**<br/>– AI Recognition (Arian)<br/>– Notifications & Preferences (Tony)<br/>– Home Configuration (Christopher)<br/>– Authenticator (Jeremy) |
+| **Sprint n Velocity**                 | **Sum of Story Points:** <br> 35 |
+
+
 #### 7.2.1.2. Sprint Backlog 1.
+
+En este Sprint Backlog, se completaron todas las historias de usuario base del proyecto VisualGuide, incluyendo reconocimiento de voz, configuración del hogar, autenticación y preferencias del usuario.
+
+<img src="./images/Chapter6/trellosprint1.png" alt="trello" width="auto">
+
+Link del trello: [https://trello.com/b/5p7QQbRp/sprint-1-visual-guide](https://trello.com/b/5p7QQbRp/sprint-1-visual-guide)
+
+| User Story ID | Title                                                | Work-Item/Task ID | Task Title                                     | Description                                                                                                                                                       | Estimation (hours) | Assigned To              | Status |
+|---------------|------------------------------------------------------|-------------------|------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------|---------------------------|--------|
+| US01          | Comandos de voz para rutas                           | TA01              | Implementación de comandos de voz             | Como usuario no vidente, quiero dar comandos de voz para solicitar rutas dentro del hogar, permitiendo navegación accesible sin interacción táctil.              | 8 horas            | Rodriguez Vargas Arian   | Done   |
+| US02          | Reconocimiento de voz del usuario                    | TA02              | Módulo de reconocimiento de voz               | Como usuario no vidente, quiero que el sistema reconozca mi voz para interpretar mis solicitudes y ejecutar acciones correctamente.                              | 6 horas            | Rodriguez Vargas Arian   | Done   |
+| US03          | Configuración de preferencias                        | TA03              | Implementar panel de preferencias             | Como usuario, quiero configurar mis preferencias dentro de VisualGuide, ajustando opciones según mis necesidades de accesibilidad.                               | 6 horas            | Ramos Najar Tony         | Done   |
+| US04          | Notificaciones del sistema                           | TA04              | Sistema de notificaciones                     | Como usuario, quiero recibir notificaciones relevantes del sistema, para estar informado de eventos o cambios mientras uso la aplicación.                        | 4 horas            | Ramos Najar Tony         | Done   |
+| US05          | Registrar ambientes del hogar                        | TA05              | Creación de módulo de ambientes               | Como usuario, quiero registrar ambientes del hogar (kitchen, room, hallway) para permitir la navegación interna por voz dentro de la vivienda.                     | 7 horas            | More Rondon Christopher  | Done   |
+| US06          | Editar configuración del hogar                       | TA06              | Editor de configuración del hogar             | Como usuario, quiero editar la configuración de mi casa para actualizar información sobre ambientes y rutas disponibles.                                          | 5 horas            | More Rondon Christopher  | Done   |
+| US07          | Registro de usuario                                  | TA07              | Implementar registro                          | Como usuario, quiero registrarme en VisualGuide para acceder a la aplicación con mis credenciales personales.                                                     | 4 horas            | Perez Pizarro Pedro      | Done   |
+| US08          | Inicio de sesión                                     | TA08              | Implementación de inicio de sesión            | Como usuario, quiero iniciar sesión correctamente, pudiendo acceder a mi información de forma segura.                                                             | 4 horas            | Perez Pizarro Pedro      | Done   |
+
+
 #### 7.2.1.3. Development Evidence for Sprint Review.
+
+La evidencia de desarrollo se sustenta en los commits registrados en los repositorios remotos del frontend (Flutter) y backend (Python). Estos commits muestran la implementación de las historias de usuario, actualizaciones de interfaces, creación de endpoints y correcciones realizadas durante el sprint.
+
+#### Front end Flutter:
+
+| Repository       | Branch | Commit Id | Commit Message                                                | Commit On    |
+|------------------|--------|-----------|----------------------------------------------------------------|--------------|
+|  mobile-application  | main   |  d48d293  |  first commit                | 19/10/2025  |
+|  mobile-application  | main   |  8722117  |  add(main): assets folder    |  19/10/2025 |
+|  mobile-application  | main   |  59389cd  |  update(docs): readme         |  19/10/2025  |
+|  mobile-application  | main   |  540cda2  |  feat: first view with the transcription panel             |  04/11/2025 |
+|  mobile-application  | main   |  1745ec8  |  add: added app settings model                 | 04/11/2025    |
+|  mobile-application  | main   |  8b0fddb  |  add: added settings service                        | 04/11/2025   |
+|  mobile-application  | main   |  9616b6c  |  feat: added settings app view                      | 04/11/2025   |
+|  mobile-application  | main   |  6df0a5d  |   feat: adding ai voice command                | 06/11/2025  |
+|  mobile-application  | main   |  4be86bf  |   update: auto-scrolling transcription panel                    |  06/11/2025   |
+|  mobile-application  | main   |  caa8944  |    update: ai recognition transcription                          | 09/11/2025  |
+|  mobile-application  | main   |  fa571c5  |   update: settings screen dynamic with preferences                    | 09/11/2025  |
+|  mobile-application  | main   |  db1078d  |   feat: agregar vistas de welcome y login                      | 11/11/2025  |
+|  mobile-application  | main   |  c61e02b  |   fix: ajustar tabs de login_camera                       | 11/11/2025  |
+|  mobile-application  | main   |  a31a935  |   ADD] Photo mapping saved in local storage             | 12/11/2025  |
+|  mobile-application  | main   |  c70af0d  | fix: ajustar vistas | 12//11/2025 |
+|  mobile-application  | main   |  440ae29  | feat: add auth service | 13/11/2025 |
+|  mobile-application  | main   |  b1c0f42  | fix: implement user registration | 13/11/2025 |
+|  mobile-application  | main   |  1d04f88  | fix: implement user login | 13/11/2025 |
+|  mobile-application  | main   |  939eae5  | Merge pull request #2 from SW-Emergentes-7295/iam | 13/11/2025 |
+|  mobile-application  | main   |  eaf2472  | Merge branch 'main' into home_configuration | 13/11/2025 |
+|  mobile-application  | main   |  0e1a03a  | Merge pull request #1 from SW-Emergentes-7295/home_configuration | 13/11/2025 |
+|  mobile-application  | main   |  eefc413  | Merge branch 'main' into ai-recognition | 13/11/2025 |
+|  mobile-application  | main   |  eefc413  | Merge pull request #3 from SW-Emergentes-7295/ai-recognition | 13/11/2025 |
+|  mobile-application  | main   |  aaea46c  | update: minor changes | 13/11/2025 |
+
+#### Back end Python:
+
+| Repository     | Branch | Commit Id | Commit Message                                         | Commit On       |
+|----------------|--------|-----------|--------------------------------------------------------|------------------|
+| web-services   | main   |    a103a63     | update: minor changes                                  | Nov 13, 2025     |
+| web-services   | main   | 71ab550         | Merge branch 'main'                                    | Nov 13, 2025     |
+| web-services   | main   | 81f7ccb         | feat: configuration preferences bc added               | Nov 13, 2025     |
+| web-services   | main   | 08e7965         | Merge pull request #1 from model                       | Nov 13, 2025     |
+| web-services   | main   | db93c5c        | update: requirements.txt                               | Nov 13, 2025     |
+| web-services   | main   | 79f319c        | feat: home configuration bc added                      | Nov 13, 2025     |
+| web-services   | main   | 8c710f2        | Merge pull request #4 from home_configuration          | Nov 13, 2025     |
+| web-services   | main   | 0a79605        | Merge branch 'main' into home_configuration            | Nov 13, 2025     |
+| web-services   | main   | fc6bcac        | update: iam bc added                                   | Nov 13, 2025     |
+| web-services   | main   | 336a85c        | Merge pull request #5 from iam                         | Nov 13, 2025     |
+| web-services   | main   | 3b9d922        | fix: added CORS                                        | Nov 13, 2025     |
+| web-services   | main   | f09fcfd       | feat: add endpoint of login user                       | Nov 13, 2025     |
+| web-services   | main   | 98ad144        | feat: agregar endpoints de registrar y listar usuarios | Nov 13, 2025     |
+| web-services   | main   | e0480a5        | feat: add mysql_user_repository                        | Nov 13, 2025     |
+| web-services   | main   | 3ccbaa9        | feat: add query for table users                        | Nov 13, 2025     |
+| web-services   | main   | 5c3ffba        | feat: added user model and repository                  | Nov 12, 2025     |
+| web-services   | main   | a03430f       | Revert "feat: added user domain"                       | Nov 12, 2025     |
+| web-services   | main   | b6bc076        | feat: added user domain                                | Nov 12, 2025     |
+| web-services   | main   | c3b4656        | [ADD] Many to many relationship rooms-paths            | Nov 10, 2025     |
+| web-services   | main   | e4226b4        | [FIX] Home id requisites for rooms and paths           | Nov 09, 2025     |
+| web-services   | main   | 38387ba        | [ADD] first version room and path controllers          | Nov 09, 2025     |
+| web-services   | main   | 2553f44       | [ADD] Home controller completed                        | Nov 08, 2025     |
+| web-services   | main   | 96f461e        | [ADD] structure for DDD                                | Nov 07, 2025     |
+| web-services   | main   | 537aecb       | update: requirements                                   | Nov 06, 2025     |
+| web-services   | main   | 54638c9        | feat: integrated gemini api                            | Nov 06, 2025     |
+| web-services   | main   | 0b55e96        | [ADD] first version of home configuration              | Nov 05, 2025     |
+| web-services   | main   | 95c55ca        | Add files via upload                                   | Oct 24, 2025     |
+| web-services   | main   | 70551ba        | update(requirements): new requirements                 | Oct 19, 2025     |
+| web-services   | main   | 33a9a0a        | add(base): added template ddd                          | Oct 2025         |
+| web-services   | main   | 01b5799        | add(requirements): added requirements.txt              | Oct 2025         |
+| web-services   | main   | 67572ac        | first commit                                           | Oct 2025         |
+| web-services   | main   | fb8a54c        | Initial commit                                         | Oct 2025         |
+
+
 #### 7.2.1.4. Testing Suite Evidence for Sprint Review.
 
 [Repositorio de Testing](https://github.com/SW-Emergentes-7295/VisualGuide-Testing)
