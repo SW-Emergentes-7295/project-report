@@ -33,7 +33,7 @@
 
 <div style="page-break-after: always;"></div>
 
-# Registro de Versiones del Informe
+## Registro de Versiones del Informe
 
 <table>
   <thead>
@@ -45,7 +45,6 @@
     </tr>
   </thead>
   <tbody>
-    <!-- V1 -->
     <tr>
       <td rowspan="4">V1</td>
       <td>20/09/2025</td>
@@ -159,8 +158,64 @@
         </ul>
       </td>
     </tr>
+    <tr>
+      <td rowspan="4">V3</td>
+      <td>15/11/2025</td>
+      <td>More Rondon, Christopher Sebastian</td>
+      <td>
+        <ul>
+          <li>Desarrollo Aplicación Móvil y Web Services</li>
+          <li>Testing Suite Evidence for Sprint Review</li>
+          <li>Execution Evidence for Sprint Review</li>
+          <li>Registro de entrevista</li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td>15/11/2025</td>
+      <td>Ramos Najar, Tony Alexander</td>
+      <td>
+        <ul>
+          <li>Desarrollo Aplicación Móvil y Web Services</li>
+          <li>Sprint 1</li>
+          <li>Sprint Planning y Backlog 1</li>
+          <li>Development Evidence for Sprint Review</li>
+          <li>Registro de entrevista</li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td>15/11/2025</td>
+      <td>Perez Pizarro, Pedro Jeremy</td>
+      <td>
+        <ul>
+          <li>Desarrollo Aplicación Móvil y Web Services</li>
+          <li>Software Configuration Management</li>
+          <li>Software Development Environment Configuration</li>
+          <li>Software Code Management</li>
+          <li>Registro de entrevista</li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td>15/11/2025</td>
+      <td>Arian Martín Rodriguez Vargas</td>
+      <td>
+        <ul>
+          <li>Desarrollo Aplicación Móvil y Web Services</li>
+          <li>Services Documentation</li>
+          <li>Evidence for Sprint Review</li>
+          <li>Software Deployment Evidence</li>
+          <li>Team Collaborations Insights</li>
+          <li>Registro de entrevista</li>
+          <li>Video About the Product</li>
+          <li>Mockups y Prototyping</li>
+        </ul>
+      </td>
+    </tr>
   </tbody>
 </table>
+
 
 
 # Project Report Collaboration Insights
@@ -201,6 +256,22 @@ La entrega TP finalizó con éxito y están documentadas en el siguiente reposit
 
 Imagen 2: Gráfico general de commits y contribuciones hechas por cada miembros del equipo de VisualGuide. Incluye tambien los pull requests activos y aceptados.
 <img src="./images/network-graph-tp.PNG " alt="Gráfico de contribuciones del equipo" width="800">
+
+
+<br>
+
+**TB2**
+La entrega TB2 finalizó con éxito y están documentadas en el siguiente repositorio de Github perteneciente a la organización del equipo: https://github.com/SW-Emergentes-7295/project-report Durante el desarrollo del informe se tuvieron en cuenta los siguientes aspectos:
+
+- Se definieron las actividades de configuración del entorno de desarrollo y despliegue.
+- Se establecieron las convenciones de estilo para el código fuente.
+- Se documentaron las actividades de implementación del producto durante el sprint 1.
+- Se diseñaron y registraron las entrevistas de validación con usuarios.
+- Se realizaron evaluaciones heurísticas de la solución implementada.
+- Se documentaron todas las actividades y hallazgos en el repositorio de Github.
+Imagen 3: Gráfico general de commits y contribuciones hechas por cada miembros del equipo de VisualGuide. Incluye tambien los pull requests activos y aceptados.
+
+<img src="./images/pulse-tb2.PNG " alt="Gráfico de contribuciones del equipo" width="800">
 
 # Contenido
 
@@ -279,6 +350,29 @@ Imagen 2: Gráfico general de commits y contribuciones hechas por cada miembros 
     * [6.4. Applications UX/UI Design](#64-applications-uxui-design)
       + [6.4.1. Applications Wireframes](#641-applications-wireframes)
       + [6.4.2. Applications Wireflow Diagrams](#642-applications-wireflow-diagrams)  
+      + [6.4.3. Applications Mock-ups.](#643-applications-mock-ups)
+      + [6.4.4. Applications User Flow Diagrams.](#644-applications-user-flow-diagrams)
+    * [6.5. Applications Prototyping.](#65-applications-prototyping)
+- [Capítulo VII: Product Implementation, Validation & Deployment](#capítulo-vii-product-implementation-validation--deployment)
+    * [7.1. Software Configuration Management.](#71-software-configuration-management)
+      + [7.1.1. Software Development Environment Configuration.](#711-software-development-environment-configuration)
+      + [7.1.2. Source Code Management.](#712-source-code-management)
+      + [7.1.3. Source Code Style Guide & Conventions.](#713-source-code-style-guide--conventions)
+      + [7.1.4. Software Deployment Configuration.](#714-software-deployment-configuration)
+    * [7.2. Solution Implementation.](#72-solution-implementation)
+      + [7.2.1. Sprint 1](#721-sprint-1)
+         - [7.2.1.1. Sprint Planning 1.](#7211-sprint-planning-1)
+         - [7.2.1.2. Sprint Backlog 1.](#7212-sprint-backlog-1)
+         - [7.2.1.3. Development Evidence for Sprint Review.](#7213-development-evidence-for-sprint-review)
+         - [7.2.1.4. Testing Suite Evidence for Sprint Review.](#7214-testing-suite-evidence-for-sprint-review)
+         - [7.2.1.5. Execution Evidence for Sprint Review.](#7215-execution-evidence-for-sprint-review)
+         - [7.2.1.6. Services Documentation Evidence for Sprint Review.](#7216-services-documentation-evidence-for-sprint-review)
+         - [7.2.1.7. Software Deployment Evidence for Sprint Review.](#7217-software-deployment-evidence-for-sprint-review)
+         - [7.2.1.8. Team Collaboration Insights during Sprint.](#7218-team-collaboration-insights-during-sprint)
+    * [7.3. Validation Interviews.](#73-validation-interviews)
+      + [7.3.1. Diseño de Entrevistas.](#731-diseño-de-entrevistas)
+      + [7.3.2. Registro de Entrevistas.](#732-registro-de-entrevistas)
+      + [7.3.3. Evaluaciones según heurísticas.](#733-evaluaciones-según-heurísticas)
 - [Conclusiones](#conclusiones)
 - [Referencias](#referencias)
 
@@ -311,10 +405,15 @@ del ABET – EAC - Student Outcome 3.
         <p><b>TP - Perez Pizarro, Pedro Jeremy:</b> Expliqué resultados usando ejemplos prácticos, lo que me permitió transmitir confianza y mejorar mi capacidad de comunicación oral en ingeniería.</p>
         <p><b>TP - Ramos Najar, Tony Alexander:</b> Defendí argumentos técnicos con fundamentos sólidos, desarrollando competencias para comunicarme con mayor seguridad en contextos profesionales.</p>
         <p><b>TP - Rodriguez Vargas, Arian Martín:</b> Lideré parte de la exposición final del trabajo, fortaleciendo mi habilidad de síntesis y persuasión en entornos académicos y de ingeniería.</p>
+        <p><b>TB2 - More Rondon, Christopher Sebastian:</b> Guié una parte de la presentación con mayor precisión técnica, demostrando soltura al responder preguntas especializadas del público.</p>
+        <p><b>TB2 - Perez Pizarro, Pedro Jeremy:</b> Expuse resultados con un discurso más estructurado, fortaleciendo mi habilidad para comunicar ideas complejas con claridad y seguridad.</p>
+        <p><b>TB2 - Ramos Najar, Tony Alexander:</b> Aporté explicaciones técnicas detalladas durante la exposición, aumentando mi confianza para comunicar avances de ingeniería a públicos diversos.</p>
+        <p><b>TB2 - Rodriguez Vargas, Arian Martín:</b> Coordiné la narrativa general de la presentación, reforzando mi liderazgo comunicacional y mi capacidad de dirigir exposiciones técnicas.</p>
       </td>
       <td>
         <p><b>TB1:</b> Como equipo demostramos nuestra capacidad de comunicar oralmente ideas y resultados de manera objetiva, alcanzando un nivel de claridad y efectividad aplicable en nuestra futura carrera profesional.</p>
         <p><b>TP:</b> Como equipo demostramos un progreso significativo en la comunicación oral, transmitiendo resultados de manera clara y profesional, lo que evidencia nuestra preparación para presentaciones en el ámbito laboral.</p>
+        <p><b>TB2:</b> Como equipo fortalecimos aún más nuestra comunicación oral, demostrando mayor dominio técnico, cohesión y claridad, lo que evidencia nuestro crecimiento continuo en la presentación de proyectos de ingeniería ante diferentes públicos.</p>
       </td>
     </tr>
     <tr>
@@ -328,10 +427,15 @@ del ABET – EAC - Student Outcome 3.
         <p><b>TP - Perez Pizarro, Pedro Jeremy:</b> Elaboré resúmenes ejecutivos claros, fortaleciendo mi habilidad de transmitir información relevante de forma concisa a distintos públicos.</p>
         <p><b>TP - Ramos Najar, Tony Alexander:</b> Contribuí con análisis escritos bien fundamentados, lo que mejorará mi desempeño en la elaboración de documentación profesional.</p>
         <p><b>TP - Rodriguez Vargas, Arian Martín:</b> Desarrollé reportes con terminología técnica adecuada, reforzando mi competencia en redacción académica y profesional.</p>
+        <p><b>TB2 - More Rondon, Christopher Sebastian:</b> Redacté documentación con mayor profundidad técnica, fortaleciendo mi capacidad para elaborar informes formales y detallados.</p>
+        <p><b>TB2 - Perez Pizarro, Pedro Jeremy:</b> Elaboré textos con un enfoque más analítico, mejorando mi habilidad para dirigir informes a públicos con conocimientos especializados.</p>
+        <p><b>TB2 - Ramos Najar, Tony Alexander:</b> Aporté secciones clave del informe integrando datos y conclusiones de manera coherente, reforzando mi habilidad de análisis escrito.</p>
+        <p><b>TB2 - Rodriguez Vargas, Arian Martín:</b> Organicé y consolidé la versión final del documento, demostrando capacidad para producir reportes técnicos completos y de alta calidad.</p>
       </td>
       <td>
         <p><b>TB1:</b> Como equipo alcanzamos una comunicación escrita objetiva y clara, adaptada a diversos niveles jerárquicos y especialidades, consolidando una competencia esencial en nuestra formación y ejercicio profesional.</p>
         <p><b>TP:</b> Como equipo consolidamos una comunicación escrita clara y adaptada a diferentes audiencias, lo que demuestra nuestra preparación para la generación de documentación técnica en el ejercicio profesional.</p>
+        <p><b>TB2:</b> Como equipo mejoramos notablemente la calidad de nuestra comunicación escrita, elaborando documentos más completos, estructurados y alineados con estándares profesionales en ingeniería.</p>
       </td>
     </tr>
   </tbody>
@@ -3041,29 +3145,511 @@ En este flujo se demuestra la configuración de preferencias del usuario, donde 
 <img src="./images/ui-ux-design/Frame 3570.png" alt="Wireflow Diagram" width="auto" style="display: block; margin-left: auto; margin-right: auto;"/>
 En este flujo se demuestra el historial de recorridos anteriores del usuario, donde puede revisar sus actividades pasadas y detalles de cada recorrido.
 
-### 6.4.2. Applications Mock-ups.
-### 6.4.3. Applications User Flow Diagrams.
+### 6.4.3. Applications Mock-ups.
+
+Para el diseño de nuestra aplicación móvil "VisualGuide", hemos creado una serie de mock-ups que ilustran la interfaz de usuario y la experiencia de navegación dentro de la aplicación. Estos mock-ups fueron diseñados para asegurar que la aplicación sea intuitiva, accesible y funcional para personas no videntes.
+
+Link del Figma: [https://www.figma.com/design/iCmpJKu6xZ0wFe0REBihaq/Software-Emergentes?node-id=0-1&t=g8sCdk55WlGJdvJy-1](https://www.figma.com/design/iCmpJKu6xZ0wFe0REBihaq/Software-Emergentes?node-id=0-1&t=g8sCdk55WlGJdvJy-1)
+
+
+En la siguiente figura se muestra el mockup de la pantalla de inicio de la aplicación, donde el usuario puede iniciar sesión mediante reconocimiento facial o correo electrónico y contraseña.
+<img src="./images/mockups/1.PNG" alt="Mockup 1" width="auto" style="display: block; margin-left: auto; margin-right: auto;"/>
+
+<br><br>
+En la siguiente figura se muestra el mockup de la pantalla principal de la aplicación, donde el usuario puede iniciar el mapeo de su hogar con el botón "Start Home Mapping".
+<img src="./images/mockups/4.PNG" alt="Mockup 2" width="auto" style="display: block; margin-left: auto; margin-right: auto;"/>
+
+<br><br>
+En la siguiente figura se muestra el mockup de la pantalla de mapeo del hogar, donde el usuario puede seguir las instrucciones por voz para mapear su entorno, así como la pantalla de reconocimiento de objetos, donde el usuario puede solicitar el reconocimiento de un objeto en su entorno y recibir instrucciones de guía por parte de la inteligencia artificial.
+<img src="./images/mockups/6.PNG" alt="Mockup 3" width="auto" style="display: block; margin-left: auto; margin-right: auto;"/>
+
+<br><br>
+En la siguiente figura se muestra el mockup de la pantalla de configuración de preferencias del usuario, donde puede ajustar las opciones de la aplicación según sus necesidades, así como la vinculación con un cuidador o familiar.
+<img src="./images/mockups/2.PNG" alt="Mockup 4" width="auto" style="display: block; margin-left: auto; margin-right: auto;"/>
+
+<img src="./images/mockups/3.PNG" alt="Mockup 5" width="auto" style="display: block; margin-left: auto; margin-right: auto;"/>
+<br><br>
+
+### 6.4.4. Applications User Flow Diagrams.
+
+A continuación, se presentan los diagramas de flujo de usuario (User Flow Diagrams) de la aplicación móvil "VisualGuide", diseñada para asistir a personas no videntes en la navegación segura dentro de sus hogares mediante el uso de inteligencia artificial y reconocimiento de objetos.
+
+En este flujo se demuestra las diferentes rutas del inicio de sesión, ya sea por reconocimiento facial o por email y contraseña.
+<img src="./images/mockups/flow-1.png" alt="User Flow Diagram 1" width="auto" style="display: block; margin-left: auto; margin-right: auto;"/>
+<br><br>
+
+En este flujo se demuestra el mapeo del hogar, donde el usuario puede seguir las instrucciones por voz para mapear su entorno.
+<img src="./images/mockups/flow-2.png" alt="User Flow Diagram 2" width="auto" style="display: block; margin-left: auto; margin-right: auto;"/>
+
+<br><br>
+En este flujo se demuestra el reconocimiento de objetos, donde el usuario puede solicitar el reconocimiento de un objeto en su entorno y recibir instrucciones de guía.
+<img src="./images/mockups/flow-3.png" alt="User Flow Diagram 3" width="auto" style="display: block; margin-left: auto; margin-right: auto;"/>
+<br><br>
+
+En este flujo se demuestra la configuración de preferencias del usuario, donde puede ajustar las opciones de la aplicación según sus necesidades. Además de la vinculación con un cuidador o familiar.
+<img src="./images/mockups/flow-4.png" alt="User Flow Diagram 4" width="auto" style="display: block; margin-left: auto; margin-right: auto;"/>
+
+<br><br>
+
+En este flujo se demuestra el historial de recorridos anteriores del usuario, donde puede revisar sus actividades pasadas y detalles de cada recorrido.
+<img src="./images/mockups/flow-5.png" alt="User Flow Diagram 5" width="auto" style="display: block; margin-left: auto; margin-right: auto;"/>
+<br><br>
 
 ## 6.5. Applications Prototyping.
+
+En esta sección se presentan los prototipos interactivos de la aplicación móvil "VisualGuide", diseñada para asistir a personas no videntes en la navegación segura dentro de sus hogares mediante el uso de inteligencia artificial y reconocimiento de objetos.
+
+Link del Prototipo: [https://www.figma.com/proto/iCmpJKu6xZ0wFe0REBihaq/Software-Emergentes?node-id=71-192&p=f&t=5fBWU08RGbwZlF6b-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=71%3A192&show-proto-sidebar=1](https://www.figma.com/proto/iCmpJKu6xZ0wFe0REBihaq/Software-Emergentes?node-id=71-192&p=f&t=5fBWU08RGbwZlF6b-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=71%3A192&show-proto-sidebar=1)
+
+<img src="./images/mockups/prototype.PNG" alt="Prototype 1" width="auto" style="display: block; margin-left: auto; margin-right: auto;"/>
 
 
 # Capítulo VII: Product Implementation, Validation & Deployment
 ## 7.1. Software Configuration Management.
 ### 7.1.1. Software Development Environment Configuration.
+
+Este apartado detalla los productos de software necesarios para colaborar en el ciclo de vida de los productos digitales en el proyecto de IoT. Incluye nombres de productos, su propósito en el proyecto y las rutas de referencia/descarga para acceder a ellos.
+
+**Visual Studio Code**
+
+> Este editor de código será utilizado para desarrollar la landing page y el aplicativo móvil. Flutter se empleará para el aplicativo.
+
+Link: https://code.visualstudio.com/download
+
+**Github**
+
+> Esta plataforma será utilizada para gestionar el control de versiones de todos nuestros repositorios.
+
+Link: https://github.com/
+
+**Figma**
+
+> Esta herramienta se emplea para la creación de prototipos de nuestras aplicaciones web y móviles.
+
+Link: https://www.figma.com/
+
+**Netlify**
+
+> Contribuirá al despliegue de las aplicaciones frontend.
+
+Link: https://www.netlify.com/
+
+**AWS**
+
+> Será utilizado para desplegar el servicio backend.
+
+Link: https://aws.amazon.com/es/
+
+**Miro**
+
+> Se utiliza para realizar sesiones de lluvia de ideas y para secciones específicas del informe, como el escenario actual y el escenario deseado.
+
+Link: https://miro.com/es/
+
+**Lucidchart**
+
+> Se utiliza para la creación de diagramas de clases y diagramas de bases de datos.
+
+Link: https://www.lucidchart.com/pages
+
+**Visual Paradigm**
+
+> Se emplea para diagramar la arquitectura de software de nuestro proyecto.
+
+Link: https://www.visual-paradigm.com/
+
 ### 7.1.2. Source Code Management.
+
+**Landing Page**
+
+![](./images/landing-page/landing-page-desplegada.PNG)
+
+Link: https://sw-emergentes-7295.github.io/landing-page/
+
+**Web Services**
+
+![](./images/github/web-services-img.PNG)
+
+Link: https://github.com/SW-Emergentes-7295/web-services
+
+**Mobile Application**
+
+![](./images/github/web-services-img.png)
+
+Link: https://github.com/SW-Emergentes-7295/mobile-application
+
+----
+
+**Convenciones de GitHub**
+
+The main branch:
+
+El modelo de desarrollo se basa en prácticas establecidas. El repositorio central contiene dos ramas principales con una vida útil indefinida:
+
+main: Esta rama es conocida por todos los usuarios de Git. Representa un estado listo para producción.
+develop: Paralelamente a la rama main, la rama develop alberga los cambios de desarrollo más recientes para la próxima versión. Actúa como la rama de integración y es donde se generan las compilaciones automáticas nocturnas.
+Cuando el código en la rama develop se estabiliza y está listo para ser lanzado, todos los cambios se fusionan de nuevo en main y se etiquetan con un número de versión. Esto asegura que cada fusión en main constituya un nuevo lanzamiento de producción, facilitando la automatización potencial de la implementación de software.
+
 ### 7.1.3. Source Code Style Guide & Conventions.
+
+Como convención general, todo el código realizado por los miembros del equipo debe redactarse en
+completo inglés.
+
+**HTML**
+
+Use Lowercase Element Names: Se recomienda usar lowercase para los nombres de los elementos HTML.
+
+Close All HTML Elements: Se recomienda cerrar todos los elementos HTML.
+
+Use Lowercase Attribute Names: Se recomienda usar lowercase para los nombres de los atributos HTML.
+
+Always Specify alt, width, and height for Images: Se recomienda seguir estas convenciones en caso de que la imagen no se puede mostrar y ayudar con la accesibilidad del contenido.
+
+Spaces and Equal Signs: Se recomienda no usar espacios en blanco entre las entidades para una mejor lectura.
+
+Para más información sobre las convenciones de HTML se usará como referencia:
+https://www.w3schools.com/html/html5_syntax.asp
+
+**CSS**
+
+ID and Class Naming: Usar nombres de clases e ID significativos que expresen el propósito del elemento.
+
+ID and Class Name Style: Usar nombres cortos para nombrar ID o clases, pero lo suficientemente largo para saber cuál es su
+propósito.
+
+Shorthand Properties: Usar CSS shothand properties tanto como sea posible para que el código sea más eficiente y entendible.
+
+ID and Class Name Delimiters: Separar las palabras en ID y clases con un guión.
+
+Selector and Declaration Separation: Separar los selectores y declaraciones en nuevas líneas.
+
+Para más información sobre las convenciones de CSS se usará como referencia:
+https://google.github.io/styleguide/htmlcssguide.html#CSS
+
+**JavaScript**
+
+Use expanded syntax: Cada línea de JavaScript en una nueva línea, con la llave de apertura en la misma línea de su
+declaración y la llave de cierre en una nueva línea al final.
+
+Variable naming: Para el nombre de las variables usar lowerCamelCase.
+
+Declaring variables: Para la declaración de variables usar las palabras reservadas let y const, no usar var.
+
+Use strict equality: Siempre usar la igualdad o inigualdad estricta.
+
+Function naming: Para el nombre de las funciones usar lowerCamelCase.
+
+Para más información sobre las convenciones de JavaScript se usará como referencia:
+https://www.w3schools.com/js/js_conventions.asp
+
+**TypeScript**
+
+Camel case: Usar camelCase cuando nombramos variables y funciones. También se debe usar camelCase en los miembros de una clase y sus métodos. En la interface, el camelCase se usa para nombrar miembros.
+
+Pascal case: Usar pascal case para nombres de clases. En la interface, sirve para nombres.
+
+Para más información sobre las convenciones de TypeScript se usará como referencia:
+https://basarat.gitbook.io/typescript/styleguide#array
+
+**Gherkin**
+
+Discernible Given-When-Then Blocks: Se recomienda aplicar sangría a los bloques, para saber cuándo iniciar y terminan.
+
+![](./images/code-style-guidelines/Discernible%20Given-When-Then%20Blocks.png)
+
+Steps with Tables: Si necesitamos entrada de una tabla en nuestros pasos, para que sea reconocible, añadiremos dos puntos al final del paso.
+
+![](./images/code-style-guidelines/Steps%20with%20Tables.png)
+
+Reducing Noise: Se recomienda usar valores predeterminados para campos que requiere el software pero que no son relevantes para el escenario.
+
+![](./images/code-style-guidelines/Reducing%20Noise.png)
+ 
+Parameters in Steps: Para el ejemplo anterior, se pudo notar la inclusión de comillas simples para los parámetros en un paso, lo cual facilita la detección de estos.
+
+Newlines within Scenarios: En caso de que el escenario se está alargando, es recomendable agregar nuevas líneas entre cada paso para que los bloques sean más legibles.
+
+![](./images/code-style-guidelines/Newlines%20within%20Scenarios.png)
+ 
+Newlines between scenarios and separator comments: Cuando se tienen muchos escenarios, se vuelve difícil saber el punto donde inicia o termina otro. Por ello, se recomiendo agregar una línea de separación entre escenario y un separador de comentarios.
+
+![](./images/code-style-guidelines/Newlines%20between%20scenarios%20and%20separator%20comments.png)
+
 ### 7.1.4. Software Deployment Configuration.
 
+En esta sección, se detalla la configuración necesaria para llevar a cabo el despliegue satisfactorio de cada uno de los productos digitales en la solución, utilizando herramientas específicas para cada uno de ellos.
+
+**Despliegue de la Landing Page y la Aplicación Móvil**
+
+Para el despliegue de la Landing Page y la Aplicación Móvil, se utilizará la plataforma Firebase y Github. A continuación, se detallan los pasos necesarios:
+
+- Configuración del Repositorio: El código fuente de la Landing Page y la Aplicación Móvil se almacenará en un repositorio en la plataforma Github.
+- Instalación de Herramientas: Asegúrate de tener la CLI de Firebase instalada y haber iniciado sesión con tu cuenta
+- Inicialización de Firebase: Ejecuta el proceso de inicialización en el proyecto Flutter, vinculándolo al proyecto de Firebase deseado y configurando Hosting.
+- Despliegue Final: Ejecuta el comando de despliegue para subir el contenido de la carpeta de compilación a Firebase Hosting.
+
+
+**Despliegue del Web Service**
+
+Para el despliegue del Web Service, se utilizará la plataforma AWS. A continuación, se detallan los pasos necesarios:
+
+- Configuración del Repositorio: El código fuente de la aplicación Django debe almacenarse en un repositorio, usualmente en GitHub, e incluir archivos clave como requirements.txt (con dependencias) y un archivo Procfile (para definir el comando de inicio del servidor, como Gunicorn).
+- Preparación de AWS CLI: Instala y configura la CLI de AWS en tu máquina local para interactuar con los servicios de Amazon.
+- Creación del Entorno Elastic Beanstalk (EB): Utiliza la CLI de AWS o la consola para crear un nuevo entorno en Elastic Beanstalk (EB), seleccionando el tipo de entorno Python (que es ideal para Django). EB maneja la provisión de servidores (EC2), balanceadores de carga y autoescalado.
+- Configuración de Base de Datos: Crea una instancia de base de datos relacional separada, como Amazon RDS (PostgreSQL o MySQL), y configura el servicio Django en EB para que se conecte a ella.
+- Despliegue: Desde tu máquina local, utiliza la CLI de EB para subir tu código de Django (el contenido del repositorio) al entorno de Elastic Beanstalk. EB se encarga de instalar las dependencias, ejecutar la migración de la base de datos y arrancar el servidor web (Gunicorn/uWSGI).
+- Monitoreo y Escalado: AWS proporciona Amazon CloudWatch para monitorear métricas de rendimiento y salud de la aplicación. Elastic Beanstalk maneja automáticamente el escalado horizontal (añadiendo más instancias EC2) según la carga, asegurando un funcionamiento óptimo.
+
 ## 7.2. Solution Implementation.
-### 7.2.1. Sprint 1
+## 7.2.1. Sprint 1
+
+Durante el primer sprint, el equipo desarrolló los componentes base del sistema VisualGuide. Los entregables principales fueron:
+
+### 1. Módulo de Linking Code (Backend Python + Frontend Flutter)
+- Implementación del servicio para autogenerar códigos de vinculación.
+- Creación del repositorio, servicio y endpoints en Flask, documentados en Swagger.
+- Integración con la app móvil: al presionar **Generate linking code**, el backend crea el código, lo guarda y se muestra en la interfaz.
+
+### 2. Base de datos inicial
+- Configuración de MySQL.
+- Creación de la tabla `links` con validación de unicidad por usuario y estado del link.
+
+### 3. Módulo inicial de IA por voz
+- Integración del reconocimiento de voz.
+- El usuario no vidente puede dar comandos como *"go to kitchen"* o *"go to room"*.
+
+### 4. Navegación por voz básica
+- Procesamiento de comandos y respuestas guiadas.
+- Flujo simple de movimiento entre lugares mediante interacción por voz.
+
+### 5. Configuración inicial de repositorios en GitHub
+- Conexión de backend y aplicación móvil a sus respectivos repos remotos.
+- Organización de ramas para desarrollo ordenado del proyecto.
+
+
 #### 7.2.1.1. Sprint Planning 1.
+
+
+| **Campo**                             | **Detalle**                                                                                                                                                                                      |
+|---------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Sprint #**                          | 1                                                                                                                                                                                                |
+| **Date**                              | 02/11/2025                                                                                                                                                                                       |
+| **Time**                              | 20:00                                                                                                                                                                                            |
+| **Location**                          | Reunión virtual vía Discord                                                                                                                                                                      |
+| **Prepared By**                       | Tony Ramos Najar                                                                                                                                                                                 |
+| **Attendees**                         | More Rondon Christopher Sebastian<br/>Perez Pizarro Pedro Jeremy<br/>Ramos Najar Tony Alexander<br/>Rodriguez Vargas Arian Martín                                                                 |
+| **Sprint n – 1 Review Summary**       | No aplica por ser el primer sprint del proyecto.                                                                                                                                                 |
+| **Sprint n – 1 Retrospective Summary**| No aplica por ser el primer sprint del proyecto.                                                                                                                                                 |
+| **Sprint Goal & User Stories**        | **Sprint 1 Goal:**<br/> Levantar la base funcional inicial del sistema VisualGuide, implementando los módulos esenciales asignados a cada integrante.<br/><br/>**User Stories Incluidas:**<br/>– AI Recognition (Arian)<br/>– Notifications & Preferences (Tony)<br/>– Home Configuration (Christopher)<br/>– Authenticator (Jeremy) |
+| **Sprint n Velocity**                 | **Sum of Story Points:** <br> 35 |
+
+
 #### 7.2.1.2. Sprint Backlog 1.
+
+En este Sprint Backlog, se completaron todas las historias de usuario base del proyecto VisualGuide, incluyendo reconocimiento de voz, configuración del hogar, autenticación y preferencias del usuario.
+
+<img src="./images/Chapter6/trellosprint1.png" alt="trello" width="auto">
+
+Link del trello: [https://trello.com/b/5p7QQbRp/sprint-1-visual-guide](https://trello.com/b/5p7QQbRp/sprint-1-visual-guide)
+
+| User Story ID | Title                                                | Work-Item/Task ID | Task Title                                     | Description                                                                                                                                                       | Estimation (hours) | Assigned To              | Status |
+|---------------|------------------------------------------------------|-------------------|------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------|---------------------------|--------|
+| US01          | Comandos de voz para rutas                           | TA01              | Implementación de comandos de voz             | Como usuario no vidente, quiero dar comandos de voz para solicitar rutas dentro del hogar, permitiendo navegación accesible sin interacción táctil.              | 8 horas            | Rodriguez Vargas Arian   | Done   |
+| US02          | Reconocimiento de voz del usuario                    | TA02              | Módulo de reconocimiento de voz               | Como usuario no vidente, quiero que el sistema reconozca mi voz para interpretar mis solicitudes y ejecutar acciones correctamente.                              | 6 horas            | Rodriguez Vargas Arian   | Done   |
+| US03          | Configuración de preferencias                        | TA03              | Implementar panel de preferencias             | Como usuario, quiero configurar mis preferencias dentro de VisualGuide, ajustando opciones según mis necesidades de accesibilidad.                               | 6 horas            | Ramos Najar Tony         | Done   |
+| US04          | Notificaciones del sistema                           | TA04              | Sistema de notificaciones                     | Como usuario, quiero recibir notificaciones relevantes del sistema, para estar informado de eventos o cambios mientras uso la aplicación.                        | 4 horas            | Ramos Najar Tony         | Done   |
+| US05          | Registrar ambientes del hogar                        | TA05              | Creación de módulo de ambientes               | Como usuario, quiero registrar ambientes del hogar (kitchen, room, hallway) para permitir la navegación interna por voz dentro de la vivienda.                     | 7 horas            | More Rondon Christopher  | Done   |
+| US06          | Editar configuración del hogar                       | TA06              | Editor de configuración del hogar             | Como usuario, quiero editar la configuración de mi casa para actualizar información sobre ambientes y rutas disponibles.                                          | 5 horas            | More Rondon Christopher  | Done   |
+| US07          | Registro de usuario                                  | TA07              | Implementar registro                          | Como usuario, quiero registrarme en VisualGuide para acceder a la aplicación con mis credenciales personales.                                                     | 4 horas            | Perez Pizarro Pedro      | Done   |
+| US08          | Inicio de sesión                                     | TA08              | Implementación de inicio de sesión            | Como usuario, quiero iniciar sesión correctamente, pudiendo acceder a mi información de forma segura.                                                             | 4 horas            | Perez Pizarro Pedro      | Done   |
+
+
 #### 7.2.1.3. Development Evidence for Sprint Review.
+
+La evidencia de desarrollo se sustenta en los commits registrados en los repositorios remotos del frontend (Flutter) y backend (Python). Estos commits muestran la implementación de las historias de usuario, actualizaciones de interfaces, creación de endpoints y correcciones realizadas durante el sprint.
+
+#### Front end Flutter:
+
+| Repository       | Branch | Commit Id | Commit Message                                                | Commit On    |
+|------------------|--------|-----------|----------------------------------------------------------------|--------------|
+|  mobile-application  | main   |  d48d293  |  first commit                | 19/10/2025  |
+|  mobile-application  | main   |  8722117  |  add(main): assets folder    |  19/10/2025 |
+|  mobile-application  | main   |  59389cd  |  update(docs): readme         |  19/10/2025  |
+|  mobile-application  | main   |  540cda2  |  feat: first view with the transcription panel             |  04/11/2025 |
+|  mobile-application  | main   |  1745ec8  |  add: added app settings model                 | 04/11/2025    |
+|  mobile-application  | main   |  8b0fddb  |  add: added settings service                        | 04/11/2025   |
+|  mobile-application  | main   |  9616b6c  |  feat: added settings app view                      | 04/11/2025   |
+|  mobile-application  | main   |  6df0a5d  |   feat: adding ai voice command                | 06/11/2025  |
+|  mobile-application  | main   |  4be86bf  |   update: auto-scrolling transcription panel                    |  06/11/2025   |
+|  mobile-application  | main   |  caa8944  |    update: ai recognition transcription                          | 09/11/2025  |
+|  mobile-application  | main   |  fa571c5  |   update: settings screen dynamic with preferences                    | 09/11/2025  |
+|  mobile-application  | main   |  db1078d  |   feat: agregar vistas de welcome y login                      | 11/11/2025  |
+|  mobile-application  | main   |  c61e02b  |   fix: ajustar tabs de login_camera                       | 11/11/2025  |
+|  mobile-application  | main   |  a31a935  |   ADD] Photo mapping saved in local storage             | 12/11/2025  |
+|  mobile-application  | main   |  c70af0d  | fix: ajustar vistas | 12//11/2025 |
+|  mobile-application  | main   |  440ae29  | feat: add auth service | 13/11/2025 |
+|  mobile-application  | main   |  b1c0f42  | fix: implement user registration | 13/11/2025 |
+|  mobile-application  | main   |  1d04f88  | fix: implement user login | 13/11/2025 |
+|  mobile-application  | main   |  939eae5  | Merge pull request #2 from SW-Emergentes-7295/iam | 13/11/2025 |
+|  mobile-application  | main   |  eaf2472  | Merge branch 'main' into home_configuration | 13/11/2025 |
+|  mobile-application  | main   |  0e1a03a  | Merge pull request #1 from SW-Emergentes-7295/home_configuration | 13/11/2025 |
+|  mobile-application  | main   |  eefc413  | Merge branch 'main' into ai-recognition | 13/11/2025 |
+|  mobile-application  | main   |  eefc413  | Merge pull request #3 from SW-Emergentes-7295/ai-recognition | 13/11/2025 |
+|  mobile-application  | main   |  aaea46c  | update: minor changes | 13/11/2025 |
+
+#### Back end Python:
+
+| Repository     | Branch | Commit Id | Commit Message                                         | Commit On       |
+|----------------|--------|-----------|--------------------------------------------------------|------------------|
+| web-services   | main   |    a103a63     | update: minor changes                                  | Nov 13, 2025     |
+| web-services   | main   | 71ab550         | Merge branch 'main'                                    | Nov 13, 2025     |
+| web-services   | main   | 81f7ccb         | feat: configuration preferences bc added               | Nov 13, 2025     |
+| web-services   | main   | 08e7965         | Merge pull request #1 from model                       | Nov 13, 2025     |
+| web-services   | main   | db93c5c        | update: requirements.txt                               | Nov 13, 2025     |
+| web-services   | main   | 79f319c        | feat: home configuration bc added                      | Nov 13, 2025     |
+| web-services   | main   | 8c710f2        | Merge pull request #4 from home_configuration          | Nov 13, 2025     |
+| web-services   | main   | 0a79605        | Merge branch 'main' into home_configuration            | Nov 13, 2025     |
+| web-services   | main   | fc6bcac        | update: iam bc added                                   | Nov 13, 2025     |
+| web-services   | main   | 336a85c        | Merge pull request #5 from iam                         | Nov 13, 2025     |
+| web-services   | main   | 3b9d922        | fix: added CORS                                        | Nov 13, 2025     |
+| web-services   | main   | f09fcfd       | feat: add endpoint of login user                       | Nov 13, 2025     |
+| web-services   | main   | 98ad144        | feat: agregar endpoints de registrar y listar usuarios | Nov 13, 2025     |
+| web-services   | main   | e0480a5        | feat: add mysql_user_repository                        | Nov 13, 2025     |
+| web-services   | main   | 3ccbaa9        | feat: add query for table users                        | Nov 13, 2025     |
+| web-services   | main   | 5c3ffba        | feat: added user model and repository                  | Nov 12, 2025     |
+| web-services   | main   | a03430f       | Revert "feat: added user domain"                       | Nov 12, 2025     |
+| web-services   | main   | b6bc076        | feat: added user domain                                | Nov 12, 2025     |
+| web-services   | main   | c3b4656        | [ADD] Many to many relationship rooms-paths            | Nov 10, 2025     |
+| web-services   | main   | e4226b4        | [FIX] Home id requisites for rooms and paths           | Nov 09, 2025     |
+| web-services   | main   | 38387ba        | [ADD] first version room and path controllers          | Nov 09, 2025     |
+| web-services   | main   | 2553f44       | [ADD] Home controller completed                        | Nov 08, 2025     |
+| web-services   | main   | 96f461e        | [ADD] structure for DDD                                | Nov 07, 2025     |
+| web-services   | main   | 537aecb       | update: requirements                                   | Nov 06, 2025     |
+| web-services   | main   | 54638c9        | feat: integrated gemini api                            | Nov 06, 2025     |
+| web-services   | main   | 0b55e96        | [ADD] first version of home configuration              | Nov 05, 2025     |
+| web-services   | main   | 95c55ca        | Add files via upload                                   | Oct 24, 2025     |
+| web-services   | main   | 70551ba        | update(requirements): new requirements                 | Oct 19, 2025     |
+| web-services   | main   | 33a9a0a        | add(base): added template ddd                          | Oct 2025         |
+| web-services   | main   | 01b5799        | add(requirements): added requirements.txt              | Oct 2025         |
+| web-services   | main   | 67572ac        | first commit                                           | Oct 2025         |
+| web-services   | main   | fb8a54c        | Initial commit                                         | Oct 2025         |
+
+
 #### 7.2.1.4. Testing Suite Evidence for Sprint Review.
+
+[Repositorio de Testing](https://github.com/SW-Emergentes-7295/VisualGuide-Testing)
+
+| Repositorio         | Branch | Commit Id | Commit Message  | Commit Message Body  | Committed on (Date) |
+|---------------------|--------|-----------|-----------------|----------------------|----------------------|
+| VisualGuide-Testing | main   | af16cd2   | User story 01   | User story 01        | 15/11/2025           |
+| VisualGuide-Testing | main   | 052ee60   | User story 02   | User story 02        | 15/11/2025           |
+| VisualGuide-Testing | main   | cf0d12c   | User story 03   | User story 03        | 15/11/2025           |
+| VisualGuide-Testing | main   | 1b64554   | User story 04   | User story 04        | 15/11/2025           |
+| VisualGuide-Testing | main   | e663c54   | User story 05   | User story 05        | 15/11/2025           |
+| VisualGuide-Testing | main   | a918227   | User story 06   | User story 06        | 15/11/2025           |
+| VisualGuide-Testing | main   | ab2ae11   | User story 07   | User story 07        | 15/11/2025           |
+| VisualGuide-Testing | main   | 000fa6b   | User story 08   | User story 08        | 15/11/2025           |
+
+Se crearon los archivos .feature junto a diversos escenarios para poner a prueba el funcionamiento de la palicación, asegurandonos de que cumpla con las funcionalidades básicas de cada User Story.
+
 #### 7.2.1.5. Execution Evidence for Sprint Review.
+
+**Frontend**
+
+Sign up:
+
+<img src="./images/Sprint1/ExecutionEvidence/AppSignupExecution.png" alt="App sign up execution" width="auto" style="display: block; margin-left: auto; margin-right: auto;"/>
+
+Log in:
+
+<img src="./images/Sprint1/ExecutionEvidence/AppLoginExecution.png" alt="App log in execution" width="auto" style="display: block; margin-left: auto; margin-right: auto;"/>
+
+Mapeo del hogar:
+
+<img src="./images/Sprint1/ExecutionEvidence/AppMappingExecution.png" alt="App mapping execution" width="auto" style="display: block; margin-left: auto; margin-right: auto;"/>
+
+Configuración:
+
+<img src="./images/Sprint1/ExecutionEvidence/AppConfigurationExecution.png" alt="App configuration execution" width="auto" style="display: block; margin-left: auto; margin-right: auto;"/>
+
+Chat por voz:
+
+<img src="./images/Sprint1/ExecutionEvidence/AppAiVoiceExecution.png" alt="App Ai voice execution" width="auto" style="display: block; margin-left: auto; margin-right: auto;"/>
+
+**Backend**
+
+Log in:
+
+<img src="./images/Sprint1/ExecutionEvidence/LoginExecution.png" alt="Log in execution" width="auto" style="display: block; margin-left: auto; margin-right: auto;"/>
+
+Rooms:
+
+<img src="./images/Sprint1/ExecutionEvidence/RoomExecution.png" alt="Room execution" width="auto" style="display: block; margin-left: auto; margin-right: auto;"/>
+
+Trip:
+
+<img src="./images/Sprint1/ExecutionEvidence/TripExecution.png" alt="Trip execution" width="auto" style="display: block; margin-left: auto; margin-right: auto;"/>
+
+
 #### 7.2.1.6. Services Documentation Evidence for Sprint Review.
+
+Para la documentación de nuestros web-services utilizamos la herramienta de **Swagger** que nos permite documentar de manera automática nuestras APIs RESTful.
+En esta parte, Swagger genera una interfaz gráfica interactiva que facilita la comprensión y el uso de los endpoints disponibles en nuestros web-services.
+A continuación, se muestra la documentación generada por Swagger para nuestros web-services:
+
+<img src="./images/documentation/1.PNG" alt="Documentation Evidence 1" width="auto" style="display: block; margin-left: auto; margin-right: auto;"/>
+<br><br>
+<img src="./images/documentation/2.PNG" alt="Documentation Evidence 2" width="auto" style="display: block; margin-left: auto; margin-right: auto;"/>
+<br><br>
+<img src="./images/documentation/3.PNG" alt="Documentation Evidence 3" width="auto" style="display: block; margin-left: auto; margin-right: auto;"/>
+<br><br>
+
 #### 7.2.1.7. Software Deployment Evidence for Sprint Review.
+
+Para el despliegue de nuestro web-services utilizamos el servicio de **AWS** específicamente una instancia EC2 t2.micro con sistema operativo Ubuntu 20.04 LTS.
+Se configuró el entorno de producción instalando lo necesario para correr nuestra aplicación Backend.
+
+Dirección de nuestro backend desplegado: [http://54.89.170.155:8000/apidocs/](http://54.89.170.155:8000/apidocs/)
+
+Lanzamiento de nuestra instancia EC2 t2.micro en AWS:
+<img src="./images/deployment-evidence/1.PNG" alt="Deployment Evidence 1" width="auto" style="display: block; margin-left: auto; margin-right: auto;"/>
+<br><br>
+
+Instancia levantada con ipv4 pública: http://54.89.170.155/
+<img src="./images/deployment-evidence/2.PNG" alt="Deployment Evidence 2" width="auto" style="display: block; margin-left: auto; margin-right: auto;"/>
+<br><br>
+
+Configuración del grupo de seguridad de nuestra instancia, para temas de pruebas, se habilitó puerto 80 (HTTP), puerto 22 (SSH) para acceso remoto, puerto 8000 para pruebas del servidor backend (Flask).
+<img src="./images/deployment-evidence/8.PNG" alt="Deployment Evidence 3" width="auto" style="display: block; margin-left: auto; margin-right: auto;"/>
+<br><br>
+
+Accesso via SSH a nuestra instancia con llaves privadas:
+<img src="./images/deployment-evidence/3.PNG" alt="Deployment Evidence 4" width="auto" style="display: block; margin-left: auto; margin-right: auto;"/>
+<br><br>
+
+Instalación de dependencias necesarias para correr nuestro servidor backend (Flask) como Python3, pip, virtualenv, git, mysql. Posteriormente se clona nuestro repositorio de GitHub y se instala las dependencias del proyecto desde el archivo requirements.txt, se levanta el servidor backend.
+<img src="./images/deployment-evidence/4.PNG" alt="Deployment Evidence 5" width="auto" style="display: block; margin-left: auto; margin-right: auto;"/>
+<img src="./images/deployment-evidence/5.PNG" alt="Deployment Evidence 6" width="auto" style="display: block; margin-left: auto; margin-right: auto;"/>
+<br><br>
+
+Verificación del correcto funcionamiento de nuestro servidor backend desde la instancia EC2:
+<img src="./images/deployment-evidence/6.PNG" alt="Deployment Evidence 7" width="auto" style="display: block; margin-left: auto; margin-right: auto;"/>
+
+<br><br>
+Verificación del correcto funcionamiento de nuestro servidor backend desde una máquina externa o internet pública:
+<img src="./images/deployment-evidence/7.PNG" alt="Deployment Evidence 8" width="auto" style="display: block; margin-left: auto; margin-right: auto;"/>
+
 #### 7.2.1.8. Team Collaboration Insights during Sprint.
+
+Durante este Sprint 1, todo el equipo ha colaborado de manera conjunta en la organización de GitHub, según lo planificado en la reunión de planificación del sprint. Se han creado los repositorios necesarios para el desarrollo del proyecto, incluyendo el repositorio principal del código fuente y otros repositorios auxiliares para documentación y pruebas. Además, se ha establecido una estructura clara para la gestión del código fuente, definiendo ramas y flujos de trabajo que facilitan la colaboración entre los miembros del equipo.
+
+En esta figura se muestra una captura de pantalla del repositorio de Mobile Application en GitHub, donde se puede observar los insights de colaboración del equipo durante el Sprint 1.
+<img src="./images/insights-mobile-app.PNG" alt="Insights Mobile App" width="auto" style="display: block; margin-left: auto; margin-right: auto;"/>
+
+<br><br>
+En esta figura se muestra una captura de pantalla del repositorio de Backend en GitHub, donde se puede observar los insights de colaboración del equipo durante el Sprint 1.
+<img src="./images/insights-web-services.PNG" alt="Insights Backend" width="auto" style="display: block; margin-left: auto; margin-right: auto;"/>
+
 
 ## 7.3. Validation Interviews.
 ### 7.3.1. Diseño de Entrevistas.
@@ -3140,9 +3726,84 @@ Harol Elias de 21 años, expresó su conformidad con el funcionamiento actual de
 
 En general, el usuario se vió satisfecho con las funcionalidades y calidad de la aplicación, permitiendole estar más tranquilo sobre la seguridad de us familiar, y dándole más independencia al no vidente.
 
+Estas entrevistas funcionaron como una herramienta cualitativa para validar la efectividad del MVP de *VisualGuide* en un entorno real.
+Se realizó un registro detallado de las respuestas y observaciones de los participantes, permitiendo identificar patrones comunes, áreas de mejora y aspectos valorados positivamente.
+
+**Segmento objetivo 1**: Personas no videntes
+
+**Entrevista 1:** Persona no vidente - Sandy Baez
+Nombre: Sandy Baez
+Edad: 26 años
+Residencia: Lima, Ate - Perú
+Desde cuándo es no vidente: Perdió la visión a los 20 años
+Vive con familiares
+
+<img src="./images/interviews/sandy-entrevista-2.PNG" alt="Sandy Baez Interview 2" width="auto" style="display: block; margin-left: auto; margin-right: auto;"/>
+<br>
+
+**URL de la entrevista:** [Entrevista Sandy Baez](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202212096_upc_edu_pe/IQCjboxMa0auSLaOGrjsiphqAQhfhVWDkF_cFphW6kX2YnM?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=hGMFjy)
+
+**Resumen de la entrevista:**
+Sandy destacó la facilidad de uso de VisualGuide, mencionando que las instrucciones en audio fueron claras y oportunas. Sin embargo, señaló que el reconocimiento de objetos tuvo algunas imprecisiones, especialmente con objetos pequeños o poco contrastantes. A pesar de esto, se sintió más segura al desplazarse por su hogar y notó una reducción en la necesidad de pedir ayuda a sus familiares. Sandy recomendó la aplicación a otras personas no videntes, resaltando su potencial para mejorar la autonomía.
+
+<br><br>
+
+**Segmento objetivo 2: Familiares o cuidadores de personas no videntes**
+
+**Entrevista 1: Familiar de persona no vidente - Carlos Chavez**
+- Nombre: Carlos Sebastián Chavez Morales
+- Edad: 21 años
+- Residencia: La Perla, Callao, Perú
+- Familiar no vidente: Primo
+- Convive con su familiar no vidente: No, pero lo visita frecuentemente.
+
+
+<img src="./images/interviews/carlos-entrevista-2.PNG" alt="Carlos Chavez Interview 2" width="auto" style="display: block; margin-left: auto; margin-right: auto;"/>
+<br>
+
+**URL de la entrevista:** [Entrevista Carlos Chavez](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202212096_upc_edu_pe/IQBYXlCPFp7QTLyeEEc6nsu7AcGJzHrJYDvRo-D3FDoQ5RE?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=cBhNMQ)
+
+**Resumen de la entrevista:**
+Carlos expresó que la aplicación le brindó mayor tranquilidad respecto a la seguridad de su primo no vidente. Notó que su familiar dependió menos de su ayuda diaria durante la prueba y consideró que estaría dispuesto a usarla de forma constante. Sin embargo, mencionó que hubo momentos en los que sintió que la app no estaba guiando correctamente, especialmente en áreas con poca iluminación. Carlos sugirió la incorporación de notificaciones para familiares sobre actividades importantes o riesgos detectados.
+
+ 
+**Entrevista 2: Familiar de persona no vidente - Marzzio Chicana**
+- Nombre: Marzzio Chicana Romero
+- Edad: 22 años
+- Residencia: Carabayllo, Lima, Perú
+
+<img src="./images/interviews/interview-1-validation.png" alt="Foto de Marzzio Chicana" width="50%">
+
+**URL de la entrevista:** [Entrevista Marzzio Chicana](https://upcedupe-my.sharepoint.com/personal/u202212096_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu202212096%5Fupc%5Fedu%5Fpe%2FDocuments%2FARQ%2E%20SW%20EMERGENTES%2FTB2%2Fvalidation%2Dinterviews%2Finterview%2Dchapter%2DVII%20%2D%20Trim%2Emp4&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2E737296fe%2Dba26%2D4075%2Dac2d%2Da8b0413412b8)
+
+**Resumen de la entrevista:**
+Marzzio Chicana nos comenta que el aplicativo ayudó mucho asu familiar para moverse por su hogar sin dificultades. Respecto a la guía para el uso de la aplicación, él nos dice que fue sencilla y corta. También comenta que siente que es un aplicativo móvil con mucho potencial y lo recomendaría a sus familiares. Respecto a la precisión de reconocimiento de objetos la nota precisa.
+  
 ### 7.3.3. Evaluaciones según heurísticas.
 
+A continuación, se presentan las evaluaciones realizadas según las heurísticas de usabilidad para la aplicación móvil *VisualGuide*.
+| Heurística                          | Evaluación                                                                                       |
+|------------------------------------|-------------------------------------------------------------------------------------------------|
+| Visibilidad del estado del sistema | La aplicación proporciona retroalimentación inmediata a través de audio y vibración, informando al usuario sobre su ubicación y los objetos detectados. |
+| Coincidencia entre el sistema y el mundo real | El lenguaje utilizado en las instrucciones es claro y familiar para los usuarios no videntes, facilitando la comprensión. |
+| Control y libertad del usuario     | Los usuarios pueden pausar o detener el mapeo en cualquier momento, brindándoles control sobre la navegación. |
+| Consistencia y estándares          | La interfaz mantiene una estructura coherente en todas las pantallas, utilizando iconos y comandos estándar para facilitar el aprendizaje. |
+| Prevención de errores              | La aplicación incluye confirmaciones de acciones importantes, como el inicio del mapeo, para evitar errores accidentales. |
+| Reconocimiento en lugar de recuerdo | Las instrucciones se presentan de manera clara y repetitiva, minimizando la carga cognitiva del usuario. |
+| Flexibilidad y eficiencia de uso   | La aplicación permite personalizar las preferencias de guía, adaptándose a las necesidades individuales de cada usuario. |
+| Estética y diseño minimalista      | La interfaz es sencilla y libre de elementos innecesarios, enfocándose en la funcionalidad principal. |
+| Ayuda a los usuarios a reconocer, diagnosticar y recuperarse de errores | La aplicación ofrece mensajes claros en caso de errores, como problemas de conexión o fallos en el reconocimiento de objetos. |
+| Ayuda y documentación              | Se proporciona una sección de ayuda accesible dentro de la aplicación, con tutoriales en audio para guiar a los usuarios. |
+
 ## 7.4. Video About-the-Product.
+
+En este video, se presenta de manera comercial la aplicación móvil *VisualGuide*, diseñada para asistir a personas no videntes en la navegación segura dentro de sus hogares mediante el uso de inteligencia artificial y reconocimiento de objetos.
+
+**URL del video:** [Video About-the-Product VisualGuide](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202212096_upc_edu_pe/IQBYhMO86XXARLK7KO9j7zbeAS4HTuHnxUBEQibbrTwvV0c?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=rc9ZGs)
+
+
+<img src="./images/visualguide-video.PNG" alt="VisualGuide Video" width="auto" style="display: block; margin-left: auto; margin-right: auto;"/>
+<br>
 
 
 
@@ -3192,4 +3853,4 @@ En general, el usuario se vió satisfecho con las funcionalidades y calidad de l
 | **TP:** Exposición Parcial | [Video Exposición TP](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202212096_upc_edu_pe/ET0k7riRA7ZFm18zT0vPC4YBlDYLyTEAU9CtV52ecIe2Sg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=4jK6eY) |
 | **Video entrevistas validación:** Entrevistas consolidadas en un solo video | [Video Entrevistas Validación]() |
 | **TB2:** Exposición Trabajo | [Video Exposición TB2]() |
-| **About-the-Product Video:** Video demostrativo del producto final | [Video About-the-Product]() |
+| **About-the-Product Video:** Video demostrativo del producto final | [Video About-the-Product](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202212096_upc_edu_pe/IQBYhMO86XXARLK7KO9j7zbeAS4HTuHnxUBEQibbrTwvV0c?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=rc9ZGs) |
