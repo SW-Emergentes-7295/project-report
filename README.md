@@ -3042,9 +3042,62 @@ En este flujo se demuestra la configuración de preferencias del usuario, donde 
 En este flujo se demuestra el historial de recorridos anteriores del usuario, donde puede revisar sus actividades pasadas y detalles de cada recorrido.
 
 ### 6.4.2. Applications Mock-ups.
+
+Para el diseño de nuestra aplicación móvil "VisualGuide", hemos creado una serie de mock-ups que ilustran la interfaz de usuario y la experiencia de navegación dentro de la aplicación. Estos mock-ups fueron diseñados para asegurar que la aplicación sea intuitiva, accesible y funcional para personas no videntes.
+
+Link del Figma: [https://www.figma.com/design/iCmpJKu6xZ0wFe0REBihaq/Software-Emergentes?node-id=0-1&t=g8sCdk55WlGJdvJy-1](https://www.figma.com/design/iCmpJKu6xZ0wFe0REBihaq/Software-Emergentes?node-id=0-1&t=g8sCdk55WlGJdvJy-1)
+
+
+En la siguiente figura se muestra el mockup de la pantalla de inicio de la aplicación, donde el usuario puede iniciar sesión mediante reconocimiento facial o correo electrónico y contraseña.
+<img src="./images/mockups/1.PNG" alt="Mockup 1" width="auto" style="display: block; margin-left: auto; margin-right: auto;"/>
+
+<br><br>
+En la siguiente figura se muestra el mockup de la pantalla principal de la aplicación, donde el usuario puede iniciar el mapeo de su hogar con el botón "Start Home Mapping".
+<img src="./images/mockups/4.PNG" alt="Mockup 2" width="auto" style="display: block; margin-left: auto; margin-right: auto;"/>
+
+<br><br>
+En la siguiente figura se muestra el mockup de la pantalla de mapeo del hogar, donde el usuario puede seguir las instrucciones por voz para mapear su entorno, así como la pantalla de reconocimiento de objetos, donde el usuario puede solicitar el reconocimiento de un objeto en su entorno y recibir instrucciones de guía por parte de la inteligencia artificial.
+<img src="./images/mockups/6.PNG" alt="Mockup 3" width="auto" style="display: block; margin-left: auto; margin-right: auto;"/>
+
+<br><br>
+En la siguiente figura se muestra el mockup de la pantalla de configuración de preferencias del usuario, donde puede ajustar las opciones de la aplicación según sus necesidades, así como la vinculación con un cuidador o familiar.
+<img src="./images/mockups/2.PNG" alt="Mockup 4" width="auto" style="display: block; margin-left: auto; margin-right: auto;"/>
+
+<img src="./images/mockups/3.PNG" alt="Mockup 5" width="auto" style="display: block; margin-left: auto; margin-right: auto;"/>
+<br><br>
+
 ### 6.4.3. Applications User Flow Diagrams.
 
+A continuación, se presentan los diagramas de flujo de usuario (User Flow Diagrams) de la aplicación móvil "VisualGuide", diseñada para asistir a personas no videntes en la navegación segura dentro de sus hogares mediante el uso de inteligencia artificial y reconocimiento de objetos.
+
+En este flujo se demuestra las diferentes rutas del inicio de sesión, ya sea por reconocimiento facial o por email y contraseña.
+<img src="./images/mockups/flow-1.png" alt="User Flow Diagram 1" width="auto" style="display: block; margin-left: auto; margin-right: auto;"/>
+<br><br>
+
+En este flujo se demuestra el mapeo del hogar, donde el usuario puede seguir las instrucciones por voz para mapear su entorno.
+<img src="./images/mockups/flow-2.png" alt="User Flow Diagram 2" width="auto" style="display: block; margin-left: auto; margin-right: auto;"/>
+
+<br><br>
+En este flujo se demuestra el reconocimiento de objetos, donde el usuario puede solicitar el reconocimiento de un objeto en su entorno y recibir instrucciones de guía.
+<img src="./images/mockups/flow-3.png" alt="User Flow Diagram 3" width="auto" style="display: block; margin-left: auto; margin-right: auto;"/>
+<br><br>
+
+En este flujo se demuestra la configuración de preferencias del usuario, donde puede ajustar las opciones de la aplicación según sus necesidades. Además de la vinculación con un cuidador o familiar.
+<img src="./images/mockups/flow-4.png" alt="User Flow Diagram 4" width="auto" style="display: block; margin-left: auto; margin-right: auto;"/>
+
+<br><br>
+
+En este flujo se demuestra el historial de recorridos anteriores del usuario, donde puede revisar sus actividades pasadas y detalles de cada recorrido.
+<img src="./images/mockups/flow-5.png" alt="User Flow Diagram 5" width="auto" style="display: block; margin-left: auto; margin-right: auto;"/>
+<br><br>
+
 ## 6.5. Applications Prototyping.
+
+En esta sección se presentan los prototipos interactivos de la aplicación móvil "VisualGuide", diseñada para asistir a personas no videntes en la navegación segura dentro de sus hogares mediante el uso de inteligencia artificial y reconocimiento de objetos.
+
+Link del Prototipo: [https://www.figma.com/proto/iCmpJKu6xZ0wFe0REBihaq/Software-Emergentes?node-id=71-192&p=f&t=5fBWU08RGbwZlF6b-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=71%3A192&show-proto-sidebar=1](https://www.figma.com/proto/iCmpJKu6xZ0wFe0REBihaq/Software-Emergentes?node-id=71-192&p=f&t=5fBWU08RGbwZlF6b-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=71%3A192&show-proto-sidebar=1)
+
+<img src="./images/mockups/prototype.PNG" alt="Prototype 1" width="auto" style="display: block; margin-left: auto; margin-right: auto;"/>
 
 
 # Capítulo VII: Product Implementation, Validation & Deployment
@@ -3062,8 +3115,64 @@ En este flujo se demuestra el historial de recorridos anteriores del usuario, do
 #### 7.2.1.4. Testing Suite Evidence for Sprint Review.
 #### 7.2.1.5. Execution Evidence for Sprint Review.
 #### 7.2.1.6. Services Documentation Evidence for Sprint Review.
+
+Para la documentación de nuestros web-services utilizamos la herramienta de **Swagger** que nos permite documentar de manera automática nuestras APIs RESTful.
+En esta parte, Swagger genera una interfaz gráfica interactiva que facilita la comprensión y el uso de los endpoints disponibles en nuestros web-services.
+A continuación, se muestra la documentación generada por Swagger para nuestros web-services:
+
+<img src="./images/documentation/1.PNG" alt="Documentation Evidence 1" width="auto" style="display: block; margin-left: auto; margin-right: auto;"/>
+<br><br>
+<img src="./images/documentation/2.PNG" alt="Documentation Evidence 2" width="auto" style="display: block; margin-left: auto; margin-right: auto;"/>
+<br><br>
+<img src="./images/documentation/3.PNG" alt="Documentation Evidence 3" width="auto" style="display: block; margin-left: auto; margin-right: auto;"/>
+<br><br>
+
 #### 7.2.1.7. Software Deployment Evidence for Sprint Review.
+
+Para el despliegue de nuestro web-services utilizamos el servicio de **AWS** específicamente una instancia EC2 t2.micro con sistema operativo Ubuntu 20.04 LTS.
+Se configuró el entorno de producción instalando lo necesario para correr nuestra aplicación Backend.
+
+Dirección de nuestro backend desplegado: [http://54.89.170.155:8000/apidocs/](http://54.89.170.155:8000/apidocs/)
+
+Lanzamiento de nuestra instancia EC2 t2.micro en AWS:
+<img src="./images/deployment-evidence/1.PNG" alt="Deployment Evidence 1" width="auto" style="display: block; margin-left: auto; margin-right: auto;"/>
+<br><br>
+
+Instancia levantada con ipv4 pública: http://54.89.170.155/
+<img src="./images/deployment-evidence/2.PNG" alt="Deployment Evidence 2" width="auto" style="display: block; margin-left: auto; margin-right: auto;"/>
+<br><br>
+
+Configuración del grupo de seguridad de nuestra instancia, para temas de pruebas, se habilitó puerto 80 (HTTP), puerto 22 (SSH) para acceso remoto, puerto 8000 para pruebas del servidor backend (Flask).
+<img src="./images/deployment-evidence/8.PNG" alt="Deployment Evidence 3" width="auto" style="display: block; margin-left: auto; margin-right: auto;"/>
+<br><br>
+
+Accesso via SSH a nuestra instancia con llaves privadas:
+<img src="./images/deployment-evidence/3.PNG" alt="Deployment Evidence 4" width="auto" style="display: block; margin-left: auto; margin-right: auto;"/>
+<br><br>
+
+Instalación de dependencias necesarias para correr nuestro servidor backend (Flask) como Python3, pip, virtualenv, git, mysql. Posteriormente se clona nuestro repositorio de GitHub y se instala las dependencias del proyecto desde el archivo requirements.txt, se levanta el servidor backend.
+<img src="./images/deployment-evidence/4.PNG" alt="Deployment Evidence 5" width="auto" style="display: block; margin-left: auto; margin-right: auto;"/>
+<img src="./images/deployment-evidence/5.PNG" alt="Deployment Evidence 6" width="auto" style="display: block; margin-left: auto; margin-right: auto;"/>
+<br><br>
+
+Verificación del correcto funcionamiento de nuestro servidor backend desde la instancia EC2:
+<img src="./images/deployment-evidence/6.PNG" alt="Deployment Evidence 7" width="auto" style="display: block; margin-left: auto; margin-right: auto;"/>
+
+<br><br>
+Verificación del correcto funcionamiento de nuestro servidor backend desde una máquina externa o internet pública:
+<img src="./images/deployment-evidence/7.PNG" alt="Deployment Evidence 8" width="auto" style="display: block; margin-left: auto; margin-right: auto;"/>
+
 #### 7.2.1.8. Team Collaboration Insights during Sprint.
+
+Durante este Sprint 1, todo el equipo ha colaborado de manera conjunta en la organización de GitHub, según lo planificado en la reunión de planificación del sprint. Se han creado los repositorios necesarios para el desarrollo del proyecto, incluyendo el repositorio principal del código fuente y otros repositorios auxiliares para documentación y pruebas. Además, se ha establecido una estructura clara para la gestión del código fuente, definiendo ramas y flujos de trabajo que facilitan la colaboración entre los miembros del equipo.
+
+En esta figura se muestra una captura de pantalla del repositorio de Mobile Application en GitHub, donde se puede observar los insights de colaboración del equipo durante el Sprint 1.
+<img src="./images/insights-mobile-app.PNG" alt="Insights Mobile App" width="auto" style="display: block; margin-left: auto; margin-right: auto;"/>
+
+<br><br>
+En esta figura se muestra una captura de pantalla del repositorio de Backend en GitHub, donde se puede observar los insights de colaboración del equipo durante el Sprint 1.
+<img src="./images/insights-web-services.PNG" alt="Insights Backend" width="auto" style="display: block; margin-left: auto; margin-right: auto;"/>
+
 
 ## 7.3. Validation Interviews.
 ### 7.3.1. Diseño de Entrevistas.
@@ -3119,8 +3228,48 @@ Las preguntas están orientadas a identificar barreras aún presentes, validar h
 
 
 ### 7.3.2. Registro de Entrevistas.
+Estas entrevistas funcionaron como una herramienta cualitativa para validar la efectividad del MVP de *VisualGuide* en un entorno real.
+Se realizó un registro detallado de las respuestas y observaciones de los participantes, permitiendo identificar patrones comunes, áreas de mejora y aspectos valorados positivamente.
 
-**Entrevista 1: Familiar de persona no vidente - Marzzio Chicana**
+**Segmento objetivo 1**: Personas no videntes
+
+**Entrevista 1:** Persona no vidente - Sandy Baez
+Nombre: Sandy Baez
+Edad: 26 años
+Residencia: Lima, Ate - Perú
+Desde cuándo es no vidente: Perdió la visión a los 20 años
+Vive con familiares
+
+<img src="./images/interviews/sandy-entrevista-2.PNG" alt="Sandy Baez Interview 2" width="auto" style="display: block; margin-left: auto; margin-right: auto;"/>
+<br>
+
+**URL de la entrevista:** [Entrevista Sandy Baez](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202212096_upc_edu_pe/IQCjboxMa0auSLaOGrjsiphqAQhfhVWDkF_cFphW6kX2YnM?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=hGMFjy)
+
+**Resumen de la entrevista:**
+Sandy destacó la facilidad de uso de VisualGuide, mencionando que las instrucciones en audio fueron claras y oportunas. Sin embargo, señaló que el reconocimiento de objetos tuvo algunas imprecisiones, especialmente con objetos pequeños o poco contrastantes. A pesar de esto, se sintió más segura al desplazarse por su hogar y notó una reducción en la necesidad de pedir ayuda a sus familiares. Sandy recomendó la aplicación a otras personas no videntes, resaltando su potencial para mejorar la autonomía.
+
+<br><br>
+
+**Segmento objetivo 2: Familiares o cuidadores de personas no videntes**
+
+**Entrevista 1: Familiar de persona no vidente - Carlos Chavez**
+- Nombre: Carlos Sebastián Chavez Morales
+- Edad: 21 años
+- Residencia: La Perla, Callao, Perú
+- Familiar no vidente: Primo
+- Convive con su familiar no vidente: No, pero lo visita frecuentemente.
+
+
+<img src="./images/interviews/carlos-entrevista-2.PNG" alt="Carlos Chavez Interview 2" width="auto" style="display: block; margin-left: auto; margin-right: auto;"/>
+<br>
+
+**URL de la entrevista:** [Entrevista Carlos Chavez](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202212096_upc_edu_pe/IQBYXlCPFp7QTLyeEEc6nsu7AcGJzHrJYDvRo-D3FDoQ5RE?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=cBhNMQ)
+
+**Resumen de la entrevista:**
+Carlos expresó que la aplicación le brindó mayor tranquilidad respecto a la seguridad de su primo no vidente. Notó que su familiar dependió menos de su ayuda diaria durante la prueba y consideró que estaría dispuesto a usarla de forma constante. Sin embargo, mencionó que hubo momentos en los que sintió que la app no estaba guiando correctamente, especialmente en áreas con poca iluminación. Carlos sugirió la incorporación de notificaciones para familiares sobre actividades importantes o riesgos detectados.
+
+ 
+**Entrevista 2: Familiar de persona no vidente - Marzzio Chicana**
 - Nombre: Marzzio Chicana Romero
 - Edad: 22 años
 - Residencia: Carabayllo, Lima, Perú
@@ -3131,8 +3280,22 @@ Las preguntas están orientadas a identificar barreras aún presentes, validar h
 
 **Resumen de la entrevista:**
 Marzzio Chicana nos comenta que el aplicativo ayudó mucho asu familiar para moverse por su hogar sin dificultades. Respecto a la guía para el uso de la aplicación, él nos dice que fue sencilla y corta. También comenta que siente que es un aplicativo móvil con mucho potencial y lo recomendaría a sus familiares. Respecto a la precisión de reconocimiento de objetos la nota precisa.
-
+  
 ### 7.3.3. Evaluaciones según heurísticas.
+
+A continuación, se presentan las evaluaciones realizadas según las heurísticas de usabilidad para la aplicación móvil *VisualGuide*.
+| Heurística                          | Evaluación                                                                                       |
+|------------------------------------|-------------------------------------------------------------------------------------------------|
+| Visibilidad del estado del sistema | La aplicación proporciona retroalimentación inmediata a través de audio y vibración, informando al usuario sobre su ubicación y los objetos detectados. |
+| Coincidencia entre el sistema y el mundo real | El lenguaje utilizado en las instrucciones es claro y familiar para los usuarios no videntes, facilitando la comprensión. |
+| Control y libertad del usuario     | Los usuarios pueden pausar o detener el mapeo en cualquier momento, brindándoles control sobre la navegación. |
+| Consistencia y estándares          | La interfaz mantiene una estructura coherente en todas las pantallas, utilizando iconos y comandos estándar para facilitar el aprendizaje. |
+| Prevención de errores              | La aplicación incluye confirmaciones de acciones importantes, como el inicio del mapeo, para evitar errores accidentales. |
+| Reconocimiento en lugar de recuerdo | Las instrucciones se presentan de manera clara y repetitiva, minimizando la carga cognitiva del usuario. |
+| Flexibilidad y eficiencia de uso   | La aplicación permite personalizar las preferencias de guía, adaptándose a las necesidades individuales de cada usuario. |
+| Estética y diseño minimalista      | La interfaz es sencilla y libre de elementos innecesarios, enfocándose en la funcionalidad principal. |
+| Ayuda a los usuarios a reconocer, diagnosticar y recuperarse de errores | La aplicación ofrece mensajes claros en caso de errores, como problemas de conexión o fallos en el reconocimiento de objetos. |
+| Ayuda y documentación              | Se proporciona una sección de ayuda accesible dentro de la aplicación, con tutoriales en audio para guiar a los usuarios. |
 
 ## 7.4. Video About-the-Product.
 
