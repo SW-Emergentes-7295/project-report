@@ -3118,6 +3118,16 @@ Link del Prototipo: [https://www.figma.com/proto/iCmpJKu6xZ0wFe0REBihaq/Software
 #### 7.2.1.7. Software Deployment Evidence for Sprint Review.
 #### 7.2.1.8. Team Collaboration Insights during Sprint.
 
+Durante este Sprint 1, todo el equipo ha colaborado de manera conjunta en la organización de GitHub, según lo planificado en la reunión de planificación del sprint. Se han creado los repositorios necesarios para el desarrollo del proyecto, incluyendo el repositorio principal del código fuente y otros repositorios auxiliares para documentación y pruebas. Además, se ha establecido una estructura clara para la gestión del código fuente, definiendo ramas y flujos de trabajo que facilitan la colaboración entre los miembros del equipo.
+
+En esta figura se muestra una captura de pantalla del repositorio de Mobile Application en GitHub, donde se puede observar los insights de colaboración del equipo durante el Sprint 1.
+<img src="./images/insights-mobile-app.PNG" alt="Insights Mobile App" width="auto" style="display: block; margin-left: auto; margin-right: auto;"/>
+
+<br><br>
+En esta figura se muestra una captura de pantalla del repositorio de Backend en GitHub, donde se puede observar los insights de colaboración del equipo durante el Sprint 1.
+<img src="./images/insights-web-services.PNG" alt="Insights Backend" width="auto" style="display: block; margin-left: auto; margin-right: auto;"/>
+
+
 ## 7.3. Validation Interviews.
 ### 7.3.1. Diseño de Entrevistas.
 
