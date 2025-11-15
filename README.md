@@ -3080,10 +3080,39 @@ Se crearon los archivos .feature junto a diversos escenarios para poner a prueba
 
 **Frontend**
 
+Sign up:
 
+<img src="./images/Sprint1/ExecutionEvidence/AppSignupExecution.png" alt="App sign up execution" width="auto" style="display: block; margin-left: auto; margin-right: auto;"/>
+
+Log in:
+
+<img src="./images/Sprint1/ExecutionEvidence/AppLoginExecution.png" alt="App log in execution" width="auto" style="display: block; margin-left: auto; margin-right: auto;"/>
+
+Mapeo del hogar:
+
+<img src="./images/Sprint1/ExecutionEvidence/AppMappingExecution.png" alt="App mapping execution" width="auto" style="display: block; margin-left: auto; margin-right: auto;"/>
+
+Configuración:
+
+<img src="./images/Sprint1/ExecutionEvidence/AppConfigurationExecution.png" alt="App configuration execution" width="auto" style="display: block; margin-left: auto; margin-right: auto;"/>
+
+Chat por voz:
+
+<img src="./images/Sprint1/ExecutionEvidence/AppAiVoiceExecution.png" alt="App Ai voice execution" width="auto" style="display: block; margin-left: auto; margin-right: auto;"/>
 
 **Backend**
 
+Log in:
+
+<img src="./images/Sprint1/ExecutionEvidence/LoginExecution.png" alt="Log in execution" width="auto" style="display: block; margin-left: auto; margin-right: auto;"/>
+
+Rooms:
+
+<img src="./images/Sprint1/ExecutionEvidence/RoomExecution.png" alt="Room execution" width="auto" style="display: block; margin-left: auto; margin-right: auto;"/>
+
+Trip:
+
+<img src="./images/Sprint1/ExecutionEvidence/TripExecution.png" alt="Trip execution" width="auto" style="display: block; margin-left: auto; margin-right: auto;"/>
 
 
 #### 7.2.1.6. Services Documentation Evidence for Sprint Review.
