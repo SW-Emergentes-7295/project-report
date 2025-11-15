@@ -3705,6 +3705,27 @@ Las preguntas están orientadas a identificar barreras aún presentes, validar h
 
 
 ### 7.3.2. Registro de Entrevistas.
+
+**Segmento objetivo 1: Personas no videntes**
+
+**Segmento objetivo 2: Familiares o cuidadores de personas no videntes**
+
+**Entrevista 1: Familiar de persona no vidente - Harold Elias**
+- Nombre: Harold Elias
+- Edad: 21 años
+- Residencia: Los Olivos, Perú
+- Familiar no vidente: Primo
+- Convive con su familiar no vidente: Si
+
+<img src="./images/interviews/Validación-HaroldElías.png" alt="Foto de Harold Elias 2" width="100%">
+
+**URL de la entrevista:** [Entrevista Harold Elias](https://upcedupe-my.sharepoint.com/personal/u202212096_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu202212096_upc_edu_pe%2FDocuments%2FARQ.+SW+EMERGENTES%2FTB2%2Fvalidation-interviews%2FEntrevistaDeValidaci%C3%B3n_HaroldElias.mp4&startedResponseCatch=true&referrer=StreamWebApp.Web&referrerScenario=AddressBarCopied.view.f1c0d3da-1639-4383-8172-e3dec442720c)
+
+**Resumen de la entrevista:**
+Harol Elias de 21 años, expresó su conformidad con el funcionamiento actual de la aplicación, sin embargo, cree que el modelo podría ser mejor, permitiendo a los usuarios saber si hay puertas o escaleras cercanas. Así mismo, le gustaría ver que se añade la funcionalidad de resibir notificaciones sobre el estado de su familiar, para poder estar bien informado.
+
+En general, el usuario se vió satisfecho con las funcionalidades y calidad de la aplicación, permitiendole estar más tranquilo sobre la seguridad de us familiar, y dándole más independencia al no vidente.
+
 Estas entrevistas funcionaron como una herramienta cualitativa para validar la efectividad del MVP de *VisualGuide* en un entorno real.
 Se realizó un registro detallado de las respuestas y observaciones de los participantes, permitiendo identificar patrones comunes, áreas de mejora y aspectos valorados positivamente.
 
