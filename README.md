@@ -3055,7 +3055,32 @@ En este flujo se demuestra el historial de recorridos anteriores del usuario, do
 ### 7.1.4. Software Deployment Configuration.
 
 ## 7.2. Solution Implementation.
-### 7.2.1. Sprint 1
+## 7.2.1. Sprint 1
+
+Durante el primer sprint, el equipo desarrolló los componentes base del sistema VisualGuide. Los entregables principales fueron:
+
+### 1. Módulo de Linking Code (Backend Python + Frontend Flutter)
+- Implementación del servicio para autogenerar códigos de vinculación.
+- Creación del repositorio, servicio y endpoints en Flask, documentados en Swagger.
+- Integración con la app móvil: al presionar **Generate linking code**, el backend crea el código, lo guarda y se muestra en la interfaz.
+
+### 2. Base de datos inicial
+- Configuración de MySQL.
+- Creación de la tabla `links` con validación de unicidad por usuario y estado del link.
+
+### 3. Módulo inicial de IA por voz
+- Integración del reconocimiento de voz.
+- El usuario no vidente puede dar comandos como *"go to kitchen"* o *"go to room"*.
+
+### 4. Navegación por voz básica
+- Procesamiento de comandos y respuestas guiadas.
+- Flujo simple de movimiento entre lugares mediante interacción por voz.
+
+### 5. Configuración inicial de repositorios en GitHub
+- Conexión de backend y aplicación móvil a sus respectivos repos remotos.
+- Organización de ramas para desarrollo ordenado del proyecto.
+
+
 #### 7.2.1.1. Sprint Planning 1.
 #### 7.2.1.2. Sprint Backlog 1.
 #### 7.2.1.3. Development Evidence for Sprint Review.
