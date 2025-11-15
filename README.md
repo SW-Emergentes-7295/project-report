@@ -3116,6 +3116,40 @@ Link del Prototipo: [https://www.figma.com/proto/iCmpJKu6xZ0wFe0REBihaq/Software
 #### 7.2.1.5. Execution Evidence for Sprint Review.
 #### 7.2.1.6. Services Documentation Evidence for Sprint Review.
 #### 7.2.1.7. Software Deployment Evidence for Sprint Review.
+
+Para el despliegue de nuestro web-services utilizamos el servicio de **AWS** específicamente una instancia EC2 t2.micro con sistema operativo Ubuntu 20.04 LTS.
+Se configuró el entorno de producción instalando lo necesario para correr nuestra aplicación Backend.
+
+Dirección de nuestro backend desplegado: [http://54.89.170.155:8000/apidocs/](http://54.89.170.155:8000/apidocs/)
+
+Lanzamiento de nuestra instancia EC2 t2.micro en AWS:
+<img src="./images/deployment-evidence/1.PNG" alt="Deployment Evidence 1" width="auto" style="display: block; margin-left: auto; margin-right: auto;"/>
+<br><br>
+
+Instancia levantada con ipv4 pública: http://54.89.170.155/
+<img src="./images/deployment-evidence/2.PNG" alt="Deployment Evidence 2" width="auto" style="display: block; margin-left: auto; margin-right: auto;"/>
+<br><br>
+
+Configuración del grupo de seguridad de nuestra instancia, para temas de pruebas, se habilitó puerto 80 (HTTP), puerto 22 (SSH) para acceso remoto, puerto 8000 para pruebas del servidor backend (Flask).
+<img src="./images/deployment-evidence/8.PNG" alt="Deployment Evidence 3" width="auto" style="display: block; margin-left: auto; margin-right: auto;"/>
+<br><br>
+
+Accesso via SSH a nuestra instancia con llaves privadas:
+<img src="./images/deployment-evidence/3.PNG" alt="Deployment Evidence 4" width="auto" style="display: block; margin-left: auto; margin-right: auto;"/>
+<br><br>
+
+Instalación de dependencias necesarias para correr nuestro servidor backend (Flask) como Python3, pip, virtualenv, git, mysql. Posteriormente se clona nuestro repositorio de GitHub y se instala las dependencias del proyecto desde el archivo requirements.txt, se levanta el servidor backend.
+<img src="./images/deployment-evidence/4.PNG" alt="Deployment Evidence 5" width="auto" style="display: block; margin-left: auto; margin-right: auto;"/>
+<img src="./images/deployment-evidence/5.PNG" alt="Deployment Evidence 6" width="auto" style="display: block; margin-left: auto; margin-right: auto;"/>
+<br><br>
+
+Verificación del correcto funcionamiento de nuestro servidor backend desde la instancia EC2:
+<img src="./images/deployment-evidence/6.PNG" alt="Deployment Evidence 7" width="auto" style="display: block; margin-left: auto; margin-right: auto;"/>
+
+<br><br>
+Verificación del correcto funcionamiento de nuestro servidor backend desde una máquina externa o internet pública:
+<img src="./images/deployment-evidence/7.PNG" alt="Deployment Evidence 8" width="auto" style="display: block; margin-left: auto; margin-right: auto;"/>
+
 #### 7.2.1.8. Team Collaboration Insights during Sprint.
 
 Durante este Sprint 1, todo el equipo ha colaborado de manera conjunta en la organización de GitHub, según lo planificado en la reunión de planificación del sprint. Se han creado los repositorios necesarios para el desarrollo del proyecto, incluyendo el repositorio principal del código fuente y otros repositorios auxiliares para documentación y pruebas. Además, se ha establecido una estructura clara para la gestión del código fuente, definiendo ramas y flujos de trabajo que facilitan la colaboración entre los miembros del equipo.
