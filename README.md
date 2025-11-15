@@ -3082,7 +3082,44 @@ Durante el primer sprint, el equipo desarrolló los componentes base del sistema
 
 
 #### 7.2.1.1. Sprint Planning 1.
+
+
+| **Campo**                             | **Detalle**                                                                                                                                                                                      |
+|---------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Sprint #**                          | 1                                                                                                                                                                                                |
+| **Date**                              | 04/06/2025                                                                                                                                                                                       |
+| **Time**                              | 20:00                                                                                                                                                                                            |
+| **Location**                          | Reunión virtual vía Discord                                                                                                                                                                      |
+| **Prepared By**                       | Tony Ramos Najar                                                                                                                                                                                 |
+| **Attendees**                         | More Rondon Christopher Sebastian<br/>Perez Pizarro Pedro Jeremy<br/>Ramos Najar Tony Alexander<br/>Rodriguez Vargas Arian Martín                                                                 |
+| **Sprint n – 1 Review Summary**       | No aplica por ser el primer sprint del proyecto.                                                                                                                                                 |
+| **Sprint n – 1 Retrospective Summary**| No aplica por ser el primer sprint del proyecto.                                                                                                                                                 |
+| **Sprint Goal & User Stories**        | **Sprint 1 Goal:**<br/> Levantar la base funcional inicial del sistema VisualGuide, implementando los módulos esenciales asignados a cada integrante.<br/><br/>**User Stories Incluidas:**<br/>– AI Recognition (Arian)<br/>– Notifications & Preferences (Tony)<br/>– Home Configuration (Christopher)<br/>– Authenticator (Jeremy) |
+| **Sprint n Velocity**                 | **Sum of Story Points:** <br> 35 |
+
+
 #### 7.2.1.2. Sprint Backlog 1.
+
+En este Sprint Backlog, se completaron todas las historias de usuario base del proyecto VisualGuide, incluyendo reconocimiento de voz, configuración del hogar, autenticación y preferencias del usuario.
+
+<img src="./images/chapter6/trellosprint1.png" alt="trello" width="auto">
+
+Link del trello: [https://trello.com/b/5p7QQbRp/sprint-1-visual-guide](https://trello.com/b/5p7QQbRp/sprint-1-visual-guide)
+
+| User Story ID | Title                                                | Work-Item/Task ID | Task Title                                     | Description                                                                                                                                                       | Estimation (hours) | Assigned To              | Status |
+|---------------|------------------------------------------------------|-------------------|------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------|---------------------------|--------|
+| US01          | Comandos de voz para rutas                           | TA01              | Implementación de comandos de voz             | Como usuario no vidente, quiero dar comandos de voz para solicitar rutas dentro del hogar, permitiendo navegación accesible sin interacción táctil.              | 8 horas            | Rodriguez Vargas Arian   | Done   |
+| US02          | Reconocimiento de voz del usuario                    | TA02              | Módulo de reconocimiento de voz               | Como usuario no vidente, quiero que el sistema reconozca mi voz para interpretar mis solicitudes y ejecutar acciones correctamente.                              | 6 horas            | Rodriguez Vargas Arian   | Done   |
+| US03          | Configuración de preferencias                        | TA03              | Implementar panel de preferencias             | Como usuario, quiero configurar mis preferencias dentro de VisualGuide, ajustando opciones según mis necesidades de accesibilidad.                               | 6 horas            | Ramos Najar Tony         | Done   |
+| US04          | Notificaciones del sistema                           | TA04              | Sistema de notificaciones                     | Como usuario, quiero recibir notificaciones relevantes del sistema, para estar informado de eventos o cambios mientras uso la aplicación.                        | 4 horas            | Ramos Najar Tony         | Done   |
+| US05          | Registrar ambientes del hogar                        | TA05              | Creación de módulo de ambientes               | Como usuario, quiero registrar ambientes del hogar (kitchen, room, hallway) para permitir la navegación interna por voz dentro de la vivienda.                     | 7 horas            | More Rondon Christopher  | Done   |
+| US06          | Editar configuración del hogar                       | TA06              | Editor de configuración del hogar             | Como usuario, quiero editar la configuración de mi casa para actualizar información sobre ambientes y rutas disponibles.                                          | 5 horas            | More Rondon Christopher  | Done   |
+| US07          | Registro de usuario                                  | TA07              | Implementar registro                          | Como usuario, quiero registrarme en VisualGuide para acceder a la aplicación con mis credenciales personales.                                                     | 4 horas            | Perez Pizarro Pedro      | Done   |
+| US08          | Inicio de sesión                                     | TA08              | Implementación de inicio de sesión            | Como usuario, quiero iniciar sesión correctamente, pudiendo acceder a mi información de forma segura.                                                             | 4 horas            | Perez Pizarro Pedro      | Done   |
+
+
+
+
 #### 7.2.1.3. Development Evidence for Sprint Review.
 #### 7.2.1.4. Testing Suite Evidence for Sprint Review.
 #### 7.2.1.5. Execution Evidence for Sprint Review.
