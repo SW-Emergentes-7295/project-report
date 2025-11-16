@@ -794,7 +794,7 @@ Las entrevistas han sido consolidadas en un solo video registrado en la sección
 
 <img src="./images/interviews/juan_navarro_interview.PNG" alt="Foto de Juan Navarro" width="50%">
 
-**URL de la entrevista:** [Entrevista Juan Navarro](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202212096_upc_edu_pe/EUkUOJYAenZMuMLNbVqi9TkB_OKfUZbk8xSJrsSqIxoLgA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=rcWFyN)
+**URL de la entrevista:** [Link respaldo](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202212096_upc_edu_pe/EUkUOJYAenZMuMLNbVqi9TkB_OKfUZbk8xSJrsSqIxoLgA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=rcWFyN) | https://acortar.link/YxDD6M
 
 **Resumen de la entrevista:**
 Juan Navarro, de 21 años, es una persona no vidente y reside en Los Olivos, Lima. Tenía muchas dificultades al inicio como persona no vidente pero luego se aocstumbró a muchas actividades diarias pero no de forma efectiva. Juan mencionó que sus principales problemas son al momento de buscar objetos específicos dentro de su hogar y moverse entre él. Actualmente, se ayuda de sus familiares para diversas acciones pero no le gusta incomodarlos todo el tiempo.
@@ -813,7 +813,7 @@ Mencionó que una aplicación como VisualGuide podría ser muy beneficiosa, ya q
 **Resumen de la entrevista:**
 Sandy, una joven de 26 años residente en Ate–Lima que perdió la visión moderadamente a los 20 años, vive con su madre y hermana y enfrenta mayores riesgos en la cocina y al desplazarse cuando cambian los muebles. Actualmente se apoya en memoria, tacto y algunas apps poco confiables. Considera indispensable que una aplicación de asistencia visual reconozca objetos y personas con precisión, brinde instrucciones claras por audio, funcione sin internet y garantice la privacidad del mapeo de su hogar. Está dispuesta a invertir tiempo inicial en aprender y realizar un mapeo con ayuda de su hermana. Para ella, contar con un asistente visual inteligente significaría más independencia, seguridad y tranquilidad en su día a día.
 
-**URL de la entrevista:** [Entrevista Sandy Baez](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202212096_upc_edu_pe/ESCJzFoqWJ9Anblw-RigMZoBnGz-uwCmr_k2oBi2pdl35A?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=1LVPBL)
+**URL de la entrevista:** [Link respaldo](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202212096_upc_edu_pe/ESCJzFoqWJ9Anblw-RigMZoBnGz-uwCmr_k2oBi2pdl35A?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=1LVPBL) | https://acortar.link/eY4DCv
 
 
 **Segmento objetivo 2: Familiares o cuidadores de personas no videntes**
@@ -827,7 +827,7 @@ Sandy, una joven de 26 años residente en Ate–Lima que perdió la visión mode
 
 <img src="./images/interviews/carlos-chavez-interview.PNG" alt="Foto de Carlos Chavez" width="100%">
 
-**URL de la entrevista:** [Entrevista Carlos Chavez](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202212096_upc_edu_pe/EY8HPTTWkNJJkxkdtcHoESYBN4DXqP7WpJ3efasJElzn2A?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=gsrUw1)
+**URL de la entrevista:** [Link respaldo](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202212096_upc_edu_pe/EY8HPTTWkNJJkxkdtcHoESYBN4DXqP7WpJ3efasJElzn2A?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=gsrUw1) | https://acortar.link/NdqFg5
 
 **Resumen de la entrevista:**
 Carlos Chávez, de 21 años, es primo de una persona no vidente y reside en La Perla, Callao. Aunque no convive con su primo, lo visita frecuentemente y se preocupa por su seguridad dentro del hogar. Carlos mencionó que las principales preocupaciones incluyen la posibilidad de accidentes domésticos y la dependencia constante de ayuda para moverse y realizar tareas básicas. Actualmente, su familia utiliza un bastón y la ayuda de otros familiares para asistir a su primo.
@@ -843,7 +843,7 @@ Mencionó que una aplicación como VisualGuide podría ser muy beneficiosa, ya q
 
 <img src="./images/interviews/Entrevista-HaroldElias.png" alt="Foto de Harold Elias" width="100%">
 
-**URL de la entrevista:** [Entrevista Harold Elias](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202212096_upc_edu_pe/ETT9PkcwKnZBjmtzMwPcNioBWWCx1Coca_L_xTSO8Axl9A?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=7eXTOj)
+**URL de la entrevista:** [Link respaldo](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202212096_upc_edu_pe/ETT9PkcwKnZBjmtzMwPcNioBWWCx1Coca_L_xTSO8Axl9A?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=7eXTOj) | https://acortar.link/f54FtC
 
 **Resumen de la entrevista:**
 Harol Elias de 21 años, expresó su deseo de poder usar la aplicación para darle más independencia a su primo, así como también expresó su actual preocupacio por la posibilidad de que se lastime. Si bien espera que la aplicación sea de ayuda, también cree que seguirá teniendo que ayudar a su primo en taeas más complejas como subir escaleras.
@@ -3691,7 +3691,7 @@ Vive con familiares
 <img src="./images/interviews/sandy-entrevista-2.PNG" alt="Sandy Baez Interview 2" width="auto" style="display: block; margin-left: auto; margin-right: auto;"/>
 <br>
 
-**URL de la entrevista:** [Entrevista Sandy Baez](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202212096_upc_edu_pe/IQCjboxMa0auSLaOGrjsiphqAQhfhVWDkF_cFphW6kX2YnM?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=hGMFjy)
+**URL de la entrevista:** [Link respaldo](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202212096_upc_edu_pe/IQCjboxMa0auSLaOGrjsiphqAQhfhVWDkF_cFphW6kX2YnM?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=hGMFjy) | https://acortar.link/uZtqma
 
 **Resumen de la entrevista:**
 Sandy destacó la facilidad de uso de VisualGuide, mencionando que las instrucciones en audio fueron claras y oportunas. Sin embargo, señaló que el reconocimiento de objetos tuvo algunas imprecisiones, especialmente con objetos pequeños o poco contrastantes. A pesar de esto, se sintió más segura al desplazarse por su hogar y notó una reducción en la necesidad de pedir ayuda a sus familiares. Sandy recomendó la aplicación a otras personas no videntes, resaltando su potencial para mejorar la autonomía.
@@ -3711,7 +3711,7 @@ Sandy destacó la facilidad de uso de VisualGuide, mencionando que las instrucci
 <img src="./images/interviews/carlos-entrevista-2.PNG" alt="Carlos Chavez Interview 2" width="auto" style="display: block; margin-left: auto; margin-right: auto;"/>
 <br>
 
-**URL de la entrevista:** [Entrevista Carlos Chavez](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202212096_upc_edu_pe/IQBYXlCPFp7QTLyeEEc6nsu7AcGJzHrJYDvRo-D3FDoQ5RE?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=cBhNMQ)
+**URL de la entrevista:** [Link respaldo](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202212096_upc_edu_pe/IQBYXlCPFp7QTLyeEEc6nsu7AcGJzHrJYDvRo-D3FDoQ5RE?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=cBhNMQ) | https://acortar.link/PzQpGg
 
 **Resumen de la entrevista:**
 Carlos expresó que la aplicación le brindó mayor tranquilidad respecto a la seguridad de su primo no vidente. Notó que su familiar dependió menos de su ayuda diaria durante la prueba y consideró que estaría dispuesto a usarla de forma constante. Sin embargo, mencionó que hubo momentos en los que sintió que la app no estaba guiando correctamente, especialmente en áreas con poca iluminación. Carlos sugirió la incorporación de notificaciones para familiares sobre actividades importantes o riesgos detectados.
@@ -3726,8 +3726,8 @@ Carlos expresó que la aplicación le brindó mayor tranquilidad respecto a la s
 
 <img src="./images/interviews/interview-1-validation.png" alt="Foto de Marzzio Chicana" width="50%">
 
-**URL de la entrevista:** [Entrevista Marzzio Chicana](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202212096_upc_edu_pe/IQAVwoRBr9H3TZ7YK5akIZNUAcwqalYuc0gUIGUKdsD4C_A?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=rJxiuu)
-
+**URL de la entrevista:** [Link respaldo](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202212096_upc_edu_pe/IQAVwoRBr9H3TZ7YK5akIZNUAcwqalYuc0gUIGUKdsD4C_A?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=rJxiuu) | https://acortar.link/GV8EFx
+ 
 **Resumen de la entrevista:**
 Marzzio Chicana nos comenta que el aplicativo ayudó mucho asu familiar para moverse por su hogar sin dificultades. Respecto a la guía para el uso de la aplicación, él nos dice que fue sencilla y corta. También comenta que siente que es un aplicativo móvil con mucho potencial y lo recomendaría a sus familiares. Respecto a la precisión de reconocimiento de objetos la nota precisa.
 
@@ -3742,7 +3742,7 @@ Marzzio Chicana nos comenta que el aplicativo ayudó mucho asu familiar para mov
 
 <img src="./images/interviews/Validación-HaroldElías.png" alt="Foto de Harold Elias 2" width="100%">
 
-**URL de la entrevista:** [Entrevista Harold Elias](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202212096_upc_edu_pe/IQDmTMcd7H0JQLc-wOGcirdYARCct4zX7EAXvY67pN43CiY?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=2pmqc8)
+**URL de la entrevista:** [Link respaldo](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202212096_upc_edu_pe/IQDmTMcd7H0JQLc-wOGcirdYARCct4zX7EAXvY67pN43CiY?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=2pmqc8) | https://acortar.link/qUQKXX
 
 **Resumen de la entrevista:**
 Harol Elias de 21 años, expresó su conformidad con el funcionamiento actual de la aplicación, sin embargo, cree que el modelo podría ser mejor, permitiendo a los usuarios saber si hay puertas o escaleras cercanas. Así mismo, le gustaría ver que se añade la funcionalidad de resibir notificaciones sobre el estado de su familiar, para poder estar bien informado.
@@ -3774,7 +3774,7 @@ A continuación, se presentan las evaluaciones realizadas según las heurística
 
 En este video, se presenta de manera comercial la aplicación móvil *VisualGuide*, diseñada para asistir a personas no videntes en la navegación segura dentro de sus hogares mediante el uso de inteligencia artificial y reconocimiento de objetos.
 
-**URL del video:** [Video About-the-Product VisualGuide](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202212096_upc_edu_pe/IQBYhMO86XXARLK7KO9j7zbeAS4HTuHnxUBEQibbrTwvV0c?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=rc9ZGs)
+**URL del video:** [Link respaldo](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202212096_upc_edu_pe/IQBYhMO86XXARLK7KO9j7zbeAS4HTuHnxUBEQibbrTwvV0c?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=rc9ZGs) | https://acortar.link/Sb62vn
 
 
 <img src="./images/visualguide-video.PNG" alt="VisualGuide Video" width="auto" style="display: block; margin-left: auto; margin-right: auto;"/>
@@ -3821,11 +3821,11 @@ En este video, se presenta de manera comercial la aplicación móvil *VisualGuid
 - World Health Organization. (2021). *World Report on Vision*. World Health Organization. https://www.who.int/publications/i/item/9789241516570  
 
 # Anexos
-| Título | URL |
-|--------|-----|
-| **TB1:** Presentación del proyecto | [Video Exposición TB1](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202212096_upc_edu_pe/EWSOfpg9_WFHt5QdJVeVNmwBiSUd_kLe2iH7hqQ4aNLkQw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=qtaGHb) |
-| **Video entrevistas TB1:** Entrevistas consolidadas en un solo video | [Video Entrevistas TB1](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202212096_upc_edu_pe/EY1VitmjZ0tNgM3ZCvMIJt4B0e3KjzPCT7y6S75gHa4jkg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=glBLZg) |
-| **TP:** Exposición Parcial | [Video Exposición TP](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202212096_upc_edu_pe/ET0k7riRA7ZFm18zT0vPC4YBlDYLyTEAU9CtV52ecIe2Sg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=4jK6eY) |
-| **Video entrevistas TB2:** Entrevistas consolidadas en un solo video | [Video Entrevistas TB2](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202212096_upc_edu_pe/IQChB2C7poRiQrH_PstBuc95Aa_7w4FYeGt_cE3U2dXl3RU?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=Otoxzz) |
-| **TB2:** Exposición Trabajo | [Video Exposición TB2](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202212096_upc_edu_pe/IQCNigJyjBKcTJ-w8KYj-yrQAS_L3isnYCWfPRa9Y1dJqdo?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=CcSihx) |
-| **About-the-Product Video:** Video demostrativo del producto final | [Video About-the-Product](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202212096_upc_edu_pe/IQBYhMO86XXARLK7KO9j7zbeAS4HTuHnxUBEQibbrTwvV0c?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=rc9ZGs) |
+| Título | URL | URL Acortado |
+|--------|-----|--------------|
+| **TB1:** Presentación del proyecto | [Link respaldo](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202212096_upc_edu_pe/EWSOfpg9_WFHt5QdJVeVNmwBiSUd_kLe2iH7hqQ4aNLkQw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=qtaGHb) | https://acortar.link/P69Rco |
+| **Video entrevistas TB1:** Entrevistas consolidadas en un solo video | [Link respaldo](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202212096_upc_edu_pe/EY1VitmjZ0tNgM3ZCvMIJt4B0e3KjzPCT7y6S75gHa4jkg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=glBLZg) | https://acortar.link/5cx3rm |
+| **TP:** Exposición Parcial | [Link respaldo](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202212096_upc_edu_pe/ET0k7riRA7ZFm18zT0vPC4YBlDYLyTEAU9CtV52ecIe2Sg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=4jK6eY) | https://acortar.link/RHkNmt |
+| **Video entrevistas TB2:** Entrevistas consolidadas en un solo video | [Link respaldo](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202212096_upc_edu_pe/IQChB2C7poRiQrH_PstBuc95Aa_7w4FYeGt_cE3U2dXl3RU?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=Otoxzz) | https://acortar.link/rA1XWI |
+| **TB2:** Exposición Trabajo | [Link respaldo](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202212096_upc_edu_pe/IQCNigJyjBKcTJ-w8KYj-yrQAS_L3isnYCWfPRa9Y1dJqdo?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=CcSihx) | https://acortar.link/xp69nW |
+| **About-the-Product Video:** Video demostrativo del producto final | [Link respaldo](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202212096_upc_edu_pe/IQBYhMO86XXARLK7KO9j7zbeAS4HTuHnxUBEQibbrTwvV0c?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=rc9ZGs) | https://acortar.link/Sb62vn |
