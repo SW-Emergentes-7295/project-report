@@ -3716,6 +3716,8 @@ Sandy destacó la facilidad de uso de VisualGuide, mencionando que las instrucci
 **Resumen de la entrevista:**
 Carlos expresó que la aplicación le brindó mayor tranquilidad respecto a la seguridad de su primo no vidente. Notó que su familiar dependió menos de su ayuda diaria durante la prueba y consideró que estaría dispuesto a usarla de forma constante. Sin embargo, mencionó que hubo momentos en los que sintió que la app no estaba guiando correctamente, especialmente en áreas con poca iluminación. Carlos sugirió la incorporación de notificaciones para familiares sobre actividades importantes o riesgos detectados.
 
+<br>
+
  
 **Entrevista 2: Familiar de persona no vidente - Marzzio Chicana**
 - Nombre: Marzzio Chicana Romero
@@ -3724,12 +3726,12 @@ Carlos expresó que la aplicación le brindó mayor tranquilidad respecto a la s
 
 <img src="./images/interviews/interview-1-validation.png" alt="Foto de Marzzio Chicana" width="50%">
 
-**URL de la entrevista:** [Entrevista Marzzio Chicana](https://upcedupe-my.sharepoint.com/personal/u202212096_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu202212096%5Fupc%5Fedu%5Fpe%2FDocuments%2FARQ%2E%20SW%20EMERGENTES%2FTB2%2Fvalidation%2Dinterviews%2Finterview%2Dchapter%2DVII%20%2D%20Trim%2Emp4&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2E737296fe%2Dba26%2D4075%2Dac2d%2Da8b0413412b8)
+**URL de la entrevista:** [Entrevista Marzzio Chicana](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202212096_upc_edu_pe/IQAVwoRBr9H3TZ7YK5akIZNUAcwqalYuc0gUIGUKdsD4C_A?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=rJxiuu)
 
 **Resumen de la entrevista:**
 Marzzio Chicana nos comenta que el aplicativo ayudó mucho asu familiar para moverse por su hogar sin dificultades. Respecto a la guía para el uso de la aplicación, él nos dice que fue sencilla y corta. También comenta que siente que es un aplicativo móvil con mucho potencial y lo recomendaría a sus familiares. Respecto a la precisión de reconocimiento de objetos la nota precisa.
 
-<br><br>
+<br>
 
 **Entrevista 3: Familiar de persona no vidente - Harold Elias**
 - Nombre: Harold Elias
@@ -3740,7 +3742,7 @@ Marzzio Chicana nos comenta que el aplicativo ayudó mucho asu familiar para mov
 
 <img src="./images/interviews/Validación-HaroldElías.png" alt="Foto de Harold Elias 2" width="100%">
 
-**URL de la entrevista:** [Entrevista Harold Elias](https://upcedupe-my.sharepoint.com/personal/u202212096_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu202212096_upc_edu_pe%2FDocuments%2FARQ.+SW+EMERGENTES%2FTB2%2Fvalidation-interviews%2FEntrevistaDeValidaci%C3%B3n_HaroldElias.mp4&startedResponseCatch=true&referrer=StreamWebApp.Web&referrerScenario=AddressBarCopied.view.f1c0d3da-1639-4383-8172-e3dec442720c)
+**URL de la entrevista:** [Entrevista Harold Elias](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202212096_upc_edu_pe/IQDmTMcd7H0JQLc-wOGcirdYARCct4zX7EAXvY67pN43CiY?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=2pmqc8)
 
 **Resumen de la entrevista:**
 Harol Elias de 21 años, expresó su conformidad con el funcionamiento actual de la aplicación, sin embargo, cree que el modelo podría ser mejor, permitiendo a los usuarios saber si hay puertas o escaleras cercanas. Así mismo, le gustaría ver que se añade la funcionalidad de resibir notificaciones sobre el estado de su familiar, para poder estar bien informado.
@@ -3824,6 +3826,6 @@ En este video, se presenta de manera comercial la aplicación móvil *VisualGuid
 | **TB1:** Presentación del proyecto | [Video Exposición TB1](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202212096_upc_edu_pe/EWSOfpg9_WFHt5QdJVeVNmwBiSUd_kLe2iH7hqQ4aNLkQw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=qtaGHb) |
 | **Video entrevistas TB1:** Entrevistas consolidadas en un solo video | [Video Entrevistas TB1](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202212096_upc_edu_pe/EY1VitmjZ0tNgM3ZCvMIJt4B0e3KjzPCT7y6S75gHa4jkg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=glBLZg) |
 | **TP:** Exposición Parcial | [Video Exposición TP](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202212096_upc_edu_pe/ET0k7riRA7ZFm18zT0vPC4YBlDYLyTEAU9CtV52ecIe2Sg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=4jK6eY) |
-| **Video entrevistas validación:** Entrevistas consolidadas en un solo video | [Video Entrevistas Validación]() |
-| **TB2:** Exposición Trabajo | [Video Exposición TB2]() |
+| **Video entrevistas TB2:** Entrevistas consolidadas en un solo video | [Video Entrevistas TB2](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202212096_upc_edu_pe/IQChB2C7poRiQrH_PstBuc95Aa_7w4FYeGt_cE3U2dXl3RU?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=Otoxzz) |
+| **TB2:** Exposición Trabajo | [Video Exposición TB2](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202212096_upc_edu_pe/IQCNigJyjBKcTJ-w8KYj-yrQAS_L3isnYCWfPRa9Y1dJqdo?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=CcSihx) |
 | **About-the-Product Video:** Video demostrativo del producto final | [Video About-the-Product](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202212096_upc_edu_pe/IQBYhMO86XXARLK7KO9j7zbeAS4HTuHnxUBEQibbrTwvV0c?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=rc9ZGs) |
