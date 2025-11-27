@@ -3624,6 +3624,16 @@ En esta figura se muestra una captura de pantalla del repositorio de Backend en 
 <img src="./images/insights-web-services.PNG" alt="Insights Backend" width="auto" style="display: block; margin-left: auto; margin-right: auto;"/>
 
 
+### 7.2.2. Sprint 2
+#### 7.2.2.1. Sprint Planning 2.
+#### 7.2.2.2. Sprint Backlog 2.
+#### 7.2.2.3. Development Evidence for Sprint Review.
+#### 7.2.2.4. Testing Suite Evidence for Sprint Review.
+#### 7.2.2.5. Execution Evidence for Sprint Review.
+#### 7.2.2.6. Services Documentation Evidence for Sprint Review.
+#### 7.2.2.7. Software Deployment Evidence for Sprint Review.
+#### 7.2.2.8. Team Collaboration Insights during Sprint.
+
 ## 7.3. Validation Interviews.
 ### 7.3.1. Diseño de Entrevistas.
 
