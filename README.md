@@ -3466,6 +3466,11 @@ La evidencia de desarrollo se sustenta en los commits registrados en los reposit
 
 [Repositorio de Testing](https://github.com/SW-Emergentes-7295/VisualGuide-Testing)
 
+| Repositorio         | Branch | Commit Id | Commit Message  | Commit Message Body  | Committed on (Date) |
+|---------------------|--------|-----------|-----------------|----------------------|----------------------|
+| VisualGuide-Testing | main   | 19627c3   | User story 09   | User story 09       | 02/12/2025           |
+| VisualGuide-Testing | main   | 8bcd22f   | User story 10   | User story 10        | 02/12/2025           |
+
 Se crearon los archivos .feature junto a diversos escenarios para poner a prueba el funcionamiento de la palicación, asegurandonos de que cumpla con las funcionalidades básicas de cada User Story.
 
 #### 7.2.1.5. Execution Evidence for Sprint Review.
