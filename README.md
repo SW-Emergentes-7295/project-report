@@ -3445,21 +3445,67 @@ La evidencia de desarrollo se sustenta en los commits registrados en los reposit
 
 | Repository       | Branch | Commit Id | Commit Message                                                | Commit On    |
 |------------------|--------|-----------|----------------------------------------------------------------|--------------|
-|  mobile-application  | main   |  b695392  | feat: recognizing objects with the model | 27/11/2025 |
-|  mobile-application  | main   |  a08ec7a  | [ADD] RAG service | 30/11/2025 |
-|  mobile-application  | main   |  efd04ce  | Merge pull request #4 from SW-Emergentes-7295/homeRecognition | 30/11/2025 |
-|  mobile-application  | main   |  10e8606  | Merge pull request #5 from SW-Emergentes-7295/ai-recognition-v2 | 30/11/2025 |
+|  mobile-application  | main   |  d48d293  |  first commit                | 19/10/2025  |
+|  mobile-application  | main   |  8722117  |  add(main): assets folder    |  19/10/2025 |
+|  mobile-application  | main   |  59389cd  |  update(docs): readme         |  19/10/2025  |
+|  mobile-application  | main   |  540cda2  |  feat: first view with the transcription panel             |  04/11/2025 |
+|  mobile-application  | main   |  1745ec8  |  add: added app settings model                 | 04/11/2025    |
+|  mobile-application  | main   |  8b0fddb  |  add: added settings service                        | 04/11/2025   |
+|  mobile-application  | main   |  9616b6c  |  feat: added settings app view                      | 04/11/2025   |
+|  mobile-application  | main   |  6df0a5d  |   feat: adding ai voice command                | 06/11/2025  |
+|  mobile-application  | main   |  4be86bf  |   update: auto-scrolling transcription panel                    |  06/11/2025   |
+|  mobile-application  | main   |  caa8944  |    update: ai recognition transcription                          | 09/11/2025  |
+|  mobile-application  | main   |  fa571c5  |   update: settings screen dynamic with preferences                    | 09/11/2025  |
+|  mobile-application  | main   |  db1078d  |   feat: agregar vistas de welcome y login                      | 11/11/2025  |
+|  mobile-application  | main   |  c61e02b  |   fix: ajustar tabs de login_camera                       | 11/11/2025  |
+|  mobile-application  | main   |  a31a935  |   ADD: Photo mapping saved in local storage             | 12/11/2025  |
+|  mobile-application  | main   |  c70af0d  | fix: ajustar vistas | 12//11/2025 |
+|  mobile-application  | main   |  440ae29  | feat: add auth service | 13/11/2025 |
+|  mobile-application  | main   |  b1c0f42  | fix: implement user registration | 13/11/2025 |
+|  mobile-application  | main   |  1d04f88  | fix: implement user login | 13/11/2025 |
+|  mobile-application  | main   |  939eae5  | Merge pull request #2 from SW-Emergentes-7295/iam | 13/11/2025 |
+|  mobile-application  | main   |  eaf2472  | Merge branch 'main' into home_configuration | 13/11/2025 |
+|  mobile-application  | main   |  0e1a03a  | Merge pull request #1 from SW-Emergentes-7295/home_configuration | 13/11/2025 |
+|  mobile-application  | main   |  eefc413  | Merge branch 'main' into ai-recognition | 13/11/2025 |
+|  mobile-application  | main   |  eefc413  | Merge pull request #3 from SW-Emergentes-7295/ai-recognition | 13/11/2025 |
+|  mobile-application  | main   |  aaea46c  | update: minor changes | 13/11/2025 |
 
 #### Back end Python:
 
 | Repository     | Branch | Commit Id | Commit Message                                         | Commit On       |
 |----------------|--------|-----------|--------------------------------------------------------|------------------|
-| web-services   | main   |    efdf3b4     | feat: logic for detect objects                                  | 27/11/2025     |
-| web-services   | main   |    625ae95     | Added endpoint for rag                                    | 27/11/2025     |
-| web-services   | main   | 94cea64         | Merge pull request #6 from SW-Emergentes-7295/ai-recognition-v2               | 30/11/2025     |
-| web-services   | main   |    005d862     | Merge pull request #7 from SW-Emergentes-7295/rag                       | 30/11/2025     |
-| web-services   | main   | c95b278        | feat: new version with ai                               | 01/12/2025     |
-| web-services   | main   | 6cc6768        | update: minor changes                      | 01/12/2025     |
+| web-services   | main   |    a103a63     | update: minor changes                                  | Nov 13, 2025     |
+| web-services   | main   | 71ab550         | Merge branch 'main'                                    | Nov 13, 2025     |
+| web-services   | main   | 81f7ccb         | feat: configuration preferences bc added               | Nov 13, 2025     |
+| web-services   | main   | 08e7965         | Merge pull request #1 from model                       | Nov 13, 2025     |
+| web-services   | main   | db93c5c        | update: requirements.txt                               | Nov 13, 2025     |
+| web-services   | main   | 79f319c        | feat: home configuration bc added                      | Nov 13, 2025     |
+| web-services   | main   | 8c710f2        | Merge pull request #4 from home_configuration          | Nov 13, 2025     |
+| web-services   | main   | 0a79605        | Merge branch 'main' into home_configuration            | Nov 13, 2025     |
+| web-services   | main   | fc6bcac        | update: iam bc added                                   | Nov 13, 2025     |
+| web-services   | main   | 336a85c        | Merge pull request #5 from iam                         | Nov 13, 2025     |
+| web-services   | main   | 3b9d922        | fix: added CORS                                        | Nov 13, 2025     |
+| web-services   | main   | f09fcfd       | feat: add endpoint of login user                       | Nov 13, 2025     |
+| web-services   | main   | 98ad144        | feat: agregar endpoints de registrar y listar usuarios | Nov 13, 2025     |
+| web-services   | main   | e0480a5        | feat: add mysql_user_repository                        | Nov 13, 2025     |
+| web-services   | main   | 3ccbaa9        | feat: add query for table users                        | Nov 13, 2025     |
+| web-services   | main   | 5c3ffba        | feat: added user model and repository                  | Nov 12, 2025     |
+| web-services   | main   | a03430f       | Revert "feat: added user domain"                       | Nov 12, 2025     |
+| web-services   | main   | b6bc076        | feat: added user domain                                | Nov 12, 2025     |
+| web-services   | main   | c3b4656        | [ADD] Many to many relationship rooms-paths            | Nov 10, 2025     |
+| web-services   | main   | e4226b4        | [FIX] Home id requisites for rooms and paths           | Nov 09, 2025     |
+| web-services   | main   | 38387ba        | [ADD] first version room and path controllers          | Nov 09, 2025     |
+| web-services   | main   | 2553f44       | [ADD] Home controller completed                        | Nov 08, 2025     |
+| web-services   | main   | 96f461e        | [ADD] structure for DDD                                | Nov 07, 2025     |
+| web-services   | main   | 537aecb       | update: requirements                                   | Nov 06, 2025     |
+| web-services   | main   | 54638c9        | feat: integrated gemini api                            | Nov 06, 2025     |
+| web-services   | main   | 0b55e96        | [ADD] first version of home configuration              | Nov 05, 2025     |
+| web-services   | main   | 95c55ca        | Add files via upload                                   | Oct 24, 2025     |
+| web-services   | main   | 70551ba        | update(requirements): new requirements                 | Oct 19, 2025     |
+| web-services   | main   | 33a9a0a        | add(base): added template ddd                          | Oct 2025         |
+| web-services   | main   | 01b5799        | add(requirements): added requirements.txt              | Oct 2025         |
+| web-services   | main   | 67572ac        | first commit                                           | Oct 2025         |
+| web-services   | main   | fb8a54c        | Initial commit                                         | Oct 2025         |
 
 
 #### 7.2.1.4. Testing Suite Evidence for Sprint Review.
@@ -3468,8 +3514,14 @@ La evidencia de desarrollo se sustenta en los commits registrados en los reposit
 
 | Repositorio         | Branch | Commit Id | Commit Message  | Commit Message Body  | Committed on (Date) |
 |---------------------|--------|-----------|-----------------|----------------------|----------------------|
-| VisualGuide-Testing | main   | 19627c3   | User story 09   | User story 09       | 02/12/2025           |
-| VisualGuide-Testing | main   | 8bcd22f   | User story 10   | User story 10        | 02/12/2025           |
+| VisualGuide-Testing | main   | af16cd2   | User story 01   | User story 01        | 15/11/2025           |
+| VisualGuide-Testing | main   | 052ee60   | User story 02   | User story 02        | 15/11/2025           |
+| VisualGuide-Testing | main   | cf0d12c   | User story 03   | User story 03        | 15/11/2025           |
+| VisualGuide-Testing | main   | 1b64554   | User story 04   | User story 04        | 15/11/2025           |
+| VisualGuide-Testing | main   | e663c54   | User story 05   | User story 05        | 15/11/2025           |
+| VisualGuide-Testing | main   | a918227   | User story 06   | User story 06        | 15/11/2025           |
+| VisualGuide-Testing | main   | ab2ae11   | User story 07   | User story 07        | 15/11/2025           |
+| VisualGuide-Testing | main   | 000fa6b   | User story 08   | User story 08        | 15/11/2025           |
 
 Se crearon los archivos .feature junto a diversos escenarios para poner a prueba el funcionamiento de la palicación, asegurandonos de que cumpla con las funcionalidades básicas de cada User Story.
 
@@ -3576,20 +3628,37 @@ En esta figura se muestra una captura de pantalla del repositorio de Backend en 
 #### 7.2.2.1. Sprint Planning 2.
 #### 7.2.2.2. Sprint Backlog 2.
 #### 7.2.2.3. Development Evidence for Sprint Review.
-#### 7.2.2.4. Testing Suite Evidence for Sprint Review.
+
+La evidencia de desarrollo se sustenta en los commits registrados en los repositorios remotos del frontend (Flutter) y backend (Python). Estos commits muestran la implementación de las historias de usuario, actualizaciones de interfaces, creación de endpoints y correcciones realizadas durante el sprint.
+
+#### Front end Flutter:
+
+| Repository       | Branch | Commit Id | Commit Message                                                | Commit On    |
+|------------------|--------|-----------|----------------------------------------------------------------|--------------|
+|  mobile-application  | main   |  b695392  | feat: recognizing objects with the model | 27/11/2025 |
+|  mobile-application  | main   |  a08ec7a  | [ADD] RAG service | 30/11/2025 |
+|  mobile-application  | main   |  efd04ce  | Merge pull request #4 from SW-Emergentes-7295/homeRecognition | 30/11/2025 |
+|  mobile-application  | main   |  10e8606  | Merge pull request #5 from SW-Emergentes-7295/ai-recognition-v2 | 30/11/2025 |
+
+#### Back end Python:
+
+| Repository     | Branch | Commit Id | Commit Message                                         | Commit On       |
+|----------------|--------|-----------|--------------------------------------------------------|------------------|
+| web-services   | main   |    efdf3b4     | feat: logic for detect objects                                  | 27/11/2025     |
+| web-services   | main   |    625ae95     | Added endpoint for rag                                    | 27/11/2025     |
+| web-services   | main   | 94cea64         | Merge pull request #6 from SW-Emergentes-7295/ai-recognition-v2               | 30/11/2025     |
+| web-services   | main   |    005d862     | Merge pull request #7 from SW-Emergentes-7295/rag                       | 30/11/2025     |
+| web-services   | main   | c95b278        | feat: new version with ai                               | 01/12/2025     |
+| web-services   | main   | 6cc6768        | update: minor changes                      | 01/12/2025     |
+
+#### 7.2.1.4. Testing Suite Evidence for Sprint Review.
 
 [Repositorio de Testing](https://github.com/SW-Emergentes-7295/VisualGuide-Testing)
 
 | Repositorio         | Branch | Commit Id | Commit Message  | Commit Message Body  | Committed on (Date) |
 |---------------------|--------|-----------|-----------------|----------------------|----------------------|
-| VisualGuide-Testing | main   | af16cd2   | User story 09   | User story 01        | 15/11/2025           |
-| VisualGuide-Testing | main   | 052ee60   | User story 10   | User story 02        | 15/11/2025           |
-| VisualGuide-Testing | main   | cf0d12c   | User story 11   | User story 03        | 15/11/2025           |
-| VisualGuide-Testing | main   | 1b64554   | User story 12   | User story 04        | 15/11/2025           |
-| VisualGuide-Testing | main   | e663c54   | User story 13   | User story 05        | 15/11/2025           |
-| VisualGuide-Testing | main   | a918227   | User story 14   | User story 06        | 15/11/2025           |
-| VisualGuide-Testing | main   | ab2ae11   | User story 15   | User story 07        | 15/11/2025           |
-| VisualGuide-Testing | main   | 000fa6b   | User story 16   | User story 08        | 15/11/2025           |
+| VisualGuide-Testing | main   | 19627c3   | User story 09   | User story 09       | 02/12/2025           |
+| VisualGuide-Testing | main   | 8bcd22f   | User story 10   | User story 10        | 02/12/2025           |
 
 Se crearon los archivos .feature junto a diversos escenarios para poner a prueba el funcionamiento de la palicación, asegurandonos de que cumpla con las funcionalidades básicas de cada User Story.
 
