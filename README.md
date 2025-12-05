@@ -1,4 +1,4 @@
-# <center>Informe del Trabajo TB2</center>
+# <center>Informe del Trabajo FINAL</center>
 
 <p align="center">
     <img src="https://upload.wikimedia.org/wikipedia/commons/f/fc/UPC_logo_transparente.png"></img><br>
@@ -6,7 +6,7 @@
     <strong>Ingeniería de Software</strong><br>
     <strong>1ASI0728 - Arquitecturas de Software Emergentes - 7295</strong><br>
     <strong>Profesor: Royer Edelwer Rojas Malasquez</strong><br>
-    <br>INFORME TB2
+    <br>INFORME FINAL
 </p>
 
 <center>
