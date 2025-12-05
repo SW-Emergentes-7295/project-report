@@ -3629,39 +3629,28 @@ En esta figura se muestra una captura de pantalla del repositorio de Backend en 
 #### 7.2.2.2. Sprint Backlog 2.
 #### 7.2.2.3. Development Evidence for Sprint Review.
 
-La evidencia de desarrollo se sustenta en los commits registrados en los repositorios remotos del frontend (Flutter) y backend (Python). Estos commits muestran la implementación de las historias de usuario, actualizaciones de interfaces, creación de endpoints y correcciones realizadas durante el sprint.
+La evidencia de desarrollo del Sprint 2 se sustenta en los commits registrados en los repositorios del frontend (Flutter) y backend (Python).
+Durante este sprint, los repos reflejan la integración final de los módulos clave del MVP, incluyendo reconocimiento visual con YOLO, narración con Gemini, mapeo del hogar, comandos de voz y mejoras en los servicios RAG.
+Los commits muestran la evolución continua del producto mediante la incorporación de nuevas funcionalidades, la fusión de ramas de desarrollo y ajustes finales para la demo presentada en la Sprint Review.
 
-#### Front end Flutter:
-
+**FrontEnd**<br>
 | Repository       | Branch | Commit Id | Commit Message                                                | Commit On    |
 |------------------|--------|-----------|----------------------------------------------------------------|--------------|
-|  mobile-application  | main   |  b695392  | feat: recognizing objects with the model | 27/11/2025 |
-|  mobile-application  | main   |  a08ec7a  | [ADD] RAG service | 30/11/2025 |
-|  mobile-application  | main   |  efd04ce  | Merge pull request #4 from SW-Emergentes-7295/homeRecognition | 30/11/2025 |
-|  mobile-application  | main   |  10e8606  | Merge pull request #5 from SW-Emergentes-7295/ai-recognition-v2 | 30/11/2025 |
+|  mobile-application  | main   | b695392   |  feat: recognizing objects with the model  |  27/11/2025 |
+|  mobile-application  | main   | a08ec7a   |  [ADD] RAG service  |  30/11/2025 |
+|  mobile-application  | main   | efd04ce   |  Merge pull request #4 from SW-Emergentes-7295/homeRecognition  |  30/11/2025 |
+|  mobile-application  | main   | 10e8606   |  Merge pull request #5 from SW-Emergentes-7295/ai-recognition-v2  |  30/11/2025 |
 
-#### Back end Python:
+**BackEnd**<br>
+| Repository       | Branch | Commit Id | Commit Message                                                | Commit On    |
+|------------------|--------|-----------|----------------------------------------------------------------|--------------|
+|  web-services  | main   |  625ae95  |  Added endpoint for rag   |  28/11/2025 |
+|  web-services  | main   |  94cea64  |  Merge pull request #6 from SW-Emergentes-7295/ai-recognition-v2   |  30/11/2025 |
+|  web-services  | main   |  005d862  |  Merge pull request #7 from SW-Emergentes-7295/rag   | 30/11/2025  |
+|  web-services  | main   |  c95b278  |  feat: new version with ai   | 1/12/2025  |
+|  web-services  | main   |  6cc6768  |  update: minor changes   | 1/12/2025 |
 
-| Repository     | Branch | Commit Id | Commit Message                                         | Commit On       |
-|----------------|--------|-----------|--------------------------------------------------------|------------------|
-| web-services   | main   |    efdf3b4     | feat: logic for detect objects                                  | 27/11/2025     |
-| web-services   | main   |    625ae95     | Added endpoint for rag                                    | 27/11/2025     |
-| web-services   | main   | 94cea64         | Merge pull request #6 from SW-Emergentes-7295/ai-recognition-v2               | 30/11/2025     |
-| web-services   | main   |    005d862     | Merge pull request #7 from SW-Emergentes-7295/rag                       | 30/11/2025     |
-| web-services   | main   | c95b278        | feat: new version with ai                               | 01/12/2025     |
-| web-services   | main   | 6cc6768        | update: minor changes                      | 01/12/2025     |
-
-#### 7.2.1.4. Testing Suite Evidence for Sprint Review.
-
-[Repositorio de Testing](https://github.com/SW-Emergentes-7295/VisualGuide-Testing)
-
-| Repositorio         | Branch | Commit Id | Commit Message  | Commit Message Body  | Committed on (Date) |
-|---------------------|--------|-----------|-----------------|----------------------|----------------------|
-| VisualGuide-Testing | main   | 19627c3   | User story 09   | User story 09       | 02/12/2025           |
-| VisualGuide-Testing | main   | 8bcd22f   | User story 10   | User story 10        | 02/12/2025           |
-
-Se crearon los archivos .feature junto a diversos escenarios para poner a prueba el funcionamiento de la palicación, asegurandonos de que cumpla con las funcionalidades básicas de cada User Story.
-
+#### 7.2.2.4. Testing Suite Evidence for Sprint Review.
 #### 7.2.2.5. Execution Evidence for Sprint Review.
 #### 7.2.2.6. Services Documentation Evidence for Sprint Review.
 #### 7.2.2.7. Software Deployment Evidence for Sprint Review.
