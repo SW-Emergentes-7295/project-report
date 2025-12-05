@@ -3673,7 +3673,66 @@ Los commits muestran la evolución continua del producto mediante la incorporaci
 
 #### 7.2.2.4. Testing Suite Evidence for Sprint Review.
 #### 7.2.2.5. Execution Evidence for Sprint Review.
+
+**Frontend**
+
+Log in:
+
+<img src="./images/Sprint 2/Execution/sprint2_Execution7.png" alt="App log in execution" width="auto" style="display: block; margin-left: auto; margin-right: auto;"/>
+
+Home mapping:
+
+<img src="./images/Sprint 2/Execution/sprint2_Execution8.png" alt="APP home mapping execution" width="auto" style="display: block; margin-left: auto; margin-right: auto;"/>
+
+Image detection:
+
+<img src="./images/Sprint 2/Execution/sprint2_Execution9.png" alt="APP image detection execution" width="auto" style="display: block; margin-left: auto; margin-right: auto;"/>
+
+Configurations:
+
+<img src="./images/Sprint 2/Execution/sprint2_Execution10.png" alt="APP configuration execution" width="auto" style="display: block; margin-left: auto; margin-right: auto;"/>
+
+**Backend**
+
+Log in:
+
+<img src="./images/Sprint 2/Execution/sprint2_Execution1.png" alt="Login execution" width="auto" style="display: block; margin-left: auto; margin-right: auto;"/>
+
+Home:
+
+<img src="./images/Sprint 2/Execution/sprint2_Execution2.png" alt="Home execution" width="auto" style="display: block; margin-left: auto; margin-right: auto;"/>
+
+Setup RAG:
+
+<img src="./images/Sprint 2/Execution/sprint2_Execution3.png" alt="RAG execution" width="auto" style="display: block; margin-left: auto; margin-right: auto;"/>
+
+Object detection:
+
+<img src="./images/Sprint 2/Execution/sprint2_Execution4.png" alt="Object detection execution" width="auto" style="display: block; margin-left: auto; margin-right: auto;"/>
+
+Object alert:
+
+<img src="./images/Sprint 2/Execution/sprint2_Execution5.png" alt="Object alert execution" width="auto" style="display: block; margin-left: auto; margin-right: auto;"/>
+
+Voice command:
+
+<img src="./images/Sprint 2/Execution/sprint2_Execution6.png" alt="Voice command execution" width="auto" style="display: block; margin-left: auto; margin-right: auto;"/>
+
 #### 7.2.2.6. Services Documentation Evidence for Sprint Review.
+
+Se utilizó Swagger por medio de Flasgger para documentar los endpoints y facilitar el testing de estos mismos. En la documentacion nos aseguramos de indicar que parametros son necesarios, asi como tambien indicar que clase de respuesta se recibira:
+
+<img src="./images/Sprint 2/Documentation/sprint2_Documentation1.png" width="auto" style="display: block; margin-left: auto; margin-right: auto;"/>
+<br><br>
+<img src="./images/Sprint 2/Documentation/sprint2_Documentation2.png" width="auto" style="display: block; margin-left: auto; margin-right: auto;"/>
+<br><br>
+<img src="./images/Sprint 2/Documentation/sprint2_Documentation3.png" width="auto" style="display: block; margin-left: auto; margin-right: auto;"/>
+<br><br>
+<img src="./images/Sprint 2/Documentation/sprint2_Documentation4.png" width="auto" style="display: block; margin-left: auto; margin-right: auto;"/>
+<br><br>
+<img src="./images/Sprint 2/Documentation/sprint2_Documentation5.png" width="auto" style="display: block; margin-left: auto; margin-right: auto;"/>
+<br><br>
+
 #### 7.2.2.7. Software Deployment Evidence for Sprint Review.
 Para el despliegue final de nuestra aplicación móvil, se utilizó la plataforma de **GitHub** específicamente el apartado de Releases, donde se puede gestionar las versiones de nuestra aplicación móvil y proporcionar enlaces de descarga directa a los usuarios finales.
 
