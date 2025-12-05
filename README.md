@@ -3627,6 +3627,27 @@ En esta figura se muestra una captura de pantalla del repositorio de Backend en 
 ### 7.2.2. Sprint 2
 #### 7.2.2.1. Sprint Planning 2.
 #### 7.2.2.2. Sprint Backlog 2.
+
+El sprint backlog 2 fue documentado a la par del avance del proyecto y en la herramienta de trello, además se incluye todas las tareas necesarias para completar la Demo final: mapeo del hogar, detección de objetos, narración por voz, comandos de navegación y ajustes de accesibilidad. Todas las historias fueron desarrolladas y cerradas durante el sprint.<br><br>
+<img src="./images/Chapter7/Sprint2backlog.png" alt="Insights Backend" width="auto" style="display: block; margin-left: auto; margin-right: auto;"/>
+<br>
+Link del trello: [https://trello.com/invite/b/6930682a67fe89153b3ed6ae/ATTIbcf4571c93c9ea9a0bc5f8dee54e7ca7E04E61D2/sprint-2-visualguide](https://trello.com/invite/b/6930682a67fe89153b3ed6ae/ATTIbcf4571c93c9ea9a0bc5f8dee54e7ca7E04E61D2/sprint-2-visualguide)
+
+| User Story ID | Title                                                | Work-Item/Task ID | Task Title                                     | Description                                                                                                                                                       | Estimation (hours) | Assigned To              | Status |
+|---------------|------------------------------------------------------|-------------------|------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------|---------------------------|--------|
+| US09          | Mapeo del hogar en 6 fotos                          | TA09              | Captura guiada del hogar            | Guía por voz para ayudar al usuario no vidente a tomar 6 fotos del hogar.              | 7 horas            | Christopher More   | Done   |
+| US10          | Cámara en tiempo real                   | TA10              | Flujo continuo de cámara              | Activación automática de la cámara para análisis constante del entorno.                              | 6 horas            | Rodriguez Vargas Arian   | Done   |
+| US11          | Detección de objetos                        | TA11              | Integración YOLO            | Detección de objetos (mesa, silla, cama, etc.) desde la cámara.                               | 8 horas            | Rodriguez Vargas Arian         | Done   |
+| US12          | Distancia del objeto                           | TA12              | Cálculo de metros                    | Estimación de la distancia aproximada al objeto detectado.                        | 4 horas            | Christopher More         | Done   |
+| US13          | Narración del entorno                       | TA13              | Integración Gemini              | Gemini narra: “Silla a 1.3 metros”, “Mesa a tu izquierda”, etc.                     | 6 horas            | Tony Ramos  | Done   |
+| US14          | Actualización automática                      | TA14              | Intervalos de refresco             | La app actualiza detecciones cada pocos segundos.                                          | 4 horas            | Tony Ramos  | Done   |
+| US15          | Velocidad de voz                                  | TA15              | Ajuste accesible                          | Aumentar o disminuir velocidad de voz en preferencias.                                                     | 4 horas            | Tony Ramos      | Done   |
+| US16          | Comandos de voz                                     | TA16              | Reconocimiento por micrófono            | Comandos como “quiero ir a la cocina”, “guíame al baño”.                                                             | 6 horas            | Rodriguez Vargas Arian      | Done   |
+| US17          | Instrucciones de movimiento                                    | TA17              | Orientación guiada            | IA indica cómo moverse: “Da 2 pasos a la izquierda”.                                                             | 4 horas            | Perez Pizarro Pedro      | Done   |
+| US18          | Auth final                                     | TA18              | Registro + login final            | Flujo completo de registro e inicio de sesión.                                                             | 4 horas            | Perez Pizarro Pedro      | Done   |
+| US19          | Testing accesible                                     | TA19              | Demo final            | Validación del MVP con pruebas de accesibilidad.                                                             | 4 horas            | Equipo completo      | Done   |
+
+
 #### 7.2.2.3. Development Evidence for Sprint Review.
 
 La evidencia de desarrollo del Sprint 2 se sustenta en los commits registrados en los repositorios del frontend (Flutter) y backend (Python).
