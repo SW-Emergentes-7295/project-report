@@ -3458,7 +3458,7 @@ La evidencia de desarrollo se sustenta en los commits registrados en los reposit
 |  mobile-application  | main   |  fa571c5  |   update: settings screen dynamic with preferences                    | 09/11/2025  |
 |  mobile-application  | main   |  db1078d  |   feat: agregar vistas de welcome y login                      | 11/11/2025  |
 |  mobile-application  | main   |  c61e02b  |   fix: ajustar tabs de login_camera                       | 11/11/2025  |
-|  mobile-application  | main   |  a31a935  |   ADD] Photo mapping saved in local storage             | 12/11/2025  |
+|  mobile-application  | main   |  a31a935  |   ADD: Photo mapping saved in local storage             | 12/11/2025  |
 |  mobile-application  | main   |  c70af0d  | fix: ajustar vistas | 12//11/2025 |
 |  mobile-application  | main   |  440ae29  | feat: add auth service | 13/11/2025 |
 |  mobile-application  | main   |  b1c0f42  | fix: implement user registration | 13/11/2025 |
@@ -3628,7 +3628,40 @@ En esta figura se muestra una captura de pantalla del repositorio de Backend en 
 #### 7.2.2.1. Sprint Planning 2.
 #### 7.2.2.2. Sprint Backlog 2.
 #### 7.2.2.3. Development Evidence for Sprint Review.
-#### 7.2.2.4. Testing Suite Evidence for Sprint Review.
+
+La evidencia de desarrollo se sustenta en los commits registrados en los repositorios remotos del frontend (Flutter) y backend (Python). Estos commits muestran la implementación de las historias de usuario, actualizaciones de interfaces, creación de endpoints y correcciones realizadas durante el sprint.
+
+#### Front end Flutter:
+
+| Repository       | Branch | Commit Id | Commit Message                                                | Commit On    |
+|------------------|--------|-----------|----------------------------------------------------------------|--------------|
+|  mobile-application  | main   |  b695392  | feat: recognizing objects with the model | 27/11/2025 |
+|  mobile-application  | main   |  a08ec7a  | [ADD] RAG service | 30/11/2025 |
+|  mobile-application  | main   |  efd04ce  | Merge pull request #4 from SW-Emergentes-7295/homeRecognition | 30/11/2025 |
+|  mobile-application  | main   |  10e8606  | Merge pull request #5 from SW-Emergentes-7295/ai-recognition-v2 | 30/11/2025 |
+
+#### Back end Python:
+
+| Repository     | Branch | Commit Id | Commit Message                                         | Commit On       |
+|----------------|--------|-----------|--------------------------------------------------------|------------------|
+| web-services   | main   |    efdf3b4     | feat: logic for detect objects                                  | 27/11/2025     |
+| web-services   | main   |    625ae95     | Added endpoint for rag                                    | 27/11/2025     |
+| web-services   | main   | 94cea64         | Merge pull request #6 from SW-Emergentes-7295/ai-recognition-v2               | 30/11/2025     |
+| web-services   | main   |    005d862     | Merge pull request #7 from SW-Emergentes-7295/rag                       | 30/11/2025     |
+| web-services   | main   | c95b278        | feat: new version with ai                               | 01/12/2025     |
+| web-services   | main   | 6cc6768        | update: minor changes                      | 01/12/2025     |
+
+#### 7.2.1.4. Testing Suite Evidence for Sprint Review.
+
+[Repositorio de Testing](https://github.com/SW-Emergentes-7295/VisualGuide-Testing)
+
+| Repositorio         | Branch | Commit Id | Commit Message  | Commit Message Body  | Committed on (Date) |
+|---------------------|--------|-----------|-----------------|----------------------|----------------------|
+| VisualGuide-Testing | main   | 19627c3   | User story 09   | User story 09       | 02/12/2025           |
+| VisualGuide-Testing | main   | 8bcd22f   | User story 10   | User story 10        | 02/12/2025           |
+
+Se crearon los archivos .feature junto a diversos escenarios para poner a prueba el funcionamiento de la palicación, asegurandonos de que cumpla con las funcionalidades básicas de cada User Story.
+
 #### 7.2.2.5. Execution Evidence for Sprint Review.
 #### 7.2.2.6. Services Documentation Evidence for Sprint Review.
 #### 7.2.2.7. Software Deployment Evidence for Sprint Review.
