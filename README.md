@@ -3625,7 +3625,28 @@ En esta figura se muestra una captura de pantalla del repositorio de Backend en 
 
 
 ### 7.2.2. Sprint 2
+
+Durante el Sprint 2, el equipo de HomeSense completó la implementación total del MVP de VisualGuide, incorporando detección de objetos en tiempo real mediante la cámara, cálculo de distancias, narración auditiva con Gemini, comandos de voz conversacionales y un módulo de mapeo del hogar basado en 6 fotografías guiadas por voz.
+También se añadieron opciones avanzadas de accesibilidad como el ajuste de velocidad de la voz y actualización automática del entorno.
+
 #### 7.2.2.1. Sprint Planning 2.
+
+
+
+| **Campo**                             | **Detalle**                                                                                                                                                                                      |
+|---------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Sprint #**                          | 2                                                                                                                                                                                                |
+| **Date**                              | 21/11/2025                                                                                                                                                                                       |
+| **Time**                              | 15:00                                                                                                                                                                                            |
+| **Location**                          | Reunión virtual vía Discord                                                                                                                                                                      |
+| **Prepared By**                       | Rodriguez Vargas Arian Martín                                                                                                                                                                    |
+| **Attendees**                         | More Rondon Christopher Sebastian<br/>Perez Pizarro Pedro Jeremy<br/>Ramos Najar Tony Alexander<br/>Rodriguez Vargas Arian Martín                                                                 |
+| **Sprint n – 1 Review Summary**       | En el Sprint 1 se completó la base funcional de VisualGuide: autenticación, linking code, navegación inicial por voz, procesamiento de comandos y primera integración con IA.                                                                                                                                              |
+| **Sprint n – 1 Retrospective Summary**| Se identificó la necesidad de mejorar pruebas de accesibilidad, optimizar cámara + detección y aumentar sesiones de integración conjunta.                                                                                                                                            |
+| **Sprint Goal & User Stories**        | **Sprint 2 Goal:**<br/> Finalizar el proyecto completo: detección de objetos, distancia, mapeo del hogar, comandos de voz, narración con Gemini, actualización automática y ajustes de accesibilidad. |
+| **Sprint n Velocity**                 | **Sum of Story Points:** <br> 45 |
+
+
 #### 7.2.2.2. Sprint Backlog 2.
 
 El sprint backlog 2 fue documentado a la par del avance del proyecto y en la herramienta de trello, además se incluye todas las tareas necesarias para completar la Demo final: mapeo del hogar, detección de objetos, narración por voz, comandos de navegación y ajustes de accesibilidad. Todas las historias fueron desarrolladas y cerradas durante el sprint.<br><br>
