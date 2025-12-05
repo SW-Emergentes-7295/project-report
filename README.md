@@ -213,6 +213,51 @@
         </ul>
       </td>
     </tr>
+    <tr>
+  <td rowspan="4">V4</td>
+  <td>30/11/2025</td>
+  <td>Ramos Najar, Tony Alexander</td>
+  <td>
+    <ul>
+      <li>7.2.2 Sprint 2</li>
+      <li>7.2.2.1 Sprint Planning 2</li>
+      <li>7.2.2.2 Sprint Backlog 2</li>
+    </ul>
+  </td>
+</tr>
+
+<tr>
+  <td>30/11/2025</td>
+  <td>More Rondon, Christopher Sebastian</td>
+  <td>
+    <ul>
+      <li>7.2.2.5 Execution Evidence for Sprint Review</li>
+      <li>7.2.2.6 Services Documentation Evidence for Sprint Review</li>
+    </ul>
+  </td>
+</tr>
+
+<tr>
+  <td>30/11/2025</td>
+  <td>Perez Pizarro, Pedro Jeremy</td>
+  <td>
+    <ul>
+      <li>7.2.2.3 Development Evidence for Sprint Review</li>
+      <li>7.2.2.4 Testing Suite Evidence for Sprint Review</li>
+    </ul>
+  </td>
+</tr>
+
+<tr>
+  <td>30/11/2025</td>
+  <td>Arian Martín Rodriguez Vargas</td>
+  <td>
+    <ul>
+      <li>7.2.2.7 Software Deployment Evidence for Sprint Review</li>
+      <li>7.2.2.8 Team Collaboration Insights during Sprint</li>
+    </ul>
+  </td>
+</tr>
   </tbody>
 </table>
 
@@ -272,6 +317,19 @@ La entrega TB2 finalizó con éxito y están documentadas en el siguiente reposi
 Imagen 3: Gráfico general de commits y contribuciones hechas por cada miembros del equipo de VisualGuide. Incluye tambien los pull requests activos y aceptados.
 
 <img src="./images/pulse-tb2.PNG " alt="Gráfico de contribuciones del equipo" width="800">
+
+<br>
+
+**TF**
+La entrega TF finalizó con éxito y están documentadas en el siguiente repositorio de Github perteneciente a la organización del equipo: https://github.com/SW-Emergentes-7295/project-report Durante el desarrollo del informe se tuvieron en cuenta los siguientes aspectos:
+- Se documentaron las actividades de implementación del producto durante el sprint 2.
+- Se diseñaron y registraron las entrevistas de validación con usuarios.
+- Se realizaron evaluaciones heurísticas de la solución implementada.
+- Se documentaron todas las actividades y hallazgos en el repositorio de Github.
+Imagen 4: Gráfico general de commits y contribuciones hechas por cada miembros del equipo de VisualGuide. Incluye tambien los pull requests activos y aceptados.
+<img src="./images/network-graph-tf.PNG " alt="Gráfico de contribuciones del equipo" width="800">
+
+
 
 # Contenido
 
@@ -369,6 +427,15 @@ Imagen 3: Gráfico general de commits y contribuciones hechas por cada miembros 
          - [7.2.1.6. Services Documentation Evidence for Sprint Review.](#7216-services-documentation-evidence-for-sprint-review)
          - [7.2.1.7. Software Deployment Evidence for Sprint Review.](#7217-software-deployment-evidence-for-sprint-review)
          - [7.2.1.8. Team Collaboration Insights during Sprint.](#7218-team-collaboration-insights-during-sprint)
+      + [7.2.2. Sprint 2](#722-sprint-2)
+         - [7.2.2.1. Sprint Planning 2](#7221-sprint-planning-2)
+         - [7.2.2.2. Sprint Backlog 2](#7222-sprint-backlog-2)
+         - [7.2.2.3. Development Evidence for Sprint Review](#7223-development-evidence-for-sprint-review)
+         - [7.2.2.4. Testing Suite Evidence for Sprint Review](#7224-testing-suite-evidence-for-sprint-review)
+         - [7.2.2.5. Execution Evidence for Sprint Review](#7225-execution-evidence-for-sprint-review)
+         - [7.2.2.6. Services Documentation Evidence for Sprint Review](#7226-services-documentation-evidence-for-sprint-review)
+         - [7.2.2.7. Software Deployment Evidence for Sprint Review](#7227-software-deployment-evidence-for-sprint-review)
+         - [7.2.2.8. Team Collaboration Insights during Sprint](#7228-team-collaboration-insights-during-sprint)
     * [7.3. Validation Interviews.](#73-validation-interviews)
       + [7.3.1. Diseño de Entrevistas.](#731-diseño-de-entrevistas)
       + [7.3.2. Registro de Entrevistas.](#732-registro-de-entrevistas)
@@ -438,6 +505,18 @@ del ABET – EAC - Student Outcome 3.
         <p><b>TB2:</b> Como equipo mejoramos notablemente la calidad de nuestra comunicación escrita, elaborando documentos más completos, estructurados y alineados con estándares profesionales en ingeniería.</p>
       </td>
     </tr>
+    <tr>
+  <td>Comunica oralmente sus ideas y/o resultados con objetividad a público de diferentes especialidades y niveles jerárquicos, en el marco del desarrollo de un proyecto en ingeniería.</td>
+  <td>
+    <p><b>TF - More Rondon, Christopher Sebastian:</b> Expuse los resultados finales del proyecto con claridad y dominio técnico, reforzando mi habilidad para comunicar hallazgos complejos a audiencias diversas.</p>
+    <p><b>TF - Perez Pizarro, Pedro Jeremy:</b> Presenté la solución final utilizando ejemplos concretos y un discurso estructurado, mejorando mi capacidad de transmitir información técnica con seguridad.</p>
+    <p><b>TF - Ramos Najar, Tony Alexander:</b> Defendí los argumentos técnicos del proyecto con precisión, fortaleciendo mi competencia para comunicar resultados profesionales de forma objetiva.</p>
+    <p><b>TF - Rodriguez Vargas, Arian Martín:</b> Lideré la exposición final integrando los aportes del equipo, consolidando mi habilidad de comunicar y dirigir presentaciones en entornos profesionales.</p>
+  </td>
+  <td>
+    <p><b>TF:</b> Como equipo demostramos un dominio sólido en la comunicación oral de resultados finales, evidenciando claridad, coherencia técnica y seguridad, lo que confirma nuestra preparación para defender proyectos de ingeniería ante distintos públicos.</p>
+  </td>
+</tr>
   </tbody>
 </table>
 
@@ -794,7 +873,7 @@ Las entrevistas han sido consolidadas en un solo video registrado en la sección
 
 <img src="./images/interviews/juan_navarro_interview.PNG" alt="Foto de Juan Navarro" width="50%">
 
-**URL de la entrevista:** [Link respaldo](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202212096_upc_edu_pe/EUkUOJYAenZMuMLNbVqi9TkB_OKfUZbk8xSJrsSqIxoLgA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=rcWFyN) | https://acortar.link/YxDD6M
+**URL de la entrevista:** Enlace 1: [Hipervínculo](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202212096_upc_edu_pe/EUkUOJYAenZMuMLNbVqi9TkB_OKfUZbk8xSJrsSqIxoLgA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=rcWFyN) | Enlace 2: [https://acortar.link/YxDD6M](https://acortar.link/YxDD6M) | Enlace 3: [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202212096_upc_edu_pe/EUkUOJYAenZMuMLNbVqi9TkB_OKfUZbk8xSJrsSqIxoLgA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=rcWFyN](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202212096_upc_edu_pe/EUkUOJYAenZMuMLNbVqi9TkB_OKfUZbk8xSJrsSqIxoLgA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=rcWFyN)
 
 **Resumen de la entrevista:**
 Juan Navarro, de 21 años, es una persona no vidente y reside en Los Olivos, Lima. Tenía muchas dificultades al inicio como persona no vidente pero luego se aocstumbró a muchas actividades diarias pero no de forma efectiva. Juan mencionó que sus principales problemas son al momento de buscar objetos específicos dentro de su hogar y moverse entre él. Actualmente, se ayuda de sus familiares para diversas acciones pero no le gusta incomodarlos todo el tiempo.
@@ -813,7 +892,7 @@ Mencionó que una aplicación como VisualGuide podría ser muy beneficiosa, ya q
 **Resumen de la entrevista:**
 Sandy, una joven de 26 años residente en Ate–Lima que perdió la visión moderadamente a los 20 años, vive con su madre y hermana y enfrenta mayores riesgos en la cocina y al desplazarse cuando cambian los muebles. Actualmente se apoya en memoria, tacto y algunas apps poco confiables. Considera indispensable que una aplicación de asistencia visual reconozca objetos y personas con precisión, brinde instrucciones claras por audio, funcione sin internet y garantice la privacidad del mapeo de su hogar. Está dispuesta a invertir tiempo inicial en aprender y realizar un mapeo con ayuda de su hermana. Para ella, contar con un asistente visual inteligente significaría más independencia, seguridad y tranquilidad en su día a día.
 
-**URL de la entrevista:** [Link respaldo](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202212096_upc_edu_pe/ESCJzFoqWJ9Anblw-RigMZoBnGz-uwCmr_k2oBi2pdl35A?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=1LVPBL) | https://acortar.link/eY4DCv
+**URL de la entrevista:** Enlace 1: [Hipervínculo](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202212096_upc_edu_pe/ESCJzFoqWJ9Anblw-RigMZoBnGz-uwCmr_k2oBi2pdl35A?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=1LVPBL) | Enlace 2: [https://acortar.link/eY4DCv](https://acortar.link/eY4DCv) | Enlace 3: [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202212096_upc_edu_pe/ESCJzFoqWJ9Anblw-RigMZoBnGz-uwCmr_k2oBi2pdl35A?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=1LVPBL](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202212096_upc_edu_pe/ESCJzFoqWJ9Anblw-RigMZoBnGz-uwCmr_k2oBi2pdl35A?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=1LVPBL)
 
 
 **Segmento objetivo 2: Familiares o cuidadores de personas no videntes**
@@ -827,7 +906,7 @@ Sandy, una joven de 26 años residente en Ate–Lima que perdió la visión mode
 
 <img src="./images/interviews/carlos-chavez-interview.PNG" alt="Foto de Carlos Chavez" width="100%">
 
-**URL de la entrevista:** [Link respaldo](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202212096_upc_edu_pe/EY8HPTTWkNJJkxkdtcHoESYBN4DXqP7WpJ3efasJElzn2A?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=gsrUw1) | https://acortar.link/NdqFg5
+**URL de la entrevista:** Enlace 1: [Hipervínculo](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202212096_upc_edu_pe/EY8HPTTWkNJJkxkdtcHoESYBN4DXqP7WpJ3efasJElzn2A?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=gsrUw1) | Enlace 2: [https://acortar.link/NdqFg5](https://acortar.link/NdqFg5) | Enlace 3: [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202212096_upc_edu_pe/EY8HPTTWkNJJkxkdtcHoESYBN4DXqP7WpJ3efasJElzn2A?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=gsrUw1](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202212096_upc_edu_pe/EY8HPTTWkNJJkxkdtcHoESYBN4DXqP7WpJ3efasJElzn2A?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=gsrUw1)
 
 **Resumen de la entrevista:**
 Carlos Chávez, de 21 años, es primo de una persona no vidente y reside en La Perla, Callao. Aunque no convive con su primo, lo visita frecuentemente y se preocupa por su seguridad dentro del hogar. Carlos mencionó que las principales preocupaciones incluyen la posibilidad de accidentes domésticos y la dependencia constante de ayuda para moverse y realizar tareas básicas. Actualmente, su familia utiliza un bastón y la ayuda de otros familiares para asistir a su primo.
@@ -843,7 +922,7 @@ Mencionó que una aplicación como VisualGuide podría ser muy beneficiosa, ya q
 
 <img src="./images/interviews/Entrevista-HaroldElias.png" alt="Foto de Harold Elias" width="100%">
 
-**URL de la entrevista:** [Link respaldo](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202212096_upc_edu_pe/ETT9PkcwKnZBjmtzMwPcNioBWWCx1Coca_L_xTSO8Axl9A?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=7eXTOj) | https://acortar.link/f54FtC
+**URL de la entrevista:** Enlace 1: [Hipervínculo](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202212096_upc_edu_pe/ETT9PkcwKnZBjmtzMwPcNioBWWCx1Coca_L_xTSO8Axl9A?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=7eXTOj) | Enlace 2: [https://acortar.link/f54FtC](https://acortar.link/f54FtC) | Enlace 3: [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202212096_upc_edu_pe/ETT9PkcwKnZBjmtzMwPcNioBWWCx1Coca_L_xTSO8Axl9A?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=7eXTOj](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202212096_upc_edu_pe/ETT9PkcwKnZBjmtzMwPcNioBWWCx1Coca_L_xTSO8Axl9A?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=7eXTOj)
 
 **Resumen de la entrevista:**
 Harol Elias de 21 años, expresó su deseo de poder usar la aplicación para darle más independencia a su primo, así como también expresó su actual preocupacio por la posibilidad de que se lastime. Si bien espera que la aplicación sea de ayuda, también cree que seguirá teniendo que ayudar a su primo en taeas más complejas como subir escaleras.
@@ -931,6 +1010,14 @@ El As-Is map es usado para mostrar la situación actual del usuario, evidenciand
 <img src="./images/Chapter2/Needfinding/AsIsSegmento2.png" alt="Empathy map 1" width="auto">
 
 ## 2.4. Ubiquitous Language.
+
+**RAG:** Sistema de recuperación de información que combina modelos de lenguaje y bases de datos para proporcionar respuestas precisas y contextuales a las consultas del usuario.
+
+**Few-Shot Learning:** Técnica de aprendizaje automático que permite a los modelos generalizar y adaptarse a nuevas tareas con muy pocos ejemplos de entrenamiento.
+
+**Object Detection:** Tecnología de inteligencia artificial que identifica y clasifica objetos dentro de imágenes o videos.
+
+**NLP (Natural Language Processing):** Rama de la inteligencia artificial que se enfoca en la interacción entre computadoras y lenguaje humano, permitiendo a las máquinas comprender, interpretar y generar texto de manera natural.
 
 **Source Data:** Datos almacenados por el modelo de object detection usado por la aplicación, sirven para definir el tipo de objeto.
 
@@ -3510,7 +3597,7 @@ La evidencia de desarrollo se sustenta en los commits registrados en los reposit
 
 #### 7.2.1.4. Testing Suite Evidence for Sprint Review.
 
-[Repositorio de Testing](https://github.com/SW-Emergentes-7295/VisualGuide-Testing)
+[https://github.com/SW-Emergentes-7295/VisualGuide-Testing](https://github.com/SW-Emergentes-7295/VisualGuide-Testing)
 
 | Repositorio         | Branch | Commit Id | Commit Message  | Commit Message Body  | Committed on (Date) |
 |---------------------|--------|-----------|-----------------|----------------------|----------------------|
@@ -3693,6 +3780,22 @@ Los commits muestran la evolución continua del producto mediante la incorporaci
 |  web-services  | main   |  6cc6768  |  update: minor changes   | 1/12/2025 |
 
 #### 7.2.2.4. Testing Suite Evidence for Sprint Review.
+
+[https://github.com/SW-Emergentes-7295/VisualGuide-Testing](https://github.com/SW-Emergentes-7295/VisualGuide-Testing)
+
+| Repositorio         | Branch | Commit Id | Commit Message  | Commit Message Body  | Committed on (Date) |
+|---------------------|--------|-----------|-----------------|----------------------|----------------------|
+| VisualGuide-Testing | main   | af16cd2   | User story 01   | User story 01        | 15/11/2025           |
+| VisualGuide-Testing | main   | 052ee60   | User story 02   | User story 02        | 15/11/2025           |
+| VisualGuide-Testing | main   | cf0d12c   | User story 03   | User story 03        | 15/11/2025           |
+| VisualGuide-Testing | main   | 1b64554   | User story 04   | User story 04        | 15/11/2025           |
+| VisualGuide-Testing | main   | e663c54   | User story 05   | User story 05        | 15/11/2025           |
+| VisualGuide-Testing | main   | a918227   | User story 06   | User story 06        | 15/11/2025           |
+| VisualGuide-Testing | main   | ab2ae11   | User story 07   | User story 07        | 15/11/2025           |
+| VisualGuide-Testing | main   | 000fa6b   | User story 08   | User story 08        | 15/11/2025           |
+
+Se crearon los archivos .feature junto a diversos escenarios para poner a prueba el funcionamiento de la palicación, asegurandonos de que cumpla con las funcionalidades básicas de cada User Story.
+
 #### 7.2.2.5. Execution Evidence for Sprint Review.
 
 **Frontend**
@@ -3852,7 +3955,7 @@ Vive con familiares
 <img src="./images/interviews/sandy-entrevista-2.PNG" alt="Sandy Baez Interview 2" width="auto" style="display: block; margin-left: auto; margin-right: auto;"/>
 <br>
 
-**URL de la entrevista:** [Link respaldo](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202212096_upc_edu_pe/IQCjboxMa0auSLaOGrjsiphqAQhfhVWDkF_cFphW6kX2YnM?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=hGMFjy) | https://acortar.link/uZtqma
+**URL de la entrevista:** Enlace 1: [Hipervínculo](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202212096_upc_edu_pe/IQCjboxMa0auSLaOGrjsiphqAQhfhVWDkF_cFphW6kX2YnM?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=hGMFjy) | Enlace 2: [https://acortar.link/uZtqma](https://acortar.link/uZtqma) | Enlace 3: [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202212096_upc_edu_pe/IQCjboxMa0auSLaOGrjsiphqAQhfhVWDkF_cFphW6kX2YnM?e=otB2JB&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202212096_upc_edu_pe/IQCjboxMa0auSLaOGrjsiphqAQhfhVWDkF_cFphW6kX2YnM?e=otB2JB&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
 
 **Resumen de la entrevista:**
 Sandy destacó la facilidad de uso de VisualGuide, mencionando que las instrucciones en audio fueron claras y oportunas. Sin embargo, señaló que el reconocimiento de objetos tuvo algunas imprecisiones, especialmente con objetos pequeños o poco contrastantes. A pesar de esto, se sintió más segura al desplazarse por su hogar y notó una reducción en la necesidad de pedir ayuda a sus familiares. Sandy recomendó la aplicación a otras personas no videntes, resaltando su potencial para mejorar la autonomía.
@@ -3872,7 +3975,7 @@ Sandy destacó la facilidad de uso de VisualGuide, mencionando que las instrucci
 <img src="./images/interviews/carlos-entrevista-2.PNG" alt="Carlos Chavez Interview 2" width="auto" style="display: block; margin-left: auto; margin-right: auto;"/>
 <br>
 
-**URL de la entrevista:** [Link respaldo](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202212096_upc_edu_pe/IQBYXlCPFp7QTLyeEEc6nsu7AcGJzHrJYDvRo-D3FDoQ5RE?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=cBhNMQ) | https://acortar.link/PzQpGg
+**URL de la entrevista:** Enlace 1: [Hipervínculo](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202212096_upc_edu_pe/IQBYXlCPFp7QTLyeEEc6nsu7AcGJzHrJYDvRo-D3FDoQ5RE?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=cBhNMQ) | Enlace 2: [https://acortar.link/PzQpGg](https://acortar.link/PzQpGg) | Enlace 3: [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202212096_upc_edu_pe/IQBYXlCPFp7QTLyeEEc6nsu7AcGJzHrJYDvRo-D3FDoQ5RE?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=vkXVoV](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202212096_upc_edu_pe/IQBYXlCPFp7QTLyeEEc6nsu7AcGJzHrJYDvRo-D3FDoQ5RE?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=vkXVoV)
 
 **Resumen de la entrevista:**
 Carlos expresó que la aplicación le brindó mayor tranquilidad respecto a la seguridad de su primo no vidente. Notó que su familiar dependió menos de su ayuda diaria durante la prueba y consideró que estaría dispuesto a usarla de forma constante. Sin embargo, mencionó que hubo momentos en los que sintió que la app no estaba guiando correctamente, especialmente en áreas con poca iluminación. Carlos sugirió la incorporación de notificaciones para familiares sobre actividades importantes o riesgos detectados.
@@ -3887,7 +3990,7 @@ Carlos expresó que la aplicación le brindó mayor tranquilidad respecto a la s
 
 <img src="./images/interviews/interview-1-validation.png" alt="Foto de Marzzio Chicana" width="50%">
 
-**URL de la entrevista:** [Link respaldo](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202212096_upc_edu_pe/IQAVwoRBr9H3TZ7YK5akIZNUAcwqalYuc0gUIGUKdsD4C_A?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=rJxiuu) | https://acortar.link/GV8EFx
+**URL de la entrevista:** Enlace 1: [Hipervínculo](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202212096_upc_edu_pe/IQAVwoRBr9H3TZ7YK5akIZNUAcwqalYuc0gUIGUKdsD4C_A?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=rJxiuu) | Enlace 2: [https://acortar.link/GV8EFx](https://acortar.link/GV8EFx) | Enlace 3: [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202212096_upc_edu_pe/IQAVwoRBr9H3TZ7YK5akIZNUAcwqalYuc0gUIGUKdsD4C_A?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=6SbGWW](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202212096_upc_edu_pe/IQAVwoRBr9H3TZ7YK5akIZNUAcwqalYuc0gUIGUKdsD4C_A?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=6SbGWW)
  
 **Resumen de la entrevista:**
 Marzzio Chicana nos comenta que el aplicativo ayudó mucho asu familiar para moverse por su hogar sin dificultades. Respecto a la guía para el uso de la aplicación, él nos dice que fue sencilla y corta. También comenta que siente que es un aplicativo móvil con mucho potencial y lo recomendaría a sus familiares. Respecto a la precisión de reconocimiento de objetos la nota precisa.
@@ -3903,7 +4006,7 @@ Marzzio Chicana nos comenta que el aplicativo ayudó mucho asu familiar para mov
 
 <img src="./images/interviews/Validación-HaroldElías.png" alt="Foto de Harold Elias 2" width="100%">
 
-**URL de la entrevista:** [Link respaldo](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202212096_upc_edu_pe/IQDmTMcd7H0JQLc-wOGcirdYARCct4zX7EAXvY67pN43CiY?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=2pmqc8) | https://acortar.link/qUQKXX
+**URL de la entrevista:** Enlace 1: [Hipervínculo](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202212096_upc_edu_pe/IQDmTMcd7H0JQLc-wOGcirdYARCct4zX7EAXvY67pN43CiY?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=2pmqc8) | Enlace 2: [https://acortar.link/qUQKXX](https://acortar.link/qUQKXX) | Enlace 3: [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202212096_upc_edu_pe/IQDmTMcd7H0JQLc-wOGcirdYARCct4zX7EAXvY67pN43CiY?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=CGBWcO](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202212096_upc_edu_pe/IQDmTMcd7H0JQLc-wOGcirdYARCct4zX7EAXvY67pN43CiY?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=CGBWcO)
 
 **Resumen de la entrevista:**
 Harol Elias de 21 años, expresó su conformidad con el funcionamiento actual de la aplicación, sin embargo, cree que el modelo podría ser mejor, permitiendo a los usuarios saber si hay puertas o escaleras cercanas. Así mismo, le gustaría ver que se añade la funcionalidad de resibir notificaciones sobre el estado de su familiar, para poder estar bien informado.
@@ -3935,14 +4038,27 @@ A continuación, se presentan las evaluaciones realizadas según las heurística
 
 En este video, se presenta de manera comercial la aplicación móvil *VisualGuide*, diseñada para asistir a personas no videntes en la navegación segura dentro de sus hogares mediante el uso de inteligencia artificial y reconocimiento de objetos.
 
-**URL del video:** [Link respaldo](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202212096_upc_edu_pe/IQBYhMO86XXARLK7KO9j7zbeAS4HTuHnxUBEQibbrTwvV0c?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=rc9ZGs) | https://acortar.link/Sb62vn
+**URL del video:** Enlace 1: [Hipervínculo](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202212096_upc_edu_pe/IQBYhMO86XXARLK7KO9j7zbeAS4HTuHnxUBEQibbrTwvV0c?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=rc9ZGs) | Enlace 2: [https://acortar.link/Sb62vn](https://acortar.link/Sb62vn) | Enlace 3: [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202212096_upc_edu_pe/IQBYhMO86XXARLK7KO9j7zbeAS4HTuHnxUBEQibbrTwvV0c?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=v2F4tO](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202212096_upc_edu_pe/IQBYhMO86XXARLK7KO9j7zbeAS4HTuHnxUBEQibbrTwvV0c?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=v2F4tO)
 
 
 <img src="./images/visualguide-video.PNG" alt="VisualGuide Video" width="auto" style="display: block; margin-left: auto; margin-right: auto;"/>
 <br>
 
 
+## 7.5. Video About-The-Team
+En este video, se presenta al equipo de desarrollo detrás de la aplicación móvil *VisualGuide*, destacando sus roles, habilidades y la colaboración que permitió crear una solución innovadora para personas no videntes.
 
+**URL del video:** Enlace 1: [Hipervínculo](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202212096_upc_edu_pe/IQCibjqenYJTRLdFWio1e_vOAZnMKPpI2b4gaWha525J7B8?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=sMzR5c) | Enlace 2: [https://acortar.link/SMhK0v](https://acortar.link/SMhK0v) | Enlace 3: [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202212096_upc_edu_pe/IQCibjqenYJTRLdFWio1e_vOAZnMKPpI2b4gaWha525J7B8?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=sMzR5c](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202212096_upc_edu_pe/IQCibjqenYJTRLdFWio1e_vOAZnMKPpI2b4gaWha525J7B8?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=sMzR5c)
+
+<img src="./images/about-the-team.PNG" alt="About The Team Video" width="auto" style="display: block; margin-left: auto; margin-right: auto;"/>
+
+
+# Demo Aplicación Móvil VisualGuide
+Mediante este breve video demostrativo, se ilustra el funcionamiento de la aplicación móvil *VisualGuide* en un entorno doméstico simulado. Se muestra cómo la aplicación utiliza inteligencia artificial para reconocer objetos y guiar al usuario no vidente a través de su hogar de manera segura y eficiente.
+
+Enlace 1: [Hipervínculo](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202212096_upc_edu_pe/IQD8pIi0GrOMR6lf8WxRCPVTAdCmReDzxh-2AoXIujtOBTk?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=xh07Ij) | Enlace 2: [https://acortar.link/Sp4bgo](https://acortar.link/Sp4bgo) | Enlace 3: [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202212096_upc_edu_pe/IQD8pIi0GrOMR6lf8WxRCPVTAdCmReDzxh-2AoXIujtOBTk?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=xh07Ij](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202212096_upc_edu_pe/IQD8pIi0GrOMR6lf8WxRCPVTAdCmReDzxh-2AoXIujtOBTk?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=xh07Ij) 
+
+<img src="./images/demo-visual-guide.jpeg" alt="Demo VisualGuide" width="auto" style="display: block; margin-left: auto; margin-right: auto;"/>
 
 # Conclusiones
 
@@ -3982,11 +4098,14 @@ En este video, se presenta de manera comercial la aplicación móvil *VisualGuid
 - World Health Organization. (2021). *World Report on Vision*. World Health Organization. https://www.who.int/publications/i/item/9789241516570  
 
 # Anexos
-| Título | URL | URL Acortado |
-|--------|-----|--------------|
-| **TB1:** Presentación del proyecto | [Link respaldo](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202212096_upc_edu_pe/EWSOfpg9_WFHt5QdJVeVNmwBiSUd_kLe2iH7hqQ4aNLkQw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=qtaGHb) | https://acortar.link/P69Rco |
-| **Video entrevistas TB1:** Entrevistas consolidadas en un solo video | [Link respaldo](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202212096_upc_edu_pe/EY1VitmjZ0tNgM3ZCvMIJt4B0e3KjzPCT7y6S75gHa4jkg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=glBLZg) | https://acortar.link/5cx3rm |
-| **TP:** Exposición Parcial | [Link respaldo](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202212096_upc_edu_pe/ET0k7riRA7ZFm18zT0vPC4YBlDYLyTEAU9CtV52ecIe2Sg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=4jK6eY) | https://acortar.link/RHkNmt |
-| **Video entrevistas TB2:** Entrevistas consolidadas en un solo video | [Link respaldo](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202212096_upc_edu_pe/IQChB2C7poRiQrH_PstBuc95Aa_7w4FYeGt_cE3U2dXl3RU?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=Otoxzz) | https://acortar.link/rA1XWI |
-| **TB2:** Exposición Trabajo | [Link respaldo](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202212096_upc_edu_pe/IQCNigJyjBKcTJ-w8KYj-yrQAS_L3isnYCWfPRa9Y1dJqdo?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=CcSihx) | https://acortar.link/xp69nW |
-| **About-the-Product Video:** Video demostrativo del producto final | [Link respaldo](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202212096_upc_edu_pe/IQBYhMO86XXARLK7KO9j7zbeAS4HTuHnxUBEQibbrTwvV0c?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=rc9ZGs) | https://acortar.link/Sb62vn |
+| Título | URL | URL Acortado | URL Alternativo |
+|--------|-----|--------------|-----------------|
+| **TB1:** Presentación del proyecto | Enlace 1: [Hipervínculo](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202212096_upc_edu_pe/EWSOfpg9_WFHt5QdJVeVNmwBiSUd_kLe2iH7hqQ4aNLkQw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=qtaGHb) | Enlace 2: [https://acortar.link/P69Rco](https://acortar.link/P69Rco) | Enlace 3: [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202212096_upc_edu_pe/IQBkjn6YPf1hR7eUHSVXlTZsAYklHf5C3toh-4akOGjS5EM?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=OL4uHu](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202212096_upc_edu_pe/IQBkjn6YPf1hR7eUHSVXlTZsAYklHf5C3toh-4akOGjS5EM?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=OL4uHu) | 
+| **Video entrevistas TB1:** Entrevistas consolidadas en un solo video | Enlace 1: [Hipervínculo](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202212096_upc_edu_pe/EY1VitmjZ0tNgM3ZCvMIJt4B0e3KjzPCT7y6S75gHa4jkg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=glBLZg) | Enlace 2: [https://acortar.link/5cx3rm](https://acortar.link/5cx3rm ) | Enlace 3: [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202212096_upc_edu_pe/IQCNVYrZo2dLTYDN2QrzCCbeAdHtyo8zwk-8uku-YB2uI5I?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=2divOs](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202212096_upc_edu_pe/IQCNVYrZo2dLTYDN2QrzCCbeAdHtyo8zwk-8uku-YB2uI5I?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=2divOs) |
+| **TP:** Exposición Parcial | Enlace 1: [Hipervínculo](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202212096_upc_edu_pe/ET0k7riRA7ZFm18zT0vPC4YBlDYLyTEAU9CtV52ecIe2Sg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=4jK6eY) | Enlace 2: [https://acortar.link/RHkNmt](https://acortar.link/RHkNmt) | Enlace 3: [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202212096_upc_edu_pe/IQA9JO64kQO2RZtfM09LzwuGAZQ2C8kxAFPQrVednnCHtko?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=HgJIAe](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202212096_upc_edu_pe/IQA9JO64kQO2RZtfM09LzwuGAZQ2C8kxAFPQrVednnCHtko?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=HgJIAe) |
+| **Video entrevistas TB2:** Entrevistas consolidadas en un solo video | Enlace 1: [Hipervínculo](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202212096_upc_edu_pe/IQChB2C7poRiQrH_PstBuc95Aa_7w4FYeGt_cE3U2dXl3RU?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=Otoxzz) | Enlace 2: [https://acortar.link/rA1XWI](https://acortar.link/rA1XWI) | Enlace 3: [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202212096_upc_edu_pe/IQChB2C7poRiQrH_PstBuc95Aa_7w4FYeGt_cE3U2dXl3RU?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=u6abMg](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202212096_upc_edu_pe/IQChB2C7poRiQrH_PstBuc95Aa_7w4FYeGt_cE3U2dXl3RU?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=u6abMg) |
+| **TB2:** Exposición Trabajo | Enlace 1: [Hipervínculo](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202212096_upc_edu_pe/IQCNigJyjBKcTJ-w8KYj-yrQAS_L3isnYCWfPRa9Y1dJqdo?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=CcSihx) | Enlace 2: [https://acortar.link/xp69nW](https://acortar.link/xp69nW) | Enlace 3: [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202212096_upc_edu_pe/IQCNigJyjBKcTJ-w8KYj-yrQAS_L3isnYCWfPRa9Y1dJqdo?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=SbGNLp](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202212096_upc_edu_pe/IQCNigJyjBKcTJ-w8KYj-yrQAS_L3isnYCWfPRa9Y1dJqdo?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=SbGNLp) |
+| **TF:** Exposición Trabajo | Enlace 1: [Hipervínculo](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202212096_upc_edu_pe/IQCWkuSaiF6TQIFZYF7zZbCyAWvcotdsMDt11b-9y9QoRr4?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=LmmEgD) | Enlace 2: [https://acortar.link/bPJtq7](https://acortar.link/bPJtq7) | Enlace 3: [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202212096_upc_edu_pe/IQCWkuSaiF6TQIFZYF7zZbCyAWvcotdsMDt11b-9y9QoRr4?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=LmmEgD](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202212096_upc_edu_pe/IQCWkuSaiF6TQIFZYF7zZbCyAWvcotdsMDt11b-9y9QoRr4?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=LmmEgD) |
+| **About-the-Product Video:** Video demostrativo del producto final | Enlace 1: [Hipervínculo](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202212096_upc_edu_pe/IQBYhMO86XXARLK7KO9j7zbeAS4HTuHnxUBEQibbrTwvV0c?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=rc9ZGs) | Enlace 2: [https://acortar.link/Sb62vn](https://acortar.link/Sb62vn) | Enlace 3: [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202212096_upc_edu_pe/IQBYhMO86XXARLK7KO9j7zbeAS4HTuHnxUBEQibbrTwvV0c?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=7r8AqC](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202212096_upc_edu_pe/IQBYhMO86XXARLK7KO9j7zbeAS4HTuHnxUBEQibbrTwvV0c?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=7r8AqC) |
+| **About-The-Team:** Video demostrativo del equipo final | Enlace 1: [Hipervínculo](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202212096_upc_edu_pe/IQCibjqenYJTRLdFWio1e_vOAZnMKPpI2b4gaWha525J7B8?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=sMzR5c) | Enlace 2: [https://acortar.link/SMhK0v](https://acortar.link/SMhK0v) | Enlace 3: [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202212096_upc_edu_pe/IQCibjqenYJTRLdFWio1e_vOAZnMKPpI2b4gaWha525J7B8?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=sMzR5c](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202212096_upc_edu_pe/IQCibjqenYJTRLdFWio1e_vOAZnMKPpI2b4gaWha525J7B8?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=sMzR5c) |
+| **DEMO Aplicación:** Video demostrativo de solución final | Enlace 1: [Hipervínculo](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202212096_upc_edu_pe/IQD8pIi0GrOMR6lf8WxRCPVTAdCmReDzxh-2AoXIujtOBTk?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=xh07Ij) | Enlace 2: [https://acortar.link/Sp4bgo](https://acortar.link/Sp4bgo) | Enlace 3: [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202212096_upc_edu_pe/IQD8pIi0GrOMR6lf8WxRCPVTAdCmReDzxh-2AoXIujtOBTk?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=xh07Ij](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202212096_upc_edu_pe/IQD8pIi0GrOMR6lf8WxRCPVTAdCmReDzxh-2AoXIujtOBTk?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=xh07Ij) |
