@@ -3458,7 +3458,7 @@ La evidencia de desarrollo se sustenta en los commits registrados en los reposit
 |  mobile-application  | main   |  fa571c5  |   update: settings screen dynamic with preferences                    | 09/11/2025  |
 |  mobile-application  | main   |  db1078d  |   feat: agregar vistas de welcome y login                      | 11/11/2025  |
 |  mobile-application  | main   |  c61e02b  |   fix: ajustar tabs de login_camera                       | 11/11/2025  |
-|  mobile-application  | main   |  a31a935  |   ADD] Photo mapping saved in local storage             | 12/11/2025  |
+|  mobile-application  | main   |  a31a935  |   ADD: Photo mapping saved in local storage             | 12/11/2025  |
 |  mobile-application  | main   |  c70af0d  | fix: ajustar vistas | 12//11/2025 |
 |  mobile-application  | main   |  440ae29  | feat: add auth service | 13/11/2025 |
 |  mobile-application  | main   |  b1c0f42  | fix: implement user registration | 13/11/2025 |
@@ -3654,7 +3654,35 @@ Los commits muestran la evolución continua del producto mediante la incorporaci
 #### 7.2.2.5. Execution Evidence for Sprint Review.
 #### 7.2.2.6. Services Documentation Evidence for Sprint Review.
 #### 7.2.2.7. Software Deployment Evidence for Sprint Review.
+Para el despliegue final de nuestra aplicación móvil, se utilizó la plataforma de **GitHub** específicamente el apartado de Releases, donde se puede gestionar las versiones de nuestra aplicación móvil y proporcionar enlaces de descarga directa a los usuarios finales.
+
+En primer lugar, se gestionó la versión final de la aplicación móvil, etiquetándola con un número de versión adecuado (por ejemplo, v1.0.0) y proporcionando una descripción detallada de los cambios y mejoras realizadas en esta versión.
+
+<img src="./images/deployment-evidence-mobile-app/1.PNG" alt="Deployment Evidence Mobile App 1" width="auto" style="display: block; margin-left: auto; margin-right: auto;"/>
+Como se evidencia en esta imagen, se buildió la aplicación móvil para Android, generando el archivo APK listo para ser distribuido e instalado en dispositivos móviles, con el comando flutter build apk --release.
+<br><br>
+
+<img src="./images/deployment-evidence-mobile-app/2.PNG" alt="Deployment Evidence Mobile App 2" width="auto" style="display: block; margin-left: auto; margin-right: auto;"/>
+Posteriormente se procedió a crear el release en GitHub, subiendo el archivo APK generado en el paso anterior, proporcionando un enlace de descarga directa para los usuarios finales interesados en probar o utilizar la aplicación móvil VisualGuide.
+<br><br>
+
+<img src="./images/deployment-evidence-mobile-app/3.PNG" alt="Deployment Evidence Mobile App 3" width="auto" style="display: block; margin-left: auto; margin-right: auto;"/>
+
+Finalmente, se puede observar el enlace de descarga directa del archivo APK de la aplicación móvil VisualGuide, disponible para su instalación en dispositivos Android.
+APK Release: [https://github.com/SW-Emergentes-7295/mobile-application/releases/download/v1/app-release.apk](https://github.com/SW-Emergentes-7295/mobile-application/releases/download/v1/app-release.apk)
+
+<br><br>
+
 #### 7.2.2.8. Team Collaboration Insights during Sprint.
+
+Durante este Sprint, el equipo ha continuado colaborando de manera efectiva en la gestión del código fuente y la documentación del proyecto. Se han realizado múltiples commits y pull requests, lo que indica un flujo de trabajo activo y una comunicación constante entre los miembros del equipo.
+
+<img src="./images/insights-2/insights-1.PNG" alt="Insights Mobile App Sprint 2" width="auto" style="display: block; margin-left: auto; margin-right: auto;"/>
+<br><br>
+
+<img src="./images/insights-2/insights-2.PNG" alt="Insights Backend Sprint 2" width="auto" style="display: block; margin-left: auto; margin-right: auto;"/>
+<br><br>
+
 
 ## 7.3. Validation Interviews.
 ### 7.3.1. Diseño de Entrevistas.
